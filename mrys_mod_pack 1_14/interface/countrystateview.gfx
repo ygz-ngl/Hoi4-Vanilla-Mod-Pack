@@ -203,6 +203,18 @@ spriteTypes = {
 		noOfFrames = 4
 	}
 
+	spriteType = {
+		name = "GFX_occupation_policy"
+		textureFile = "gfx/interface/occupation_policy.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_occupation_policy_selected"
+		textureFile = "gfx/interface/occupation_policy_selected.dds"
+		noOfFrames = 4
+	}
+
+
 	# TERRAIN		
 	spriteType = {
 		name = "GFX_terrain_default"
@@ -458,6 +470,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/terrains/terrain_shallow_sea_night.dds"
 	}
 
+	spriteType = {
+		name = "GFX_terrain_water_shallow_sea_rain"
+		textureFile = "gfx/interface/terrains/terrain_shallow_sea_rain.dds"
+	}
+
 	# Archipelago	
 	spriteType = {
 		name = "GFX_terrain_water_fjords_day"
@@ -538,22 +555,27 @@ spriteTypes = {
 		name = "GFX_modifiers_tur_kemalist_loyalties"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kemalist_loyalties.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_kemalist_unrest"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kemalist_unrest.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_kurdish_agitation"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kurdish_agitation.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_kurdish_fatigue"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kurdish_fatigue.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_kurdish_rebellion"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kurdish_rebellion.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_modifiers_tur_kurdish_separatism"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_kurdish_separatism.dds"
@@ -562,34 +584,42 @@ spriteTypes = {
 		name = "GFX_modifiers_tur_traditionalist_insurgency"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_traditionalist_insurgency.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_traditionalist_placated"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_traditionalist_placated.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_traditionalist_sedition"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_traditionalist_sedition.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_traditionalist_unrest"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_traditionalist_unrest.dds"
 	}
+
 	spriteType = {
 		name = "GFX_modifiers_tur_pan_turkic_propaganda"
 		textureFile = "gfx/interface/state_modifiers/modifiers_tur_pan_turkic_propaganda.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_modifiers_conscription_exemptions_granted"
 		textureFile = "gfx/interface/state_modifiers/modifiers_conscription_exemptions_granted.dds"
-	}	
+	}
+		
 	spriteType = {
 		name = "GFX_modifiers_bul_macedonian_revolutionaries"
 		textureFile = "gfx/interface/state_modifiers/modifiers_bul_macedonian_revolutionaries.dds"
-	}	
+	}
+		
 	spriteType = {
 		name = "GFX_modifiers_bul_arranged_bulgarian_occupation"
 		textureFile = "gfx/interface/state_modifiers/modifiers_bul_arranged_bulgarian_occupation.dds"
-	}		
+	}
+			
 	spriteType = {
 		name = "GFX_modifiers_bul_arranged_territorial_expansion"
 		textureFile = "gfx/interface/state_modifiers/modifiers_bul_arranged_territorial_expansion.dds"
@@ -687,102 +717,33 @@ spriteTypes = {
 		textureFile = "gfx/interface/state_modifiers/modifiers_ITA_established_mafia.dds"
 	}
 
-
-		#####  ##    ##  #####
-		  #   #  #  #  #   #
-		  #   ####  ####   #
-		  #   #  #  #  #   #
-		  #   #  #  #  #   #
-
-	### SWE ####
 	spriteType = {
-		name = "GFX_modifiers_SWE_hygienic_housing"
-		textureFile = "gfx/interface/state_modifiers/modifiers_SWE_hygienic_housing.dds"
+		name = "GFX_quebec_conscription_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_quebec_conscription_crisis_icon.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_SWE_sami_trackers"
-		textureFile = "gfx/interface/state_modifiers/modifiers_SWE_sami_trackers.dds"
+		name = "GFX_quebec_conscription_crisis_compromise_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_quebec_conscription_crisis_compromise_icon.dds"
+	}		
+	spriteType = {
+		name = "GFX_looting_resistance_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_looting_resistance_icon.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_SWE_per_albin_bus"
-		textureFile = "gfx/interface/state_modifiers/modifiers_SWE_per_albin_bus.dds"
-	}
-
-	### FIN ####
-	spriteType = {
-		name = "GFX_modifiers_FIN_motti_tactics_modifier"
-		textureFile = "gfx/interface/state_modifiers/modifiers_FIN_motti_tactics_modifier.dds"
+		name = "GFX_segregation_1_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_segregation_icon_1.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_FIN_weapon_caches"
-		textureFile = "gfx/interface/state_modifiers/modifiers_FIN_weapon_caches.dds"
+		name = "GFX_segregation_2_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_segregation_icon_2.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_FIN_confederated_finno_russian_republics"
-		textureFile = "gfx/interface/state_modifiers/modifiers_FIN_confederated_finno_russian_republics.dds"
-	}
-
-	### NOR ####
-	spriteType = {
-		name = "GFX_modifiers_NOR_monarchism"
-		textureFile = "gfx/interface/state_modifiers/modifiers_NOR_monarchism.dds"
+		name = "GFX_lure_them_in_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_lure_them_in_icon.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_NOR_fascism"
-		textureFile = "gfx/interface/state_modifiers/modifiers_NOR_fascism.dds"
+		name = "GFX_the_big_rear_icon"
+		textureFile = "gfx/interface/r56_modifiers/modifiers_the_big_rear_icon.dds"
 	}
-	spriteType = {
-		name = "GFX_modifiers_generic_resistance"
-		textureFile = "gfx/interface/state_modifiers/modifiers_generic_resistance.dds"
-	}
-	spriteType = {
-		name = "GFX_modifiers_generic_construction"
-		textureFile = "gfx/interface/state_modifiers/modifiers_generic_construction.dds"
-	}
-
-
-
-
-
-	###########################
-	###########################
-	###########################
-	###########################
-	########### TOA ###########
-	###########################
-	###########################
-	###########################
-	###########################
-
-
-
-
-	###########
-	### BRA ###
-	###########
-
-
-	spriteType = {
-		name = "GFX_modifiers_BRA_cangaco_state"
-		textureFile = "gfx/interface/state_modifiers/modifiers_BRA_cangaco_state.dds"
-	}
-	spriteType = {
-		name = "GFX_modifiers_BRA_neglected_state"
-		textureFile = "gfx/interface/state_modifiers/modifiers_BRA_neglected_state.dds"
-	}
-
-
-	###########
-	### CHL ###
-	###########
-
-
-	spriteType = {
-		name = "GFX_modifiers_generic_immigration_promoted"
-		textureFile = "gfx/interface/state_modifiers/modifiers_generic_immigration_promoted.dds"
-	}
-
-
-
 
 }
