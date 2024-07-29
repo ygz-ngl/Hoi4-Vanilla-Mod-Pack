@@ -1,0 +1,11 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_fin"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/FIN/topview_cruiser_coastal_defense.dds"
+   }
+
+}

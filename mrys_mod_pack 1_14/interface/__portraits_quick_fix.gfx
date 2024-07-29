@@ -1,0 +1,69 @@
+# the name "portraits_quick_fix.gfx" has been chosen to be alphabetically after BOTH "_leaders_portraits.gfx" and "ideas_characters.gfx"
+
+spriteTypes = {
+
+	### Bugs from _leaders_portraits.gfx ###
+
+#	spriteType = {
+#		name = "GFX_Portrait_peru_oscar_benavides_small"								# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_PER_oscar_benavides.dds"				# PER is the wrong TAG. It should be PRU
+#	}
+	
+#	spriteType = {
+#		name = "GFX_portrait_SOV_aleksandr_yegorov_small"								# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_aleksandr_yegorov.dds"
+#	}
+	
+#	spriteType = {
+#		name = "GFX_portrait_ice_sveinn_bjornsson"										# never referenced in database
+#		texturefile = "gfx/leaders/ICE//portrait_ice_sveinn_bjornsson.dds"
+#	}
+	
+#	spriteType = {
+#		name = "GFX_portrait_ice_sveinn_bjornsson_small"								# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_ICE_sveinn_bjornsson.dds"
+#	}
+	
+#	spriteType = {
+#		name = "GFX_portrait_irq_rashid_al_gaylani"										# never referenced in database
+#		texturefile = "gfx/leaders/IRQ/portrait_irq_rashid_al_gaylani.dds"
+#	}
+	
+	spriteType = {
+		name = "GFX_portrait_kur_seyid_riza"
+		texturefile = "gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_south_america_generic_leader_1"
+		texturefile = "gfx/leaders/ARG/portrait_south_america_generic_leader_1.dds"
+	}
+	
+#	spriteType = {
+#		name = "GFX_portrait_spain_francisco_franco_old_small"							# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_francisco_franco_old.dds"
+#	}
+
+	### Bugs from ideas_characters.gfx ###
+	
+#	spriteType = {
+#		name = "GFX_idea_SOV_aleksandr_gorbatov"										# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_SOV_alexander_gorbatov.dds"
+#	}
+
+#	spriteType = {
+#		name = "GFX_idea_SOV_nikolay_berzarin"											# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_SOV_nikolai_berzarin.dds"
+#	}
+
+#	spriteType = {
+#		name = "GFX_idea_SOV_vasily_chuykov"											# never referenced in database
+#		texturefile = "gfx/interface/ideas/idea_SOV_vasily_chuikov.dds"
+#	}
+
+	spriteType = {
+		name = "GFX_idea_YUG_borivoje_mirkovic"											# bug absent with Death or Dishonor
+		texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"
+	}
+
+}

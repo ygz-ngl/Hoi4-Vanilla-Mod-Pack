@@ -1,0 +1,123 @@
+spriteTypes = {	
+
+### guns ###
+	
+	SpriteType = {
+	name = "GFX_TEX_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/USA_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/USA_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/USA_3.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/USA_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_TEX_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/TEX_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_artillery1_medium"
+	texturefile = "gfx/interface/technologies/TEX_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_TEX_artillery4_medium"
+	texturefile = "gfx/interface/technologies/TEX_a3.dds"
+	}
+
+### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_TEX_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/TEX_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_antiair2_medium"
+	texturefile = "gfx/interface/technologies/TEX_aa2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_antiair5_medium"
+	texturefile = "gfx/interface/technologies/TEX_aa3.dds"
+	}
+
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_TEX_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/TEX_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_TEX_antitank2_medium"
+	texturefile = "gfx/interface/technologies/TEX_at2.dds"
+	}	
+	
+    SpriteType = {
+	name = "GFX_TEX_antitank5_medium"
+	texturefile = "gfx/interface/technologies/TEX_at3.dds"
+	}
+
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_TEX_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/TEX_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/TEX_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/TEX_ac3.dds"
+	}	
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_TEX_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_TEX_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_TEX_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_TEX_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/TEX_tc2.dds"
+	}

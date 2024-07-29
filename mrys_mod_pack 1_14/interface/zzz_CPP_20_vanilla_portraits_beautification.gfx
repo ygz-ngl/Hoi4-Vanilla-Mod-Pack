@@ -1,0 +1,168 @@
+spriteTypes = {
+
+	### Template ###
+
+	spriteType = {
+		name = "GFX_portrait_tag_john_doe"
+		texturefile = "gfx/leaders/TAG/Portrait_Tagged_Country_John_Doe.dds"
+	}
+	
+	
+	### ALB ###
+
+	spriteType = {
+		name = "GFX_portrait_King_Zog"
+		texturefile = "gfx/leaders/ALB/Portrait_Albania_King_Zog_[beautified].dds"
+	}	
+	
+
+	### AST ###
+
+	spriteType = {
+		name = "GFX_AST_alan_vasey"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Alan_Vasey_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_henry_wynter"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Henry_Wynter_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_john_northcott"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_John_Northcott_CirclePete.dds"
+	}
+
+
+	### BUL ###
+
+	spriteType = {
+		name = "GFX_portrait_bul_georgi_dimitrov"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov_[beautified].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BUL_georgi_dimitrov"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov_[beautified].dds"
+	}
+	
+	
+	### CRO ###
+
+	spriteType = {
+		name = "GFX_portrait_Ante_Pavelic"
+		texturefile = "gfx/leaders/CRO/Portrait_Croatia_Ante_Pavelic_[beautified].dds"
+	}
+	
+	
+
+
+	### DEN ###
+
+	spriteType = {
+		name = "GFX_portrait_Thorvald_Stauning"
+		texturefile = "gfx/leaders/DEN/Portrait_Denmark_Thorvald_Stauning_HermanLindqvist.dds"
+	}
+
+
+	### ENG ###
+
+	spriteType = {
+		name = "GFX_portrait_ENG_george_giffard"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_George_Giffard_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_merton_beckwithsmith"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Merton_Beckwith_Smith_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_jock_campbell"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Jock_Campbell_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_brian_horrocks"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Brian_Horrocks_[CirclePete].dds"
+	}
+
+
+	### FIN ###
+
+	spriteType = {
+		name = "GFX_portrait_FIN_risto_heikki_ryti"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FIN_kyosti_kallio"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio_CirclePete.dds"
+	}
+
+
+	### FRA ###
+
+	spriteType = {
+		name = "GFX_portrait_FRA_charles_de_gaulle"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle_military_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_jacques_duclos"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Jacques_Duclos_operative_fix.dds"				# it's atually a background fix
+	}
+
+
+	### GER ###
+
+	spriteType = {
+		name = "GFX_portrait_Konrad_Adenauer"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer_younger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_konrad_adenauer"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer_younger.dds"
+	}
+
+
+	### ICE ###
+
+	spriteType = {
+		name ="GFX_portrait_Sveinn_Bjornsson"
+		texturefile = "gfx/leaders/ICE/Portrait_Iceland_Sveinn_Bjornsson_HermanLindqvist.dds"
+	}
+
+
+	### NOR ###
+
+	spriteType = {
+		name = "GFX_portrait_Vidkun_Quisling"
+		texturefile = "gfx/leaders/NOR/Portrait_Norway_Vidkun_Quisling_HermanLindqvist.dds"
+	}
+	
+	
+	### YUG ###
+
+	spriteType = {
+		name = "GFX_portrait_YUG_prince_paul"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Prince_Paul_[beautified].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_milan_stojadinovic"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic_[beautified].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_milan_grol"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol_[beautified].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_josip_broz_tito"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Josip_Broz_Tito_[beautified].dds"
+	}
+
+}

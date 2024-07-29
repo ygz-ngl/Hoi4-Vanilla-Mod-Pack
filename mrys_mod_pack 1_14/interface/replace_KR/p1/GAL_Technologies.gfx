@@ -1,0 +1,123 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_GAL_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/CZE_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/AUS_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/AUS_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_GAL_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/AUS_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_GAL_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/AUS_iwa.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_GAL_artillery1_medium"
+	texturefile = "gfx/interface/technologies/AUS_a2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_artillery4_medium"
+	texturefile = "gfx/interface/technologies/AUS_a3.dds"
+	}	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_GAL_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/AUS_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_GAL_antitank2_medium"
+	texturefile = "gfx/interface/technologies/AUS_at2.dds"
+	}		
+   
+    SpriteType = {
+	name = "GFX_GAL_antitank5_medium"
+	texturefile = "gfx/interface/technologies/AUS_at3.dds"
+	}	
+
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_GAL_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/AUS_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_antiair2_medium"
+	texturefile = "gfx/interface/technologies/AUS_aa2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_GAL_antiair5_medium"
+	texturefile = "gfx/interface/technologies/AUS_aa3.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_GAL_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/AUS_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/AUS_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/AUS_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_GAL_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_GAL_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_GAL_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_GAL_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/AUS_tc2.dds"
+	}
+	
+}

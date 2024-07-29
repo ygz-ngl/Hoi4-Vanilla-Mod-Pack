@@ -1,0 +1,23 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   
+   spriteType = {
+      name = "GFX_SD_tv_pre_dreadnought_gre"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/GRE/topview_pre_dreadnought.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_gre"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/GRE/topview_cruiser_coastal_defense.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_1_gre"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/GRE/topview_cruiser_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_1_gre"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/GRE/topview_destroyer_1.dds"
+   }
+}

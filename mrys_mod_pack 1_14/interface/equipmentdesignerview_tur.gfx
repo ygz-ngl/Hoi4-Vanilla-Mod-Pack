@@ -1,0 +1,19 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   
+   spriteType = {
+      name = "GFX_SD_tv_heavy_tur"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/TUR/topview_battleship_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_tur"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/TUR/topview_cruiser_coastal_defense.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_1_tur"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/TUR/topview_destroyer_1.dds"
+   }
+}

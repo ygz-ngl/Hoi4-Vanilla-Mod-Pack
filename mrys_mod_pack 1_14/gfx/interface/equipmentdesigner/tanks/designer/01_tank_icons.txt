@@ -1,0 +1,32 @@
+### Polish Flavor Icons
+
+POL = {
+	light_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/POL_basic_light_tank.dds" 
+				"gfx/interface/technologies/POL_imp_light_tank.dds" 
+				"gfx/interface/technologies/POL_adv_light_tank.dds" 
+			}
+		}
+	}
+
+	medium_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/POL_basic_main_tank.dds" 
+				"gfx/interface/technologies/POL_imp_main_tank.dds" 
+				"gfx/interface/technologies/POL_adv_main_tank.dds" 
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {=
+			icons = {
+				"gfx/interface/technologies/POL_basic_heavy_tank.dds" 
+				"gfx/interface/technologies/POL_imp_heavy_tank.dds" 
+				"gfx/interface/technologies/POL_adv_heavy_tank.dds" 
+			}
+		}
+	}
+}

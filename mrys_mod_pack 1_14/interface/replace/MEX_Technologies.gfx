@@ -1,0 +1,76 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_MEX_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/MEX_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MEX_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/MEX_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MEX_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/MEX_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_MEX_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/MEX_4.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+		name = "GFX_MEX_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_MEX_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_MEX_motorised_equipment_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MEX_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MEX_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MEX_mechanised_infantry_medium"
+		texturefile = "gfx/interface/technologies/MEX_tc2.dds"
+	}	
+	
+
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_MEX_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/MEX_iwa.dds"
+	}
+	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_MEX_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/MEX_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_MEX_antitank2_medium"
+	texturefile = "gfx/interface/technologies/MEX_at2.dds"
+	}	
+	
+}

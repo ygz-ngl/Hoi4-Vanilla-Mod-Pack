@@ -1,0 +1,15 @@
+version="1.14.7"
+picture="thumbnail"
+tags={
+	"Alternative History"
+	"Balance"
+	"Fixes"
+	"Gameplay"
+	"Utilities"
+	"Technologies"
+	"National Focuses"
+}
+name="Mr.Y's Vanilla Mod Pack"
+supported_version="1.14.7"
+path="C:/Users/yageg/OneDrive/Belgeler/Paradox Interactive/Hearts of Iron IV/mod/mrys_mod_pack 1_14"
+remote_file_id="2921412832"

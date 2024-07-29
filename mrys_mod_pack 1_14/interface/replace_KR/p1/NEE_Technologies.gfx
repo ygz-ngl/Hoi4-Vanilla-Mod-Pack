@@ -1,0 +1,123 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_NEE_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/USA_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/USA_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/CAN_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_NEE_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/CAN_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_NEE_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/CAN_iwa.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_NEE_artillery1_medium"
+	texturefile = "gfx/interface/technologies/CAN_a2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_artillery4_medium"
+	texturefile = "gfx/interface/technologies/CAN_a3.dds"
+	}	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_NEE_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/CAN_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_NEE_antitank2_medium"
+	texturefile = "gfx/interface/technologies/CAN_at2.dds"
+	}		
+   
+    SpriteType = {
+	name = "GFX_NEE_antitank5_medium"
+	texturefile = "gfx/interface/technologies/CAN_at3.dds"
+	}	
+
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_NEE_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/CAN_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_antiair2_medium"
+	texturefile = "gfx/interface/technologies/CAN_aa2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_NEE_antiair5_medium"
+	texturefile = "gfx/interface/technologies/CAN_aa3.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_NEE_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/CAN_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/CAN_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/CAN_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_NEE_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_NEE_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_NEE_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_NEE_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/CAN_tc2.dds"
+	}
+	
+}

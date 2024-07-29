@@ -1,0 +1,1649 @@
+spriteTypes = {
+
+###################################################
+# Contains GFX for the ship modules shown on top of the blue print
+#
+# Names of the modules are normalized and *must* obey the following naming
+# convention.
+#
+# "GFX_SM_ ( SHIP_CLASS ) "_" ( MODULE_KEY ) "_" ( MODIFIER )
+#( MODIFIER ) is optional
+# Where:
+# * SHIP_CLASS looks like "ship_hull_carrier"
+# * MODULE_KEY looks like "ship_light_battery"
+# * COUNTRY MODIFIER looks like "ger" (for Germany for example).
+# Example:
+# Each sprite corresponds to one ship hull type and one module only.
+# * "GFX_SM_ship_hull_carrier_ship_light_battery_jap"
+
+###################################################
+
+###################################################
+# Destroyer
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_light_hull_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_front_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_hull_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_light_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_light_battery@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_light_hull_front_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_front_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_front_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_front_depth_charge@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_depth_charge@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_depth_charge@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_mine_rails.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_mine_rails@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_mine_rails.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_mine_rails@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_mine_sweeper_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_mine_sweeper.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_mid_1_mine_sweeper_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_mid_mine_sweeper@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_mine_sweeper_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_mine_sweeper.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_rear_mine_sweeper_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_rear_mine_sweeper@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_light_hull_fixed_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_fixed_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_fixed_torpedo@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_light_hull_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/light_hull_torpedo@highlight.dds"
+	}
+
+###################################################
+# Destroyer 1
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_light_hull_1_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_1_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_rear_anti_air@highlight.dds"
+	}
+
+   ## light battery
+	spriteType = {
+		name = "GFX_SM_light_hull_1_fixed_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_fixed_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_1_fixed_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_fixed_light_battery@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_light_hull_1_mid_1_mine_sweeper_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_mid_mine_sweeper.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_1_mid_1_mine_sweeper_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_mid_mine_sweeper@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_light_hull_1_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_1_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T1/light_hull_torpedo@highlight.dds"
+	}
+
+###################################################
+# Destroyer 3
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_light_hull_3_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T3/light_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_3_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T3/light_hull_fixed_anti_air@highlight.dds"
+	}
+
+###################################################
+# Destroyer 4
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_light_hull_4_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_4_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_light_hull_4_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_4_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_rear_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_light_hull_4_fixed_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_fixed_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_light_hull_4_fixed_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/light_hull/T4/light_hull_fixed_torpedo@highlight.dds"
+	}
+
+###################################################
+# Cruiser
+###################################################
+	
+   ## Anti-air
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_2_anti_air@highlight.dds"
+	}
+
+
+   ## Airplane laucher
+
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_airplane_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_airplane_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_1_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_1_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_1_airplane_launcher@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_2_airplane_launcher@highlight.dds"
+	}
+
+   ## Medium
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_front_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_medium_battery@highlight.dds"
+	}
+
+   ## Medium light
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_light_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_light_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_light_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_light_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_light_medium_battery@highlight.dds"
+	}
+
+   ## light battery
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_front_light_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_light_battery@highlight.dds"
+	}
+
+
+   ## Depth charge
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_depth_charge@highlight.dds"
+	}
+
+
+   ## Mine layer
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_mine_layer@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_mine_layer@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_rear_mine_layer@highlight.dds"
+	}
+
+   ## Secondary
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_fixed_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_secondaries@highlight.dds"
+	}
+
+   ## Torpedo
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_1_torpedo@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/cruiser_hull_mid_2_torpedo@highlight.dds"
+	}
+
+###################################################
+# Cruiser 1
+###################################################
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+
+   ## Light Medium
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_light_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_front_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_front_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_front_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_front_light_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_rear_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_rear_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_rear_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_rear_light_medium_battery@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_secondaries_dp_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_secondaries_dp.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_fixed_secondaries_dp_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_fixed_secondaries_dp@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_mid_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_mid_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_airplane_launcher@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_1_mid_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_mid_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_1_mid_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T1/cruiser_hull_mid_torpedo@highlight.dds"
+	}
+
+###################################################
+# Cruiser 2
+###################################################
+   ## Anti-air
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_2_mid_1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_mid_1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_mid_1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_mid_1_anti_air@highlight.dds"
+	}
+
+   ## Medium
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_medium_battery@highlight.dds"
+	}
+
+   ## Medium light
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_fixed_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_fixed_light_medium_battery@highlight.dds"
+	}
+
+   #Secondaries
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_2_mid_1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_mid_1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_2_mid_1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T2/cruiser_hull_mid_1_secondaries@highlight.dds"
+	}
+
+###################################################
+# Cruiser 3
+###################################################
+   ## Anti-air
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_front_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_anti_air@highlight.dds"
+	}
+
+   ## Medium
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_medium_battery@highlight.dds"
+	}
+
+   ## Medium light
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_light_medium_battery@highlight.dds"
+	}
+
+   ## Light
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_light_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_fixed_light_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_fixed_light_battery@highlight.dds"
+	}
+
+   #Secondaries
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_secondaries@highlight.dds"
+	}
+
+   ## Airplane launcher
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_mid_2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_mid_2_airplane_launcher@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_rear_1_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_rear_1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_rear_1_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_rear_1_airplane_launcher@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_3_rear_2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_rear_2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_3_rear_2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/cruiser_hull/T3/cruiser_hull_rear_2_airplane_launcher@highlight.dds"
+	}
+
+
+
+###################################################
+# Cruiser Torpedo
+###################################################
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/torpedo_hull_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/torpedo_hull_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_secondaries_dp_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_secondaries_dp.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_fixed_secondaries_dp_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_fixed_secondaries_dp@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_airplane_launcher@highlight.dds"
+	}
+
+   ## Depth charge
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_depth_charge_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_rear_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_depth_charge_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_rear_depth_charge@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_rear_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_rear_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/cruiser_hull_mine_layer@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_torpedo_hull_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/torpedo_hull_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_torpedo_hull_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/torpedo_cruiser/torpedo_hull_torpedo@highlight.dds"
+	}
+
+###################################################
+# Coastal defense
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_front_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_anti_air@highlight.dds"
+	}
+
+   # Secondaries
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_secondaries@highlight.dds"
+	}
+
+   #heavy
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_heavy_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_heavy_battery@highlight.dds"
+	}
+
+   #medium
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_medium_battery@highlight.dds"
+	}
+
+   #medium light
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_fixed_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_fixed_medium_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_light_medium_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_light_medium_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_medium_battery@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_mid_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_mid_airplane_launcher@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_coastal_defense_hull_rear_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/coastal_defense_hull/coastal_defense_hull_rear_torpedos@highlight.dds"
+	}
+
+###################################################
+# Battleship
+###################################################
+   ## AA
+   spriteType = {
+		name = "GFX_SM_heavy_hull_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_rear_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_heavy_hull_front_1_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front1_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_front_1_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front1_heavy_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_front_2_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front2_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_front_2_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_front2_heavy_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_rear_1_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear1_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_1_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear1_heavy_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_rear_2_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear2_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_2_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear2_heavy_battery@highlight.dds"
+	}
+
+   ## Secondaries
+   spriteType = {
+		name = "GFX_SM_heavy_hull_rear_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_rear_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_rear_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_heavy_hull_mid_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_mid_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_mid_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/heavy_hull_mid_airplane_launcher@highlight.dds"
+	}
+
+###################################################
+# Battleship 1
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_anti_air@highlight.dds"
+	}
+
+   ## Heavy
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_heavy_battery@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_1_rear_1_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_rear_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_rear_1_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_rear_heavy_battery@highlight.dds"
+	}
+
+   ##Secondaries
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_fixed_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_secondaries@highlight.dds"
+	}
+
+   #Airplane
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid1_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid1_airplane_launcher@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_1_mid2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T1/heavy_hull_mid2_airplane_launcher@highlight.dds"
+	}
+
+
+###################################################
+# Battleship 2
+###################################################
+   ## AA
+   spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid1_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid2_anti_air@highlight.dds"
+	}
+	
+   ## Heavy
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_heavy_battery@highlight.dds"
+	}
+
+   ## Secondaries
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_fixed_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid1_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_2_mid2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T2/heavy_hull_mid2_secondaries@highlight.dds"
+	}
+
+###################################################
+# Battleship 3
+###################################################
+   ## AA
+   spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid1_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid2_anti_air@highlight.dds"
+	}
+
+   ## Heavy
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_heavy_battery@highlight.dds"
+	}
+
+   ## Secondaries
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_fixed_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid1_secondaries@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_heavy_hull_3_mid2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/heavy_hull/T3/heavy_hull_mid2_secondaries@highlight.dds"
+	}
+
+###################################################
+# Super Heavy Battleship
+###################################################
+
+   spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_front1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_front1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_front1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_front1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_front2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_front2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_front2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_front2_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid2_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid3_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid3_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid3_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid3_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear2_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear2_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear2_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear2_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_airplane_launcher@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear2_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear2_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear2_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear2_airplane_launcher@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_super_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_super_heavy_battery@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear_heavy_battery_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear_super_heavy_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear_heavy_battery_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear_super_heavy_battery@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid1_secondaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid1_secondaries@highlight.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid3_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid3_secondaries.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_mid3_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_mid3_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_super_heavy_hull_rear1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/super_heavy_hull/super_heavy_hull_rear1_secondaries@highlight.dds"
+	}
+
+
+###################################################
+# Carrier
+###################################################
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_anti_air@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_mid_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_mid_secondaries@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_deck_space_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_fixed_deck_space_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_fixed_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_deck_space_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_front1_deck_space_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid1_deck_space_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid1_deck_space_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid2_deck_space_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_mid2_deck_space_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_front1_deck_space@highlight.dds"
+	}
+
+###################################################
+# Carrier CA
+###################################################
+   spriteType = {
+		name = "GFX_SM_carrier_hull_ca_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_ca_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_ca_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_ca_fixed_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_ca_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_ca_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_ca_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_ca_fixed_secondaries@highlight.dds"
+	}
+
+###################################################
+# Carrier BB
+###################################################
+   spriteType = {
+		name = "GFX_SM_carrier_hull_bb_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_bb_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_fixed_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_bb_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_bb_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_fixed_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_bb_mid_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_mid_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_bb_mid_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_bb_mid_secondaries@highlight.dds"
+	}
+
+###################################################
+# Carrier 1
+###################################################
+   spriteType = {
+		name = "GFX_SM_carrier_hull_1_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_1_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_fixed_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_1_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_1_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_fixed_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_1_front_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_front_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_1_front_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_1_front_secondaries@highlight.dds"
+	}
+
+###################################################
+# Carrier 3
+###################################################
+   spriteType = {
+		name = "GFX_SM_carrier_hull_3_fixed_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_3_fixed_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_fixed_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_carrier_hull_3_front_anti_air_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_front_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_3_front_anti_air_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_front_anti_air@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_3_fixed_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_3_fixed_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_fixed_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_3_mid1_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_mid1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_3_mid1_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_mid1_secondaries@highlight.dds"
+	}
+
+   spriteType = {
+		name = "GFX_SM_carrier_hull_3_mid2_secondaries_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_mid2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_carrier_hull_3_mid2_secondaries_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/carrier_hull/carrier_hull_3_mid2_secondaries@highlight.dds"
+	}
+
+###################################################
+# Submarine
+###################################################
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_fixed_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_fixed_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_fixed_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_fixed_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front1_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_front1_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front1_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_front1_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_rear1_torpedo_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_rear1_torpedo_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front1_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_front1_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_front1_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_front1_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_rear1_mine_layer_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_torpedos.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_rear1_mine_layer_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_torpedos@highlight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SM_submarine_hull_airplane_launcher_jap"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_submarine_hull_airplane_launcher_jap@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/submarine/submarine_hull_rear1_airplane_launcher@highlight.dds"
+	}
+
+}

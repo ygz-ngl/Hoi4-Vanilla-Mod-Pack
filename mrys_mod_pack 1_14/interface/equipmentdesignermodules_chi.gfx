@@ -1,0 +1,178 @@
+spriteTypes = {
+
+###################################################
+# Contains GFX for the ship modules shown on top of the blue print
+#
+# Names of the modules are normalized and *must* obey the following naming
+# convention.
+#
+# "GFX_SM_ ( SHIP_CLASS ) "_" ( MODULE_KEY ) "_" ( MODIFIER )
+#( MODIFIER ) is optional
+# Where:
+# * SHIP_CLASS looks like "ship_hull_carrier"
+# * MODULE_KEY looks like "ship_light_battery"
+# * COUNTRY MODIFIER looks like "ger" (for Germany for example).
+# Example:
+# Each sprite corresponds to one ship hull type and one module only.
+# * "GFX_SM_ship_hull_carrier_ship_light_battery_chi"
+
+###################################################
+
+###################################################
+# Cruiser
+###################################################
+	
+   ## Anti-air
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_anti_air_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_fixed_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_anti_air_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_fixed_anti_air@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_anti_air_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_anti_air_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_anti_air@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_anti_air_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_anti_air.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_anti_air_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_anti_air@highlight.dds"
+	}
+
+   ## Medium light
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_medium_battery_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_front_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_medium_battery_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_front_light_medium_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_medium_battery_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_light_medium_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_medium_battery_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_light_medium_battery@highlight.dds"
+	}
+
+   ## light battery
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_battery_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_front_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_front_light_battery_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_front_light_battery@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_battery_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_light_battery.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_light_battery_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_light_battery@highlight.dds"
+	}
+
+
+   ## Depth charge
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_depth_charge_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_depth_charge.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_depth_charge_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_depth_charge@highlight.dds"
+	}
+
+
+   ## Mine layer
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_mine_layer_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_mine_layer_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_mine_layer@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_mine_layer_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_mine_layer_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_mine_layer@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_mine_layer_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_mine_layer.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_rear_mine_layer_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_rear_mine_layer@highlight.dds"
+	}
+
+   ## Secondary
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_secondaries_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_fixed_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_fixed_secondaries_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_fixed_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_secondaries_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_secondaries_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_secondaries@highlight.dds"
+	}
+   spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_secondaries_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_secondaries.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_secondaries_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_secondaries@highlight.dds"
+	}
+
+   ## Torpedo
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_torpedo_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_1_torpedo_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_1_torpedo@highlight.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_torpedo_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_torpedo.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_mid_2_torpedo_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_mid_2_torpedo@highlight.dds"
+	}
+
+   ## Airplane laucher
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_airplane_launcher_chi"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_airplane_launcher.dds"
+	}
+	spriteType = {
+		name = "GFX_SM_cruiser_hull_airplane_launcher_chi@highlight"
+		textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/cruiser_hull/cruiser_hull_airplane_launcher@highlight.dds"
+	}
+}

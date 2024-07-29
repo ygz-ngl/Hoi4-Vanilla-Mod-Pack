@@ -1,0 +1,100 @@
+﻿l_english:
+ #lithuanian planes
+ LIT_fighter_equipment_0:0 "Dobi-III"
+ LIT_fighter_equipment_0_short:0 "Dobi-III"
+ LIT_fighter_equipment_1:0 "Dewoitine D.501L"
+ LIT_fighter_equipment_1_short:0 "D.501L"
+ LIT_fighter_equipment_2:0 "Morane-Saulnier M.S.406"
+ LIT_fighter_equipment_2_short:0 "M.S.406"
+ LIT_fighter_equipment_3:0 "Vilkas-Morane"
+ LIT_fighter_equipment_3_short:0 "Vilkas"
+ 
+ LIT_CAS_equipment_1:1 "ANBO-41"
+ LIT_CAS_equipment_1_short:1 "ANBO-41"
+ LIT_CAS_equipment_2:0 "ANBO-VIII"
+ LIT_CAS_equipment_2_short:0 "ANBO-VIII"
+ 
+ #Latvian planes
+ LAT_fighter_equipment_0:0 "Gloster Gladiator Mk.I"
+ LAT_fighter_equipment_0_short:0 "Gladiator"
+ LAT_fighter_equipment_1:0 "Hawker Hurricane"
+ LAT_fighter_equipment_1_short:0 "Hurricane"
+ LAT_fighter_equipment_2:0 "VEF I-16"
+ LAT_fighter_equipment_2_short:0 "I-16"
+ LAT_fighter_equipment_3:0 "VEF I-19"
+ LAT_fighter_equipment_3_short:0 "I-19"
+ 
+ LAT_CAS_equipment_1:1 "Hawker Hind"
+ LAT_CAS_equipment_1_short:1 "Hind"
+ LAT_CAS_equipment_2:0 "Cukurs C.6bis"
+ LAT_CAS_equipment_2_short:0 "C.6bis"
+ LAT_CAS_equipment_3:0 "VEF JDA-10M"
+ LAT_CAS_equipment_3_short:0 "JDA-10M"
+ 
+ #Estonian planes
+ EST_fighter_equipment_0:0 "Bristol Bulldog II"
+ EST_fighter_equipment_0_short:0 "Bulldog"
+ EST_fighter_equipment_1:0 "PN-3 Isamaa Päästja"
+ EST_fighter_equipment_1_short:0 "PN-3"
+ 
+ #New Zealand 
+ NZL_fighter_equipment_0:0 "DHNZ Grebe"
+ NZL_fighter_equipment_0_short:0 "DHNZ Grebe"
+ NZL_fighter_equipment_1:0 "DHNZ Patu"
+ NZL_fighter_equipment_1_short:0 "DHNZ Patu"
+ NZL_fighter_equipment_2:0 "DHNZ Taiaha"
+ NZL_fighter_equipment_2_short:0 "DHNZ Taiaha"
+ NZL_fighter_equipment_3:0 "DHNZ Wahaika"
+ NZL_fighter_equipment_3_short:0 "DHNZ Wahaika"
+ 
+ NZL_CAS_equipment_1:1 "DHNZ Gordon"
+ NZL_CAS_equipment_1_short:1 "DHNZ Gordon"
+ NZL_CAS_equipment_2:0 "DHNZ Typhoon"
+ NZL_CAS_equipment_2_short:0 "DHNZ Typhoon"
+ NZL_CAS_equipment_3:0 "DHNZ Tempest"
+ NZL_CAS_equipment_3_short:0 "DHNZ Tempest"
+ 
+ #Australia
+ AST_fighter_equipment_0:0 "CAC Gladiator"
+ AST_fighter_equipment_0_short:0 "CAC Gladiator"
+ AST_fighter_equipment_1:0 "CAC Boomerang"
+ AST_fighter_equipment_1_short:0 "CAC Boomerang"
+ AST_fighter_equipment_2:0 "CAC Spitfire"
+ AST_fighter_equipment_2_short:0 "CAC Spitfire"
+ AST_fighter_equipment_3:0 "CAC Kangaroo"
+ AST_fighter_equipment_3_short:0 "CAC Kangaroo"
+ 
+ AST_CAS_equipment_1:1 "CAC Wirraway"
+ AST_CAS_equipment_1_short:1 "CAC Wirraway"
+ AST_CAS_equipment_2:0 "CAC Woomera"
+ AST_CAS_equipment_2_short:0 "CAC Woomera"
+ AST_CAS_equipment_3:0 "CAC Tempest"
+ AST_CAS_equipment_3_short:0 "CAC Tempest"
+ 
+ #Malay
+ MAL_fighter_equipment_0:0 "RAFS Gladiator"
+ MAL_fighter_equipment_0_short:0 "RAFS Gladiator"
+ MAL_fighter_equipment_1:0 "RAFS Hornbill"
+ MAL_fighter_equipment_1_short:0 "RAFS Hornbill"
+ MAL_fighter_equipment_2:0 "RAFS Spitfire"
+ MAL_fighter_equipment_2_short:0 "RAFS Spitfire"
+ MAL_fighter_equipment_3:0 "RAFS Spiteful"
+ MAL_fighter_equipment_3_short:0 "RAFS Spiteful"
+ 
+ MAL_CAS_equipment_1:1 "RAFS Battle"
+ MAL_CAS_equipment_1_short:1 "RAFS Battle"
+ MAL_CAS_equipment_2:0 "RAFS Typhoon"
+ MAL_CAS_equipment_2_short:0 "RAFS Typhoon"
+ MAL_CAS_equipment_3:0 "RAFS Tempest"
+ MAL_CAS_equipment_3_short:0 "RAFS Tempest"
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+

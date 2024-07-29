@@ -1,0 +1,109 @@
+spriteTypes = {
+
+	### Template ###
+
+	spriteType = {
+		name = "GFX_portrait_tag_john_doe"
+		texturefile = "gfx/leaders/TAG/Portrait_Tagged_Country_John_Doe.dds"
+	}
+	
+	
+	### BUL ###
+
+	spriteType = {
+		name = "GFX_portrait_bul_damyan_velchev"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Damyan_Velchev_uniform_fix.dds"
+	}
+	
+	
+	### CHI ###
+
+	spriteType = {
+		name = "GFX_portrait_chi_du_yuming"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Du_Yuming_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_tai_an_lan"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Tai_An_Lan_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_sun_li_jen"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Sun_Li_Jen_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_hu_zongnan"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Hu_Zongnan_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_gu_zhutong"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Gu_Zhutong_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_wei_lihuang"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Wei_Lihuang_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_fu_zuoyi"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Fu_Zuoyi_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_zhang_xueliang"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Zhang_Xueliang_uniform_fix.dds"
+	}
+
+
+	### GER ###
+
+	spriteType = {
+		name = "GFX_portrait_Walter_Kruger"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Walter_Kruger_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_walter_kruger"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Walter_Kruger_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Paul_Hausser"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Paul_Hausser_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_paul_hausser"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Paul_Hausser_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Sepp_Dietrich"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Josef_Dietrich_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_sepp_dietrich"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Josef_Dietrich_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_walter_model"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Walter_Model_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ger_felix_steiner"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Felix_Steiner_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_heinrich_himmler"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler_uniform_fix.dds"
+	}
+
+}

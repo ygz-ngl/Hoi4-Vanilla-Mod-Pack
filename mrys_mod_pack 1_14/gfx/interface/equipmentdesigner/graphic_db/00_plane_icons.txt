@@ -1,0 +1,6061 @@
+
+##(# Generic Start
+	default = {
+  #(# Generic small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_00_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_01_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_02_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/fighter_03_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_fighter/jet_fighter_01_A.dds"
+				}
+				models = { jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_00_A.dds"
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_01_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_02_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_cas/cas_03_A.dds"
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_00_A.dds"
+				}
+				models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_01_A.dds"
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_02_A.dds"
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/light_naval_bomber/naval_bomber_03_A.dds"
+				}
+			}
+		}
+  #)# Generic small airframe end
+
+  #(# Generic cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_00_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_01_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_02_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/cv_fighter_03_A.dds"
+				}
+				models = { light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_fighter/jet_cv_fighter_01_A.dds"
+				}
+				models = { jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_00_A.dds"
+				}
+				models = { CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_01_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_02_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_cas/cv_cas_03_A.dds"
+				}	
+				models = { CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_00_A.dds"
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_01_A.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_02_A.dds"
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/cv_naval_bomber/cv_naval_bomber_03_A.dds"
+				}
+			}
+		}
+  #)# Generic cv airframe end
+
+  #(# Generic medium airframe start			
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_00_A.dds"
+				}
+				models = { medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01.dds"				
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_01_A.dds"		
+				}
+				models = { medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_02_A.dds"
+				}
+				models = { medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/medium_bomber_03_A.dds"
+				}
+				models = { medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_bomber/jet_medium_bomber_01_A.dds"
+				}
+				models = { medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_00_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_fighter/heavy_fighter_03_A.dds"
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_scout_plane/scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_scout_plane/scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_scout_plane/scout_plane_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_scout_plane/scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/medium_scout_plane/scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# Generic medium airframe end
+
+  #(# Generic large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_00_A.dds"
+				}
+				models = { heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_01_A.dds"
+				}
+				models = { heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_02_A.dds"
+				}
+				models = { heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_G.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_F.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/heavy_bomber_03_A.dds"
+				}
+				models = { heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01_E.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_bomber/jet_heavy_bomber_01_A.dds"
+				}
+				models = { heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_00_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_04_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_03_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/generic/heavy_maritime/heavy_maritime_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# Generic large airframe end
+	}
+ #)# Generic end
+	
+##)# Generic End
+
+##(# Main Countries start ###
+ #(# Germany Start
+	GER = {
+  #(# Germany small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_01_A.dds"
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_02_A.dds"
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_fighter_03_A.dds"
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_A.dds"
+				}
+				models = { GER_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_01_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_cas/GER_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_naval_bomber/GER_naval_bomber_00.dds"
+				 }
+				 models = { fighter_equipment_0_entity }				 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				 }
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_naval_bomber/GER_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_naval_bomber/GER_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_naval_bomber/GER_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		
+  #)# Germany small airframe end
+
+  #(# Germany cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_fighter/GER_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_fighter/GER_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_fighter/GER_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_fighter/GER_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/light_fighter/GER_jet_fighter_01_D.dds"
+				}
+				models = { GER_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { ger_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_01_A.dds"
+				}
+				models = { ger_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { ger_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_cas/GER_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { ger_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_naval_bomber/GER_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_naval_bomber/GER_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_naval_bomber/GER_cv_naval_bomber_01_A.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_naval_bomber/GER_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/cv_naval_bomber/GER_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Germany cv airframe end
+
+  #(# Germany medium airframe start			
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01.dds"					
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01_A.dds"		
+				}
+				models = { GER_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_02_D.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_02_A.dds"
+				}
+				models = { GER_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_03_A.dds"
+				}
+				models = { GER_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_jet_medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_jet_medium_bomber_02.dds"
+				}
+				models = { GER_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_bomber/GER_medium_bomber_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_03_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_fighter/GER_heavy_fighter_03_B.dds"
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_scout_plane/GER_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_scout_plane/GER_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_scout_plane/GER_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/medium_scout_plane/GER_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# Germany medium airframe end
+
+  #(# Germany large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { GER_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_jet_heavy_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_bomber/GER_jet_heavy_bomber_02.dds"
+				}
+				models = { GER_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_maritime/GER_heavy_maritime_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_maritime/GER_heavy_maritime_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_maritime/GER_heavy_maritime_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/GER/heavy_maritime/GER_heavy_maritime_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# Germany large airframe end
+
+	}
+ #)# Germany end
+
+ #(# Soviet Start
+	SOV = {
+  #(# Soviet small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_01_A.dds"
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_02_A.dds"
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_fighter_03_A.dds"
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_02_A.dds"
+				}
+				models = { SOV_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/sov/light_cas/SOV_CAS_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_cas/SOV_CAS_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_cas/SOV_CAS_02_A.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_cas/SOV_CAS_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_cas/SOV_CAS_02.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_cas/SOV_CAS_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/sov/light_naval_bomber/SOV_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_naval_bomber/SOV_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_naval_bomber/SOV_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_naval_bomber/SOV_naval_bomber_02_A.dds"
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_naval_bomber/SOV_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Soviet small airframe end
+
+  #(# Soviet cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_fighter/SOV_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_fighter/SOV_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_fighter/SOV_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_fighter/SOV_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_fighter/SOV_jet_cv_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/light_fighter/SOV_jet_fighter_02_A.dds"
+				}
+				models = { SOV_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { SOV_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_01_A.dds"
+				}
+				models = { SOV_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_02_A.dds"
+				}
+				models = { SOV_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_cas/SOV_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { SOV_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_naval_bomber/SOV_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_naval_bomber/SOV_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_naval_bomber/SOV_cv_naval_bomber_01_A.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_naval_bomber/SOV_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/cv_naval_bomber/SOV_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Soviet cv airframe end
+
+  #(# Soviet medium airframe start			
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_medium_bomber_01.dds"				
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#	
+				}
+				models = { SOV_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_medium_bomber_02_A.dds"
+				}
+				models = { SOV_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_bomber/SOV_jet_medium_bomber_02.dds"
+				}
+				models = { SOV_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_fighter/SOV_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_scout_plane/SOV_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_scout_plane/SOV_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_scout_plane/SOV_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/medium_scout_plane/SOV_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# Soviet medium airframe end
+
+  #(# Soviet large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { SOV_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_jet_heavy_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_bomber/SOV_jet_heavy_bomber_02.dds"
+				}
+				models = { SOV_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_maritime/SOV_heavy_maritime_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_maritime/SOV_heavy_maritime_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_maritime/SOV_heavy_maritime_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/SOV/heavy_maritime/SOV_heavy_maritime_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# Soviet large airframe end				
+	}
+ #)# Soviet end
+
+ #(# United States Start
+	USA = {
+  #(# United States small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_00_A.dds"
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_01_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_01_A.dds"
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_02_A.dds"
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_03_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_fighter_03_A.dds"
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_02.dds"
+				}
+				models = { USA_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_01_A.dds"
+				}
+				models = { CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_02_A.dds"
+				}
+				models = { USA_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_cas/USA_CAS_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_01_B.dds"
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_naval_bomber/USA_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		
+  #)# United States small airframe end
+
+  #(# United States cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_02_A.dds"
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/light_fighter/USA_jet_fighter_02.dds"
+				}
+				models = { USA_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_fighter/USA_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { USA_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_cas/USA_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { USA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_cas/USA_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+				models = { USA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_cas/USA_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { USA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_01_A.dds"
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/cv_naval_bomber/USA_cv_naval_bomber_03_A.dds"
+				}
+			}
+		}
+		
+  #)# United States cv airframe end
+
+  #(# United States medium airframe start			
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_medium_bomber_01.dds"				
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#	
+				}
+				models = { USA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_medium_bomber_02_A.dds"
+				}
+				models = { USA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_bomber/USA_jet_medium_bomber_02.dds"
+				}
+				models = { USA_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_fighter/USA_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_fighter/USA_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_fighter/USA_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_fighter/USA_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_scout_plane/USA_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_scout_plane/USA_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_scout_plane/USA_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/medium_scout_plane/USA_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		
+  #)# United States medium airframe end
+
+  #(# United States large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { USA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_02_C.dds"
+				}
+				models = { USA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_heavy_bomber_03_A.dds"
+				}
+				models = { USA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_bomber/USA_jet_heavy_bomber_02.dds"
+				}
+				models = { USA_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/USA/heavy_maritime/USA_maritime_patrol_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# United States large airframe end					
+	}
+ #)# United States end
+
+ #(# United Kingdom Start
+	ENG = {
+  #(# United Kingdom small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_01_A.dds"
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_02_A.dds"
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_fighter_03_A.dds"
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_jet_fighter_01_A.dds"
+				}
+				models = { ENG_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_01_A.dds"
+				}
+				models = { ENG_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_02_A.dds"
+				}
+				models = { ENG_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_cas/ENG_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_naval_bomber/ENG_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_naval_bomber/ENG_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_naval_bomber/ENG_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_naval_bomber/ENG_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# United Kingdom small airframe end
+
+  #(# United Kingdom cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_02_A.dds"
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_fighter/ENG_jet_cv_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/light_fighter/ENG_jet_fighter_01_A.dds"
+				}
+				models = { ENG_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { ENG_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_01_A.dds"
+				}
+				models = { ENG_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_02_A.dds"
+				}
+				models = { ENG_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_cas/ENG_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { ENG_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_naval_bomber/ENG_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_naval_bomber/ENG_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_naval_bomber/ENG_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/cv_naval_bomber/ENG_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# United Kingdom cv airframe end
+
+  #(# United Kingdom medium airframe start
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_medium_bomber_01.dds"				
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#	
+				}
+				models = { ENG_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_bomber/ENG_jet_medium_bomber_02.dds"
+				}
+				models = { ENG_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_fighter/ENG_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_fighter/ENG_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_fighter/ENG_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_fighter/ENG_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_scout_plane/ENG_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_scout_plane/ENG_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_scout_plane/ENG_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/medium_scout_plane/ENG_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# United Kingdom medium airframe end
+
+  #(# United Kingdom large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ENG_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_bomber/ENG_jet_heavy_bomber_01_A.dds"
+				}
+				models = { ENG_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_03.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ENG/heavy_maritime/ENG_maritime_patrol_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# United Kingdom large airframe end
+	}
+ #)# United Kingdom end
+
+ #(# France Start
+	FRA = {
+  #(# France small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_00_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_01_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_02_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_fighter_03_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01_A.dds"
+				}
+				models = { FRA_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_01_A.dds"
+				}
+				models = { FRA_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_02_A.dds"
+				}
+				models = { FRA_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_cas/FRA_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_naval_bomber/FRA_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_naval_bomber/FRA_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_naval_bomber/FRA_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_naval_bomber/FRA_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# France small airframe end
+
+  #(# France cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_00_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_01_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_02_A.dds"
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_fighter/FRA_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { FRA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/light_fighter/FRA_jet_fighter_01_A.dds"
+				}
+				models = { FRA_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { FRA_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_01_A.dds"
+				}
+				models = { FRA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_02_A.dds"
+				}
+				models = { FRA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_cas/FRA_cv_cas_03_A.dds"
+				}	
+				models = { FRA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_naval_bomber/FRA_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_naval_bomber/FRA_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_naval_bomber/FRA_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/cv_naval_bomber/FRA_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# France cv airframe end
+
+  #(# France medium airframe start
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { FRA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_01.dds"		
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_01_A.dds"
+				}
+				models = { FRA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_02_A.dds"
+				}
+				models = { FRA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_medium_bomber_03_A.dds"
+				}
+				models = { FRA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_jet_medium_bomber_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_bomber/FRA_jet_medium_bomber_02.dds"
+				}
+				models = { FRA_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_fighter/FRA_heavy_fighter_03_A.dds"
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_scout_plane/FRA_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_scout_plane/FRA_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_scout_plane/FRA_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/medium_scout_plane/FRA_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# France medium airframe end
+
+  #(# France large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { FRA_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_01_A.dds"
+				}
+				models = { FRA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_02_A.dds"
+				}
+				models = { FRA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_heavy_bomber_03_A.dds"
+				}
+				models = { FRA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_bomber/FRA_jet_heavy_bomber_01_A.dds"
+				}
+				models = { FRA_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_maritime/FRA_maritime_patrol_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_maritime/FRA_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_maritime/FRA_maritime_patrol_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/FRA/heavy_maritime/FRA_maritime_patrol_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# France large airframe end
+
+	}
+ #)# France end
+
+ #(# Italy Start
+	ITA = {
+  #(# Italy small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_00_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_01_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_02_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_fighter_03_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_01_A.dds"
+				}
+				models = { ITA_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_01_A.dds"
+				}
+				models = { ITA_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_02_A.dds"
+				}
+				models = { ITA_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_cas/ITA_cas_03_A.dds"
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_naval_bomber/ITA_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_naval_bomber/ITA_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_naval_bomber/ITA_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_naval_bomber/ITA_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Italy small airframe end
+
+  #(# Italy cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_00_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_01_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_02_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_cv_fighter_03_A.dds"
+				}
+				models = { ITA_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_fighter/ITA_jet_cv_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/light_fighter/ITA_jet_fighter_01_A.dds"
+				}
+				models = { ITA_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { ITA_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_01_A.dds"
+				}
+				models = { ITA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_02_A.dds"
+				}
+				models = { ITA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_cas/ITA_cv_cas_03_A.dds"
+				}	
+				models = { ITA_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_naval_bomber/ITA_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_naval_bomber/ITA_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_naval_bomber/ITA_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/cv_naval_bomber/ITA_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Italy cv airframe end
+
+  #(# Italy medium airframe start
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_00_A.dds"
+				}
+				models = { ITA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_01.dds"		
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_01_A.dds"
+				}
+				models = { ITA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_02_A.dds"
+				}
+				models = { ITA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_medium_bomber_03_A.dds"
+				}
+				models = { ITA_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_jet_medium_bomber_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_bomber/ITA_jet_medium_bomber_02.dds"
+				}
+				models = { ITA_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_00_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_fighter/ITA_heavy_fighter_03_A.dds"
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_scout_plane/ITA_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_scout_plane/ITA_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_scout_plane/ITA_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/medium_scout_plane/ITA_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# Italy medium airframe end
+
+  #(# Italy large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { ITA_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_01_A.dds"
+				}
+				models = { ITA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_02_A.dds"
+				}
+				models = { ITA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_heavy_bomber_03_A.dds"
+				}
+				models = { ITA_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_bomber/ITA_jet_heavy_bomber_01_A.dds"
+				}
+				models = { ITA_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_maritime/ITA_maritime_patrol_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_maritime/ITA_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_maritime/ITA_maritime_patrol_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/ITA/heavy_maritime/ITA_maritime_patrol_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# Italy large airframe end
+
+	}
+ #)# Italy end
+
+ #(# Japan Start
+	JAP = {
+  #(# Japan small airframe start
+  		small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_00_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_01_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_02_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_fighter_03_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_01_A.dds"
+				}
+				models = { JAP_jet_plane_entity }		
+			}
+		}
+		small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }
+			}
+		}
+		small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_01_A.dds"
+				}
+				models = { JAP_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_02_A.dds"
+				}
+				models = { JAP_CAS_equipment_entity }	
+			}
+		}
+		small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_cas/JAP_cas_03_A.dds"
+				}	
+				models = { CAS_equipment_entity }
+			}
+		}
+		small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_naval_bomber/JAP_naval_bomber_00.dds"
+				}			 
+			}	
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				 models = { fighter_equipment_0_entity }				 
+			}
+		}
+		small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_naval_bomber/JAP_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_naval_bomber/JAP_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_naval_bomber/JAP_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Japan small airframe end
+
+  #(# Japan cv airframe start
+		cv_small_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_00_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_01_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_02_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_02_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_cv_fighter_03_A.dds"
+				}
+				models = { JAP_light_plane_entity }
+			}
+		}
+		cv_small_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_fighter/JAP_jet_cv_fighter_01.dds"
+				}	
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_02.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/light_fighter/JAP_jet_fighter_01_A.dds"
+				}
+				models = { JAP_jet_plane_entity }		
+			}	
+		}
+		cv_small_plane_cas_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { JAP_CAS_equipment_entity }
+			}
+		}
+		cv_small_plane_cas_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_01_A.dds"
+				}
+				models = { JAP_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_02_A.dds"
+				}
+				models = { JAP_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_cas_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_03.dds"
+				}	
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_cas/JAP_cv_cas_03_A.dds"
+				}	
+				models = { JAP_CAS_equipment_entity }	
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_0 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_naval_bomber/JAP_cv_naval_bomber_00.dds"
+				}				
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+				models = { fighter_equipment_0_entity }				
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_1 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_naval_bomber/JAP_cv_naval_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}	
+		}
+		cv_small_plane_naval_bomber_airframe_2 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_naval_bomber/JAP_cv_naval_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+		cv_small_plane_naval_bomber_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/cv_naval_bomber/JAP_cv_naval_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = { 
+					#
+				}
+			}
+		}
+  #)# Japan cv airframe end
+
+  #(# Japan medium airframe start
+		medium_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_00_C.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_00_A.dds"
+				}
+				models = { JAP_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_01.dds"		
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_01_A.dds"
+				}
+				models = { JAP_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_02_A.dds"
+				}
+				models = { JAP_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_03_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_medium_bomber_03_A.dds"
+				}
+				models = { JAP_medium_plane_entity }
+			}
+		}
+		medium_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_jet_medium_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_jet_medium_bomber_02_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_jet_medium_bomber_01_A.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_bomber/JAP_jet_medium_bomber_02.dds"
+				}
+				models = { JAP_medium_plane_entity }
+			}
+		}
+		medium_plane_fighter_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_00_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_00_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_01_A.dds"
+				}
+			}	
+		}
+		medium_plane_fighter_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_02_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_02_A.dds"
+				}
+			}
+		}
+		medium_plane_fighter_airframe_3 = {
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_fighter/JAP_heavy_fighter_03_A.dds"
+				}
+			}
+		}
+		medium_plane_scout_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_scout_plane/JAP_scout_plane_00.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_scout_plane/JAP_scout_plane_01.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_scout_plane/JAP_scout_plane_02.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+		medium_plane_scout_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/medium_scout_plane/JAP_scout_plane_03.dds"
+				}
+			}
+			pool = {
+				weight = 4
+				icons = {
+					#
+				}
+			}	
+		}
+  #)# Japan medium airframe end
+
+  #(# Japan large airframe start
+		large_plane_airframe_0 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_00.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { JAP_heavy_plane_entity }
+			}
+		}		
+		large_plane_airframe_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_01_B.dds"
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_01_A.dds"
+				}
+				models = { JAP_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_02_A.dds"
+				}
+				models = { JAP_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_heavy_bomber_03_A.dds"
+				}
+				models = { JAP_heavy_plane_entity }
+			}
+		}
+		large_plane_airframe_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_jet_heavy_bomber_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_bomber/JAP_jet_heavy_bomber_01_A.dds"
+				}
+				models = { JAP_heavy_plane_entity }
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_0 = { 
+			pool = {
+				weight = 5
+				icons = {
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_maritime/JAP_maritime_patrol_00.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}
+			}
+		}
+		large_plane_maritime_patrol_plane_airframe_1 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_maritime/JAP_maritime_patrol_01.dds"
+				}
+				models = {
+					generic_flying_boat_JAP_heavy_plane_1_entity
+					generic_catalina_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_2 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_maritime/JAP_maritime_patrol_02.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}	
+		large_plane_maritime_patrol_plane_airframe_3 = { 
+			pool = {
+				weight = 5
+				icons = { 
+					"gfx/interface/equipmentdesigner/aircraft/designer/JAP/heavy_maritime/JAP_maritime_patrol_03.dds"
+				}
+				models = {
+					generic_catalina_plane_1_entity
+					generic_flying_boat_JAP_heavy_plane_1_entity
+				}				
+			}
+		}
+  #)# Japan large airframe end
+
+	}
+ #)# Japan end
+
+##)# Main Countries end
+
+##(# Together for Victory start (dlc018)
+	#
+##)# Together for Victory end
+
+##(# Polish Content Start (dlc002)
+	#
+##)# Polish Content end
+
+##(# Polish Content Start (dlc002)
+	#
+##)# Polish Content end
+
+##(# Polish Content Start (dlc002)
+	#
+##)# Polish Content end
+
+##(# Polish Content Start (dlc002)
+	#
+##)# Polish Content end

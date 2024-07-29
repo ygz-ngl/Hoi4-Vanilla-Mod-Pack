@@ -1,0 +1,46 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_cruiser.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_carrier_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_carrier.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_heavy_1_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_battleship_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_heavy_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_battleship.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_super_heavy_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_super_battleship.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_submarine_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_submarine.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_light_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_destroyer.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_1_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_destroyer_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_2_sov"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SOV/topview_destroyer_2.dds"
+   }
+}

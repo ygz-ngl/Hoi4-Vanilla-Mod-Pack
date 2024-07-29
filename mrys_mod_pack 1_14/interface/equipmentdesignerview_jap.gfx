@@ -1,0 +1,86 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_carrier_2_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_carrier_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_carrier_conversion_ca_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_carrier_ca.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_carrier_conversion_bb_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_carrier_bb.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_carrier_1_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_carrier_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_carrier_3_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_carrier_3.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_super_heavy_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_super_battleship.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_heavy_1_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_battleship_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_heavy_2_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_battleship_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_heavy_3_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_battleship_3.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_1_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_cruiser_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_2_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_cruiser_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_3_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_cruiser_3.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_torpedo_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_cruiser_torpedo.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_cruiser_coastal_defense.dds"
+   }
+   
+   spriteType = {
+      name = "GFX_SD_tv_submarine_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_submarine.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_light_1_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_destroyer_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_2_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_destroyer_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_3_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_destroyer_3.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_4_jap"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/JAP/topview_destroyer_4.dds"
+   }
+}

@@ -1,0 +1,123 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_MDR_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/UK_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/RAJ_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/RAJ_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_MDR_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/RAJ_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_MDR_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/RAJ_iwa.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MDR_artillery1_medium"
+	texturefile = "gfx/interface/technologies/RAJ_a2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_artillery4_medium"
+	texturefile = "gfx/interface/technologies/RAJ_a3.dds"
+	}	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_MDR_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/SWI_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_MDR_antitank2_medium"
+	texturefile = "gfx/interface/technologies/RAJ_at2.dds"
+	}		
+   
+    SpriteType = {
+	name = "GFX_MDR_antitank5_medium"
+	texturefile = "gfx/interface/technologies/RAJ_at3.dds"
+	}	
+
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_MDR_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/RAJ_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_antiair2_medium"
+	texturefile = "gfx/interface/technologies/RAJ_aa2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_MDR_antiair5_medium"
+	texturefile = "gfx/interface/technologies/RAJ_aa3.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_MDR_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/RAJ_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/RAJ_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/RAJ_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_MDR_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MDR_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MDR_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MDR_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/RAJ_tc2.dds"
+	}
+	
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_1_chi" 
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/CHI/topview_cruiser_1.dds"
+   }
+}

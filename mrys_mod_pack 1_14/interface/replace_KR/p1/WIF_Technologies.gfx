@@ -1,0 +1,123 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_WIF_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/UK_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/UK_2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/CAN_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_WIF_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/CAN_4.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_WIF_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/MAL_iwa.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_WIF_artillery1_medium"
+	texturefile = "gfx/interface/technologies/MAL_a2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_artillery4_medium"
+	texturefile = "gfx/interface/technologies/MAL_a3.dds"
+	}	
+	
+### Anti-tank ###
+
+	SpriteType = {
+	name = "GFX_WIF_interwar_antitank_medium"
+	texturefile = "gfx/interface/technologies/MAL_at1.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_WIF_antitank2_medium"
+	texturefile = "gfx/interface/technologies/MAL_at2.dds"
+	}		
+   
+    SpriteType = {
+	name = "GFX_WIF_antitank5_medium"
+	texturefile = "gfx/interface/technologies/MAL_at3.dds"
+	}	
+
+### Anti-air ###
+	
+	SpriteType = {
+	name = "GFX_WIF_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/MAL_aa1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_antiair2_medium"
+	texturefile = "gfx/interface/technologies/MAL_aa2.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_WIF_antiair5_medium"
+	texturefile = "gfx/interface/technologies/MAL_aa3.dds"
+	}	
+	
+### armoured cars ###
+
+	SpriteType = {
+	name = "GFX_WIF_armored_car1_medium"
+	texturefile = "gfx/interface/technologies/MAL_ac1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_armored_car2_medium"
+	texturefile = "gfx/interface/technologies/MAL_ac2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_armored_car3_medium"
+	texturefile = "gfx/interface/technologies/MAL_ac3.dds"
+	}
+	
+### troop_carriers ###
+
+    SpriteType = {
+	name = "GFX_WIF_motorized_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_motorised_infantry_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_motorised_equipment_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_WIF_mechanised_infantry3_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc4.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_WIF_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc3.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_WIF_mechanised_infantry_medium"
+	texturefile = "gfx/interface/technologies/MAL_tc2.dds"
+	}
+	
+}

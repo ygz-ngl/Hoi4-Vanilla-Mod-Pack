@@ -1,0 +1,49 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_BOL_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/BOL_0.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BOL_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/BOL_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BOL_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/BOL_3.dds"
+	}
+			
+	SpriteType = {
+	name = "GFX_BOL_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/BOL_4.dds"
+	}
+	
+    ### Arty ###
+
+	
+	SpriteType = {
+		name = "GFX_BOL_artillery1_medium"
+		texturefile = "gfx/interface/technologies/BOL_a2.dds"
+	}		
+	
+	
+	
+	
+	### troop_carriers ###
+
+	SpriteType = {
+		name = "GFX_BOL_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/BOL_tc0.dds"
+	}
+		SpriteType = {
+		name = "GFX_BOL_motorised_infantry_medium"
+		texturefile = "gfx/interface/technologies/BOL_tc0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_BOL_motorised_equipment_medium"
+		texturefile = "gfx/interface/technologies/BOL_tc0.dds"
+	}

@@ -1,0 +1,1127 @@
+################# Equipment Designer Window layouts: Light Ship Hulls (new format examples) #################
+
+guiTypes = {
+
+	################# Equipment Archetype: ship_hull_cruiser Admiral Hipper#################
+	containerWindowType = {
+      #name = "equipment_designer_ship_hull_cruiser_3_capital_GER"
+      name = "equipment_designer_ship_hull_cruiser_2_GER"
+		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
+		position = { x=0 y=0 }
+		size = { width=512 height=260 }
+
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+		iconType = {
+			name = "equipment_image"
+			spriteType = "GFX_SD_tv_cruiser_2_ger"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+			
+			################# MODULE SLOT: Anti-Air #################
+			containerWindowType = {
+				name = "fixed_ship_anti_air_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_anti_air_ger"
+						position = { x=173 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_anti_air_ger@highlight"
+						position = { x=173 y=0 }
+					}
+				}
+			}
+         
+         ################# MODULE SLOT: Secondaries #################
+			containerWindowType = {
+				name = "fixed_ship_secondaries_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_secondaries_ger"
+						position = { x=275 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_secondaries_ger@highlight"
+						position = { x=275 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_secondaries_ger"
+						position = { x=275 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_fixed_secondaries_ger@highlight"
+						position = { x=275 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Fire Control System #################
+			containerWindowType = {
+				name = "fixed_ship_fire_control_system_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_fire_control_system"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_fire_control"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_fire_control@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_sonar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_sonar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Radar/Sonar #################
+			containerWindowType = {
+				name = "fixed_ship_radar_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Radar ####
+				containerWindowType = {
+					name = "ship_radar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_radar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_radar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_radar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				#### MODULE: Sonar ####
+				containerWindowType = {
+					name = "ship_sonar"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_sonar"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sonar@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_sonar@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Engine #################
+			containerWindowType = {
+				name = "fixed_ship_engine_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "cruiser_ship_engine"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_engine"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "cruiser_ship_engine@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_engine@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Armor #################
+			containerWindowType = {
+				name = "fixed_ship_armor_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_armor_cruiser"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_cruiser_hull_armor"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armor_cruiser@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_armor@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+				containerWindowType = {
+                    name = "ship_cruiser_armor"
+                    position = { x=0 y=0 }
+                    size = { width=100% height=100% }
+                    
+                    iconType = {
+                        name = "blueprint"
+                        spriteType = "GFX_SM_cruiser_hull_armor"
+                        position = { x=0 y=0 }
+                    }
+                }
+
+                containerWindowType = {
+                    name = "ship_cruiser_armor@highlight"
+                    position = { x=0 y=0 }
+                    size = { width=100% height=100% }
+                    
+                    iconType = {
+                        name = "highlight"
+                        spriteType = "GFX_SM_cruiser_hull_armor@highlight"
+                        position = { x=0 y=0 }
+                    }
+                }
+			}
+
+         ################# MODULE SLOT: Fixed
+         ################# MODULE SLOT: Battery #################
+			containerWindowType = {
+				name = "fixed_ship_battery_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "ship_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_medium_battery_ger"
+						position = { x=95 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_medium_battery_ger@highlight"
+						position = { x=95 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_medium_battery_ger"
+						position = { x=96 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_medium_battery_ger@highlight"
+						position = { x=96 y=0 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ship_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_ger"
+						position = { x=105 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_ger@highlight"
+						position = { x=105 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "dp_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_dp_ger"
+						position = { x=109 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "dp_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_dp_ger@highlight"
+						position = { x=109 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom, Front #1 #################
+			containerWindowType = {
+				name = "front_1_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_anti_air_ger"
+						position = { x=130 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_anti_air_ger@highlight"
+						position = { x=130 y=0 }
+					}
+				}
+
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_fixed_medium_battery_ger"
+						position = { x=118 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_fixed_medium_battery_ger@highlight"
+						position = { x=118 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_medium_battery_ger"
+						position = { x=119 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_medium_battery_ger@highlight"
+						position = { x=119 y=0 }
+					}
+				}
+				
+				#### MODULE: Light Battery ####
+				containerWindowType = {
+					name = "ship_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_ger"
+						position = { x=130 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_ger@highlight"
+						position = { x=130 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "dp_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_dp_ger"
+						position = { x=133 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "dp_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_front_light_battery_dp_ger@highlight"
+						position = { x=133 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom, Middle #1 #################
+			containerWindowType = {
+				name = "mid_1_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Torpedo ####
+				containerWindowType = {
+					name = "ship_torpedo"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_mid1_torpedo_ger"
+						position = { x=248 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_torpedo@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_mid1_torpedo_ger@highlight"
+						position = { x=248 y=0 }
+					}
+				}
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_secondaries_ger"
+						position = { x=176 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_secondaries_ger@highlight"
+						position = { x=176 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_secondaries_ger"
+						position = { x=176 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_secondaries_ger@highlight"
+						position = { x=176 y=0 }
+					}
+				}
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_anti_air_ger"
+						position = { x=179 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_mid_1_anti_air_ger@highlight"
+						position = { x=179 y=0 }
+					}
+				}
+				
+				#### MODULE: Airplane Launcher ####
+				containerWindowType = {
+					name = "ship_airplane_launcher"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_ger"
+						position = { x=249 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_airplane_launcher@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_ger@highlight"
+						position = { x=249 y=0 }
+					}
+				}
+				
+				#### MODULE: Mine Layer ####
+				containerWindowType = {
+					name = "ship_mine_layer"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_mine_layer_ger"
+						position = { x=407 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_mine_layer@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_mine_layer_ger@highlight"
+						position = { x=407 y=0 }
+					}
+				}
+			}
+
+			################# MODULE SLOT: Custom, Rear #1 #################
+			containerWindowType = {
+				name = "rear_1_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Mine Layer ####
+				containerWindowType = {
+					name = "ship_mine_layer"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_mine_layer_ger"
+						position = { x=469 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_mine_layer@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_mine_layer_ger@highlight"
+						position = { x=469 y=0 }
+					}
+				}
+
+				#### MODULE: Depth Charge ####
+				containerWindowType = {
+					name = "ship_depth_charge"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_depth_charge_ger"
+						position = { x=475 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_depth_charge@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_depth_charge_ger@highlight"
+						position = { x=475 y=0 }
+					}
+				}
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_anti_air_ger"
+						position = { x=390 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_anti_air_ger@highlight"
+						position = { x=390 y=0 }
+					}
+				}
+				
+				#### MODULE: Airplane Launcher ####
+				containerWindowType = {
+					name = "ship_airplane_launcher"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_airplane_launcher_ger"
+						position = { x=439 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_airplane_launcher@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_airplane_launcher_ger@highlight"
+						position = { x=439 y=0 }
+					}
+				}
+
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery_ger"
+						position = { x=379 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_2_medium_battery_ger@highlight"
+						position = { x=379 y=0 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_medium_battery_ger"
+						position = { x=380 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_medium_battery_ger@highlight"
+						position = { x=380 y=0 }
+					}
+				}
+				
+				#### MODULE: Light Battery ####
+				containerWindowType = {
+					name = "ship_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_ger"
+						position = { x=390 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_ger@highlight"
+						position = { x=390 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "dp_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger"
+						position = { x=390 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "dp_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger@highlight"
+						position = { x=390 y=0 }
+					}
+				}
+			}
+
+         ################# MODULE SLOT: Custom, Middle #2 #################
+			containerWindowType = {
+				name = "mid_2_custom_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				#### MODULE: Torpedo ####
+				containerWindowType = {
+					name = "ship_torpedo"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_2_mid2_torpedo_ger"
+						position = { x=288 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_torpedo@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_2_mid2_torpedo_ger@highlight"
+						position = { x=288 y=0 }
+					}
+				}
+
+				#### MODULE: Secondaries ####
+				containerWindowType = {
+					name = "ship_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger@highlight"
+						position = { x=365 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_dp_secondaries"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_dp_secondaries@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger@highlight"
+						position = { x=365 y=0 }
+					}
+				}
+				
+				#### MODULE: Airplane Launcher ####
+				containerWindowType = {
+					name = "ship_airplane_launcher"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_ger"
+						position = { x=273 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_airplane_launcher@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_mid_1_airplane_launcher_ger@highlight"
+						position = { x=273 y=0 }
+					}
+				}
+
+				#### MODULE: Anti-Air ####
+				containerWindowType = {
+					name = "ship_anti_air"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_anti_air_ger"
+						position = { x=366 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_anti_air@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_anti_air_ger@highlight"
+						position = { x=366 y=0 }
+					}
+				}
+
+				#### MODULE: Mine Layer ####
+				containerWindowType = {
+					name = "ship_mine_layer"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_mid_2_mine_layer_ger"
+						position = { x=431 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_mine_layer@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_mid_2_mine_layer_ger@highlight"
+						position = { x=431 y=0 }
+					}
+				}
+
+            #### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery_ger"
+						position = { x=354 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_1_medium_battery_ger@highlight"
+						position = { x=354 y=0 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_medium_battery_ger"
+						position = { x=356 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_medium_battery_ger@highlight"
+						position = { x=356 y=0 }
+					}
+				}
+
+				#### MODULE: Light Battery ####
+				containerWindowType = {
+					name = "ship_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_ger"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_ger@highlight"
+						position = { x=365 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "dp_light_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger"
+						position = { x=365 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "dp_light_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_cruiser_hull_rear_light_battery_dp_ger@highlight"
+						position = { x=365 y=0 }
+					}
+				}
+			}
+		}
+	}
+}

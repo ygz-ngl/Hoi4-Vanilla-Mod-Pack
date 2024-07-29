@@ -1,0 +1,61 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CZ_infantry_equipment_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_CZE_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/CZ_infantry_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CZE_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CZ_infantry_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_CZE_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/CZ_infantry_equipment_3.dds"
+	}
+	
+### Arty ###
+
+	SpriteType = {
+	name = "GFX_CZE_gw_artillery_medium"
+	texturefile = "gfx/interface/technologies/CZE_iwa.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_CZE_artillery1_medium"
+	texturefile = "gfx/interface/technologies/CZE_a2.dds"
+	}	
+	
+	SpriteType = {
+	name = "GFX_CZE_artillery4_medium"
+	texturefile = "gfx/interface/technologies/CZE_a3.dds"
+	}
+
+### Anti-air ###
+
+	SpriteType = {
+	name = "GFX_CZE_interwar_antiair_medium"
+	texturefile = "gfx/interface/technologies/CZE_aa1.dds"
+	}
+	
+### troop_carriers ###
+
+	SpriteType = {
+	name = "GFX_CZE_mechanised_infantry2_medium"
+	texturefile = "gfx/interface/technologies/CZE_tc3.dds"
+	}
+	
+	
+	
+	
+	
+	
+}
+	

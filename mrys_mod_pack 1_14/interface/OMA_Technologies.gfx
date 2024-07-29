@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+	name = "GFX_OMA_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/UK_1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_OMA_infantry_weapons1_medium"
+	texturefile = "gfx/interface/technologies/UK_2.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_OMA_improved_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/OMA_3.dds"
+	}
+		
+	SpriteType = {
+	name = "GFX_OMA_advanced_infantry_weapons_medium"
+	texturefile = "gfx/interface/technologies/OMA_4.dds"
+	}
+	
+}

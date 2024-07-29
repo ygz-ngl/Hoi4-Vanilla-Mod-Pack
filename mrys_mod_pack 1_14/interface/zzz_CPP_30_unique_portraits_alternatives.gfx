@@ -1,0 +1,422 @@
+spriteTypes = {
+
+	### Template ###
+
+	spriteType = {
+		name = "GFX_portrait_tag_john_doe"
+		texturefile = "gfx/leaders/TAG/Portrait_Tagged_Country_John_Doe.dds"
+	}
+	
+
+	### ARG ###
+
+	spriteType = {
+		name = "GFX_portrait_Agustin_Pedro_Justo"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Fanny_Edelman"
+		texturefile = "gfx/leaders/ARG/Portrait_Argentina_Fanny_Jacovkis_CirclePete.dds"
+	}
+
+
+	### AST ###
+
+	spriteType = {
+		name = "GFX_AST_earle_page"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Earle_Page_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_thomas_blamey"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Thomas_Blamey_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_victor_crutchley"
+		texturefile = "gfx/leaders/AST/Portrait_Australia_Victor_Crutchley_CirclePete.dds"
+	}
+
+
+	### BUL ###
+
+	spriteType = {
+		name = "GFX_portrait_bul_bogdan_filov"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Bodgan_Filov_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BUL_boris_iii"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Boris_III_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bul_nikola_mihov"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulgaria_Nikola_Mihov_RoadTo56.dds"
+	}
+
+
+	### CAN ###
+
+	spriteType = {
+		name = "GFX_portrait_CAN_mackenzie_king"
+#		texturefile = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King_MikMogus.dds"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Mackenzie_King_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CAN_adrien_arcand"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Adrien_Arcand_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_tim_buck"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Tim_Buck_CirclePete.dds"
+#		texturefile = "gfx/leaders/CAN/Portrait_Canada_Tim_Buck_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CAN_charles_foulkes"
+		texturefile = "gfx/leaders/CAN/Portrait_Canada_Charles_Foulkes_CirclePete.dds"
+	}
+
+
+	### EGY ###
+
+#	spriteType = {
+#		name = "GFX_portrait_egy_faud_i"
+#		texturefile = "gfx/leaders/EGY/Portrait_Egypt_Farouk_Muhammad_Ali_CirclePete.dds"
+#	}
+
+
+	### ENG ###
+
+	spriteType = {
+		name = "GFX_portrait_Edward_VIII"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Edward_VIII_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Winston_Churchill"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_winston_churchill"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Winston_Churchill_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Neville_Chamberlain"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_neville_chamberlain"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_stanley_baldwin"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin_PoorBananaMan27.dds"
+	}
+
+
+	### ETH ###
+
+#	spriteType = {
+#		name = "GFX_portrait_ETH_haile_selassie"
+#		texturefile = "gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie_Gugsa_FacundoSim.dds"
+#	}
+
+
+	### FIN ###
+
+	spriteType = {
+		name = "GFX_portrait_FIN_carl_mannerheim"
+		texturefile = "gfx/leaders/FIN/Portrait_Finland_Carl_Gustaf_Emil_Mannerheim_HermanLindqvist.dds"
+	}
+
+
+	### FRA ###
+
+	spriteType = {
+		name = "GFX_portrait_fra_pierre_laval"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Pierre_Laval_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_jacques_doriot"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Jacques_Doriot_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_edouard_daladier"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Edouard_Daladier_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_leon_blum"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Leon_Blum_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_rene_nicod"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Rene_Nicod_FluffyFishCreations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_maurice_gamelin"
+		texturefile = "gfx/leaders/FRA/Portrait_France_Maurice_Gamelin_CirclePete.dds"
+	}
+
+
+	### GER ###
+
+	spriteType = {
+		name = "GFX_portrait_GER_adolf_hitler"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Adolf_Hitler_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_erwin_rommel"
+		texturefile = "gfx/leaders/GER/Portrait_Germany_Erwin_Rommel_HermanLindqvist.dds"
+	}
+
+
+	### GRE ###
+
+	spriteType = {
+		name = "GFX_portrait_gre_markos_drakos"
+		texturefile = "gfx/leaders/GRE/Portrait_Greece_Markos_Drakos_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Ioannis_Metaxas"
+		texturefile = "gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas_TheBloshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_ioannis_metaxas"
+		texturefile = "gfx/leaders/GRE/Portrait_Greece_Ioannis_Metaxas_TheBloshevikJew.dds"
+	}
+
+
+	### GXC ###
+
+	spriteType = {
+		name = "GFX_portrait_GXC_li_zongren"														# civil (portraits-civilian-large)
+		texturefile = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren_CaptChetson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_li_zongren"															# military (portraits-army-large)
+		texturefile = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren_CaptChetson.dds"
+	}
+
+
+	### HUN ###
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_miklos_horthy"
+		texturefile = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy_RoadTo56.dds"
+#		texturefile = "gfx/leaders/HUN/Portrait_Hungary_Miklos_Horthy_MikMogus.dds"
+	}
+
+
+	### IRE ###
+
+	spriteType = {
+		name = "GFX_portrait_Eamon_de_Valera"
+		texturefile = "gfx/leaders/IRE/Portrait_Ireland_Eamon_De_Varela_RoadTo56.dds"
+	}
+
+
+	### ITA ###
+
+	spriteType = {
+		name = "GFX_portrait_ITA_inigo_campioni"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Inigo_Campioni_Josk8C.dds"
+	}
+
+
+	### MEX ###
+
+	spriteType = {
+		name = "GFX_portrait_MEX_lazaro_cardenas"
+		texturefile = "gfx/leaders/MEX/Portrait_Mexico_Lazaro_Cardenas_civil_RoadTo56.dds"
+	}
+
+
+	### NZL ###
+
+	spriteType = {
+		name = "GFX_NZL_john_ormond"
+		texturefile = "gfx/leaders/NZL/Portrait_New_Zealand_John_Ormond_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NZL_peter_fraser"
+		texturefile = "gfx/leaders/NZL/Portrait_New_Zealand_Peter_Fraser_RoadTo56.dds"
+	}
+
+
+	### POL ###
+
+	spriteType = {
+		name = "GFX_portrait_POL_ignacy_moscicki"
+		texturefile = "gfx/leaders/POL/Portrait_Poland_Ignacy_Moscicki_TheBolshevikJew.dds"
+	}
+
+
+	### RAJ ###
+
+	spriteType = {
+		name = "GFX_RAJ_kodandera_madappa_cariappa"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Kodandera_Madappa_Cariappa_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RAJ_jayanto_nath_chaudhuri"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_J_N_Chaudhuri_FacundoSim.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RAJ_subhas_chandra_bose"
+		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Subhas_Chandra_Bose_RoadTo56.dds"
+	}
+
+
+	### ROM ###
+
+	spriteType = {
+		name = "GFX_Portrait_romania_constantin_sanatescu"
+		texturefile ="gfx/leaders/ROM/Portrait_Romania_Constantin_Sanatescu_CirclePete.dds"
+	}
+
+
+	### SAF ###
+
+	spriteType = {
+		name = "GFX_SAF_james_hertzog"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_James_Hertzog_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAF_daniel_malan"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_Daniel_Francois_Malan_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAF_george_edwin_brink"
+		texturefile = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink_RoadTo56.dds"
+	}
+
+
+	### SHX ###
+
+	spriteType = {
+		name = "GFX_portrait_yan_xishan"														# both civil and military (portraits-civilian/army-large)
+		texturefile = "gfx/leaders/SHX/Portrait_Shanxi_Yan_Xishan_CptChetson.dds"
+	}
+
+
+	### SIK ###
+
+	spriteType = {
+		name = "GFX_portrait_SIK_sheng_shicai"													# civil (portraits-civilian-large)
+		texturefile = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai_MikMogus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_sheng_shicai"														# military (portraits-army-large)
+		texturefile = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai_MikMogus.dds"
+	}
+
+
+	### SOV ###
+
+	spriteType = {
+		name = "GFX_portrait_SOV_iosif_stalin"
+		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin_PoorBananaMan27.dds"
+#		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_lev_trotsky"
+		texturefile = "gfx/leaders/SOV/Portrait_Soviet_Leon_Trotsky_TheBolshevikJew.dds"
+	}
+
+
+	### SPA ###
+
+	spriteType = {
+		name = "GFX_portrait_spain_francisco_franco"
+		texturefile = "gfx/leaders/SPA/Portrait_Spain_Francisco_Franco_RoadTo56.dds"
+	}
+
+
+	### SWE ###
+
+	spriteType = {
+		name = "GFX_portrait_SWE_per_albin_hansson"
+		texturefile = "gfx/leaders/SWE/Portrait_Sweden_Per_Albin_Hansson_CirclePete.dds"
+	}
+
+
+	### TUR ###
+
+	spriteType = {
+		name = "GFX_portrait_TUR_mustafa_kemal_ataturk"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk_civil_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_sefik_husnu"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Sefik_Husnu_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_ismet_inonu"
+		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu_PoorBananaMan27.dds"
+#		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu_[CirclePete].dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_tur_salih_omurtak"																	# this is the portrait for the instance of Salih Omurtak with Battle for Bosporus
+#		texturefile = "gfx/leaders/TUR/Portrait_Turkey_Salih_Omurtak_CirclePete.dds"
+#	}
+
+
+	### USA ###
+
+	spriteType = {
+		name = "GFX_portrait_USA_franklin_delano_roosevelt"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_William_Dudley_Pelley"
+		texturefile = "gfx/leaders/USA/Portrait_USA_William_Pelley_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_william_dudley_pelley"
+		texturefile = "gfx/leaders/USA/Portrait_USA_William_Pelley_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Douglas_MacArthur"											# civil (create_country_leader-picture)
+		texturefile = "gfx/leaders/USA/Portrait_USA_Douglas_Mac_Arthur_civil_RoadTo56.dds"
+	}
+	
+	
+	### YUG ###
+
+	spriteType = {
+		name ="GFX_portrait_yugoslavia_peter_ii_old"
+		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Peter_II_CirclePete.dds"
+	}
+
+}
