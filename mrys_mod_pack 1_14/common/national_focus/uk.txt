@@ -22,10 +22,10 @@ focus_tree = {
 	focus = {
 		id = crypto_bomb_focus
 		available = {
-				#has_war_with = GER
-				#POL = {
-				#	NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
-				#}
+				has_war_with = GER
+				POL = {
+					NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
+				}
 			}
 		
 		bypass = {
@@ -79,26 +79,26 @@ focus_tree = {
 	focus = {
 		id = tizard_mission_focus
 		available = {				
-		#	has_government = democratic
-		#	any_other_country = {
-		#		has_war_with = ROOT
-		#		NOT = { has_government = democratic }
-		#		num_of_factories > 30
-		#	}
+			has_government = democratic
+			any_other_country = {
+				has_war_with = ROOT
+				NOT = { has_government = democratic }
+				num_of_factories > 30
+			}
 			NOt = {
 				has_war_with = USA
 			}
-		#	USA = { 
-		#		has_government = ROOT
-		#		has_war = no
-		#		NOT = {
-		#			OR = {
-		#				has_idea = undisturbed_isolation
-		#				has_idea = isolation
-		#			}
-		#		}
-		#	}
-		#	
+			USA = { 
+				has_government = ROOT
+				has_war = no
+				NOT = {
+					OR = {
+						has_idea = undisturbed_isolation
+						has_idea = isolation
+					}
+				}
+			}
+			
 		} 
 		prerequisite = { focus = crypto_bomb_focus }
 		prerequisite = { focus = radar_focus }
@@ -119,7 +119,7 @@ focus_tree = {
 	}
 	focus = {
 		id = maud_focus
-		#available = { is_in_faction_with = USA }
+		available = { is_in_faction_with = USA }
 		prerequisite = { focus = tizard_mission_focus }
 		icon = GFX_focus_wonderweapons
 		x = 0
@@ -1499,8 +1499,8 @@ focus_tree = {
 		prerequisite = { focus = naval_rearmament_focus }
 		prerequisite = { focus = uk_service_focus }
 		icon = GFX_focus_generic_cruiser2
-		x = 4
-		y = 1
+		x = 3
+		y = 2
 		offset = {
 			x = -1
 			y = 0
@@ -2599,6 +2599,14 @@ focus_tree = {
 				}
 			}
 		}
+
+		# available = { 
+		#	is_subject = no
+		#	OR = {
+		#		has_government = democratic
+		#		has_government = communism
+		#	}
+		# }
 
 		available = { # new effect 
 		always = no
@@ -5598,6 +5606,7 @@ focus_tree = {
 	focus = {
 		id = uk_commonwealth_focus 
 		prerequisite = { focus = uk_colonial_focus }
+
 		available = {
 			OR = {
 				any_country = {
@@ -5617,11 +5626,16 @@ focus_tree = {
 					is_in_faction_with = ROOT
 				}
 				any_country = {
-					original_tag = NZL
+					original_tag = CAN
+					is_in_faction_with = ROOT
+				}
+				any_country = {
+					original_tag = MAL
 					is_in_faction_with = ROOT
 				}
 			}
 		}
+
 		bypass = {
 			CAN = {
 				exists = no
@@ -5638,6 +5652,9 @@ focus_tree = {
 			NZL = {
 				exists = no
 			}
+			MAL = {
+				exists = no
+			}
 			NOT = {
 				any_state = {
 					OR = {
@@ -5647,6 +5664,7 @@ focus_tree = {
 						is_core_of = AST
 						is_core_of = NZL
 						is_core_of = RAJ
+						is_core_of = MAL
 					}
 					NOT = { state = 320 }
 					NOT = { state = 321 }
@@ -5656,11 +5674,14 @@ focus_tree = {
 				}
 			}
 		}
+
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+
 		x = 4
 		y = 1
 		relative_position_id = uk_colonial_focus
-		cost = 5 # was 10
+
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -5668,36 +5689,55 @@ focus_tree = {
 			random_country = {
 				limit = {
 					original_tag = CAN
+					exists = yes
 					is_in_faction_with = ROOT
 				}
+				add_political_power = 50
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 			random_country = {
 				limit = {
 					original_tag = AST
+					exists = yes
 					is_in_faction_with = ROOT
 				}
+				add_political_power = 50
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 			random_country = {
 				limit = {
 					original_tag = RAJ
+					exists = yes
 					is_in_faction_with = ROOT
 				}
+				add_political_power = 50
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 			random_country = {
 				limit = {
 					original_tag = NZL
+					exists = yes
 					is_in_faction_with = ROOT
 				}
+				add_political_power = 50
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 			random_country = {
 				limit = {
 					original_tag = SAF
+					exists = yes
 					is_in_faction_with = ROOT
 				}
+				add_political_power = 50
+				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
+			}
+			random_country = {
+				limit = {
+					original_tag = MAL
+					exists = yes
+					is_in_faction_with = ROOT
+				}
+				add_political_power = 50
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 		}
@@ -5906,7 +5946,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = uk_india_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 
@@ -7628,8 +7668,8 @@ focus_tree = {
 						OR = {
 							is_controlled_by = ROOT
 							AND = {
-								is_controlled_by = MAL
-								MAL = { is_in_faction_with = ROOT }
+								is_controlled_by = MLT
+								MLT = { is_in_faction_with = ROOT }
 							}
 						}
 					}
@@ -8149,6 +8189,7 @@ focus_tree = {
 					rule = obsolete_focus_branches_visibility
 					option = HIDE
 				}
+				has_dlc = "Man the Guns"
 				has_completed_focus = ENG_home_defence
 			}
 		}
@@ -9738,10 +9779,7 @@ focus_tree = {
 					country_event = { id = mtg_britain.40 hours = 6 }
 				}
 			}
-			if = {
-				limit = {
-					NOT = { has_dlc = "La Resistance" }
-				}
+			ELSE = {
 				SPA = {
 					country_event = { id = mtg_britain.40 hours = 6 }
 				}
@@ -10694,7 +10732,6 @@ focus_tree = {
 				NOT = { has_country_flag = edward_viii_refused_to_abdicate_flag }
 			}
 		}
-		
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 5
 		y = 1

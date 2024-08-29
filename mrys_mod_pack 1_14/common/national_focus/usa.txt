@@ -1344,7 +1344,20 @@ focus_tree = {
 		available = {
 			congress_medium_support_trigger = yes
 			has_government = democratic
-			not = { has_country_flag = USA_great_depression_cooldown }
+			not = { has_country_flag = USA_great_depression_cooldown } # effect disabled
+            #
+			# has_country_flag = { # new effect WIP
+			#	flag = USA_great_depression_cooldown
+			#	days > 230
+			# }
+            #
+			# custom_trigger_tooltip = { # new effect WIP
+			#	tooltip = USA_agricultural_adjustment_act_tt
+			#	has_country_flag = {
+			#		flag = USA_great_depression_cooldown
+			#		days > 230
+			#	}
+			# }
 		}
 		
 		bypass = {
@@ -1384,7 +1397,20 @@ focus_tree = {
 		available = {
 			congress_medium_support_trigger = yes
 			has_government = democratic
-			not = { has_country_flag = USA_great_depression_cooldown }
+			not = { has_country_flag = USA_great_depression_cooldown } # effect disabled
+            #
+			# has_country_flag = { # new effect WIP
+			#	flag = USA_great_depression_cooldown
+			#	days > 230
+			# }
+			#
+			# custom_trigger_tooltip = { # new effect WIP
+			#	tooltip = USA_agricultural_adjustment_act_tt
+			#	has_country_flag = {
+			#		flag = USA_great_depression_cooldown
+			#		days > 230
+			#	}
+			# }
 		}
 		
 		bypass = {
