@@ -1,0 +1,204 @@
+# Portraits for tags AST, CAN, NZL, RAJ, SAF, PAK
+
+SpriteTypes = {
+
+	### AST ###
+
+	spriteType = {
+		name = "GFX_AST_earle_page"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_Earle_Page_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_thomas_blamey"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_Thomas_Blamey_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_thomas_blamey_small"
+		texturefile = "gfx/interface/ideas/AST/CPP_idea_AST_Thomas_Blamey_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_victor_crutchley"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_Victor_Crutchley_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_victor_crutchley_small"
+		texturefile = "gfx/interface/ideas/AST/CPP_idea_AST_Victor_Crutchley_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_alan_vasey"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_Alan_Vasey_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_henry_wynter"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_Henry_Wynter_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_john_northcott"
+		texturefile = "gfx/leaders/AST/CPP_Portrait_Australia_John_Northcott_CirclePete.dds"
+	}
+	
+
+	### CAN ###
+
+	spriteType = {
+		name = "GFX_portrait_CAN_mackenzie_king"
+#		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Mackenzie_King_MikMogus.dds"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Mackenzie_King_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CAN_adrien_arcand"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Adrien_Arcand_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_tim_buck"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Tim_Buck_CirclePete.dds"
+#		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Tim_Buck_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CAN_charles_foulkes"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Charles_Foulkes_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CAN_charles_foulkes_small"
+		texturefile = "gfx/interface/ideas/CAN/CPP_idea_CAN_Charles_Foulkes_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_j_s_woodsworth"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_JS_Woodsworth_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_thomas_victor_anderson"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Thomas_Victor_Anderson_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CAN_thomas_victor_anderson_small"
+		texturefile = "gfx/interface/ideas/CAN/CPP_idea_CAN_Anderson_Thomas_Victor_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAN_percival_john_montague"
+		texturefile = "gfx/leaders/CAN/CPP_Portrait_Canada_Percival_John_Montague_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CAN_percival_john_montague_small"
+		texturefile = "gfx/interface/ideas/CAN/CPP_idea_CAN_Percival_John_Montague_CirclePete.dds"
+	}
+	
+	
+	### NZL ###
+
+	spriteType = {
+		name = "GFX_NZL_john_ormond"
+		texturefile = "gfx/leaders/NZL/CPP_Portrait_New_Zealand_John_Ormond_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NZL_peter_fraser"
+		texturefile = "gfx/leaders/NZL/CPP_Portrait_New_Zealand_Peter_Fraser_RoadTo56.dds"
+	}
+	
+
+	### RAJ ###
+
+	spriteType = {
+		name = "GFX_RAJ_kodandera_madappa_cariappa"
+		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_Kodandera_Madappa_Cariappa_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_kodandera_madappa_cariappa_small"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Kodandera_Madappa_Cariappa_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_kodandera_cariappa"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Kodandera_Madappa_Cariappa_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RAJ_jayanto_nath_chaudhuri"
+#		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_J_N_Chaudhuri_FacundoSim.dds"
+		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_Jayanto_Nath_Chaudhuri_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_jayanto_nath_chaudhuri_small"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Jayanto_Nath_Chaudhuri_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RAJ_subhas_chandra_bose"
+		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_Subhas_Chandra_Bose_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_subhas_chanda_bose"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Subhas_Chandra_Bose_RoadTo56.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_RAJ_kodendera_subayya_thimayya"
+		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_Kokandera_Subayya_Thimayya_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_kodandera_subayya_thimayya_small"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Kokandera_Subayya_Thimayya_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_RAJ_lakshmi_sahgal"
+		texturefile = "gfx/leaders/RAJ/CPP_Portrait_India_Lakshmi_Sahgal_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RAJ_lakshmi_sahgal_small"
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Lakshmi_Sahgal_RoadTo56.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RAJ_archibald_wavell"																#  also a character for UK
+		texturefile = "gfx/interface/ideas/RAJ/CPP_idea_RAJ_Archibald_Wavell_CirclePete.dds"
+	}
+	
+	# Louis Mountbatten (GFX_idea_RAJ_louis_mountbatten) -> see 一CPP_000_Majors.gfx: ### ENG ###
+	
+
+	### SAF ###
+
+	spriteType = {
+		name = "GFX_SAF_james_hertzog"
+		texturefile = "gfx/leaders/SAF/CPP_Portrait_South_Africa_James_Hertzog_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAF_daniel_malan"
+		texturefile = "gfx/leaders/SAF/CPP_Portrait_South_Africa_Daniel_Francois_Malan_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SAF_d_f_malan_small"
+		texturefile = "gfx/interface/ideas/SAF/CPP_idea_SAF_Daniel_Francois_Malan_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SAF_george_edwin_brink"
+		texturefile = "gfx/leaders/SAF/CPP_Portrait_South_Africa_George_Edwin_Brink_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SAF_george_edwin_brink_small"
+		texturefile = "gfx/interface/ideas/SAF/CPP_idea_SAF_George_Edwin_Brink_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SAF_pixley_ka_isaka_seme"
+		texturefile = "gfx/leaders/SAF/CPP_Portrait_South_Africa_Pixley_Ka_Isaka_Seme_CirclePete.dds"
+	}
+	
+
+	### PAK ###
+
+}

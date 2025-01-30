@@ -1,0 +1,62 @@
+##(# Other
+ #(# SPR Start
+  #(# light
+   #(# tank
+    animation = { # "SPR_light_tank_pz1breda_attack_animation"
+        name = "SPR_light_tank_pz1breda_attack_animation"
+        file = "SPR_light_tank_pz1breda_attack.anim"
+    }
+    animation = { # "SPR_light_tank_pz1breda_idle_animation"
+        name = "SPR_light_tank_pz1breda_idle_animation"
+        file = "SPR_light_tank_pz1breda_idle.anim"
+    }
+    animation = { # "SPR_light_tank_pz1breda_moving_animation"
+        name = "SPR_light_tank_pz1breda_moving_animation"
+        file = "SPR_light_tank_pz1breda_moving.anim"
+    }
+    animation = { # "SPR_light_tank_verdeja_attack_animation"
+        name = "SPR_light_tank_verdeja_attack_animation"
+        file = "SPR_light_tank_verdeja_attack.anim"
+    }
+    animation = { # "SPR_light_tank_verdeja_idle_animation"
+        name = "SPR_light_tank_verdeja_idle_animation"
+        file = "SPR_light_tank_verdeja_idle.anim"
+    }
+    animation = { # "SPR_light_tank_verdeja_moving_animation"
+        name = "SPR_light_tank_verdeja_moving_animation"
+        file = "SPR_light_tank_verdeja_moving.anim"
+    }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# SPR End
+##)# Other End

@@ -1,0 +1,352 @@
+SpriteTypes = {
+
+ #(Nationalist China#
+
+  #(ROC artillery#
+  
+    #(ROC howitzer#
+        SpriteType = {
+            name = "GFX_CHI_gw_artillery_medium"
+            texturefile = "gfx/interface/technologies/chi_artillery_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_CHI_artillery1_medium"
+            texturefile = "gfx/interface/technologies/chi_artillery_2.dds"
+        }
+	
+        SpriteType = {
+            name = "GFX_CHI_artillery4_medium"
+            texturefile = "gfx/interface/technologies/chi_artillery_3.dds"
+        }
+	#)#
+
+    #(ROC AA#
+        SpriteType = {
+            name = "GFX_CHI_interwar_antiair_medium"
+            texturefile = "gfx/interface/technologies/CHI_AA_1.dds"
+        }
+	#)#	
+
+    #(ROC AT#
+        SpriteType = {
+            name = "GFX_CHI_interwar_antitank_medium"
+            texturefile = "gfx/interface/technologies/CHI_AT_1.dds"
+        }
+	#)#	
+
+    #(ROC rocket artillery#
+        SpriteType = {
+            name = "GFX_CHI_rocket_artillery4_medium"
+            texturefile = "gfx/interface/technologies/CHI_Rocket_Art_2.dds"
+        }
+		
+	#)#	
+		
+  #)#
+  
+ #)#
+
+ #(Communist China#
+
+  #(PRC infantry#
+  #)#
+
+  #(PRC artillery#
+  
+    #(PRC howitzer#
+        SpriteType = {
+            name = "GFX_PRC_gw_artillery_medium"
+            texturefile = "gfx/interface/technologies/prc_artillery_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_artillery1_medium"
+            texturefile = "gfx/interface/technologies/prc_artillery_2.dds"
+        }
+	
+        SpriteType = {
+            name = "GFX_PRC_artillery4_medium"
+            texturefile = "gfx/interface/technologies/prc_artillery_3.dds"
+        }
+	#)#	
+
+    #(PRC AA#
+        SpriteType = {
+            name = "GFX_PRC_interwar_antiair_medium"
+            texturefile = "gfx/interface/technologies/PRC_AA_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_antiair2_medium"
+            texturefile = "gfx/interface/technologies/PRC_AA_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_antiair5_medium"
+            texturefile = "gfx/interface/technologies/PRC_AA_3.dds"
+        }
+	#)#	
+
+    #(PRC AT#
+        SpriteType = {
+            name = "GFX_PRC_interwar_antitank_medium"
+            texturefile = "gfx/interface/technologies/AT_1_comintern.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_antitank2_medium"
+            texturefile = "gfx/interface/technologies/PRC_AT_2.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_antitank5_medium"
+            texturefile = "gfx/interface/technologies/PRC_AT_3.dds"
+        }
+	#)#	
+
+    #(PRC rocket artillery#
+        SpriteType = {
+            name = "GFX_PRC_rocket_artillery_medium"
+            texturefile = "gfx/interface/technologies/PRC_Rocket_Art_1.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_PRC_rocket_artillery4_medium"
+            texturefile = "gfx/interface/technologies/PRC_Rocket_Art_2.dds"
+        }
+	#)#
+	
+  #)#
+
+  #(PRC missile#
+  
+    #(PRC missile#	
+	SpriteType = {
+		name = "GFX_PRC_guided_missile_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/prc_guided_missile_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_PRC_guided_missile_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/prc_guided_missile_3.dds"
+	}
+	#)#
+	
+  #)# 
+  
+ #)#
+
+ #(Jin Clique#
+
+  #(Jin Clique navy#
+  
+	#(Jin Clique destroyer#
+	    SpriteType = {
+		    name = "GFX_SHX_early_destroyer_medium"
+		    texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+	    }	
+	    SpriteType = {	
+	    	name = "GFX_SHX_early_ship_hull_light_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+    	}
+	#)#	    
+			
+	#(Jin Clique light cruiser#
+	    SpriteType = {
+	    	name = "GFX_SHX_early_light_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+     	SpriteType = {	
+	    	name = "GFX_SHX_early_ship_hull_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }
+	    SpriteType = {
+	     	name = "GFX_SHX_ship_hull_cruiser_1_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+	#)#	    
+			
+	#(Jin Clique heavy cruiser#	
+		SpriteType = {
+	    	name = "GFX_SHX_ship_hull_cruiser_coastal_defense_ship_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_cruiser_coastal_defense_ship.dds"
+	    }
+	#)#	    
+
+  #)#  
+ 
+ #)#
+
+ #(Gui Clique#
+
+  #(Gui Clique infantry#
+
+  #)#
+
+  #(Gui Clique artillery#
+
+	
+  #)#
+
+  #(Gui Clique navy#
+  
+	#(Gui Clique destroyer#
+	    SpriteType = {
+		    name = "GFX_GXC_early_destroyer_medium"
+		    texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+	    }	
+	    SpriteType = {	
+	    	name = "GFX_GXC_early_ship_hull_light_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+    	}
+	#)#	    
+			
+	#(Gui Clique light cruiser#
+	    SpriteType = {
+	    	name = "GFX_GXC_early_light_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+     	SpriteType = {	
+	    	name = "GFX_GXC_early_ship_hull_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }
+	    SpriteType = {
+	     	name = "GFX_GXC_ship_hull_cruiser_1_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+	#)#	    
+			
+	#(Gui Clique heavy cruiser#	
+		SpriteType = {
+	    	name = "GFX_GXC_ship_hull_cruiser_coastal_defense_ship_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_cruiser_coastal_defense_ship.dds"
+	    }
+	#)#	    
+
+  #)#
+   
+ #)# 
+
+ #(Dian Clique#
+
+  #(Dian Clique navy#
+  
+	#(Dian Clique destroyer#
+	    SpriteType = {
+		    name = "GFX_YUN_early_destroyer_medium"
+		    texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+	    }	
+	    SpriteType = {	
+	    	name = "GFX_YUN_early_ship_hull_light_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+    	}
+	#)#	    
+			
+	#(Dian Clique light cruiser#
+	    SpriteType = {
+	    	name = "GFX_YUN_early_light_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+     	SpriteType = {	
+	    	name = "GFX_YUN_early_ship_hull_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }
+	    SpriteType = {
+	     	name = "GFX_YUN_ship_hull_cruiser_1_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+	#)#	    
+			
+	#(Dian Clique heavy cruiser#	
+		SpriteType = {
+	    	name = "GFX_YUN_ship_hull_cruiser_coastal_defense_ship_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_cruiser_coastal_defense_ship.dds"
+	    }
+	#)#	    
+
+  #)#
+   
+ #)#
+
+ #(Xibei San Ma#
+  #(Xibei San Ma navy#
+  
+	#(Xibei San Ma destroyer#
+	    SpriteType = {
+		    name = "GFX_XSM_early_destroyer_medium"
+		    texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+	    }	
+	    SpriteType = {	
+	    	name = "GFX_XSM_early_ship_hull_light_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_destroyer1.dds"
+    	}
+	#)#	    
+			
+	#(Xibei San Ma light cruiser#
+	    SpriteType = {
+	    	name = "GFX_XSM_early_light_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+     	SpriteType = {	
+	    	name = "GFX_XSM_early_ship_hull_cruiser_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }
+	    SpriteType = {
+	     	name = "GFX_XSM_ship_hull_cruiser_1_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_light_cruiser1.dds"
+	    }	
+	#)#	    
+			
+	#(Xibei San Ma heavy cruiser#	
+		SpriteType = {
+	    	name = "GFX_XSM_ship_hull_cruiser_coastal_defense_ship_medium"
+	    	texturefile = "gfx/interface/technologies/CHI_cruiser_coastal_defense_ship.dds"
+	    }
+	#)#	    
+
+  #)#
+    
+ #)#
+
+ #(Sinkiang#
+  #(Sinkiang navy#
+  
+    #(Sinkiang submarines#
+		SpriteType = {
+			name = "GFX_SIK_basic_submarine_medium"
+			texturefile = "gfx/interface/technologies/PRC_submarine2.dds"
+		}	
+		SpriteType = {
+			name = "GFX_SIK_basic_ship_hull_submarine_medium"
+			texturefile = "gfx/interface/technologies/PRC_submarine2.dds"
+		}	
+	
+		SpriteType = {
+			name = "GFX_SIK_advanced_submarine_medium"
+			texturefile = "gfx/interface/technologies/PRC_submarine4.dds"
+		}
+		SpriteType = {
+			name = "GFX_SIK_advanced_ship_hull_submarine_medium"
+			texturefile = "gfx/interface/technologies/PRC_submarine4.dds"
+		}
+	#)#	    
+			
+	#(Sinkiang destroyer#
+	    SpriteType = {
+	    	name = "GFX_SIK_basic_destroyer_medium"
+	    	texturefile = "gfx/interface/technologies/PRC_destroyer2.dds"
+	    }	
+    	SpriteType = {
+	    	name = "GFX_SIK_basic_ship_hull_light_medium"
+	    	texturefile = "gfx/interface/technologies/PRC_destroyer2.dds"
+	    }
+	#)#	    
+
+  #)#  
+
+ #)#
+
+ #(Manchukuo#
+ 
+}

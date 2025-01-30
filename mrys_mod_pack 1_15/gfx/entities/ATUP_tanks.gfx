@@ -1,0 +1,9 @@
+objectTypes = {
+	pdxmesh = {
+		name = "ITA_mechanized_equipment_1_mesh"
+		file = "gfx/models/units/tanks/ITA_mechanized_equipment_1.mesh"
+		
+		animation = { id = "idle"			type = "ITA_mechanized_equipment_1_idle_animation" }
+		animation = { id = "move"			type = "ITA_mechanized_equipment_1_moving_animation" }
+	}
+}

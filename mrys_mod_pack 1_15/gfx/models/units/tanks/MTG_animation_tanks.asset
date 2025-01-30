@@ -1,0 +1,94 @@
+#amphibious_mechanized
+
+animation = { # "amphibious_mechanized_idle_animation"
+	name = "amphibious_mechanized_idle_animation"
+	file = "generic_amphibious_mechanized_lvt1_idle.anim"
+}
+animation = { # "amphibious_mechanized_moving_animation"
+	name = "amphibious_mechanized_moving_animation"
+	file = "generic_amphibious_mechanized_lvt1_moving.anim"
+}
+animation = { # "amphibious_mechanized_amphibiouis_moving_animation"
+	name = "amphibious_mechanized_amphibiouis_moving_animation"
+	file = "generic_amphibious_mechanized_lvt1_amphibious_moving.anim"
+}
+animation = { # "amphibious_mechanized_amphibious_attack_animation"
+	name = "amphibious_mechanized_amphibious_attack_animation"
+	file = "generic_amphibious_mechanized_lvt1_amphibious_attack.anim"
+}
+animation = { # "amphibious_mechanized_attack_animation"
+	name = "amphibious_mechanized_attack_animation"
+	file = "generic_amphibious_mechanized_lvt1_attack.anim"
+}
+
+
+
+
+
+
+#GER_amphibious_mechanized_land_wasser_schlepper
+
+animation = { # "GER_amphibious_mechanized_idle_animation"
+	name = "GER_amphibious_mechanized_idle_animation"
+	file = "GER_amphibious_mechanized_land_wasser_schlepper_idle.anim"
+}
+animation = { # "GER_amphibious_mechanized_moving_animation"
+	name = "GER_amphibious_mechanized_moving_animation"
+	file = "GER_amphibious_mechanized_land_wasser_schlepper_moving.anim"
+}
+animation = { # "GER_amphibious_mechanized_amphibious_moving_animation"
+	name = "GER_amphibious_mechanized_amphibious_moving_animation"
+	file = "GER_amphibious_mechanized_land_wasser_schlepper_amphibious_moving.anim"
+}
+
+
+
+
+#USA_amphibious_mechanized
+
+animation = { # "USA_amphibious_mechanized_idle_animation"
+	name = "USA_amphibious_mechanized_idle_animation"
+	file = "USA_amphibious_mechanized_lvt2_idle.anim"
+}
+animation = { # "USA_amphibious_mechanized_moving_animation"
+	name = "USA_amphibious_mechanized_moving_animation"
+	file = "USA_amphibious_mechanized_lvt2_moving.anim"
+}
+animation = { # "USA_amphibious_mechanized_amphibious_moving_animation"
+	name = "USA_amphibious_mechanized_amphibious_moving_animation"
+	file = "USA_amphibious_mechanized_lvt2_amphibious_moving.anim"
+}
+animation = { # "USA_amphibious_mechanized_amphibious_attack_animation"
+	name = "USA_amphibious_mechanized_amphibious_attack_animation"
+	file = "USA_amphibious_mechanized_lvt2_amphibious_attack.anim"
+}
+animation = { # "USA_amphibious_mechanized_attack_animation"
+	name = "USA_amphibious_mechanized_attack_animation"
+	file = "USA_amphibious_mechanized_lvt2_attack.anim"
+}
+
+#JAP_amphibious_mechanized
+
+animation = { # "JAP_amphibious_mechanized_idle_animation"
+	name = "JAP_amphibious_mechanized_idle_animation"
+	file = "JAP_amphibious_mechanized_type_4_ka_tsu_idle.anim"
+}
+animation = { # "JAP_amphibious_mechanized_moving_animation"
+	name = "JAP_amphibious_mechanized_moving_animation"
+	file = "JAP_amphibious_mechanized_type_4_ka_tsu_moving.anim"
+}
+animation = { # "JAP_amphibious_mechanized_amphibious_moving_animation"
+	name = "JAP_amphibious_mechanized_amphibious_moving_animation"
+	file = "JAP_amphibious_mechanized_type_4_ka_tsu_amphibious_moving.anim"
+}
+animation = { # "JAP_amphibious_mechanized_amphibious_attack_animation"
+	name = "JAP_amphibious_mechanized_amphibious_attack_animation"
+	file = "JAP_amphibious_mechanized_type_4_ka_tsu_amphibious_attack.anim"
+}
+animation = { # "JAP_amphibious_mechanized_attack_animation"
+	name = "JAP_amphibious_mechanized_attack_animation"
+	file = "JAP_amphibious_mechanized_type_4_ka_tsu_attack.anim"
+}
+
+
+

@@ -1,0 +1,501 @@
+# Portraits for tags SPR (+SPA), POR, CAT, GLC, NAV
+
+SpriteTypes = {
+
+	### SPA ###
+
+	spriteType = {
+		name = "GFX_portrait_spain_francisco_franco"
+		texturefile = "gfx/leaders/SPA/CPP_Portrait_Spain_Francisco_Franco_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPA_francisco_franco_small"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Francisco_Franco_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_juan_yague"
+		texturefile = "gfx/leaders/SPA/CPP_Portrait_Spain_Juan_Yague_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPA_juan_yague_small"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Juan_Yague_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_diego_hidalgo_y_duran"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Diego_Hidalgo_y_Duran_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_joaquin_garcia_morato"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Joaquin_Garcia_Morato_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_agustin_munoz_grandes"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Agustin_Munoz_Grandes_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_luis_carrero_blanco_small"
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Luis_Carrero_Blanco_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_SPA_emilio_mola_military"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/leaders/SPA/CPP_Portrait_Spain_Emilio_Mola_Army_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPA_emilio_mola_small"														# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_emilio_mola_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_ricardo_rada_small"													# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Ricardo_Rada_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_juan_vigon_suero_diaz_small"											# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Juan_Vigon_Suero_Diaz_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_alfredo_kindelan_duany"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Alfredo_Kindelan_Duany_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_angel_salas_larrazabal"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Angel_Salas_Larrazabal_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_emilio_esteban_infantes"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Emilio_Esteban_Infantes_Unknown.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_emilio_herrera"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Emilio_Herrera_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_fidel_davila_arrondo"														# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Fidel_Davilla_Arrondo_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_fransisco_moreno_fernandez"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Fransisco_Moreno_Fernandez_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_luis_valdes_cavanillas"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Luis_Valdes_Cavanillas_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_salvador_moreno_fernandez"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Salvador_Moreno_Fernandez_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_tomas_garciano_goni"														# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Tomas_Garicano_Goni_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_miguel_cabanellas"															# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Miguel_Cabanellas_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPA_jose_enrique_varela"														# no dlc instance,  requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Jose_Enrique_Varela_Bertocho.dds"
+	}
+
+
+	### SPR ###
+	
+	spriteType = {
+		name = "GFX_portrait_SPR_buenaventura_durruti"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Buenaventura_Durruti_[uniform_fix].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPR_buenaventura_durruti_small"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Buenaventura_Durruti_[uniform_fix].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_jose_rovira"
+		#texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Jose_Rovira_Bertocho.dds"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Josep_Rovira_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Jose_Rovira"
+		#texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Jose_Rovira_Bertocho.dds"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Josep_Rovira_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPR_jose_rovira_small"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Josep_Rovira_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Jose_Rovira_small"															# implicit SpriteType in Vanilla
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Josep_Rovira_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Carmel_Rosa_Baserba"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Carmel_Rosa_Baserba_Bertocho.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Carmel_Rosa_Baserba_small"													# implicit SpriteType in Vanilla
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Carmel_Rosa_Baserba_Bertocho.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SPR_carmel_rosa_baserba_small"												# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Carmel_Rosa_Baserba_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Luis_Rastrollo"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Luis_Rastrollo_Gonzalez_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Luis_Rastrollo_small"														# implicit SpriteType in Vanilla
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Luis_Rastrollo_Gonzalez_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_alejandro_lerroux"
+		texturefile = "gfx/leaders/SPR/CPP_Portrait_Spain_Alejandro_Lerroux_CarlosMagno.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_alberto_bayo_small"													# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Alberto_Bayo_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_andres_nin_small"														# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Andres_Nin_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_antonio_escobar_huerta_small"											# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Antonio_Escobar_Huerta_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_antonio_ortega_gutierrez_small"										# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Antonio_Ortega_Gutierrez_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_felipe_diaz_sandino_small"												# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Felipe_Diaz_Sandino_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_joakin_egia_unzueta_small"												# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Joakin_Egia_Unzueta_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_wilhelm_zaisser_small"													# requires 'Community Portrait Pack Expanded' for most instances
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Wilhelm_Zaisser_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_luis_gonzalez_de_ubieta"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Luis_Gonzalez_Ubieta_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_ignacio_hidalgo_de_cisneros"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Ignacio_Hidalgo_de_Cisneros_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_andres_garcia_la_calle"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Andres_Garcia_La_Calle_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_antonio_azarola_y_gresillon"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Antonio_Azarola_Gresillon_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_nicolas_molero"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Nicolas_Molero_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_diego_martinez_barrio"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Diego_Martinez_Barrio_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_augusto_barcia_trelles"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Augusto_Barcia_Trelles_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_francisco_largo_caballero"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Francisco_Largo_Caballero_Josk8C.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dolores_ibarruri"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Dolores_Ibarruri_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_antonia_adroher_i_pascual"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Antonia_Adroher_i_Pascual_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_federica_montseny"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Federica_Montseny_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_indalecio_prieto"
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Indalecio_Prieto_Tuero_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_andres_saborit_colomer"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Andres_Saborit_Colomer_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_carlos_masquelet_lacaci"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Carlos_Masquelet_Lacaci_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_diego_hidalgo_duran"														# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPA/CPP_idea_SPA_Diego_Hidalgo_y_Duran_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_indalecio_prieto_tuero"													# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Indalecio_Prieto_Tuero_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_jose_miaja"																# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/SPR/CPP_idea_SPR_Jose_Miaja_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_vicente_rojo_lluch"														# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SPR_miguel_buiza_fernandez_palacios"											# no dlc instance, requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_navy_europe_2.dds"
+	}
+	
+	
+	### POR ###
+
+	spriteType = {
+		name = "GFX_portrait_por_jose_vicente_de_freitas"
+		texturefile = "gfx/leaders/POR/CPP_Portrait_Portugal_Jose_Vicente_de_Freitas_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_jose_vicente_de_freitas_small"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_jose_vincente_de_freitas_[enhanced].dds"
+	}
+	
+	spriteType = {
+		name = GFX_portrait_POR_rolao_preto
+		texturefile = "gfx/leaders/POR/Portrait_Portugal_Francisco_de_Barcelos_Rolao_preto_[uniform_fix].dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_POR_rolao_preto"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Francisco_de_Barcelos_Rolao_preto_[uniform_fix].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Jose_Mendes_dos_Reis"
+		texturefile = "gfx/leaders/POR/CPP_Portrait_Portugal_Jose_Mendes_dos_Reis_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Jose_Mendes_dos_Reis_small"												# implicit SpriteType in Vanilla
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Portrait_Jose_Mendes_dos_Reis_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Armando_Pereira_de_Castro_Agatao_Lanca"
+		texturefile = "gfx/leaders/POR/CPP_Portrait_Portugal_Armando_Pereira_de_Castro_Agatao_Lanca_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Armando_Pereira_de_Castro_Agatao_Lanca_small"								# implicit SpriteType in Vanilla
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Armando_Pereira_de_Castro_Agatao_Lanca_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_POR_raul_augusto_esteves"
+		texturefile = "gfx/leaders/POR/CPP_Portrait_Portugal_Raul_Esteves_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POR_raul_augusto_esteves_small"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Raul_Esteves_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_manuel_ortins_de_bettencourt"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Manuel_Ortins_de_Bettencourt_[background_fix].dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_manuel_quintao_meireles"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Manuel_Quintao_Meireles_[background_fix].dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_jaime_cortesao"
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Jaime_Cortesao_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_POR_jose_manuel_sarmento_de_beires"											# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Jose_Manuel_Sarmento_Beires_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_humberto_delgado"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Humberto_Delgado_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_manuel_gouveia"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Manuel_Gouveia_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_jose_filipe_de_barros_rodrigues"											# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Jose_Filipe_de_Barros_Rodrigues_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_julio_botelho_moniz"														# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Julio_Botelho_Moniz_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_vieira_da_rocha"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Ernesto_Vieira_da_Rocha_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_antonio_oscar_carmona"														# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Antonio_Oscar_Carmona_SevillaFE.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_domingos_oliveira"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Domingos_Oliveira_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_francisco_da_costa_gomes"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Francisco_da_Costa_Gomes_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_francisco_craveiro_lopes_military"											# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Francisco_Craveiro_Lopes_[military].dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_humberto_carmona"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_army_europe_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_lobato_guerra"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/POR/CPP_idea_POR_Lobato_Guerra_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_jose_adriano_rebelo_pequito"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_army_south_america_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_raul_brandao"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_5.dds"
+	}
+	
+	
+	### CAT ###
+
+	spriteType = {
+		name = "GFX_portrait_Andreu_Nin_i_Perez"														# also an advisor for SPR
+		texturefile = "gfx/leaders/CAT/CPP_Portrait_Catalonia_Andreu_Nin_i_Perez_Connorus_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Lluis_Companys_i_Jover"
+		texturefile = "gfx/leaders/CAT/CPP_Portrait_Catalonia_lluis_companys_Connorus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Daniel_Cardona_i_Civit"
+		texturefile = "gfx/leaders/CAT/CPP_Portrait_Catalonia_daniel_cardona_i_civit_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Francesc_Cambo_i_Batlle"
+		texturefile = "gfx/leaders/CAT/CPP_Portrait_Catalonia_Francesc_Cambo_Bertocho.dds"
+	}
+	
+	
+	### GLC ###
+
+	spriteType = {
+		name = "GFX_portrait_Alfonso_Daniel_Castelao"
+		texturefile = "gfx/leaders/GLC/CPP_Portrait_Galicia_Alfonso_Daniel_Castelao_CirclePete.dds"
+		#texturefile = "gfx/leaders/GLC/CPP_Portrait_Galicia_Alfonso_Daniel_Castelao_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Vicente_Martinez_Risco"
+		texturefile = "gfx/leaders/GLC/CPP_Portrait_Galicia_Vicente_Martinez_Risco_Bertocho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Fuco_Gomez"
+		texturefile = "gfx/leaders/GLC/CPP_Portrait_Galicia_Fuco_Gomez_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Santiago_Casares_Quiroga"
+		texturefile = "gfx/leaders/GLC/CPP_Portrait_Galicia_Santiago_Casares_Quiroga_CirclePete.dds"
+	}
+	
+	
+	### NAV ###
+
+	spriteType = {
+		name = "GFX_portrait_Ramon_Ormazabal_Tife"
+		texturefile = "gfx/leaders/NAV/CPP_Portrait_Navarra_Ramon_Ormazabal_Tife_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Luis_Urrengoetxea"
+		texturefile = "gfx/leaders/NAV/CPP_Portrait_Navarra_Luis_Urrengoetxea_CirclePete.dds"
+	}
+
+}
+

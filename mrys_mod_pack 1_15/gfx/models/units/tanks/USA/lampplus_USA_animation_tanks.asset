@@ -1,0 +1,490 @@
+##(# Main Start
+ #(# USA Start
+  #(# light
+   #(# halftrack
+      animation = { # "USA_halftrack_tank_aa_m13mgmc_idle_animation"
+         name = "USA_halftrack_tank_aa_m13mgmc_idle_animation"
+         file = "USA_halftrack_tank_aa_m13mgmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m13mgmc_moving_animation"
+         name = "USA_halftrack_tank_aa_m13mgmc_moving_animation"
+         file = "USA_halftrack_tank_aa_m13mgmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m13mgmc_attack_animation"
+         name = "USA_halftrack_tank_aa_m13mgmc_attack_animation"
+         file = "USA_halftrack_tank_aa_m13mgmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m15mgmc_idle_animation"
+         name = "USA_halftrack_tank_aa_m15mgmc_idle_animation"
+         file = "USA_halftrack_tank_aa_m15mgmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m15mgmc_moving_animation"
+         name = "USA_halftrack_tank_aa_m15mgmc_moving_animation"
+         file = "USA_halftrack_tank_aa_m15mgmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m15mgmc_attack_animation"
+         name = "USA_halftrack_tank_aa_m15mgmc_attack_animation"
+         file = "USA_halftrack_tank_aa_m15mgmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m16mgmc_idle_animation"
+         name = "USA_halftrack_tank_aa_m16mgmc_idle_animation"
+         file = "USA_halftrack_tank_aa_m16mgmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m16mgmc_moving_animation"
+         name = "USA_halftrack_tank_aa_m16mgmc_moving_animation"
+         file = "USA_halftrack_tank_aa_m16mgmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_aa_m16mgmc_attack_animation"
+         name = "USA_halftrack_tank_aa_m16mgmc_attack_animation"
+         file = "USA_halftrack_tank_aa_m16mgmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m6gmc_idle_animation"
+         name = "USA_halftrack_tank_destroyer_m6gmc_idle_animation"
+         file = "USA_halftrack_tank_destroyer_m6gmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m6gmc_moving_animation"
+         name = "USA_halftrack_tank_destroyer_m6gmc_moving_animation"
+         file = "USA_halftrack_tank_destroyer_m6gmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m6gmc_attack_animation"
+         name = "USA_halftrack_tank_destroyer_m6gmc_attack_animation"
+         file = "USA_halftrack_tank_destroyer_m6gmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m3gmc_idle_animation"
+         name = "USA_halftrack_tank_destroyer_m3gmc_idle_animation"
+         file = "USA_halftrack_tank_destroyer_m3gmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m3gmc_moving_animation"
+         name = "USA_halftrack_tank_destroyer_m3gmc_moving_animation"
+         file = "USA_halftrack_tank_destroyer_m3gmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_m3gmc_attack_animation"
+         name = "USA_halftrack_tank_destroyer_m3gmc_attack_animation"
+         file = "USA_halftrack_tank_destroyer_m3gmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_t48gmc_idle_animation"
+         name = "USA_halftrack_tank_destroyer_t48gmc_idle_animation"
+         file = "USA_halftrack_tank_destroyer_t48gmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_t48gmc_moving_animation"
+         name = "USA_halftrack_tank_destroyer_t48gmc_moving_animation"
+         file = "USA_halftrack_tank_destroyer_t48gmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_destroyer_t48gmc_attack_animation"
+         name = "USA_halftrack_tank_destroyer_t48gmc_attack_animation"
+         file = "USA_halftrack_tank_destroyer_t48gmc_attack.anim"
+      }
+      animation = { # "USA_halftrack_tank_artillery_t30hmc_idle_animation"
+         name = "USA_halftrack_tank_artillery_t30hmc_idle_animation"
+         file = "USA_halftrack_tank_artillery_t30hmc_idle.anim"
+      }
+      animation = { # "USA_halftrack_tank_artillery_t30hmc_moving_animation"
+         name = "USA_halftrack_tank_artillery_t30hmc_moving_animation"
+         file = "USA_halftrack_tank_artillery_t30hmc_moving.anim"
+      }
+      animation = { # "USA_halftrack_tank_artillery_t30hmc_attack_animation"
+         name = "USA_halftrack_tank_artillery_t30hmc_attack_animation"
+         file = "USA_halftrack_tank_artillery_t30hmc_attack.anim"
+      }
+   #)#
+   #(# tank
+      animation = { # "USA_light_tank_t1cunningham_attack_animation"
+         name = "USA_light_tank_t1cunningham_attack_animation"
+         file = "USA_light_tank_t1cunningham_attack.anim"
+      }
+      animation = { # "USA_light_tank_t1cunningham_idle_animation"
+         name = "USA_light_tank_t1cunningham_idle_animation"
+         file = "USA_light_tank_t1cunningham_idle.anim"
+      }
+      animation = { # "USA_light_tank_t1cunningham_moving_animation"
+         name = "USA_light_tank_t1cunningham_moving_animation"
+         file = "USA_light_tank_t1cunningham_moving.anim"
+      }
+      animation = { # "USA_light_tank_m3stuart_attack_animation"
+         name = "USA_light_tank_m3stuart_attack_animation"
+         file = "USA_light_tank_m3stuart_attack.anim"
+      }
+      animation = { # "USA_light_tank_m3stuart_idle_animation"
+         name = "USA_light_tank_m3stuart_idle_animation"
+         file = "USA_light_tank_m3stuart_idle.anim"
+      }
+      animation = { # "USA_light_tank_m3stuart_moving_animation"
+         name = "USA_light_tank_m3stuart_moving_animation"
+         file = "USA_light_tank_m3stuart_moving.anim"
+      }
+      animation = { # "USA_light_tank_m3a3stuart_attack_animation"
+         name = "USA_light_tank_m3a3stuart_attack_animation"
+         file = "USA_light_tank_m3a3stuart_attack.anim"
+      }
+      animation = { # "USA_light_tank_m3a3stuart_idle_animation"
+         name = "USA_light_tank_m3a3stuart_idle_animation"
+         file = "USA_light_tank_m3a3stuart_idle.anim"
+      }
+      animation = { # "USA_light_tank_m3a3stuart_moving_animation"
+         name = "USA_light_tank_m3a3stuart_moving_animation"
+         file = "USA_light_tank_m3a3stuart_moving.anim"
+      }
+      animation = { # "USA_light_tank_m5stuart_attack_animation"
+         name = "USA_light_tank_m5stuart_attack_animation"
+         file = "USA_light_tank_m5stuart_attack.anim"
+      }
+      animation = { # "USA_light_tank_m5stuart_idle_animation"
+         name = "USA_light_tank_m5stuart_idle_animation"
+         file = "USA_light_tank_m5stuart_idle.anim"
+      }
+      animation = { # "USA_light_tank_m5stuart_moving_animation"
+         name = "USA_light_tank_m5stuart_moving_animation"
+         file = "USA_light_tank_m5stuart_moving.anim"
+      }
+      animation = { # "USA_light_tank_m24chaffee_attack_animation"
+         name = "USA_light_tank_m24chaffee_attack_animation"
+         file = "USA_light_tank_m24chaffee_attack.anim"
+      }
+      animation = { # "USA_light_tank_m24chaffee_idle_animation"
+         name = "USA_light_tank_m24chaffee_idle_animation"
+         file = "USA_light_tank_m24chaffee_idle.anim"
+      }
+      animation = { # "USA_light_tank_m24chaffee_moving_animation"
+         name = "USA_light_tank_m24chaffee_moving_animation"
+         file = "USA_light_tank_m24chaffee_moving.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "USA_light_tank_artillery_m8hmc_idle_animation"
+         name = "USA_light_tank_artillery_m8hmc_idle_animation"
+         file = "USA_light_tank_artillery_m8hmc_idle.anim"
+      }
+      animation = { # "USA_light_tank_artillery_m8hmc_moving_animation"
+         name = "USA_light_tank_artillery_m8hmc_moving_animation"
+         file = "USA_light_tank_artillery_m8hmc_moving.anim"
+      }
+      animation = { # "USA_light_tank_artillery_m8hmc_attack_animation"
+         name = "USA_light_tank_artillery_m8hmc_attack_animation"
+         file = "USA_light_tank_artillery_m8hmc_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      
+      animation = { # "USA_light_tank_destroyer_m18hellcat_idle_animation"
+         name = "USA_light_tank_destroyer_m18hellcat_idle_animation"
+         file = "USA_light_tank_destroyer_m18hellcat_idle.anim"
+      }
+      animation = { # "USA_light_tank_destroyer_m18hellcat_moving_animation"
+         name = "USA_light_tank_destroyer_m18hellcat_moving_animation"
+         file = "USA_light_tank_destroyer_m18hellcat_moving.anim"
+      }
+      animation = { # "USA_light_tank_destroyer_m18hellcat_attack_animation"
+         name = "USA_light_tank_destroyer_m18hellcat_attack_animation"
+         file = "USA_light_tank_destroyer_m18hellcat_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "USA_light_tank_aa_m19mgmc_idle_animation"
+         name = "USA_light_tank_aa_m19mgmc_idle_animation"
+         file = "USA_light_tank_aa_m19mgmc_idle.anim"
+      }
+      animation = { # "USA_light_tank_aa_m19mgmc_moving_animation"
+         name = "USA_light_tank_aa_m19mgmc_moving_animation"
+         file = "USA_light_tank_aa_m19mgmc_moving.anim"
+      }
+      animation = { # "USA_light_tank_aa_m19mgmc_attack_animation"
+         name = "USA_light_tank_aa_m19mgmc_attack_animation"
+         file = "USA_light_tank_aa_m19mgmc_attack.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "USA_medium_tank_m1_attack_animation"
+         name = "USA_medium_tank_m1_attack_animation"
+         file = "USA_medium_tank_m1_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m1_idle_animation"
+         name = "USA_medium_tank_m1_idle_animation"
+         file = "USA_medium_tank_m1_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m1_moving_animation"
+         name = "USA_medium_tank_m1_moving_animation"
+         file = "USA_medium_tank_m1_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m2_attack_animation"
+         name = "USA_medium_tank_m2_attack_animation"
+         file = "USA_medium_tank_m2_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m2_idle_animation"
+         name = "USA_medium_tank_m2_idle_animation"
+         file = "USA_medium_tank_m2_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m2_moving_animation"
+         name = "USA_medium_tank_m2_moving_animation"
+         file = "USA_medium_tank_m2_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m3lee_attack_animation"
+         name = "USA_medium_tank_m3lee_attack_animation"
+         file = "USA_medium_tank_m3lee_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m3lee_attack2_animation"
+         name = "USA_medium_tank_m3lee_attack2_animation"
+         file = "USA_medium_tank_m3lee_attack2.anim"
+      }
+      animation = { # "USA_medium_tank_m3lee_idle_animation"
+         name = "USA_medium_tank_m3lee_idle_animation"
+         file = "USA_medium_tank_m3lee_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m3lee_moving_animation"
+         name = "USA_medium_tank_m3lee_moving_animation"
+         file = "USA_medium_tank_m3lee_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m4a3_attack_animation"
+         name = "USA_medium_tank_m4a3_attack_animation"
+         file = "USA_medium_tank_m4a3_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m4a3_idle_animation"
+         name = "USA_medium_tank_m4a3_idle_animation"
+         file = "USA_medium_tank_m4a3_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m4a3_moving_animation"
+         name = "USA_medium_tank_m4a3_moving_animation"
+         file = "USA_medium_tank_m4a3_moving.anim"
+      }
+      animation = { # "USA_medium_tank_t20_attack_animation"
+         name = "USA_medium_tank_t20_attack_animation"
+         file = "USA_medium_tank_t20_attack.anim"
+      }
+      animation = { # "USA_medium_tank_t20_idle_animation"
+         name = "USA_medium_tank_t20_idle_animation"
+         file = "USA_medium_tank_t20_idle.anim"
+      }
+      animation = { # "USA_medium_tank_t20_moving_animation"
+         name = "USA_medium_tank_t20_moving_animation"
+         file = "USA_medium_tank_t20_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m26pershing_attack_animation"
+         name = "USA_medium_tank_m26pershing_attack_animation"
+         file = "USA_medium_tank_m26pershing_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m26pershing_idle_animation"
+         name = "USA_medium_tank_m26pershing_idle_animation"
+         file = "USA_medium_tank_m26pershing_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m26pershing_moving_animation"
+         name = "USA_medium_tank_m26pershing_moving_animation"
+         file = "USA_medium_tank_m26pershing_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m26epershing_idle_animation"
+         name = "USA_medium_tank_m26epershing_idle_animation"
+         file = "USA_medium_tank_m26epershing_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m26epershing_moving_animation"
+         name = "USA_medium_tank_m26epershing_moving_animation"
+         file = "USA_medium_tank_m26epershing_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m26epershing_attack_animation"
+         name = "USA_medium_tank_m26epershing_attack_animation"
+         file = "USA_medium_tank_m26epershing_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "USA_medium_tank_artillery_m12hmc_idle_animation"
+         name = "USA_medium_tank_artillery_m12hmc_idle_animation"
+         file = "USA_medium_tank_artillery_m12hmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m12hmc_moving_animation"
+         name = "USA_medium_tank_artillery_m12hmc_moving_animation"
+         file = "USA_medium_tank_artillery_m12hmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m12hmc_attack_animation"
+         name = "USA_medium_tank_artillery_m12hmc_attack_animation"
+         file = "USA_medium_tank_artillery_m12hmc_attack.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m7priest_idle_animation"
+         name = "USA_medium_tank_artillery_m7priest_idle_animation"
+         file = "USA_medium_tank_artillery_m7priest_idle.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m7priest_moving_animation"
+         name = "USA_medium_tank_artillery_m7priest_moving_animation"
+         file = "USA_medium_tank_artillery_m7priest_moving.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m7priest_attack_animation"
+         name = "USA_medium_tank_artillery_m7priest_attack_animation"
+         file = "USA_medium_tank_artillery_m7priest_attack.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m40hmc_idle_animation"
+         name = "USA_medium_tank_artillery_m40hmc_idle_animation"
+         file = "USA_medium_tank_artillery_m40hmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m40hmc_moving_animation"
+         name = "USA_medium_tank_artillery_m40hmc_moving_animation"
+         file = "USA_medium_tank_artillery_m40hmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m40hmc_attack_animation"
+         name = "USA_medium_tank_artillery_m40hmc_attack_animation"
+         file = "USA_medium_tank_artillery_m40hmc_attack.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m43hmc_idle_animation"
+         name = "USA_medium_tank_artillery_m43hmc_idle_animation"
+         file = "USA_medium_tank_artillery_m43hmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m43hmc_moving_animation"
+         name = "USA_medium_tank_artillery_m43hmc_moving_animation"
+         file = "USA_medium_tank_artillery_m43hmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_artillery_m43hmc_attack_animation"
+         name = "USA_medium_tank_artillery_m43hmc_attack_animation"
+         file = "USA_medium_tank_artillery_m43hmc_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "USA_medium_tank_destroyer_m9gmc_idle_animation"
+         name = "USA_medium_tank_destroyer_m9gmc_idle_animation"
+         file = "USA_medium_tank_destroyer_m9gmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m9gmc_moving_animation"
+         name = "USA_medium_tank_destroyer_m9gmc_moving_animation"
+         file = "USA_medium_tank_destroyer_m9gmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m9gmc_attack_animation"
+         name = "USA_medium_tank_destroyer_m9gmc_attack_animation"
+         file = "USA_medium_tank_destroyer_m9gmc_attack.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m10gmc_idle_animation"
+         name = "USA_medium_tank_destroyer_m10gmc_idle_animation"
+         file = "USA_medium_tank_destroyer_m10gmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m10gmc_moving_animation"
+         name = "USA_medium_tank_destroyer_m10gmc_moving_animation"
+         file = "USA_medium_tank_destroyer_m10gmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m10gmc_attack_animation"
+         name = "USA_medium_tank_destroyer_m10gmc_attack_animation"
+         file = "USA_medium_tank_destroyer_m10gmc_attack.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m36gmc_idle_animation"
+         name = "USA_medium_tank_destroyer_m36gmc_idle_animation"
+         file = "USA_medium_tank_destroyer_m36gmc_idle.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m36gmc_moving_animation"
+         name = "USA_medium_tank_destroyer_m36gmc_moving_animation"
+         file = "USA_medium_tank_destroyer_m36gmc_moving.anim"
+      }
+      animation = { # "USA_medium_tank_destroyer_m36gmc_attack_animation"
+         name = "USA_medium_tank_destroyer_m36gmc_attack_animation"
+         file = "USA_medium_tank_destroyer_m36gmc_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "USA_heavy_tank_t1_attack_animation"
+         name = "USA_heavy_tank_t1_attack_animation"
+         file = "USA_heavy_tank_t1_attack.anim"
+      }
+      animation = { # "USA_heavy_tank_t1_idle_animation"
+         name = "USA_heavy_tank_t1_idle_animation"
+         file = "USA_heavy_tank_t1_idle.anim"
+      }
+      animation = { # "USA_heavy_tank_t1_moving_animation"
+         name = "USA_heavy_tank_t1_moving_animation"
+         file = "USA_heavy_tank_t1_moving.anim"
+      }
+      animation = { # "USA_heavy_tank_m6a1_attack_animation"
+         name = "USA_heavy_tank_m6a1_attack_animation"
+         file = "USA_heavy_tank_m6a1_attack.anim"
+      }
+      animation = { # "USA_heavy_tank_m6a1_idle_animation"
+         name = "USA_heavy_tank_m6a1_idle_animation"
+         file = "USA_heavy_tank_m6a1_idle.anim"
+      }
+      animation = { # "USA_heavy_tank_m6a1_moving_animation"
+         name = "USA_heavy_tank_m6a1_moving_animation"
+         file = "USA_heavy_tank_m6a1_moving.anim"
+      }
+      animation = { # "USA_medium_tank_m46patton_attack_animation"
+         name = "USA_medium_tank_m46patton_attack_animation"
+         file = "USA_medium_tank_m46patton_attack.anim"
+      }
+      animation = { # "USA_medium_tank_m46patton_idle_animation"
+         name = "USA_medium_tank_m46patton_idle_animation"
+         file = "USA_medium_tank_m46patton_idle.anim"
+      }
+      animation = { # "USA_medium_tank_m46patton_moving_animation"
+         name = "USA_medium_tank_m46patton_moving_animation"
+         file = "USA_medium_tank_m46patton_moving.anim"
+      }
+      animation = { # "USA_heavy_tank_m103_attack_animation"
+         name = "USA_heavy_tank_m103_attack_animation"
+         file = "USA_heavy_tank_m103_attack.anim"
+      }
+      animation = { # "USA_heavy_tank_m103_idle_animation"
+         name = "USA_heavy_tank_m103_idle_animation"
+         file = "USA_heavy_tank_m103_idle.anim"
+      }
+      animation = { # "USA_heavy_tank_m103_moving_animation"
+         name = "USA_heavy_tank_m103_moving_animation"
+         file = "USA_heavy_tank_m103_moving.anim"
+      }
+   #)#
+   #(# artillery
+      
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "USA_superheavy_tank_t95_attack_animation"
+         name = "USA_superheavy_tank_t95_attack_animation"
+         file = "USA_superheavy_tank_t95_attack.anim"
+      }
+      animation = { # "USA_superheavy_tank_t95_idle_animation"
+         name = "USA_superheavy_tank_t95_idle_animation"
+         file = "USA_superheavy_tank_t95_idle.anim"
+      }
+      animation = { # "USA_superheavy_tank_t95_moving_animation"
+         name = "USA_superheavy_tank_t95_moving_animation"
+         file = "USA_superheavy_tank_t95_moving.anim"
+      }
+      animation = { # "USA_modern_tank_m48_attack_animation"
+         name = "USA_modern_tank_m48_attack_animation"
+         file = "USA_modern_tank_m48_attack.anim"
+      }
+      animation = { # "USA_modern_tank_m48_idle_animation"
+         name = "USA_modern_tank_m48_idle_animation"
+         file = "USA_modern_tank_m48_idle.anim"
+      }
+      animation = { # "USA_modern_tank_m48_moving_animation"
+         name = "USA_modern_tank_m48_moving_animation"
+         file = "USA_modern_tank_m48_moving.anim"
+      }
+      animation = { # "USA_amphibious_tank_lvt1a_idle_animation"
+         name = "USA_amphibious_tank_lvt1a_idle_animation"
+         file = "USA_amphibious_tank_lvt1a_idle.anim"
+      }
+      animation = { # "USA_amphibious_tank_lvt1a_moving_animation"
+         name = "USA_amphibious_tank_lvt1a_moving_animation"
+         file = "USA_amphibious_tank_lvt1a_moving.anim"
+      }
+      animation = { # "USA_amphibious_tank_lvt1a_amphibious_moving_animation"
+         name = "USA_amphibious_tank_lvt1a_amphibious_moving_animation"
+         file = "USA_amphibious_tank_lvt1a_amphibious_moving.anim"
+      }
+      animation = { # "USA_amphibious_tank_lvt1a_amphibious_attack_animation"
+         name = "USA_amphibious_tank_lvt1a_amphibious_attack_animation"
+         file = "USA_amphibious_tank_lvt1a_amphibious_attack.anim"
+      }
+      animation = { # "USA_amphibious_tank_lvt1a_attack_animation"
+         name = "USA_amphibious_tank_lvt1a_attack_animation"
+         file = "USA_amphibious_tank_lvt1a_attack.anim"
+      }
+   #)#
+  #)#
+ #)# USA End
+##)# Main End
+
+	
+
+

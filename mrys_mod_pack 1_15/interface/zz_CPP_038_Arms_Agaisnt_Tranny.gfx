@@ -1,0 +1,219 @@
+# Portraits for tags DEN, FIN, ICE, NOR, SWE
+
+SpriteTypes = {
+
+	### DEN ###
+
+	spriteType = {
+		name = "GFX_portrait_Thorvald_Stauning"
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Thorvald_Stauning_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DEN_frits_clausen"											# dlc instance
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Frits_Clausen_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Frits_Clausen"												# no dlc instance
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Frits_Clausen_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_DEN_frits_clausen_small"
+		texturefile = "gfx/interface/ideas/DEN/CPP_idea_DEN_Frits_Clausen_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Aksel_Larsen"												# no dlc instance
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Aksel_Larsen_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Peter_Rochegune_Munch"										# unused after patch 1.13, GFX_portrait_DEN_peter_rochegune_munch_small
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Peter_Munch_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Wilhelm_Wain_Prior"										# no dlc instance
+		texturefile = "gfx/leaders/DEN/CPP_Portrait_Denmark_Wilhelm_Wain_Prior_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Wilhelm_Wain_Prior_small"									# no dlc instance
+		texturefile = "gfx/interface/ideas/DEN/CPP_idea_DEN_Wilhelm_Wain_Prior_CirclePete.dds"
+	}
+	
+	# TODO add small portraits for generals who use Wain Prior's one (Community Portrait Pack Expanded)
+	
+	
+	### FIN ###
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_carl_mannerheim"
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Carl_Gustaf_Emil_Mannerheim_HermanLindqvist.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_idea_carl_mannerheim"
+	#	texturefile = "gfx/interface/ideas/FIN/CPP_idea_FIN_Carl_Gustaf_Emil_Mannerheim_HermanLindqvist.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_aimo_aaltonen"											# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Aimo_Aaltonen_Vanamees.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_vilho_annala"											# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Vilho_Annala_Vanamees.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_erik_heinrichs"										# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Erik_Heinrichs_Vanamees.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_vilho_petter_nenonen"									# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Vilho_Petter_Nenonen_Vanamees.dds"
+	#}
+
+	spriteType = {
+		name = "GFX_portrait_FIN_kyosti_kallio"
+		texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Kyosti_Kallio_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FIN_kyosti_kallio"
+		texturefile = "gfx/interface/ideas/FIN/CPP_idea_FIN_Kyosti_Kallio_CirclePete.dds"
+	}
+
+	#spriteType = {
+	#	name = "GFX_portrait_FIN_risto_heikki_ryti"										# has an improved portrait since patch 1.13
+	#	texturefile = "gfx/leaders/FIN/CPP_Portrait_Finland_Risto_Heikki_Ryti_HermanLindqvist.dds"
+	#}
+	
+	
+	### ICE ###
+
+	spriteType = {
+		name ="GFX_portrait_Sveinn_Bjornsson"
+		texturefile = "gfx/leaders/ICE/CPP_Portrait_Iceland_Sveinn_Bjornsson_HermanLindqvist.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ICE_sveinn_bjornsson_small"
+		texturefile = "gfx/interface/ideas/ICE/CPP_idea_ICE_Sveinn_Bjornsson_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Haraldur_Gudmunsson"										# not used in Vanilla after 1.13
+		texturefile = "gfx/leaders/ICE/CPP_Portrait_Iceland_Haraldur_Gudmunsson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Einar_Olgeirsson"											# not used in Vanilla after 1.13
+		texturefile = "gfx/leaders/ICE/CPP_Portrait_Iceland_Einar_Olgeirsson_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ICE_einar_olgeirsson_small"
+		texturefile = "gfx/interface/ideas/ICE/CPP_idea_ICE_Einar_Olgeirsson_CirclePete.dds"
+	}
+	
+	
+	### NOR ###
+
+	spriteType = {
+		name = "GFX_portrait_Vidkun_Quisling"											# not used in Vanilla after 1.13 (replaced by GFX_portrait_NOR_vidkun_quisling_1)
+		texturefile = "gfx/leaders/NOR/CPP_Portrait_Norway_Vidkun_Quisling_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_NOR_josef_terboven"
+		texturefile = "gfx/leaders/Reichskommissar/CPP_Portrait_Reichskommissar_Josef_Terboven_HermanLindqvist.dds"
+#		texturefile = "gfx/leaders/NOR/portrait_GER_josef_terboven.dds"					# Vanilla portrait with Arms Against Tyranny
+	}
+	spriteType = {
+		name ="GFX_portrait_Josef_Terboven"												# Reichskommissar version
+		texturefile = "gfx/leaders/Reichskommissar/CPP_Portrait_Reichskommissar_Josef_Terboven_HermanLindqvist.dds"
+#		texturefile = "gfx/leaders/NOR/portrait_GER_josef_terboven.dds"					# Vanilla portrait with Arms Against Tyranny
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Johan_Ludwig_Mowinckel"									# not used in Vanilla after 1.13
+		texturefile = "gfx/leaders/NOR/CPP_Portrait_Norway_Johan_Ludwig_Mowinckel_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Adam_Egede-Nissen"
+		texturefile = "gfx/leaders/NOR/CPP_Portrait_Norway_Adam_Egede_Nissen_HermanLindqvist.dds"
+#		texturefile = "gfx/leaders/NOR/portrait_NOR_adam_egede_nissen.dds"				# Vanilla portrait with Arms Against Tyranny
+	}
+
+	#spriteType = {
+	#	name = "GFX_portrait_Carl_Gustav_Fleischer"										# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/NOR/CPP_Portrait_Norway_Carl_Gustav_Fleischer_CirclePete.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_NOR_elias_corneliussen"									# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/NOR/CPP_Portrait_Norway_Elias_Corneliussen_CirclePete.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_portrait_NOR_elias_corneliussen_small"								# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/interface/ideas/NOR/CPP_idea_NOR_Elias_Corneliussen_CirclePete.dds"
+	#}
+	
+	# TODO: GFX_portrait_NOR_kristian_laake (unused?), GFX_portrait_NOR_kristian_laake_small, GFX_portrait_NOR_otto_ruge, GFX_portrait_NOR_otto_ruge_small
+	
+	
+	### SWE ###
+
+	spriteType = {
+		name = "GFX_portrait_SWE_per_albin_hansson"
+#		texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Per_Albin_Hansson_CirclePete.dds"
+		texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Per_Albin_Hansson_FluffyFishCreations.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SWE_per_albin_hansson"
+		texturefile = "gfx/interface/ideas/SWE/CPP_idea_SWE_Per_Albin_Hansson_FluffyFishCreations.dds"
+	}
+
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_sven_olov_lindholm"									# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Sven_Olov_Lindholm_RoadTo56.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_sven_linderot"											# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Sven_Linderot_CirclePete.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_axel_pehrssonbramstorp"								# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Axel_Pehrsson_Bramstorp_CirclePete.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_folke_hogberg"											# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Folke_Hogberg_CirclePete.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_folke_hogberg_small"
+	#	texturefile = "gfx/interface/ideas/SWE/CPP_idea_SWE_Folke_Hogberg_CirclePete.dds"
+	#}
+
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_erik_af_edholm"										# now has a unique portrait with Arms Against Tyranny
+	#	texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Erik_Edholm_CirclePete.dds"
+	#}
+	#spriteType = {
+	#	name = "GFX_portrait_SWE_erik_af_edholm_small"
+	#	texturefile = "gfx/interface/ideas/SWE/CPP_idea_SWE_Erik_Edholm_CirclePete.dds"
+	#}
+
+	spriteType = {
+		name = "GFX_portrait_SWE_claes_lindstrom"
+		texturefile = "gfx/leaders/SWE/CPP_Portrait_Sweden_Claes_Lindsstrom_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SWE_claes_lindstrom_small"
+		texturefile = "gfx/interface/ideas/SWE/CPP_idea_SWE_Claes_Lindsstrom_CirclePete.dds"
+	}
+
+}

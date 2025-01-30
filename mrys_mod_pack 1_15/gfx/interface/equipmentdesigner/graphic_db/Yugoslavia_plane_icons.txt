@@ -1,0 +1,164 @@
+### designer aircraft ###
+
+
+
+YUG = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_YUG_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_YUG_fighter1_medium
+			}
+		}
+	}
+
+}
+
+SER = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_SER_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_SER_fighter1_medium
+			}
+		}
+	}
+
+}
+
+SLV = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_SLV_early_fighter_medium
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_SLV_fighter1_medium
+			}
+		}
+	}
+
+}
+
+CRO = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_CRO_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_CRO_fighter1_medium
+			}
+		}
+	}
+
+}
+
+BOS = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_BOS_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_BOS_fighter1_medium
+			}
+		}
+	}
+
+}
+
+MNT = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_MNT_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_MNT_fighter1_medium
+			}
+		}
+	}
+
+}
+
+MAC = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+				GFX_MAC_early_fighter_medium
+			}
+		}
+	}
+	
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 1.1
+			icons = {
+				GFX_MAC_fighter1_medium
+			}
+		}
+	}
+
+}
+

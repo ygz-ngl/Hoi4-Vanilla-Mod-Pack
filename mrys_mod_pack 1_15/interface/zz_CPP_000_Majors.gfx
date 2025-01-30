@@ -1,0 +1,839 @@
+# Portraits for tags ENG, FRA (+ tag alias VIC), GER, ITA, JAP, SOV, USA
+
+SpriteTypes = {
+
+	### ENG ###
+
+	spriteType = {
+		name = "GFX_portrait_Edward_VIII"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Edward_VIII_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Winston_Churchill"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Winston_Churchill_TheBolshevikJew.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ENG_winston_churchill"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Winston_Churchill_TheBolshevikJew.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_winston_churchill"
+		texturefile = "gfx/interface/ideas/ENG/CPP_idea_ENG_Winston_Churchill_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Neville_Chamberlain"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Neville_Chamberlain_PoorBananaMan27.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ENG_neville_chamberlain"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Neville_Chamberlain_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_stanley_baldwin"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Stanley_Baldwin_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_clement_attlee"
+		texturefile = "gfx/interface/ideas/ENG/CPP_idea_ENG_Clement_Attlee_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_louis_mountbatten"
+		texturefile = "gfx/interface/ideas/ENG/CPP_idea_ENG_Louis_Mountbatten_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RAJ_louis_mountbatten"
+		texturefile = "gfx/interface/ideas/ENG/CPP_idea_ENG_Louis_Mountbatten_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_george_giffard"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_George_Giffard_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_merton_beckwithsmith"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Merton_Beckwith_Smith_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_jock_campbell"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Jock_Campbell_[CirclePete].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_brian_horrocks"
+		texturefile = "gfx/leaders/ENG/CPP_Portrait_Britain_Brian_Horrocks_[CirclePete].dds"
+	}
+	
+		
+	### FRA ###
+
+	spriteType = {
+		name = "GFX_portrait_FRA_charles_de_gaulle"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Charles_De_Gaulle_[CirclePete].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_charles_de_gaulle"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Charles_De_Gaulle_[CirclePete].dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_FRA_charles_de_gaulle_civil"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Charles_De_Gaulle_civil_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_pierre_laval"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Pierre_Laval_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_jacques_doriot"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Jacques_Doriot_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_edouard_daladier"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Edouard_Daladier_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_leon_blum"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Leon_Blum_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_leon_blum"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Leon_Blum_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_rene_nicod"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Rene_Nicod_FluffyFishCreations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_maurice_gamelin"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Maurice_Gamelin_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_maurice_gamelin"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Maurice_Gamelin_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_charles_maurras_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Charles_Maurras_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_jacques_duclos"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Jacques_Duclos_operative_fix.dds"				# background fix
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_jacques_duclos_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Jacques_Duclos_operative_fix.dds"				# background fix
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_jacques_duclos"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Jacques_Duclos_Vanilla.dds"						# background fix
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_FRA_paul_reynaud_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Paul_Reynaud_[background_fix].dds"				# background fix
+	}
+	
+	spriteType = {
+		name = "GFX_idea_frederic_irene_joliot_curie"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Frederic_Irene_Joliot_Curie_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_gastonhenri_billotte"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Gaston_Billotte_Karlefeldt.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_gastonhenri_billotte_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Gaston_Billotte_Karlefeldt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_antoinemariebenoit_besson"
+#		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_AMB_Besson_CirclePete.dds"
+#		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_AMB_Besson_Mstae67.dds"
+#		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_AMB_Besson_Mstae67_[modified_eyes].dds"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_AMB_Besson_Mstae67_[modified_eyes_lighter].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_antoinemariebenoit_besson_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_AMB_Besson_Mstae67_[modified_eyes_lighter].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_henry_freydenberg"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Henry_Freydenberg_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_henry_freydenberg_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Henry_Freydenberg_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_rene_olry"
+		texturefile = "gfx/leaders/FRA/CPP_Portrait_France_Rene_Olry_Karlefeldt.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FRA_rene_olry_small"
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Rene_Olry_Karlefeldt.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_henri_marie_auguste_bineau"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Henri_Bineau_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_pierre_alombert_goget"															# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Pierre_Alombert-Goget_Mastae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_gaston_henry_haye"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Gaston_Henry-Haye_Mastae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_zivony_peshkov"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Zinovi_Pechkoff_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_felix_gouin"																	# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_felix_gouin_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_charles_tillon"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Charles_Tillon_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRA_maurice_gauche"																# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/FRA/CPP_idea_FRA_Maurice_Gauche_CirclePete.dds"
+	}
+	
+	
+	### GER ###
+
+	spriteType = {
+		name = "GFX_portrait_GER_adolf_hitler"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Adolf_Hitler_HermanLindqvist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Walter_Kruger"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Walter_Kruger_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_walter_kruger"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Walter_Kruger_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_walter_kruger_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Walter_Kruger_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Walter_Kruger_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Walter_Kruger_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Paul_Hausser"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Paul_Hausser_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_paul_hausser"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Paul_Hausser_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_paul_hausser_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Paul_Hausser_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Paul_Hausser_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Paul_Hausser_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Sepp_Dietrich"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Josef_Dietrich_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_sepp_dietrich"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Josef_Dietrich_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_sepp_dietrich_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Josef_Dietrich_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Sepp_Dietrich_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Josef_Dietrich_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_walter_model"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Walter_Model_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_walter_model_small"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Walter_Model_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ger_felix_steiner"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Felix_Steiner_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_heinrich_himmler"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Heinrich_Himmler_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Konrad_Adenauer"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Konrad_Adenauer_younger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_konrad_adenauer"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Konrad_Adenauer_younger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_erwin_rommel"
+		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Erwin_Rommel_[enhanced].dds"
+#		texturefile = "gfx/leaders/GER/CPP_Portrait_Germany_Erwin_Rommel_HermanLindqvist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_erwin_rommel"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_Erwin_Rommel_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_speer"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_albert_speer_Harry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_walther_funk"
+		texturefile = "gfx/interface/ideas/GER/CPP_idea_GER_walther_funk_Harry.dds"
+	}
+	
+		
+	### ITA ###
+
+	spriteType = {
+		name = "GFX_portrait_ITA_benito_mussolini"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Benito_Mussolini_HermanLindqvist.dds"				# property of La Vittoria è Nostra!
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Benito_Mussolini_MikMogus.dds"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Benito_Mussolini_RoadTo56.dds"
+
+		texturefile = "gfx/leaders/ITA/SGC_Portrait_Italy_Benito_Mussolini.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_italy_emperor_mussolini"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Emperor_Mussolini_MikMogus.dds"
+		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Emperor_Mussolini_RoadTo56.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_ITA_emilio_de_bono"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Emilio_De_Bono_HermanLindqvist.dds"				# property of La Vittoria è Nostra!
+#	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_rodolfo_graziani"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Rodolfo_Graziani_Josk8C.dds"
+		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Rodolfo_Graziani_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rodolfo_graziani"
+		texturefile = "gfx/interface/ideas/ITA/CPP_idea_ITA_Rodolfo_Graziani_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_inigo_campioni"
+		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Inigo_Campioni_Josk8C.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_inigo_campioni"
+		texturefile = "gfx/interface/ideas/ITA/CPP_idea_ITA_Inigo_Campioni_Josk8C.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_ITA_giuseppe_fioravanzo"
+#		texturefile = "gfx/leaders/ITA/CPP_Portrait_Italy_Giuseppe_Fioravanzo_CirclePete.dds"				#Vanilla now has a better portrait (since 1.12)
+#	}
+	
+		
+	### JAP ###
+
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_hirohito"
+#		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hirohito_TheBolshevikJew.dds"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hirohito_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_akira_muto"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Akira_Muto_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_akira_muto_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Akira_Muto_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_harukichi_hyakutake"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Harukichi_Hyakutake_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_harukichi_hyakutake_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Harukichi_Hyakutake_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hisaichi_terauchi"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hisaichi_Terauchi_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hisaichi_terauchi"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Hisaichi_Terauchi_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kuniaki_koiso"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Kuniaki_Koiso_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kuniaki_koiso_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Kuniaki_Koiso_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_masaharu_homma"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Masaharu_Homma_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masaharu_homma_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Masaharu_Homma_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_masatane_kanda"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Masatane_Kanda_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masatane_kanda_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Masatane_Kanda_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_seishiro_itagaki"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Seishiro_Itagaki_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_seishiro_itagaki_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Seishiro_Itagaki_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_shigeru_honjo"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Shigeru_Honjo_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shigeru_honjo_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Shigeru_Honjo_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_gengo_hyakutake"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Gengo_Hyakutake_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_gengo_hyakutake_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Gengo_Hyakutake_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hatazo_adachi"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hatazo_Adachi_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hatazo_adachi_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Hatazo_Adachi_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hiroaki_abe"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hiroaki_Abe_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hiroaki_abe_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Hiroaki_Abe_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_hitoshi_imamura"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hitoshi_Imamura_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hitoshi_imamura"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Hitoshi_Imamura_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_isoroku_yamamoto"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Isoroku_Yamamoto_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_isoroku_yamamoto"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Isoroku_Yamamoto_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_iwane_matsui"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Iwane_Matsui_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_iwane_matsui_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Iwane_Matsui_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_jisaburo_ozawa"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Jisaburo_Ozawa_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jisaburo_ozawa_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Jisaburo_Ozawa_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_jo_iimura"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Jo_Iimura_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jo_iimura_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Jo_Iimura_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kanji_ishiwara"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Kanji_Ishiwara_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kanji_ishiwara_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Kanji_Ishiwara_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_keisuke_fujie"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Keisuke_Fujie_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_keisuke_fujie_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Keisuke_Fujie_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kenji_doihara"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Kenji_Doihara_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kenji_doihara"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Kenji_Doihara_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kenkichi_ueda"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Kenkichi_Ueda_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kenkichi_ueda_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Kenkichi_Ueda_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kiichiro_higuchi"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Kiichiro_Higuchi_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kiichiro_higuchi_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Kiichiro_Higuchi_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_kiyoshi_hasegawa"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Hasegawa_Kiyoshi_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kiyoshi_hasegawa_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Hasegawa_Kiyoshi_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_mineichi_koga"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Mineichi_Koga_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_mineichi_koga_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Mineichi_Koga_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_morihiro_higashikuni"														# unused portrait in Vanilla
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Morihiro_Higashikuni_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_morihiro_higashikuni"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Morihiro_Higashikuni_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_naruhiko_higashikuni"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Naruhiko_Higashikuni_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_naruhiko_higashikuni_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Naruhiko_Higashikuni_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_nishizo_tsukahara"															# unused portrait in Vanilla
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Nishizo_Tsukahara_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nishizo_tsukahara"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Nishizo_Tsukahara_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_nobutake_kondo"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Nobutake_Kondo_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_nobutake_kondo_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Nobutake_Kondo_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_nobuyoshi_muto"															# unused portrait in Vanilla
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Nobuyoshi_Muto_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_otozo_yamada"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Otozo_Yamada_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_otozo_yamada_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Otozo_Yamada_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_rikichi_ando"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Rikichi_Ando_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_rikichi_ando_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Rikichi_Ando_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_sadao_araki"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Sadao_Araki_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_sadao_araki_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Sadao_Araki_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_shigeyoshi_inoue"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Shigeyoshi_Inoue_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shigeyoshi_inoue_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Shigeyoshi_Inoue_[enhanced].dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_JAP_shizuichi_tanaka"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Shizuichi_Tanaka_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shizuichi_tanaka_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Shizuichi_Tanaka_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_shunroku_hata"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Shunroku_Hata_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_shunroku_hata"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Shunroku_Hata_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_soemu_toyoda"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Soemu_Toyoda_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_soemu_toyoda"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Soemu_Toyoda_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_tadashige_daigo"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Tadashige_Daigo_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tadashige_daigo_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Tadashige_Daigo_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_takashi_sakai"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Takashi_Sakai_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_takashi_sakai_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Takashi_Sakai_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_takeo_takagi"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Takeo_Takagi_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_takeo_takagi_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Takeo_Takagi_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_tomoyuki_yamashita"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Tomoyuki_Yamashita_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tomoyuki_yamashita"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Tomoyuki_Yamashita_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_toshizo_nishio"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Toshizo_Nishio_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_toshizo_nishio_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Toshizo_Nishio_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuji_okamura"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Yasuji_Okamura_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yasuji_okamura"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Yasuji_Okamura_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshijiro_umezu"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Yoshijiro_Umezu_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshijiro_umezu_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Yoshijiro_Umezu_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_JAP_zengo_yoshida"
+		texturefile = "gfx/leaders/JAP/CPP_Portrait_Japan_Zengo_Yoshida_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_zengo_yoshida_small"
+		texturefile = "gfx/interface/ideas/JAP/CPP_idea_JAP_Zengo_Yoshida_[enhanced].dds"
+	}
+	
+		
+	### SOV ###
+
+	spriteType = {
+		name = "GFX_portrait_SOV_iosif_stalin"
+		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Joseph_Stalin_PoorBananaMan27.dds"
+#		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Joseph_Stalin_TheBolshevikJew.dds"
+#		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Joseph_Stalin_Bertocho.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SOV_iosif_stalin_small"
+		texturefile = "gfx/interface/ideas/SOV/CPP_idea_SOV_Joseph_Stalin_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_lev_trotsky"		#  others:  GFX_portrait_NOR_lev_trotskij (Norvegian general), unused: GFX_portrait_NOR_lev_trotskij_civilian_small/GFX_portrait_NOR_lev_trotskij_military_small
+		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Leon_Trotsky_Rangel_[recropped_white].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_lev_trotsky"
+		texturefile = "gfx/interface/ideas/SOV/CPP_idea_SOV_Leon_Trotsky_white_political_Rangel.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_leon_trotsky"																# Mexican country leader
+		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Leon_Trotsky_Rangel_[recropped].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_leon_trotsky"																	# Mexican army chief
+		texturefile = "gfx/interface/ideas/SOV/CPP_idea_SOV_Leon_Trotsky_green_military_cap_Rangel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_aleksandr_kerensky"
+		texturefile = "gfx/leaders/SOV/CPP_Portrait_Soviet_Alexander_Kerensky_TheBolshevikJew.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_alexander_kerensky"
+		texturefile = "gfx/interface/ideas/SOV/CPP_idea_Alexander_Kerensky_TheBolshevikJew.dds"
+	}
+	
+	
+	### USA ###
+
+	spriteType = {
+		name = "GFX_portrait_USA_franklin_delano_roosevelt"
+		texturefile = "gfx/leaders/USA/CPP_Portrait_USA_Franklin_Roosevelt_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_William_Dudley_Pelley"
+		texturefile = "gfx/leaders/USA/CPP_Portrait_USA_William_Pelley_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_william_dudley_pelley"
+		texturefile = "gfx/leaders/USA/CPP_Portrait_USA_William_Pelley_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Douglas_MacArthur"																# civil (create_country_leader-picture)
+		texturefile = "gfx/leaders/USA/CPP_Portrait_USA_Douglas_Mac_Arthur_civil_RoadTo56.dds"
+	}
+
+
+}

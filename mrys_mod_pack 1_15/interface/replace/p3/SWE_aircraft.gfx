@@ -1,0 +1,65 @@
+spriteTypes = {	
+
+
+### non-designer aircraft ###
+
+	SpriteType = {
+	name = "GFX_SWE_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/SWE_if.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SWE_fighter1_medium"
+	texturefile = "gfx/interface/technologies/SWE_f1.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_SWE_fighter2_medium"
+	texturefile = "gfx/interface/technologies/SWE_f2.dds"
+	}	
+
+	SpriteType = {
+	name = "GFX_SWE_fighter3_medium"
+	texturefile = "gfx/interface/technologies/SWE_f3.dds"
+	}
+	
+	
+	SpriteType = {
+	name = "GFX_SWE_CAS1_medium"
+	texturefile = "gfx/interface/technologies/SWE_cas1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SWE_CAS2_medium"
+	texturefile = "gfx/interface/technologies/SWE_cas2.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SWE_CAS3_medium"
+	texturefile = "gfx/interface/technologies/SWE_cas3.dds"
+	}
+	
+### designer aircraft ###	
+
+	SpriteType = {
+	name = "GFX_SWE_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/SWE_if.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SWE_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/SWE_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SWE_improved_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/SWE_f2.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SWE_advanced_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/SWE_f3.dds"
+	}
+
+	
+}

@@ -1,0 +1,889 @@
+# Portraits for other tags
+
+SpriteTypes = {
+
+	### AFG ###
+
+	spriteType = {
+		name = "GFX_portrait_Sardar_Shah_Wali_Khan"
+		texturefile = "gfx/leaders/AFG/CPP_Portrait_Afghanistan_Sardar_Shah_Wali_Khan_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Sardar_Shah_Wali_Khan_small"
+		texturefile = "gfx/interface/ideas/AFG/CPP_idea_AFG_Sardar_Shah_Wali_Khan_CirclePete.dds"
+	}
+
+
+	### ALB ###
+
+	spriteType = {
+		name = "GFX_portrait_King_Zog"
+		texturefile = "gfx/leaders/ALB/CPP_Portrait_Albania_King_Zog_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Enver_Hoxha"
+		texturefile = "gfx/leaders/ALB/CPP_Portrait_Albania_Enver_Hoxha_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Xhemal_Aranitasi"
+		texturefile = "gfx/leaders/ALB/CPP_Portrait_Albania_Xhemal_Aranitasi_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Xhemal_Aranitasi_small"
+		texturefile = "gfx/interface/ideas/ALB/CPP_idea_ALB_Xhemal_Aranitasi_CirclePete.dds"
+	}
+
+
+	### ALG ###
+
+	spriteType = {
+		name = "GFX_portrait_Ahmed_Ben_Bella"
+		texturefile = "gfx/leaders/ALG/CPP_Portrait_Algeria_Ahmed_Ben_Bella_CirclePete.dds"
+	}
+
+
+	### ANG ###
+
+	spriteType = {
+		name = "GFX_portrait_Jonas_Lote"
+		texturefile = "gfx/leaders/ANG/CPP_Portrait_Angola_Jonas_Savimbi_CirclePete.dds"
+	}
+
+
+	### ARM ###
+
+	spriteType = {
+		name = "GFX_portrait_Drastamat_Kanayan"
+		texturefile = "gfx/leaders/ARM/CPP_Portrait_Armenia_Drastamat_Kanayan_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hovhannes_Kajaznuni"
+		texturefile = "gfx/leaders/ARM/CPP_Portrait_Armenia_Hovhannes_Kajaznuni_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Grigor_Harutyunyan"
+		texturefile = "gfx/leaders/ARM/CPP_Portrait_Armenia_Grigor_Harutyunyan_CirclePete.dds"
+	}
+
+
+	### AUS ###
+
+	spriteType = {
+		name = "GFX_portrait_AUS_kurt_schuschnigg"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Kurt_Schuschnigg_CirclePete.dds"
+		#texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Kurt_Schuschnigg_Net2025.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_renner"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Karl_Renner_CirclePete.dds"
+#		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Karl_Renner_Mapno01_recropped.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AUS_arthur_seyss-inquart"
+		#gtexturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Arthur_Seyss_Inquart_RoadTo56.dds"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Arthur_Seyss_Inquart_LeKiwiSuisse.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Arthur_Seyss_Inquart"											# Reichskommissar version
+		#gtexturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Arthur_Seyss_Inquart_RoadTo56.dds"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Arthur_Seyss_Inquart_LeKiwiSuisse.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_arthur_seyss-inquart_small"
+		#texturefile = "gfx/interface/ideas/AUS/CPP_idea_AUS_Arthur_Seyss_Inquart_RoadTo56.dds"
+		texturefile = "gfx/interface/ideas/AUS/CPP_idea_AUS_Arthur_Seyss_Inquart_LeKiwiSuisse.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AUS_alfred_klahr"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Alfred_Klahr_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_eglseer"
+		texturefile = "gfx/leaders/AUS/CPP_Portrait_Austria_Karl_Eglseer_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AUS_karl_eglseer_small"
+		texturefile = "gfx/interface/ideas/AUS/CPP_idea_AUS_Karl_Eglseer_CirclePete.dds"
+	}
+
+
+	### AZR ###
+
+	spriteType = {
+		name = "GFX_portrait_Mir_Jafar_Baghirov"
+		texturefile = "gfx/leaders/AZR/CPP_Portrait_Azerbaijan_Mir_Jafar_Baghirov_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Mammad_Amin_Rasulzade"
+		texturefile = "gfx/leaders/AZR/CPP_Portrait_Azerbaijan_Mammad_Amin_Rasulzade_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Gara_Garabeyov"
+		texturefile = "gfx/leaders/AZR/CPP_Portrait_Azerbaijan_Gara_Garabeyov_CirclePete.dds"
+	}
+
+
+	### BEL ###
+
+	spriteType = {
+		name = "GFX_portrait_BEL_joseph_jacquemotte"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Joseph_Jacquemotte_RoadTo56.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_portrait_BEL_leon_degrelle"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Leon_Degrelle_BolshevikJew.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BEL_leon_degrelle_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Leon_Degrelle_BolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_mcl_keyaerts"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_MCL_Keyaerts_CirclePete.dds"
+#		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_MCL_Keyaerts_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BEL_mcl_keyaerts_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_MCL_Keyaerts_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BEL_georges_timmermans"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Georges_Timmermans_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BEL_georges_timmermans_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Georges_Timmermans_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Josef_Grohe"													# Reichskommissar
+		texturefile = "gfx/leaders/Reichskommissar/CPP_Portrait_Reichskommissar_Josef_Grohe_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_georges_vereecken"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_5.dds"		# Vanilla generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_rene_lagrou"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Rene_Lagrou_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_raoul_overstraeten"											# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Raoul_Van_Overstaeten.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_georges_deffontaine"											# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Georges_Deffontaine_r56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_victor_strydonck_burkel"										# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Victor_van_Strydonck_de_Bruckel_r56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_jules_pire"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Jules_Pire_r56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_oscar_michiels"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Oscar_Michiels.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_charles_bastin"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Charles_Bastin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_paul-henri_spaak"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Paul_Henri_Spaak_r56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_gaston_eyskens"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Gaston_Eykens_Mstae67.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_paul_van_zeeland"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_Paul_van_Zeeland_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_yvan_gerard"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_3.dds"				# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_jules_iserentant"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/Europe/CPP_idea_generic_air_europe_4.dds"		# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_generic_land_1"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_3.dds"				# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_generic_land_2"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_4.dds"				# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_generic_navy_1"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_1.dds"				# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_generic_navy_2"												# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_2.dds"				# generic
+	}
+
+	spriteType = {
+		name = "GFX_idea_BEL_generic_air_1"													# requires 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/Europe/CPP_idea_generic_air_europe_5.dds"		# generic
+	}
+
+
+	### BHU ###
+
+
+	### BLR ###
+
+	spriteType = {
+		name = "GFX_portrait_Vasil_Zacharka"
+		texturefile = "gfx/leaders/BLR/CPP_Portrait_Belarus_Vasil_Zacharka_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Radasłau_Astrouski"
+		texturefile = "gfx/leaders/BLR/CPP_Portrait_Belarus_Radaslau_Astrouski_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Panteleimon_Ponomarenko"
+		texturefile = "gfx/leaders/BLR/CPP_Portrait_Belarus_Panteleimon_Ponomarenko_CaptChetson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Adam_Stankievic"
+		texturefile = "gfx/leaders/BLR/CPP_Portrait_Belarus_Adam_Stankievic_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Hinrich_Lohse"													# Reichskommissar
+		texturefile = "gfx/leaders/Reichskommissar/CPP_Portrait_Reichskommissar_Hinrich_Lohse.dds"
+	}
+
+
+	### BOT ###
+
+	spriteType = {
+		name = "GFX_portrait_Tshekedi_Khama"
+		texturefile = "gfx/leaders/BOT/CPP_Portrait_Botswana_Tshekedi_Khama_CirclePete.dds"
+	}
+
+
+	### CAM ###
+
+	spriteType = {
+		name = "GFX_portrait_Pol_Pot"
+		texturefile = "gfx/leaders/CAM/CPP_Portrait_Cambodia_Pol_Pot_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Sisowath_Youtevong"
+		texturefile = "gfx/leaders/CAM/CPP_Portrait_Cambodia_Sisowath_Youtevong_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Norodom_Sihanouk"
+		texturefile = "gfx/leaders/CAM/CPP_Portrait_Cambodia_Norodom_Sihanouk_CirclePete.dds"
+	}
+
+
+	### COG ###
+
+	spriteType = {
+		name = "GFX_portrait_Francois_Tolenga"
+		texturefile = "gfx/leaders/COG/CPP_Portrait_Congo_Francois_Tolenga_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Lumumba_Lomendja"
+		texturefile = "gfx/leaders/COG/CPP_Portrait_Congo_Patrice_Lumumba_CirclePete.dds"
+	}
+
+
+	### COL ###
+
+	spriteType = {
+		name = "GFX_portrait_Mariano_Ospina_Perez"
+		texturefile = "gfx/leaders/COL/CPP_Portrait_Colombia_Mariano_Ospina_Perez_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Eduardo_Santo"
+		texturefile = "gfx/leaders/COL/CPP_Portrait_Colombia_Eduardo_Santos_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Gustavo_Rojas_Pinilla"
+		texturefile = "gfx/leaders/COL/CPP_Portrait_Colombia_Gustavo_Rojas_Pinilla_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Gustavo_Rojas_Pinilla_small"
+		texturefile = "gfx/interface/ideas/COL/CPP_idea_COL_Gustavo_Rojas_Pinilla_CirclePete.dds"
+	}
+
+
+	### COS ###
+
+	spriteType = {
+		name = "GFX_portrait_Leon_Cortes_Castro"
+		texturefile = "gfx/leaders/COS/CPP_Portrait_Costa_Rica_Leon_Cortes_Castro_CirclePete.dds"
+#		texturefile = "gfx/leaders/COS/CPP_Portrait_Costa_Rica_Leon_Cortes_Castro_RoadTo56.dds"
+	}
+
+
+	### CRO ###
+
+	spriteType = {
+		name = "GFX_portrait_Ante_Pavelic"
+		texturefile = "gfx/leaders/CRO/CPP_Portrait_Croatia_Ante_Pavelic_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CRO_nikola_mandic"
+		texturefile = "gfx/leaders/CRO/CPP_Portrait_Croatia_Nikola_Mandic_CirclePete.dds"
+	}
+
+
+	### CUB ###
+
+	spriteType = {
+		name = "GFX_portrait_Federico_Laredo_Bru"
+		texturefile = "gfx/leaders/CUB/CPP_Portrait_Cuba_Federico_Laredo_Bru_CirclePete.dds"
+	}
+
+
+	### DOM ###
+
+	spriteType = {
+		name = "GFX_portrait_Jacinto_Peynado"
+		texturefile = "gfx/leaders/DOM/CPP_Portrait_Dominican_Republic_Jacinto_Peynado_CirclePete.dds"
+	}
+
+
+	### ECU ###
+
+	spriteType = {
+		name = "GFX_portrait_Aurelio_Mosquera"
+		texturefile = "gfx/leaders/ECU/CPP_Portrait_Ecuador_Aurelio_Mosquera_CirclePete.dds"
+	}
+	
+
+	### EGY ###
+
+	spriteType = {
+		name = "GFX_portrait_Muhammad_Naguib"
+#		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Muhammad_Naguib_CirclePete.dds"
+		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Muhammad_Naguib_LeKiwiSuisse.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Ahmed_Husayn"
+		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Ahmed_Hussein_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hosni_al_Arabi"
+		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Hosni_al-Arabi_Mstae67_[unzoomed].dds"
+#		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Hosni_al-Arabi_Mstae67.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_egy_faud_i"
+#		texturefile = "gfx/leaders/EGY/CPP_Portrait_Egypt_Farouk_Muhammad_Ali_CirclePete.dds"
+#	}
+
+
+	### GEO ###
+
+	spriteType = {
+		name = "GFX_portrait_Noe_Zhordania"
+		texturefile = "gfx/leaders/GEO/CPP_Portrait_Georgia_Neo_Zhordania_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Kandid_Charkviani"
+		texturefile = "gfx/leaders/GEO/CPP_Portrait_Georgia_Kandid_Charkviani_CirclePete.dds"
+	}
+
+
+	### GUA ###
+
+	spriteType = {
+		name = "GFX_portrait_Maximo_Arbenz"
+		texturefile = "gfx/leaders/GUA/CPP_Portrait_Guatemala_Jacobo_Arbenz_RoadTo56.dds"
+	}
+
+
+	### HAI ###
+
+	spriteType = {
+		name = "GFX_portrait_Jacques_Roumain"
+		texturefile = "gfx/leaders/HAI/CPP_Portrait_Haiti_Jaques_Roumain_CirclePete.dds"
+	}
+
+
+	### HAW ###
+
+
+	### INS ###
+
+	spriteType = {
+		name = "GFX_portrait_INS_sukarno"
+		texturefile = "gfx/leaders/INS/CPP_Portrait_Indonesia_Sukarno_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_INS_amir_sjarifuddin_harahap"
+		texturefile = "gfx/leaders/INS/CPP_Portrait_Indonesia_Amir_Sjarifuddin_Harahap_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_INS_suharto"
+		texturefile = "gfx/leaders/INS/CPP_Portrait_Indonesia_Suharto_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_INS_sutan_sjahrir"
+		texturefile = "gfx/leaders/INS/CPP_Portrait_Indonesia_Sutan_Sjahrir_RoadTo56.dds"
+	}
+
+
+	### IRE ###
+
+	spriteType = {
+		name = "GFX_portrait_Eamon_de_Valera"
+		texturefile = "gfx/leaders/IRE/CPP_Portrait_Ireland_Eamon_De_Varela_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Eoin_ODuffy"
+		texturefile = "gfx/leaders/IRE/CPP_Portrait_Ireland_Eoin_O_Duffy_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_James_Larkin"
+		texturefile = "gfx/leaders/IRE/CPP_Portrait_Ireland_James_Larkin_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_William_Norton"
+		texturefile = "gfx/leaders/IRE/CPP_Portrait_Ireland_William_Norton_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Michael_Costello"
+		texturefile = "gfx/leaders/IRE/CPP_Portrait_Ireland_Michael_Costello_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Michael_Costello_small"
+		texturefile = "gfx/interface/ideas/IRE/CPP_idea_IRE_Michael_Costello_CirclePete.dds"
+	}
+
+
+	### IRQ ###
+
+	spriteType = {
+		name = "GFX_portrait_Yusuf_Salman_Yusuf"
+		texturefile = "gfx/leaders/IRQ/CPP_Portrait_Iraq_Yusuf_Salman_Yusuf_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Faisal_II"
+		texturefile = "gfx/leaders/IRQ/CPP_Portrait_Iraq_Faisal_II_RoadTo56.dds"
+	}
+
+
+	### ISR ###
+
+	spriteType = {
+		name = "GFX_portrait_David_Ben_Gurion"
+		texturefile = "gfx/leaders/ISR/CPP_Portrait_Israel_David_Ben_Gurion_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Shmuel_Mikunis"
+		#texturefile = "gfx/leaders/ISR/CPP_Portrait_Israel_Shmuel_Mikunis_CirclePete.dds"
+		texturefile = "gfx/leaders/ISR/CPP_Portrait_Israel_Shmuel_Mikunis_RoadTo56.dds"
+	}
+
+
+	### JOR ###
+
+	spriteType = {
+		name = "GFX_portrait_Abdullah_bin_al_Hussein"
+		texturefile = "gfx/leaders/JOR/CPP_Portrait_Jordan_Abdullah_bin_al-Hussein_CirclePete.dds"
+#		texturefile = "gfx/leaders/JOR/CPP_Portrait_Jordan_Abdullah_bin_al-Hussein_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Fuad_Nassar"
+		texturefile = "gfx/leaders/JOR/CPP_Portrait_Jordan_Fuad_Nassar_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hashim_Kheir"
+#		texturefile = "gfx/leaders/JOR/CPP_Portrait_Jordan_Hashim_Kheir_Mstae67.dds"
+		texturefile = "gfx/leaders/JOR/CPP_Portrait_Jordan_Hashim_Kheir_Mstae67_[+CirclePete].dds"
+	}
+
+
+	### KEN ###
+
+
+	### KOR ###
+
+	spriteType = {
+		name = "GFX_portrait_Syngman_Rhee"
+		texturefile = "gfx/leaders/KOR/CPP_Portrait_Korea_Syngman_Rhee_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Kim_Il_sung"
+		texturefile = "gfx/leaders/KOR/CPP_Portrait_Korea_Kim_Il_Sung_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Yi_Un"
+#		texturefile = "gfx/leaders/KOR/CPP_Portrait_Korea_Yi_Un_RoadTo56.dds"
+		texturefile = "gfx/leaders/KOR/CPP_Portrait_Korea_Yi_Un_RoadTo56_[unzoomed].dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Yi_Kang"
+		texturefile = "gfx/leaders/KOR/CPP_Portrait_Korea_Yi_Kang_CirclePete.dds"
+	}
+
+
+	### KUR ###
+
+
+	### LAO ###
+
+	spriteType = {
+		name = "GFX_portrait_Souphanouvong"
+		texturefile = "gfx/leaders/LAO/CPP_Portrait_Laos_Souphanouvong_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Sisavang_Vong"
+		texturefile = "gfx/leaders/LAO/CPP_Portrait_Laos_Sisavang_Vong_CirclePete.dds"
+#		texturefile = "gfx/leaders/LAO/CPP_Portrait_Laos_Sisavang_Vong_RoadTo56.dds"
+	}
+
+
+	### LAT ###
+
+
+	### LBA ###
+
+	spriteType = {
+		name ="GFX_portrait_Bashir_es_Sadawi"
+		texturefile = "gfx/leaders/LBA/CPP_Portrait_Libya_Bashir_es_Sadawi_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Ettore_Bastico"
+		texturefile = "gfx/leaders/LBA/CPP_Portrait_Italy_Ettore_Bastico_CirclePete.dds"	# Vanilla portrait represents someone else
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Idris_Senussi"
+		texturefile = "gfx/leaders/LBA/CPP_Portrait_Libya_Idris_Senussi_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Hassan_as_Senussi"
+		texturefile = "gfx/leaders/LBA/CPP_Portrait_Libya_Hassan_as-Senussi_CirclePete.dds"
+	}
+
+
+	### LEB ###
+
+	spriteType = {
+		name = "GFX_portrait_Pierre_Gemayel"
+#		texturefile = "gfx/leaders/LEB/CPP_Portrait_Lebanon_Pierre_Gemayel_RoadTo56.dds"
+		texturefile = "gfx/leaders/LEB/CPP_Portrait_Lebanon_Pierre_Gemayel_RoadTo56_[softened].dds"
+	}
+	
+	# For Hashim al-Atassi, see Syria (SYR) as both versions share the same spriteType
+
+
+	### LIB ###
+
+
+	### LUX ###
+
+	spriteType = {
+		name = "GFX_portrait_Pierre_Dupong"
+		texturefile = "gfx/leaders/LUX/CPP_Portrait_Luxembourg_Pierre_Dupong_RoadTo56.dds"
+	}
+
+
+	### MAL ###
+
+	spriteType = {
+		name = "GFX_portrait_Onn_Jaafar"
+		texturefile = "gfx/leaders/MAL/CPP_Portrait_Malaysia_Onn_Jaafar_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Lai_Teck"
+		texturefile = "gfx/leaders/MAL/CPP_Portrait_Malaysia_Lai_Tek_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Ibrahim_Hj_Yaacob"
+		texturefile = "gfx/leaders/MAL/CPP_Portrait_Malaysia_Ibrahim_Hj_Yaacob_CirclePete.dds"
+	}
+
+
+	### MEN ###
+
+
+	### MNT ###
+
+	spriteType = {
+		name ="GFX_portrait_Sekula_Drljevic"
+		texturefile = "gfx/leaders/MNT/CPP_Portrait_Montenegro_Sekula_Drljevic_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Novica_Radovic"
+		texturefile = "gfx/leaders/MNT/CPP_Portrait_Montenegro_Novica_Radovic_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Blazo_Jovanovic"
+		texturefile = "gfx/leaders/MNT/CPP_Portrait_Montenegro_Blazo_Jovanovic_CirclePete.dds"
+	}
+
+
+	### MON ###
+
+	spriteType = {
+		name = "GFX_portrait_Khorloogiin_Choibalsan"
+#		texturefile = "gfx/leaders/MON/CPP_Portrait_Mongolia_Khorloogiin_Choibalsan_RoadTo56.dds"
+		texturefile = "gfx/leaders/MON/CPP_Portrait_Mongolia_Khorloogiin_Choibalsan_CirclePete.dds"
+	}
+
+
+	### MOR ###
+
+	spriteType = {
+		name = "GFX_portrait_Mohammed_V"
+		texturefile = "gfx/leaders/MOR/CPP_Portrait_Morocco_Mohammed_V_CirclePete.dds"
+	}
+
+
+	### MZB ###
+
+
+	### NIC ###
+
+	spriteType = {
+		name = "GFX_portrait_Juan_Bautista_Sacasa"
+		texturefile = "gfx/leaders/NIC/CPP_Portrait_Nicaragua_Juan_Bautista_Sacasa_RoadTo56.dds"
+	}
+
+
+	### PAL ###
+
+	spriteType = {
+		name ="GFX_portrait_Ahmed_Hilmi_Pasha"
+		texturefile = "gfx/leaders/PAL/CPP_Portrait_Palestine_Ahmad_Hilmi_Pasha_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Amin_al_Husseini"
+		texturefile = "gfx/leaders/PAL/CPP_Portrait_Palestine_Amin_al-Husseini_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Prince_Henry"
+		texturefile = "gfx/leaders/PAL/CPP_Portrait_Palestine_Prince_Henry_CirclePete.dds"
+	}
+
+
+	### PAN ###
+
+	spriteType = {
+		name = "GFX_portrait_Juan_Demostenes_Arosemena"
+		texturefile = "gfx/leaders/PAN/CPP_Portrait_Panama_Juan_Demostenes_Arosemena_CirclePete.dds"
+	}
+
+
+	### PER ###
+
+	spriteType = {
+		name = "GFX_portrait_Soleyman_Mirza_Eskandari"
+		texturefile = "gfx/leaders/PER/CPP_Portrait_Persia_Soleyman_Mirza_Eskandari_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Hasan_Arfa"
+		texturefile = "gfx/leaders/PER/CPP_Portrait_Persia_Hassan_Arfa_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Hasan_Arfa_small"
+		texturefile = "gfx/interface/ideas/PER/CPP_idea_PER_Hassan_Arfa_CirclePete.dds"
+	}
+
+
+	### PHI ###
+
+
+	### PRU ###
+
+	spriteType = {
+		name = "GFX_portrait_Manuel_Prado_Ugarteche"
+		texturefile = "gfx/leaders/PRU/CPP_Portrait_Peru_Manuel_Prado_Ugarteche_RoadTo56.dds"
+	}
+
+
+	### SER ###
+
+	spriteType = {
+		name ="GFX_portrait_Draza_Mihailovic"
+		texturefile = "gfx/leaders/SER/CPP_Portrait_Serbia_Draza_Mihailovic_unknown.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Milan_Nedic"
+		texturefile = "gfx/leaders/SER/CPP_Portrait_Serbia_Milan_Nedic_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Zivorad_Jovanovic"
+		texturefile = "gfx/leaders/SER/CPP_Portrait_Serbia_Zivorad_Jovanovic_CirclePete.dds"
+	}
+
+	# for GFX_portrait_Peter_Karadordevic, see zz_CPP_020_Death_or_Dishonor -> ### YUG ###
+
+
+	### SIA ###
+
+	spriteType = {
+		name = "GFX_portrait_Plaek_Phibunsongkhram"
+		texturefile = "gfx/leaders/SIA/CPP_Portrait_Siam_Plaek_Phibunsongkhram_RoadTo56.dds"
+	}
+
+
+	### SYR ###
+
+	spriteType = {
+		name ="GFX_portrait_Hashim_al_Atassi"												# shared with the same character created for Lebanon
+		texturefile = "gfx/leaders/SYR/CPP_Portrait_Syria_Hashim_al-Atassi_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Antun_Saadeh"
+		texturefile = "gfx/leaders/SYR/CPP_Portrait_Syria_Antun_Saadeh_CirclePete.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Ghazi_bin_Faisal"
+		texturefile = "gfx/leaders/IRQ/portrait_irq_ghazi.dds"								# Vanilla portrait of his Iraqi version
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Khalid_Bakdash"
+		texturefile = "gfx/leaders/SYR/CPP_Portrait_Syria_Khalid_Bakdash_CirclePete.dds"
+	}
+
+
+	### TAH ###
+	
+	spriteType = {
+		name = "GFX_portrait_Terii_nui_o_Tahiti_a_Pomare"
+		texturefile = "gfx/leaders/TAH/CPP_Portrait_Tahiti_Terii_Nui_O_Tahiti_Pomare_Harry.dds"
+	}
+
+
+	### TRA ###
+
+
+	### TUN ###
+
+	spriteType = {
+		name ="GFX_portrait_Habib_Bourguiba"
+		texturefile = "gfx/leaders/TUN/CPP_Portrait_Tunisia_Habib_Bourguiba_RoadTo56.dds"
+	}
+
+
+	### UKR ###
+
+	spriteType = {
+		name = "GFX_portrait_Nikita_Sergeyevich_Khrushchyov"
+		texturefile = "gfx/leaders/UKR/CPP_Portrait_Ukraine_Nikita_Kroushchev_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Stepan_Bandera"
+		texturefile = "gfx/leaders/UKR/CPP_Portrait_Ukraine_Stepan_Bandera_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_Kost_Levytsky"
+#		texturefile = "gfx/leaders/UKR/CPP_Portrait_Ukraine_Kost_Levytsky_RoadTo56.dds"
+		texturefile = "gfx/leaders/UKR/CPP_Portrait_Ukraine_Kost_Levytsky_RoadTo56_[highligted].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Erich_Koch"													# Reichskommissar
+		texturefile = "gfx/leaders/Reichskommissar/CPP_Portrait_Reichskommissar_Erich_Koch_RoadTo56.dds"
+	}
+
+
+	### VEN ###
+
+	spriteType = {
+		name = "GFX_portrait_Juan_Bautista_Fuenmayor"
+		texturefile = "gfx/leaders/VEN/CPP_Portrait_Venezuela_Juan_Bautista_Fuenmayor_RoadTo56.dds"
+	}
+
+
+	### VIN ###
+
+
+	### WES ###
+
+
+	### ZIM ###
+	
+
+}

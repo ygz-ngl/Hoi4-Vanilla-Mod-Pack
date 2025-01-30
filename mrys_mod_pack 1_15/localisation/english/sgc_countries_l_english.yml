@@ -1,0 +1,229 @@
+﻿l_english:
+####################
+###COUNTRIES AT GAME START (A-Z)
+####################
+##EUROPE
+####################
+#Albania
+ #Communism
+ ALB_communism:0 "People's Republic of Albania"
+ ALB_communism_DEF:0 "the People's Republic of Albania"
+ ALB_communism_ADJ:0 "Albanian"
+ #Democratic
+ ALB_democratic:0 "Republic of Albania"
+ ALB_democratic_DEF:0 "the Republic of Albania"
+ ALB_democratic_ADJ:0 "Albanian"
+ #Fascist
+ ALB_fascism:0 "Albanian Kingdom"
+ ALB_fascism_DEF:0 "Albanian Kingdom"
+ ALB_fascism_ADJ:0 "Albanian"
+ #Neutrality
+ ALB_neutrality:0 "Albanian Kingdom"
+ ALB_neutrality_DEF:0 "the Albanian Kingdom"
+ ALB_neutrality_ADJ:0 "Albanian"
+ #TAG
+ ALB:0 "Albania"
+ ALB_DEF:0 "Albania"
+ ALB_ADJ:0 "Albanian"
+
+#Austria
+ #Communism
+ AUS_communism:0 "Socialist Republic of Austria"
+ AUS_communism_DEF:0 "the Socialist Republic of Austria"
+ AUS_communism_ADJ:0 "Austrian" 
+ #Democratic
+ AUS_democratic:0 "Republic of Austria"
+ AUS_democratic_DEF:0 "the Republic of Austria"
+ AUS_democratic_ADJ:0 "Austrian"
+ #Fascist
+ AUS_fascism:0 "Federal State of Austria"
+ AUS_fascism_DEF:0 "the Federal State of Austria" 
+ AUS_fascism_ADJ:0 "Austrian"
+ #Neutrality
+ AUS_neutrality:0 "Federal State of Austria"
+ AUS_neutrality_DEF:0 "the Federal State of Austria" 
+ AUS_neutrality_ADJ:0 "Austrian"
+ #TAG
+ AUS:0 "Austria"
+ AUS_DEF:0 "Austria"
+ AUS_ADJ:0 "Austrian"
+
+#Belgium
+ #Communism
+ BEL_communism:0 "Belgian Commune"
+ BEL_communism_DEF:0 "the Belgian Commune"
+ BEL_communism_ADJ:0 "Belgian"
+ #Democratic
+ BEL_democratic:0 "Kingdom of Belgium"
+ BEL_democratic_DEF:0 "the Kingdom of Belgium"
+ BEL_democratic_ADJ:0 "Belgian"
+ #Fascist
+ BEL_fascism:0 "Belgian Rexist State"
+ BEL_fascism_DEF:0 "the Belgian Rexist State"
+ BEL_fascism_ADJ:0 "Belgian"
+ #Neutrality
+ BEL_neutrality:0 "Leopoldian Kingdom of Belgium"
+ BEL_neutrality_DEF:0 "the Leopoldian Kingdom of Belgium"
+ BEL_neutrality_ADJ:0 "Belgian"
+ #TAG
+ BEL:0 "Belgium"
+ BEL_DEF:0 "Belgium"
+ BEL_ADJ:0 "Belgian"
+
+#Bulgaria
+ #Communism
+ BUL_communism:0 "People's Republic of Bulgaria"
+ BUL_communism_DEF:0 "the People's Republic of Bulgaria"
+ BUL_communism_ADJ:0 "Bulgarian"
+ #Democratic
+ BUL_democratic:0 "Republic of Bulgaria"
+ BUL_democratic_DEF:0 "the Republic of Bulgaria"
+ BUL_democratic_ADJ:0 "Bulgarian"
+ #Fascist
+ BUL_fascism:0 "Bulgarian Legionary State"
+ BUL_fascism_DEF:0 "the Bulgarian Legionary State"
+ BUL_fascism_ADJ:0 "Bulgarian"
+ #Neutrality
+ BUL_neutrality:0 "Tsardom of Bulgaria"
+ BUL_neutrality_DEF:0 "the Tsardom of Bulgaria"
+ BUL_neutrality_ADJ:0 "Bulgarian"
+ #TAG
+ BUL:0 "Bulgaria"
+ BUL_DEF:0 "Bulgaria"
+ BUL_ADJ:0 "Bulgarian"
+
+#Czechoslovakia
+ #Communism
+ CZE_communism:0 "Czechoslovak Socialist Republic"
+ CZE_communism_DEF:0 "the Czechoslovak Socialist Republic"
+ CZE_communism_ADJ:0 "Czechoslovak" 
+ #Democratic
+ CZE_democratic:0 "Czechoslovak Republic"
+ CZE_democratic_DEF:0 "the Czechoslovak Republic"
+ CZE_democratic_ADJ:0 "Czechoslovak"
+ #Fascist
+ CZE_fascism:0 "Czechoslovak State"
+ CZE_fascism_DEF:0 "Czechoslovak State" 
+ CZE_fascism_ADJ:0 "Czechoslovak"
+ #Neutrality
+ CZE_neutrality:0 "Kingdom of Czechoslovakia"
+ CZE_neutrality_DEF:0 "the Kingdom of Czechoslovakia" 
+ CZE_neutrality_ADJ:0 "Czechoslovak"
+ #TAG
+ CZE:0 "Czechoslovakia"
+ CZE_DEF:0 "Czechoslovakia"
+ CZE_ADJ:0 "Czechoslovakian"
+
+#Denmark
+ #Communism
+ DEN_communism:0 "Danish Democratic Republic"
+ DEN_communism_DEF:0 "the Danish Democratic Republic"
+ DEN_communism_ADJ:0 "Danish"
+ #Democratic
+ DEN_democratic:0 "Kingdom of Denmark"
+ DEN_democratic_DEF:0 "the Kingdom of Denmark" 
+ DEN_democratic_ADJ:0 "Danish"
+ #Fascist
+ DEN_fascism:0 "Danish State"
+ DEN_fascism_DEF:0 "the Danish State"
+ DEN_fascism_ADJ:0 "Danish"
+ #Neutrality
+ DEN_neutrality:0 "Kingdom of Denmark"
+ DEN_neutrality_DEF:0 "the Kingdom of Denmark"
+ DEN_neutrality_ADJ:0 "Danish"
+ #TAG
+ DEN:0 "Denmark"
+ DEN_DEF:0 "Denmark"
+ DEN_ADJ:0 "Danish" 
+
+#Estonia
+ #Communism
+ EST_communism:0 "Estonian People's Republic"
+ EST_communism_DEF:0 "the Estonian People's Republic"
+ EST_communism_ADJ:0 "Estonian"
+ #Democratic
+ EST_democratic:0 "Republic of Estonia"
+ EST_democratic_DEF:0 "the Republic of Estonia"
+ EST_democratic_ADJ:0 "Estonian"
+ #Fascist
+ EST_fascism:0 "National State of Estonia"
+ EST_fascism_DEF:0 "the National State of Estonia"
+ EST_fascism_ADJ:0 "Estonian"
+ #Neutrality
+ EST_neutrality:0 "Republic of Estonia"
+ EST_neutrality_DEF:0 "the Republic of Estonia"
+ EST_neutrality_ADJ:0 "Estonian"
+ #TAG
+ EST:0 "Estonia"
+ EST_DEF:0 "Estonia"
+ EST_ADJ:0 "Estonian"
+
+#Finland
+ #Communism
+ FIN_communism:0 "Finnish Democratic Republic"
+ FIN_communism_DEF:0 "the Finnish Democratic Republic"
+ FIN_communism_ADJ:0 "Finnish"
+ #Democratic
+ FIN_democratic:0 "Republic of Finland"
+ FIN_democratic_DEF:0 "the Republic of Finland"
+ FIN_democratic_ADJ:0 "Finnish"
+ #Fascist
+ FIN_fascism:0 "Republic of Finland"
+ FIN_fascism_DEF:0 "the Republic of Finland"
+ FIN_fascism_ADJ:0 "Finnish"
+ #Neutrality
+ FIN_neutrality:0 "Republic of Finland"
+ FIN_neutrality_DEF:0 "the Republic of Finland"
+ FIN_neutrality_ADJ:0 "Finnish"
+ #TAG
+ FIN:0 "Finland"
+ FIN_DEF:0 "Finland"
+ FIN_ADJ:0 "Finnish"
+
+#France
+ #Communism
+ FRA_communism:0 "French Socialist Republic"
+ FRA_communism_DEF:0 "the French Socialist Republic"
+ FRA_communism_ADJ:0 "French" 
+ #Democratic
+ FRA_democratic:0 "French Republic"
+ FRA_democratic_DEF:0 "the French Republic" 
+ FRA_democratic_ADJ:0 "French" 
+ #Fascist
+ FRA_fascism: "French State"
+ FRA_fascism_DEF: "the French State"
+ FRA_fascism_ADJ:0 "French"
+ #Neutrality
+ FRA_neutrality:0 "Kingdom of France"
+ FRA_neutrality_DEF:0 "the Kingdom of France"
+ FRA_neutrality_ADJ:0 "French"
+ #TAG
+ FRA:0 "France"
+ FRA_DEF:0 "France"
+ FRA_ADJ:0 "French"
+
+#Germany
+ #Communism
+ GER_communism:0 "Socialist Republic of Germany"
+ GER_communism_DEF:0 "the Socialist Republic of Germany" 
+ GER_communism_ADJ:0 "German"
+ #Democratic
+ GER_democratic:0 "German Republic"
+ GER_democratic_DEF:0 "the German Republic"
+ GER_democratic_ADJ:0 "German"
+ #Fascist
+ GER_fascism:0 "German Reich"
+ GER_fascism_DEF:0 "the German Reich" 
+ GER_fascism_ADJ:0 "German"
+ #Neutrality
+ GER_neutrality:0 "German Empire"
+ GER_neutrality_DEF:0 "the German Empire"
+ GER_neutrality_ADJ:0 "German"
+ #TAG
+ GER:0 "Germany"
+ GER_DEF:0 "Germany"
+ GER_ADJ:0 "German"
+
+####################
+###RELEASEABLE COUNTRIES (A-Z)
+####################

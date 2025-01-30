@@ -1,0 +1,140 @@
+# Portraits for tags BUL, GRE, TUR
+
+SpriteTypes = {
+
+	### BUL ###
+
+	spriteType = {
+		name = "GFX_portrait_bul_bogdan_filov"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Bodgan_Filov_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BUL_boris_iii"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Boris_III_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bul_nikola_mihov"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Nikola_Mihov_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BUL_nikola_mihov_small"
+		texturefile = "gfx/interface/ideas/BUL/CPP_idea_BUL_Nikola_Mihov_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bul_georgi_dimitrov"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Georgi_Dimitrov_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_bul_damyan_velchev"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Damyan_Velchev_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BUL_damian_velchev_small"
+		texturefile = "gfx/interface/ideas/BUL/CPP_idea_BUL_Damyan_Velchev_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BUL_nikola_nakov"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Nikola_Nakov_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BUL_nikola_nakov_small"
+		texturefile = "gfx/interface/ideas/BUL/CPP_idea_BUL_Nikola_Nakov_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BUL_nikola_petkov"
+		texturefile = "gfx/leaders/BUL/CPP_Portrait_Bulgaria_Nikola_Petkov_CirclePete.dds"
+	}
+	
+	
+	### GRE ###
+
+	spriteType = {
+		name = "GFX_portrait_Ioannis_Metaxas"															# only for tooltip
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Ioannis_Metaxas_TheBloshevikJew.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GRE_ioannis_metaxas"
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Ioannis_Metaxas_TheBloshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_gre_markos_drakos"															# dlc instance
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Markos_Drakos_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GRE_markos_drakos"															# no dlc instance
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Markos_Drakos_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GRE_markos_drakos_small"
+		texturefile = "gfx/interface/ideas/GRE/CPP_idea_GRE_Markos_Drakos_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_konstantinos_tsaldaris"
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Konstantinos_Tsaldaris_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GRE_alexandros_sakellariou"
+#		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Alexandros_Sakellariou_TheManul.dds"
+		texturefile = "gfx/leaders/GRE/CPP_Portrait_Greece_Alexandros_Sakellariou_TheManul_[+CirclePete].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gre_alexandros_sakellariou"
+		texturefile = "gfx/interface/ideas/GRE/CPP_idea_GRE_Alexandros_Sakellariou_TheManul_[+CirclePete].dds"
+	}
+	
+	
+	### TUR ###
+
+	spriteType = {
+		name = "GFX_portrait_TUR_mustafa_kemal_ataturk"
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Mustafa_Kemal_Ataturk_civil_PoorBananaMan27.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_sefik_husnu"
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Sefik_Husnu_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_ismet_inonu"
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Ismet_Inonu_PoorBananaMan27.dds"
+#		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Ismet_Inonu_[CirclePete].dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_tur_salih_omurtak"															# dlc instance
+#		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Salih_Omurtak_CirclePete.dds"
+#	}
+	spriteType = {
+		name = "GFX_portrait_TUR_mehmet_salih_omurtak"													# no dlc instance
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Salih_Omurtak_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_mehmet_salih_omurtak_small"											# no dlc instance
+		texturefile = "gfx/interface/ideas/TUR/CPP_idea_TUR_Salih_Omurtak_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_nazmi_solok"
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Nazmi_Solok_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TUR_nazmi_solok_small"
+		texturefile = "gfx/interface/ideas/TUR/CPP_idea_TUR_Nazmi_Solok_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TUR_rauf_orbay"
+		texturefile = "gfx/leaders/TUR/CPP_Portrait_Turkey_Rauf_Orbay_CirclePete.dds"
+	}
+
+}

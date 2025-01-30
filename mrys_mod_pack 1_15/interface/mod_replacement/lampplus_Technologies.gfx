@@ -1,0 +1,1399 @@
+spriteTypes = {
+
+#(# Together for Victory Start (dlc018)
+ #(Canada#
+  #(Canadian infantry#  
+    #(Canadian mobile infantry vehicle#
+	SpriteType = { name = "GFX_CAN_mechanised_infantry1_medium" texturefile = "gfx/interface/technologies/CAN_mechanized_equipment_1.dds" }
+   #)#	    
+   #(Canadian amphibious vehicle#
+	SpriteType = { name = "GFX_CAN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_1.dds" }
+	SpriteType = { name = "GFX_CAN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_2.dds" }
+   #)#	    
+   #(Canadian armored car#
+	SpriteType = { name = "GFX_CAN_armored_car1_medium" texturefile = "gfx/interface/technologies/can_armored_car_equipment_1.dds" }
+	SpriteType = { name = "GFX_CAN_armored_car2_medium" texturefile = "gfx/interface/technologies/can_armored_car_equipment_2.dds" }
+	SpriteType = { name = "GFX_CAN_armored_car3_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_3.dds" }
+	SpriteType = { name = "GFX_CAN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/eng_armored_car_at_equipment.dds" }				
+   #)#
+  #)#
+  #(Canadian artillery#
+   #(Canadian howitzer#
+	SpriteType = { name = "GFX_CAN_gw_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Art_1.dds" }
+	SpriteType = { name = "GFX_CAN_artillery1_medium" texturefile = "gfx/interface/technologies/ENG_Art_2.dds" }	
+	SpriteType = { name = "GFX_CAN_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Art_3.dds" }	
+   #)#	    
+   #(Canadian AA#
+	SpriteType = { name = "GFX_CAN_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ENG_AA_1.dds" }
+	SpriteType = { name = "GFX_CAN_antiair2_medium" texturefile = "gfx/interface/technologies/ENG_AA_2.dds" }
+	SpriteType = { name = "GFX_CAN_antiair5_medium" texturefile = "gfx/interface/technologies/ENG_AA_3.dds" }	
+   #)#	    
+   #(Canadian AT#
+	SpriteType = { name = "GFX_CAN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ENG_AT_1.dds" }
+	SpriteType = { name = "GFX_CAN_antitank2_medium" texturefile = "gfx/interface/technologies/ENG_AT_2.dds" }	
+	SpriteType = { name = "GFX_CAN_antitank5_medium" texturefile = "gfx/interface/technologies/ENG_AT_3.dds" }	
+   #)#	    
+   #(Canadian rocket artillery#
+	SpriteType = { name = "GFX_CAN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_1.dds" }
+	SpriteType = { name = "GFX_CAN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_2.dds" }
+	SpriteType = { name = "GFX_CAN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/ENG_motorized_rocket_unit.dds" }
+   #)#	    
+  #)#
+  #(Canadian navy#
+   #(Canadian submarines#
+	SpriteType = { name = "GFX_CAN_early_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine1.dds" }	
+	SpriteType = {	
+		name = "GFX_CAN_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_submarine1.dds"
+	}	
+	SpriteType = { name = "GFX_CAN_basic_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_CAN_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_CAN_improved_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+   #)#	    
+   #(Canadian destroyer#
+	SpriteType = { name = "GFX_CAN_early_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer1.dds" }	
+	SpriteType = {	
+		name = "GFX_CAN_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer1.dds"
+	}
+	SpriteType = { name = "GFX_CAN_basic_destroyer_medium" texturefile = "gfx/interface/technologies/CAN_destroyer2.dds" }	
+	SpriteType = { name = "GFX_CAN_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/CAN_destroyer2.dds" }
+	SpriteType = { name = "GFX_CAN_improved_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+   #)#	    
+   #(Canadian light cruiser#
+	SpriteType = { name = "GFX_CAN_early_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	 SpriteType = {	
+		name = "GFX_CAN_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds"
+	}
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	SpriteType = { name = "GFX_CAN_basic_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_improved_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }		
+	SpriteType = { name = "GFX_CAN_advanced_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+   #)#	    
+   #(Canadian heavy cruiser#
+	SpriteType = { name = "GFX_CAN_early_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_CAN_early_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_CAN_basic_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_basic_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_CAN_improved_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }		
+	SpriteType = { name = "GFX_CAN_advanced_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+   #)#	    
+   #(Canadian battle cruiser#
+	SpriteType = {	
+		name = "GFX_CAN_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_battlecruiser1.dds"
+	}
+	SpriteType = { name = "GFX_CAN_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/ENG_battlecruiser2.dds" }
+   #)#	    
+   #(Canadian battleship#
+	SpriteType = { name = "GFX_CAN_early_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship1.dds" }	
+	SpriteType = {	
+		name = "GFX_CAN_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_battleship1.dds"
+	}	
+	SpriteType = { name = "GFX_CAN_basic_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_CAN_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_CAN_improved_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }		
+	SpriteType = { name = "GFX_CAN_advanced_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+   #)#	    
+   #(Canadian super-heavy battleship#
+	   SpriteType = { name = "GFX_CAN_heavy_battleship_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_CAN_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_CAN_heavy_battleship2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship2.dds" }
+   #)#	    
+   #(Canadian carrier#
+	   SpriteType = { name = "GFX_CAN_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ENG_carrier_conversion_ca.dds" }	
+	SpriteType = { name = "GFX_CAN_early_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier1.dds" }
+	SpriteType = {	
+		name = "GFX_CAN_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier1.dds"
+	}	
+	SpriteType = { name = "GFX_CAN_basic_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+		SpriteType = { name = "GFX_CAN_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_CAN_improved_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_CAN_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }
+	SpriteType = { name = "GFX_CAN_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }		
+   #)#	    
+  #)#			
+ #)# Canada End
+ #(Australia#
+  #(Australian infantry#
+   #(Australian mobile infantry vehicle#
+	SpriteType = { name = "GFX_AST_motorised_infantry_medium" texturefile = "gfx/interface/technologies/AST_motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_AST_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/AST_motorized_equipment_1.dds" }
+   #)#	    
+   #(Australian amphibious vehicle#
+	SpriteType = { name = "GFX_AST_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_1.dds" }
+	SpriteType = { name = "GFX_AST_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_2.dds" }
+   #)#	    
+   #(Australian armored car#
+	SpriteType = { name = "GFX_AST_armored_car1_medium" texturefile = "gfx/interface/technologies/ast_armored_car_equipment_1.dds" }
+	SpriteType = { name = "GFX_AST_armored_car2_medium" texturefile = "gfx/interface/technologies/ast_armored_car_equipment_2.dds" }
+	SpriteType = { name = "GFX_AST_armored_car3_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_3.dds" }
+	SpriteType = { name = "GFX_AST_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/eng_armored_car_at_equipment.dds" }				
+   #)#
+  #)#
+  #(Australian artillery#
+   #(Australian howitzer#
+	SpriteType = { name = "GFX_AST_gw_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Art_1.dds" }
+	SpriteType = { name = "GFX_AST_artillery1_medium" texturefile = "gfx/interface/technologies/ENG_Art_2.dds" }	
+	SpriteType = { name = "GFX_AST_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Art_3.dds" }	
+   #)#	    
+   #(Australian AA#
+	SpriteType = { name = "GFX_AST_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ENG_AA_1.dds" }
+	SpriteType = { name = "GFX_AST_antiair2_medium" texturefile = "gfx/interface/technologies/ENG_AA_2.dds" }
+	SpriteType = { name = "GFX_AST_antiair5_medium" texturefile = "gfx/interface/technologies/ENG_AA_3.dds" }	
+   #)#	    
+   #(Australian AT#
+	SpriteType = { name = "GFX_AST_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ENG_AT_1.dds" }
+	SpriteType = { name = "GFX_AST_antitank2_medium" texturefile = "gfx/interface/technologies/ENG_AT_2.dds" }	
+	SpriteType = { name = "GFX_AST_antitank5_medium" texturefile = "gfx/interface/technologies/ENG_AT_3.dds" }	
+   #)#	    
+   #(Australian rocket artillery#
+	SpriteType = { name = "GFX_AST_rocket_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_1.dds" }
+	SpriteType = { name = "GFX_AST_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_2.dds" }
+	SpriteType = { name = "GFX_AST_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/ENG_motorized_rocket_unit.dds" }
+   #)#	    
+  #)#
+  #(Australian navy#
+   #(Australian submarines#
+	SpriteType = { name = "GFX_AST_early_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine1.dds" }	
+	SpriteType = {	
+		name = "GFX_AST_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_submarine1.dds"
+	}	
+	SpriteType = { name = "GFX_AST_basic_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_AST_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_AST_improved_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_AST_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_AST_advanced_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+   #)#	    
+   #(Australian destroyer#
+	SpriteType = { name = "GFX_AST_early_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer1.dds" }	
+	SpriteType = {	
+		name = "GFX_AST_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer1.dds"
+	}
+	SpriteType = { name = "GFX_AST_basic_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }	
+	SpriteType = { name = "GFX_AST_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }
+	SpriteType = { name = "GFX_AST_improved_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_AST_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_AST_advanced_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+   #)#	    
+   #(Australian light cruiser#
+	SpriteType = { name = "GFX_AST_early_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	 SpriteType = {	
+		name = "GFX_AST_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds"
+	}
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	SpriteType = { name = "GFX_AST_basic_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_improved_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }		
+	SpriteType = { name = "GFX_AST_advanced_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+   #)#	    
+   #(Australian heavy cruiser#
+	SpriteType = { name = "GFX_AST_early_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_AST_early_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_AST_basic_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_basic_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_AST_improved_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_AST_improved_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_AST_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }		
+	SpriteType = { name = "GFX_AST_advanced_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+   #)#	    
+   #(Australian battle cruiser#
+	SpriteType = {	
+		name = "GFX_AST_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_battlecruiser1.dds"
+	}
+	SpriteType = { name = "GFX_AST_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/ENG_battlecruiser2.dds" }
+   #)#	    
+   #(Australian battleship#
+	SpriteType = { name = "GFX_AST_early_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship1.dds" }	
+	SpriteType = {	
+		name = "GFX_AST_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_battleship1.dds"
+	}	
+	SpriteType = { name = "GFX_AST_basic_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_AST_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_AST_improved_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }
+	SpriteType = { name = "GFX_AST_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }		
+	SpriteType = { name = "GFX_AST_advanced_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+   #)#	    
+   #(Australian super-heavy battleship#
+	   SpriteType = { name = "GFX_AST_heavy_battleship_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_AST_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_AST_heavy_battleship2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship2.dds" }
+   #)#	    
+   #(Australian carrier#
+	   SpriteType = { name = "GFX_AST_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ENG_carrier_conversion_ca.dds" }	
+	SpriteType = { name = "GFX_AST_early_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier1.dds" }
+	SpriteType = {	
+		name = "GFX_AST_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier1.dds"
+	}	
+	SpriteType = { name = "GFX_AST_basic_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+		SpriteType = { name = "GFX_AST_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_AST_improved_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_AST_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_AST_advanced_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }
+	SpriteType = { name = "GFX_AST_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }				
+   #)#	    
+  #)#
+ #)# Australia End
+ #(New Zealand#
+  #(New Zealand infantry#    
+   #(New Zealand mobile infantry vehicle#
+	SpriteType = { name = "GFX_NZL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/AST_motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_NZL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/AST_motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_NZL_mechanised_infantry_3_medium" texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_3.dds" }
+   #)#	    
+   #(New Zealand amphibious vehicle#
+	SpriteType = { name = "GFX_NZL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_1.dds" }
+	SpriteType = { name = "GFX_NZL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_2.dds" }
+   #)#	    
+   #(New Zealand armored car#
+	SpriteType = { name = "GFX_NZL_armored_car1_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_1.dds" }
+	SpriteType = { name = "GFX_NZL_armored_car2_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_2.dds" }
+	SpriteType = { name = "GFX_NZL_armored_car3_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_3.dds" }
+	SpriteType = { name = "GFX_NZL_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/eng_armored_car_at_equipment.dds" }				
+   #)#
+  #)#
+  #(New Zealand artillery#
+   #(New Zealand howitzer#
+	SpriteType = { name = "GFX_NZL_gw_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Art_1.dds" }
+	SpriteType = { name = "GFX_NZL_artillery1_medium" texturefile = "gfx/interface/technologies/ENG_Art_2.dds" }	
+	SpriteType = { name = "GFX_NZL_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Art_3.dds" }	
+   #)#	    
+   #(New Zealand AA#
+	SpriteType = { name = "GFX_NZL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ENG_AA_1.dds" }
+	SpriteType = { name = "GFX_NZL_antiair2_medium" texturefile = "gfx/interface/technologies/ENG_AA_2.dds" }
+	SpriteType = { name = "GFX_NZL_antiair5_medium" texturefile = "gfx/interface/technologies/ENG_AA_3.dds" }	
+   #)#	    
+   #(New Zealand AT#
+	SpriteType = { name = "GFX_NZL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ENG_AT_1.dds" }
+	SpriteType = { name = "GFX_NZL_antitank2_medium" texturefile = "gfx/interface/technologies/ENG_AT_2.dds" }	
+	SpriteType = { name = "GFX_NZL_antitank5_medium" texturefile = "gfx/interface/technologies/ENG_AT_3.dds" }	
+   #)#	    
+   #(New Zealand rocket artillery#
+	SpriteType = { name = "GFX_NZL_rocket_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_1.dds" }
+	SpriteType = { name = "GFX_NZL_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_2.dds" }
+	SpriteType = { name = "GFX_NZL_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/ENG_motorized_rocket_unit.dds" }
+   #)#	    
+  #)#
+  #(New Zealand navy#
+   #(New Zealand submarines#
+	SpriteType = { name = "GFX_NZL_early_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine1.dds" }	
+	SpriteType = {	
+		name = "GFX_NZL_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_submarine1.dds"
+	}	
+	SpriteType = { name = "GFX_NZL_basic_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_NZL_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_NZL_improved_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+   #)#	    
+   #(New Zealand destroyer#
+	SpriteType = { name = "GFX_NZL_early_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer1.dds" }	
+	SpriteType = {	
+		name = "GFX_NZL_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer1.dds"
+	}
+	SpriteType = { name = "GFX_NZL_basic_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }	
+	SpriteType = { name = "GFX_NZL_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }
+	SpriteType = { name = "GFX_NZL_improved_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+   #)#	    
+   #(New Zealand light cruiser#
+	SpriteType = { name = "GFX_NZL_early_light_cruiser_medium" texturefile = "gfx/interface/technologies/NZL_light_cruiser1.dds" }	
+	 SpriteType = {	
+		name = "GFX_NZL_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/NZL_light_cruiser1.dds"
+	}
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	SpriteType = { name = "GFX_NZL_basic_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_improved_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }		
+	SpriteType = { name = "GFX_NZL_advanced_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+   #)#	    
+   #(New Zealand heavy cruiser#
+	SpriteType = { name = "GFX_NZL_early_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_NZL_early_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_NZL_basic_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_basic_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_NZL_improved_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }		
+	SpriteType = { name = "GFX_NZL_advanced_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+   #)#	    
+   #(New Zealand battle cruiser#
+	SpriteType = {	
+		name = "GFX_NZL_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_battlecruiser1.dds"
+	}
+	SpriteType = { name = "GFX_NZL_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/ENG_battlecruiser2.dds" }
+   #)#	    
+   #(New Zealand battleship#
+	SpriteType = { name = "GFX_NZL_early_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship1.dds" }	
+	SpriteType = {	
+		name = "GFX_NZL_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_battleship1.dds"
+	}	
+	SpriteType = { name = "GFX_NZL_basic_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_NZL_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_NZL_improved_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }		
+	SpriteType = { name = "GFX_NZL_advanced_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+   #)#	    
+   #(New Zealand super-heavy battleship#
+	   SpriteType = { name = "GFX_NZL_heavy_battleship_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_NZL_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_NZL_heavy_battleship2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship2.dds" }
+   #)#	    
+   #(New Zealand carrier#
+	   SpriteType = { name = "GFX_NZL_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ENG_carrier_conversion_ca.dds" }	
+	SpriteType = { name = "GFX_NZL_early_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier1.dds" }
+	SpriteType = {	
+		name = "GFX_NZL_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier1.dds"
+	}	
+	SpriteType = { name = "GFX_NZL_basic_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+		SpriteType = { name = "GFX_NZL_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_NZL_improved_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_NZL_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }
+	SpriteType = { name = "GFX_NZL_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }		
+   #)#	    
+  #)#
+ #)# New Zealand End
+ #(South Africa#
+  #(South African aircraft#
+   #(South African jet fighter#
+	SpriteType = { name = "GFX_SAF_jet_fighter1_medium" texturefile = "gfx/interface/technologies/eng_jet_fighter1.dds" }	
+	SpriteType = { name = "GFX_SAF_jet_fighter2_medium" texturefile = "gfx/interface/technologies/eng_jet_fighter2.dds" }
+   #)#	    
+   #(South African jet strategic bomber#
+	SpriteType = { name = "GFX_SAF_jet_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/eng_jet_strategic_bomber1.dds" }
+   #)#	    
+   #(South african jet tactical bomber#
+	SpriteType = { name = "GFX_SAF_jet_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/eng_jet_tactical_bomber1.dds" }	
+	SpriteType = { name = "GFX_SAF_jet_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/eng_jet_tactical_bomber2.dds" }
+   #)#	    
+   #(South African rocket interceptor#
+	SpriteType = { name = "GFX_SAF_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/technologies/eng_rocket_interceptor_2.dds" }
+   #)#	    
+   #(South African carrier-based CAS#
+	SpriteType = { name = "GFX_SAF_cv_CAS1_medium" texturefile = "gfx/interface/technologies/ENG_CAS1_cv.dds" }	
+	SpriteType = { name = "GFX_SAF_cv_CAS2_medium" texturefile = "gfx/interface/technologies/ENG_CAS2_cv.dds" }
+	SpriteType = { name = "GFX_SAF_cv_CAS3_medium" texturefile = "gfx/interface/technologies/ENG_CAS3_cv.dds" }	
+   #)#	    
+   #(South African carrier-based fighter#
+	SpriteType = { name = "GFX_SAF_cv_early_fighter_medium" texturefile = "gfx/interface/technologies/ENG_early_fighter_cv.dds" }
+	SpriteType = { name = "GFX_SAF_cv_fighter1_medium" texturefile = "gfx/interface/technologies/ENG_fighter1_cv.dds" }
+	SpriteType = { name = "GFX_SAF_cv_fighter2_medium" texturefile = "gfx/interface/technologies/ENG_fighter2_cv.dds" }
+	SpriteType = { name = "GFX_SAF_cv_fighter3_medium" texturefile = "gfx/interface/technologies/ENG_fighter3_cv.dds" }
+   #)#	    
+   #(South African carrier-based naval bomber#
+	SpriteType = { name = "GFX_SAF_cv_naval_bomber1_medium" texturefile = "gfx/interface/technologies/ENG_naval_bomber1_cv.dds" }	
+	SpriteType = { name = "GFX_SAF_cv_naval_bomber2_medium" texturefile = "gfx/interface/technologies/ENG_naval_bomber2_cv.dds" }
+	SpriteType = { name = "GFX_SAF_cv_naval_bomber3_medium" texturefile = "gfx/interface/technologies/ENG_naval_bomber3_cv.dds" }
+   #)#	    
+   #(South African transport plane#	
+	SpriteType = { name = "GFX_SAF_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds" }
+	SpriteType = { name = "GFX_SAF_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/eng_transport_plane_equipment.dds" }
+   #)#	    
+  #)#
+  #(South African infantry#    
+   #(South African mobile infantry vehicle#		
+	SpriteType = { name = "GFX_SAF_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_3.dds" }
+   #)#	    
+   #(South African amphibious vehicle#
+	SpriteType = { name = "GFX_SAF_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_1.dds" }
+	SpriteType = { name = "GFX_SAF_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_2.dds" }
+   #)#	    
+   #(South African armored car#
+	SpriteType = { name = "GFX_SAF_armored_car1_medium" texturefile = "gfx/interface/technologies/saf_armored_car_equipment_1.dds" }
+	SpriteType = { name = "GFX_SAF_armored_car2_medium" texturefile = "gfx/interface/technologies/saf_armored_car_equipment_2.dds" }
+	SpriteType = { name = "GFX_SAF_armored_car3_medium" texturefile = "gfx/interface/technologies/saf_armored_car_equipment_3.dds" }
+	SpriteType = { name = "GFX_SAF_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/eng_armored_car_at_equipment.dds" }				
+   #)#
+  #)#
+  #(South African artillery#
+   #(South African howitzer#
+	SpriteType = { name = "GFX_SAF_gw_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Art_1.dds" }
+	SpriteType = { name = "GFX_SAF_artillery1_medium" texturefile = "gfx/interface/technologies/ENG_Art_2.dds" }	
+	SpriteType = { name = "GFX_SAF_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Art_3.dds" }	
+   #)#	    
+   #(South African AA#
+	SpriteType = { name = "GFX_SAF_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ENG_AA_1.dds" }
+	SpriteType = { name = "GFX_SAF_antiair2_medium" texturefile = "gfx/interface/technologies/ENG_AA_2.dds" }
+	SpriteType = { name = "GFX_SAF_antiair5_medium" texturefile = "gfx/interface/technologies/ENG_AA_3.dds" }	
+   #)#	    
+   #(South African AT#
+	SpriteType = { name = "GFX_SAF_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ENG_AT_1.dds" }
+	SpriteType = { name = "GFX_SAF_antitank2_medium" texturefile = "gfx/interface/technologies/ENG_AT_2.dds" }	
+	SpriteType = { name = "GFX_SAF_antitank5_medium" texturefile = "gfx/interface/technologies/ENG_AT_3.dds" }	
+   #)#	    
+   #(South African rocket artillery#
+	SpriteType = { name = "GFX_SAF_rocket_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_1.dds" }
+	SpriteType = { name = "GFX_SAF_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_2.dds" }
+	SpriteType = { name = "GFX_SAF_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/ENG_motorized_rocket_unit.dds" }
+   #)#	    
+  #)#
+  #(South African navy#
+   #(South African submarines#
+	SpriteType = { name = "GFX_SAF_early_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine1.dds" }	
+	SpriteType = {	
+		name = "GFX_SAF_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_submarine1.dds"
+	}	
+	SpriteType = { name = "GFX_SAF_basic_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_SAF_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_SAF_improved_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+   #)#	    
+   #(South African destroyer#
+	SpriteType = { name = "GFX_SAF_early_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer1.dds" }	
+	SpriteType = {	
+		name = "GFX_SAF_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer1.dds"
+	}
+	SpriteType = { name = "GFX_SAF_basic_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }	
+	SpriteType = { name = "GFX_SAF_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }
+	SpriteType = { name = "GFX_SAF_improved_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+   #)#	    
+   #(South African light cruiser#
+	SpriteType = { name = "GFX_SAF_early_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	 SpriteType = {	
+		name = "GFX_SAF_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds"
+	}
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	SpriteType = { name = "GFX_SAF_basic_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_improved_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }		
+	SpriteType = { name = "GFX_SAF_advanced_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+   #)#	    
+   #(South African heavy cruiser#
+	SpriteType = { name = "GFX_SAF_early_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_SAF_early_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_SAF_basic_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_basic_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_SAF_improved_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }		
+	SpriteType = { name = "GFX_SAF_advanced_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+   #)#	    
+   #(South African battle cruiser#
+	SpriteType = {	
+		name = "GFX_SAF_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_battlecruiser1.dds"
+	}
+	SpriteType = { name = "GFX_SAF_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/ENG_battlecruiser2.dds" }
+   #)#	    
+   #(South African battleship#
+	SpriteType = { name = "GFX_SAF_early_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship1.dds" }	
+	SpriteType = {	
+		name = "GFX_SAF_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_battleship1.dds"
+	}	
+	SpriteType = { name = "GFX_SAF_basic_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_SAF_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_SAF_improved_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }		
+	SpriteType = { name = "GFX_SAF_advanced_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+   #)#	    
+   #(South African super-heavy battleship#
+	   SpriteType = { name = "GFX_SAF_heavy_battleship_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_SAF_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_SAF_heavy_battleship2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship2.dds" }
+   #)#	    
+   #(South African carrier#
+	   SpriteType = { name = "GFX_SAF_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ENG_carrier_conversion_ca.dds" }	
+	SpriteType = { name = "GFX_SAF_early_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier1.dds" }
+	SpriteType = {	
+		name = "GFX_SAF_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier1.dds"
+	}	
+	SpriteType = { name = "GFX_SAF_basic_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+		SpriteType = { name = "GFX_SAF_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_SAF_improved_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_SAF_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }
+	SpriteType = { name = "GFX_SAF_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }		
+   #)#	    
+  #)#
+ #)# South Africa End
+ #(India#
+  #(Indian infantry#
+   #(Indian mobile infantry vehicle#	
+	SpriteType = { name = "GFX_RAJ_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/tfv_shared2_mechanized_equipment_3.dds" }
+   #)#	    
+   #(Indian amphibious vehicle#
+	SpriteType = { name = "GFX_RAJ_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_1.dds" }
+	SpriteType = { name = "GFX_RAJ_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/eng_amphibious_mech_2.dds" }
+   #)#	    
+   #(Indian armored car#
+	SpriteType = { name = "GFX_RAJ_armored_car1_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_1.dds" }
+	SpriteType = { name = "GFX_RAJ_armored_car2_medium" texturefile = "gfx/interface/technologies/raj_armored_car_equipment_2.dds" }
+	SpriteType = { name = "GFX_RAJ_armored_car3_medium" texturefile = "gfx/interface/technologies/eng_armored_car_equipment_3.dds" }
+	SpriteType = { name = "GFX_RAJ_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/eng_armored_car_at_equipment.dds" }				
+   #)#
+  #)#
+  #(Indian artillery#
+   #(Indian howitzer#
+	SpriteType = { name = "GFX_RAJ_gw_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Art_1.dds" }
+	SpriteType = { name = "GFX_RAJ_artillery1_medium" texturefile = "gfx/interface/technologies/ENG_Art_2.dds" }	
+	SpriteType = { name = "GFX_RAJ_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Art_3.dds" }	
+   #)#	    
+   #(Indian AA#
+	SpriteType = { name = "GFX_RAJ_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ENG_AA_1.dds" }
+	SpriteType = { name = "GFX_RAJ_antiair2_medium" texturefile = "gfx/interface/technologies/ENG_AA_2.dds" }
+	SpriteType = { name = "GFX_RAJ_antiair5_medium" texturefile = "gfx/interface/technologies/ENG_AA_3.dds" }	
+   #)#	    
+   #(Indian AT#
+	SpriteType = { name = "GFX_RAJ_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ENG_AT_1.dds" }
+	SpriteType = { name = "GFX_RAJ_antitank2_medium" texturefile = "gfx/interface/technologies/ENG_AT_2.dds" }	
+	SpriteType = { name = "GFX_RAJ_antitank5_medium" texturefile = "gfx/interface/technologies/ENG_AT_3.dds" }	
+   #)#	    
+   #(Indian rocket artillery#
+	SpriteType = { name = "GFX_RAJ_rocket_artillery_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_1.dds" }
+	SpriteType = { name = "GFX_RAJ_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/ENG_Rocket_Art_2.dds" }
+	SpriteType = { name = "GFX_RAJ_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/ENG_motorized_rocket_unit.dds" }
+   #)#	    
+  #)#
+  #(Indian navy#
+   #(Indian submarines#
+	SpriteType = { name = "GFX_RAJ_early_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine1.dds" }	
+	SpriteType = {	
+		name = "GFX_RAJ_early_ship_hull_submarine_medium"
+		texturefile = "gfx/interface/technologies/ENG_submarine1.dds"
+	}	
+	SpriteType = { name = "GFX_RAJ_basic_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_RAJ_basic_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine2.dds" }	
+	SpriteType = { name = "GFX_RAJ_improved_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine3.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_ship_hull_submarine_medium" texturefile = "gfx/interface/technologies/ENG_submarine4.dds" }
+   #)#	    
+   #(Indian destroyer#
+	SpriteType = { name = "GFX_RAJ_early_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer1.dds" }	
+	SpriteType = {	
+		name = "GFX_RAJ_early_ship_hull_light_medium"
+		texturefile = "gfx/interface/technologies/ENG_destroyer1.dds"
+	}
+	SpriteType = { name = "GFX_RAJ_basic_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }	
+	SpriteType = { name = "GFX_RAJ_basic_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer2.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer3.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_destroyer_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_ship_hull_light_medium" texturefile = "gfx/interface/technologies/ENG_destroyer4.dds" }
+   #)#	    
+   #(Indian light cruiser#
+	SpriteType = { name = "GFX_RAJ_early_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	 SpriteType = {	
+		name = "GFX_RAJ_early_ship_hull_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds"
+	}
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_1_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser1.dds" }	
+	SpriteType = { name = "GFX_RAJ_basic_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_2_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_3_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser3.dds" }		
+	SpriteType = { name = "GFX_RAJ_advanced_light_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_4_medium" texturefile = "gfx/interface/technologies/ENG_light_cruiser4.dds" }
+   #)#	    
+   #(Indian heavy cruiser#
+	SpriteType = { name = "GFX_RAJ_early_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_RAJ_early_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_1_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser1.dds" }
+	SpriteType = { name = "GFX_RAJ_basic_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_basic_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_basic_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_2_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser2.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_3_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser3.dds" }		
+	SpriteType = { name = "GFX_RAJ_advanced_light_cruiser_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_heavy_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_cruiser_4_capital_medium" texturefile = "gfx/interface/technologies/ENG_heavy_cruiser4.dds" }
+   #)#	    
+   #(Indian battle cruiser#
+	SpriteType = {	
+		name = "GFX_RAJ_early_battlecruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_battlecruiser1.dds"
+	}
+	SpriteType = { name = "GFX_RAJ_basic_battlecruiser_medium" texturefile = "gfx/interface/technologies/ENG_battlecruiser2.dds" }
+   #)#	    
+   #(Indian battleship#
+	SpriteType = { name = "GFX_RAJ_early_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship1.dds" }	
+	SpriteType = {	
+		name = "GFX_RAJ_early_ship_hull_heavy_medium"
+		texturefile = "gfx/interface/technologies/ENG_battleship1.dds"
+	}	
+	SpriteType = { name = "GFX_RAJ_basic_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_RAJ_basic_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship2.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship3.dds" }		
+	SpriteType = { name = "GFX_RAJ_advanced_battleship_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_ship_hull_heavy_medium" texturefile = "gfx/interface/technologies/ENG_battleship4.dds" }
+   #)#	    
+   #(Indian super-heavy battleship#
+	   SpriteType = { name = "GFX_RAJ_heavy_battleship_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_RAJ_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship1.dds" }
+	SpriteType = { name = "GFX_RAJ_heavy_battleship2_medium" texturefile = "gfx/interface/technologies/ENG_heavy_battleship2.dds" }
+   #)#	    
+   #(Indian carrier#
+	   SpriteType = { name = "GFX_RAJ_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/technologies/ENG_carrier_conversion_ca.dds" }	
+	SpriteType = { name = "GFX_RAJ_early_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier1.dds" }
+	SpriteType = {	
+		name = "GFX_RAJ_early_ship_hull_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_carrier1.dds"
+	}	
+	SpriteType = { name = "GFX_RAJ_basic_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_RAJ_basic_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier2.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_RAJ_improved_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier3.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }
+	SpriteType = { name = "GFX_RAJ_advanced_ship_hull_carrier_medium" texturefile = "gfx/interface/technologies/ENG_carrier4.dds" }				
+   #)#	    
+  #)#
+ #)#
+ #(Malaysia#
+  #(Malaysian tank# 
+    #(Malaysian great war tank#
+		SpriteType = { name = "GFX_MAL_gwtank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_0/MAL_vickers_6t_a.dds" }
+        SpriteType = { name = "GFX_MAL_gwtank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_0/MAL_vickers_6t_a.dds" } 
+	#)#	    
+    #(Malaysian light tank#			
+	    SpriteType = { name = "GFX_MAL_light_tank_chassis_0_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_0/MAL_vickers_6t_a.dds" }
+		SpriteType = { name = "GFX_MAL_basic_light_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_1/MAL_light_tank_mk_4.dds" }
+		SpriteType = { name = "GFX_MAL_improved_light_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_2/MAL_matilda_1.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_light_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_valentine_mk_1.dds" }
+		SpriteType = { name = "GFX_MAL_basic_light_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_1/MAL_light_tank_mk_4.dds" }
+        SpriteType = { name = "GFX_MAL_basic_light_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_1/MAL_light_tank_mk_4.dds" }
+        SpriteType = { name = "GFX_MAL_basic_light_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_1/MAL_light_tank_mk_4.dds" }
+        SpriteType = { name = "GFX_MAL_basic_light_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_1/MAL_light_tank_mk_5_aa.dds" }
+        SpriteType = { name = "GFX_MAL_improved_light_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_2/MAL_matilda_1.dds" }
+        SpriteType = { name = "GFX_MAL_improved_light_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_2/MAL_matilda_1.dds" }
+        SpriteType = { name = "GFX_MAL_improved_light_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_2/MAL_cruiser_tank_mk_1_cs.dds" }
+		SpriteType = { name = "GFX_MAL_improved_light_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_2/MAL_matilda_1.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_light_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_valentine_mk_1.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_light_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_archer.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_light_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_bishop.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_light_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_valentine_mk_1.dds" }
+	#)#	    
+    #(Malaysian medium tank#
+		SpriteType = { name = "GFX_MAL_medium_tank_chassis_0_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_0/MAL_medium_tank_mk_2.dds" }
+		SpriteType = { name = "GFX_MAL_basic_medium_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_1/MAL_crusader_mk1.dds" }
+		SpriteType = { name = "GFX_MAL_improved_medium_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_2/MAL_cromwell_mk1.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_medium_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_3/MAL_comet_type_a.dds" }
+	    SpriteType = { name = "GFX_MAL_basic_medium_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_1/MAL_crusader_mk1.dds" }
+        SpriteType = { name = "GFX_MAL_basic_medium_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_1/MAL_ram_qf_37_inch.dds" }
+        SpriteType = { name = "GFX_MAL_basic_medium_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_1/MAL_crusader_mk1_cs.dds" }
+        SpriteType = { name = "GFX_MAL_basic_medium_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_1/MAL_crusader_aa_mk1.dds" }
+		SpriteType = { name = "GFX_MAL_improved_medium_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_2/MAL_cromwell_mk1.dds" }
+        SpriteType = { name = "GFX_MAL_improved_medium_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_2/MAL_charioteer.dds" }
+        SpriteType = { name = "GFX_MAL_improved_medium_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_2/MAL_cromwell_mk6.dds" }
+        SpriteType = { name = "GFX_MAL_improved_medium_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_2/MAL_centaur_aa.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_medium_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_3/MAL_comet_type_a.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_medium_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_3/MAL_comet_type_a.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_medium_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_3/MAL_comet_cs.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_medium_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/medium_3/MAL_comet_type_a.dds" }
+ 	#)#	    
+    #(Malaysian heavy tank#
+	    SpriteType = { name = "GFX_MAL_heavy_tank_chassis_0_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_0/MAL_independent.dds" }
+		SpriteType = { name = "GFX_MAL_basic_heavy_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_1/MAL_matilda_2_mk2.dds" }
+		SpriteType = { name = "GFX_MAL_improved_heavy_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_2/MAL_churchill_mk3.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_heavy_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_3/MAL_black_prince.dds" }
+        SpriteType = { name = "GFX_MAL_basic_heavy_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_1/MAL_matilda_2_mk2.dds" }		
+        SpriteType = { name = "GFX_MAL_basic_heavy_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_1/MAL_matilda_2_mk2.dds" }
+        SpriteType = { name = "GFX_MAL_basic_heavy_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_1/MAL_matilda_2_mk2_cs.dds" }
+        SpriteType = { name = "GFX_MAL_basic_heavy_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_1/MAL_matilda_2_mk2.dds" }
+        SpriteType = { name = "GFX_MAL_improved_heavy_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_2/MAL_churchill_mk1.dds" }
+        SpriteType = { name = "GFX_MAL_improved_heavy_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_2/MAL_churchill_gc.dds" }
+        SpriteType = { name = "GFX_MAL_improved_heavy_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_2/MAL_churchill_avre.dds" }
+        SpriteType = { name = "GFX_MAL_improved_heavy_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_2/MAL_churchill_mk1.dds" }
+		SpriteType = { name = "GFX_MAL_advanced_heavy_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_3/MAL_black_prince.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_heavy_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_3/MAL_black_prince.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_heavy_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_3/MAL_black_prince.dds" }
+        SpriteType = { name = "GFX_MAL_advanced_heavy_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/heavy_3/MAL_black_prince.dds" }
+	#)#	    
+    #(Malaysian main battle tank#
+        SpriteType = { name = "GFX_MAL_modern_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_centurion_mk1.dds" }
+        SpriteType = { name = "GFX_MAL_main_battle_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_centurion_mk1.dds" }
+		SpriteType = { name = "GFX_MAL_main_battle_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_centurion_mk1.dds" }
+        SpriteType = { name = "GFX_MAL_modern_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_conway.dds" }
+        SpriteType = { name = "GFX_MAL_modern_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_centurion_avre.dds" }
+        SpriteType = { name = "GFX_MAL_modern_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/modern/MAL_centurion_mk1.dds" }
+	#)#	    
+    #(Malaysian super heavy tank#
+        SpriteType = { name = "GFX_MAL_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_mal/super_heavy/mal_tog_2.dds" }
+        SpriteType = { name = "GFX_MAL_super_heavy_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/super_heavy/MAL_tortoise.dds" }
+        SpriteType = { name = "GFX_MAL_super_heavy_td_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/super_heavy/MAL_tortoise.dds" }
+        SpriteType = { name = "GFX_MAL_super_heavy_art_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/super_heavy/MAL_tortoise.dds" }
+        SpriteType = { name = "GFX_MAL_super_heavy_spaa_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/super_heavy/MAL_tortoise.dds" }
+	#)#	    
+	#(Malaysian amphibious tank#	
+	    SpriteType = { name = "GFX_MAL_amphibious_tank_chassis_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/amphibious/MAL_a4e12.dds" }
+		SpriteType = { name = "GFX_MAL_amphibious_tank_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/amphibious/MAL_a4e12.dds" }
+	    SpriteType = { name = "GFX_MAL_amphibious_tank_2_medium" texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_MAL/light_3/MAL_valentine_dd.dds" }
+	#)#
+  #)#
+ #)#
+#)# Together for Victory End
+#(# Poland Content start (dlc002)
+ #(Poland#
+  #(Polish aircraft#
+    #(Polish jet fighter#
+        SpriteType = { name = "GFX_POL_jet_fighter2_medium" texturefile = "gfx/interface/technologies/pol_jet_fighter2.dds" }
+	#)#	
+    #(Polish CAS#
+        SpriteType = { name = "GFX_POL_CAS1_medium" texturefile = "gfx/interface/technologies/POL_CAS1.dds" }	
+        SpriteType = { name = "GFX_POL_CAS2_medium" texturefile = "gfx/interface/technologies/POL_CAS2.dds" }
+        SpriteType = { name = "GFX_POL_CAS3_medium" texturefile = "gfx/interface/technologies/POL_CAS3.dds" }
+	#)#	
+    #(Polish fighter#
+        SpriteType = { name = "GFX_POL_early_fighter_medium" texturefile = "gfx/interface/technologies/POL_early_fighter.dds" }
+        SpriteType = { name = "GFX_POL_fighter1_medium" texturefile = "gfx/interface/technologies/POL_fighter1.dds" }
+        SpriteType = { name = "GFX_POL_fighter2_medium" texturefile = "gfx/interface/technologies/POL_fighter2.dds" }
+        SpriteType = { name = "GFX_POL_fighter3_medium" texturefile = "gfx/interface/technologies/POL_fighter3.dds" }
+	#)#	
+    #(Polish naval bomber/carrier-based naval bomber#
+        SpriteType = { name = "GFX_POL_naval_bomber1_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_POL_cv_naval_bomber1_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber1_cv.dds" }
+        SpriteType = { name = "GFX_POL_naval_bomber2_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_POL_cv_naval_bomber2_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber2_cv.dds" }
+        SpriteType = { name = "GFX_POL_naval_bomber3_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber3.dds" }
+		SpriteType = { name = "GFX_POL_cv_naval_bomber3_medium" texturefile = "gfx/interface/technologies/POL_naval_bomber3_cv.dds" }	
+	#)#	
+    #(Polish heavy fighter#		
+	    SpriteType = { name = "GFX_POL_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/POL_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_POL_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/POL_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_POL_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/POL_heavy_fighter3.dds" }
+	#)#	
+	#(Polish tactical bomber#	
+	    SpriteType = { name = "GFX_POL_early_bomber_medium" texturefile = "gfx/interface/technologies/POL_early_bomber.dds" }
+	    SpriteType = { name = "GFX_POL_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/POL_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_POL_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/POL_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_POL_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/POL_tactical_bomber3.dds" }
+	#)#	
+	#(Polish strategic bomber#
+		SpriteType = { name = "GFX_POL_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/POL_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_POL_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/POL_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_POL_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/POL_strategic_bomber3.dds" }
+	#)#	
+	#(Polish transport plane#	
+	    SpriteType = { name = "GFX_POL_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/pol_transport_plane_equipment.dds" }
+		SpriteType = { name = "GFX_POL_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/pol_transport_plane_equipment.dds" }
+	#)#	
+    #(Polish scout plane#
+	    SpriteType = { name = "GFX_POL_scout_plane1_medium" texturefile = "gfx/interface/technologies/pol_scout_plane_1.dds" }
+	    SpriteType = { name = "GFX_POL_scout_plane2_medium" texturefile = "gfx/interface/technologies/pol_scout_plane_2.dds" }
+    #)#
+  #)#
+  #(Polish infantry#
+    #(Polish infantry weapon#
+        SpriteType = { name = "GFX_POL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/POL_infantry_equipment_0.dds" }
+        SpriteType = { name = "GFX_POL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/POL_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_POL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/POL_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_POL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/POL_infantry_equipment_3.dds" }
+	#)#	
+    #(Polish mobile infantry vehicle#
+        SpriteType = { name = "GFX_POL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/POL_motorised_equipment_1.dds" }
+        SpriteType = { name = "GFX_POL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/POL_motorised_equipment_1.dds" }
+        SpriteType = { name = "GFX_POL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/POL_mechanized_equipment_1.dds" }
+        SpriteType = { name = "GFX_POL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/POL_mechanized_equipment_2.dds" }
+        SpriteType = { name = "GFX_POL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/POL_mechanized_equipment_3.dds" }
+	#)#	
+	#(Polish amphibious vehicle#		
+		SpriteType = { name = "GFX_POL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/pol_amphibious_mech_2.dds" }
+	#)#	
+    #(Polish armored car#
+		SpriteType = { name = "GFX_POL_armored_car1_medium" texturefile = "gfx/interface/technologies/pol_armored_car_equipment_1.dds" }
+	    SpriteType = { name = "GFX_POL_armored_car2_medium" texturefile = "gfx/interface/technologies/pol_armored_car_equipment_2.dds" }				
+	#)#
+  #)#
+  #(Polish artillery#
+    #(Polish howitzer#
+        SpriteType = { name = "GFX_POL_gw_artillery_medium" texturefile = "gfx/interface/technologies/POL_Art_1.dds" }
+        SpriteType = { name = "GFX_POL_artillery1_medium" texturefile = "gfx/interface/technologies/POL_Art_2.dds" }	
+        SpriteType = { name = "GFX_POL_artillery4_medium" texturefile = "gfx/interface/technologies/POL_Art_3.dds" }	
+	#)#	
+    #(Polish AA#
+        SpriteType = { name = "GFX_POL_interwar_antiair_medium" texturefile = "gfx/interface/technologies/POL_AA_1.dds" }
+        SpriteType = { name = "GFX_POL_antiair2_medium" texturefile = "gfx/interface/technologies/POL_AA_2.dds" }
+        SpriteType = { name = "GFX_POL_antiair5_medium" texturefile = "gfx/interface/technologies/POL_AA_3.dds" }	
+	#)#	
+    #(Polish AT#
+        SpriteType = { name = "GFX_POL_interwar_antitank_medium" texturefile = "gfx/interface/technologies/POL_AT_1.dds" }
+        SpriteType = { name = "GFX_POL_antitank2_medium" texturefile = "gfx/interface/technologies/POL_AT_2.dds" }
+	#)#	
+  #)#
+ #)#
+#)# Poland Content end
+#(# Death or Dishonor Start (dlc020)
+ #(Romania#
+  #(Romanian aircraft#
+    #(Romanian CAS#
+        SpriteType = { name = "GFX_ROM_CAS1_medium" texturefile = "gfx/interface/technologies/rom_cas1.dds" }	
+        SpriteType = { name = "GFX_ROM_CAS2_medium" texturefile = "gfx/interface/technologies/rom_cas2.dds" }
+        SpriteType = { name = "GFX_ROM_CAS3_medium" texturefile = "gfx/interface/technologies/rom_cas3.dds" }
+	#)#	
+    #(Romanian fighter#
+        SpriteType = { name = "GFX_ROM_early_fighter_medium" texturefile = "gfx/interface/technologies/rom_early_fighter.dds" }
+        SpriteType = { name = "GFX_ROM_fighter1_medium" texturefile = "gfx/interface/technologies/rom_fighter1.dds" }
+        SpriteType = { name = "GFX_ROM_fighter2_medium" texturefile = "gfx/interface/technologies/rom_fighter2.dds" }
+        SpriteType = { name = "GFX_ROM_fighter3_medium" texturefile = "gfx/interface/technologies/rom_fighter3.dds" }
+	#)#	
+    #(Romanian naval bomber#
+        SpriteType = { name = "GFX_ROM_naval_bomber1_medium" texturefile = "gfx/interface/technologies/rom_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_ROM_naval_bomber2_medium" texturefile = "gfx/interface/technologies/rom_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_ROM_naval_bomber3_medium" texturefile = "gfx/interface/technologies/rom_naval_bomber3.dds" }
+	#)#	
+    #(Romanian heavy fighter#		
+	    SpriteType = { name = "GFX_ROM_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/rom_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_ROM_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/rom_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_ROM_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/rom_heavy_fighter3.dds" }
+	#)#	
+	#(Romanian tactical bomber#	
+	    SpriteType = { name = "GFX_ROM_early_bomber_medium" texturefile = "gfx/interface/technologies/rom_early_bomber.dds" }
+	    SpriteType = { name = "GFX_ROM_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/rom_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_ROM_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/rom_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_ROM_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/rom_tactical_bomber3.dds" }
+	#)#	
+	#(Romanian strategic bomber#
+		SpriteType = { name = "GFX_ROM_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/rom_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_ROM_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/rom_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_ROM_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/rom_strategic_bomber3.dds" }
+	#)#	
+    #(Romanian scout plane#
+	    SpriteType = { name = "GFX_ROM_scout_plane1_medium" texturefile = "gfx/interface/technologies/rom_scout_plane_1.dds" }
+    #)#
+  #)#
+  #(Romanian infantry#
+   	#(Romanian infantry weapon#
+        SpriteType = { name = "GFX_ROM_infantry_weapons_medium" texturefile = "gfx/interface/technologies/ROM_infantry_equipment_0.dds" }
+        SpriteType = { name = "GFX_ROM_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/rom_infantry_weapons1.dds" }
+        SpriteType = { name = "GFX_ROM_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/rom_improved_infantry_weapons.dds" }
+        SpriteType = { name = "GFX_ROM_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/rom_advanced_infantry_weapons.dds" }
+	#)#	
+    #(Romanian mobile infantry vehicle#
+        SpriteType = { name = "GFX_ROM_motorised_infantry_medium" texturefile = "gfx/interface/technologies/rom_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_ROM_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/rom_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_ROM_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/rom_mechanised_infantry.dds" }
+        SpriteType = { name = "GFX_ROM_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/rom_mechanised_infantry2.dds" }
+        SpriteType = { name = "GFX_ROM_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/rom_mechanised_infantry3.dds" }
+	#)#	
+    #(Romanian armored car#
+		SpriteType = { name = "GFX_ROM_armored_car1_medium" texturefile = "gfx/interface/technologies/rom_armored_car_equipment_1.dds" }				
+	#)#
+  #)#
+  #(Romanian artillery#
+    #(Romanian howitzer#
+        SpriteType = { name = "GFX_ROM_gw_artillery_medium" texturefile = "gfx/interface/technologies/ROM_Art_1.dds" }
+        SpriteType = { name = "GFX_ROM_artillery1_medium" texturefile = "gfx/interface/technologies/ROM_Art_2.dds" }	
+        SpriteType = { name = "GFX_ROM_artillery4_medium" texturefile = "gfx/interface/technologies/ROM_Art_3.dds" }	
+	#)#	
+    #(Romanian AA#
+        SpriteType = { name = "GFX_ROM_interwar_antiair_medium" texturefile = "gfx/interface/technologies/ROM_AA_1.dds" }
+        SpriteType = { name = "GFX_ROM_antiair2_medium" texturefile = "gfx/interface/technologies/ROM_AA_2.dds" }
+	#)#	
+    #(Romanian AT#
+        SpriteType = { name = "GFX_ROM_interwar_antitank_medium" texturefile = "gfx/interface/technologies/ROM_AT_1.dds" }
+        SpriteType = { name = "GFX_ROM_antitank2_medium" texturefile = "gfx/interface/technologies/ROM_AT_2.dds" }	
+        SpriteType = { name = "GFX_ROM_antitank5_medium" texturefile = "gfx/interface/technologies/ROM_AT_3.dds" }		
+	#)#	
+  #)#
+ #)# Romania end
+ #(Hungary#
+  #(Hungarian aircraft#
+    #(Hungarian CAS#
+        SpriteType = { name = "GFX_HUN_CAS1_medium" texturefile = "gfx/interface/technologies/hun_cas1.dds" }	
+        SpriteType = { name = "GFX_HUN_CAS2_medium" texturefile = "gfx/interface/technologies/hun_cas2.dds" }
+        SpriteType = { name = "GFX_HUN_CAS3_medium" texturefile = "gfx/interface/technologies/hun_cas3.dds" }
+	#)#	
+    #(Hungarian fighter#
+        SpriteType = { name = "GFX_HUN_early_fighter_medium" texturefile = "gfx/interface/technologies/hun_early_fighter.dds" }
+        SpriteType = { name = "GFX_HUN_fighter1_medium" texturefile = "gfx/interface/technologies/hun_fighter1.dds" }
+        SpriteType = { name = "GFX_HUN_fighter2_medium" texturefile = "gfx/interface/technologies/hun_fighter2.dds" }
+        SpriteType = { name = "GFX_HUN_fighter3_medium" texturefile = "gfx/interface/technologies/hun_fighter3.dds" }
+	#)#	
+    #(Hungarian naval bomber#
+        SpriteType = { name = "GFX_HUN_naval_bomber1_medium" texturefile = "gfx/interface/technologies/hun_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_HUN_naval_bomber2_medium" texturefile = "gfx/interface/technologies/hun_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_HUN_naval_bomber3_medium" texturefile = "gfx/interface/technologies/hun_naval_bomber3.dds" }
+	#)#	
+    #(Hungarian heavy fighter#		
+	    SpriteType = { name = "GFX_HUN_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/hun_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_HUN_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/hun_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_HUN_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/hun_heavy_fighter3.dds" }
+	#)#	
+	#(Hungarian tactical bomber#	
+	    SpriteType = { name = "GFX_HUN_early_bomber_medium" texturefile = "gfx/interface/technologies/hun_early_bomber.dds" }
+	    SpriteType = { name = "GFX_HUN_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/hun_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_HUN_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/hun_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_HUN_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/hun_tactical_bomber3.dds" }
+	#)#	
+	#(Hungarian strategic bomber#
+		SpriteType = { name = "GFX_HUN_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/hun_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_HUN_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/hun_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_HUN_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/hun_strategic_bomber3.dds" }
+	#)#	
+    #(Hungarian scout plane#
+	    SpriteType = { name = "GFX_HUN_scout_plane1_medium" texturefile = "gfx/interface/technologies/hun_scout_plane_1.dds" }
+    #)#
+  #)#
+  #(Hungarian infantry#
+	#(Hungarian infantry weapon#
+        SpriteType = { name = "GFX_HUN_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hun_basic_equipment.dds" }
+        SpriteType = { name = "GFX_HUN_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/hun_infantry_weapons1.dds" }
+        SpriteType = { name = "GFX_HUN_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hun_improved_infantry_weapons.dds" }
+        SpriteType = { name = "GFX_HUN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hun_advanced_infantry_weapons.dds" }
+	#)#	
+    #(Hungarian mobile infantry vehicle#
+        SpriteType = { name = "GFX_HUN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/hun_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_HUN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/hun_motorised_infantry.dds" }
+	    SpriteType = { name = "GFX_HUN_mechanised_infantry1_medium" texturefile = "gfx/interface/technologies/hun_mechanised_infantry.dds" }
+	    SpriteType = { name = "GFX_HUN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/hun_mechanised_infantry2.dds" }	
+		SpriteType = { name = "GFX_HUN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/hun_mechanised_infantry3.dds" }	
+	#)#	
+    #(Hungarian armored car#
+		SpriteType = { name = "GFX_HUN_armored_car1_medium" texturefile = "gfx/interface/technologies/hun_armored_car_equipment_1.dds" }				
+	#)#
+  #)#
+  #(Hungarian artillery#
+    #(Hungarian howitzer#
+        SpriteType = { name = "GFX_HUN_gw_artillery_medium" texturefile = "gfx/interface/technologies/HUN_Art_1.dds" }	
+        SpriteType = { name = "GFX_HUN_artillery1_medium" texturefile = "gfx/interface/technologies/HUN_Art_2.dds" }	
+        SpriteType = { name = "GFX_HUN_artillery4_medium" texturefile = "gfx/interface/technologies/HUN_Art_3.dds" }
+	#)#	
+    #(Hungarian AA#
+        SpriteType = { name = "GFX_HUN_antiair2_medium" texturefile = "gfx/interface/technologies/HUN_AA_2.dds" }
+        SpriteType = { name = "GFX_HUN_antiair5_medium" texturefile = "gfx/interface/technologies/HUN_AA_3.dds" }			
+	#)#	
+    #(Hungarian AT#
+        SpriteType = { name = "GFX_HUN_interwar_antitank_medium" texturefile = "gfx/interface/technologies/HUN_AT_1.dds" }
+        SpriteType = { name = "GFX_HUN_antitank2_medium" texturefile = "gfx/interface/technologies/HUN_AT_2.dds" }	
+        SpriteType = { name = "GFX_HUN_antitank5_medium" texturefile = "gfx/interface/technologies/HUN_AT_3.dds" }		
+	#)#	
+	#(Hungarian rocket artillery#
+        SpriteType = { name = "GFX_HUN_rocket_artillery_medium" texturefile = "gfx/interface/technologies/HUN_Rocket_Art_1.dds" }
+        SpriteType = { name = "GFX_HUN_rocket_artillery4_medium" texturefile = "gfx/interface/technologies/HUN_Rocket_Art_2.dds" }
+		SpriteType = { name = "GFX_HUN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/HUN_motorized_rocket_unit.dds" }
+	#)#	
+  #)#
+ #)# Hungary end
+ #(Yugoslovia#
+  #(Yugoslavian aircraft#
+    #(Yugoslavian CAS#
+        SpriteType = { name = "GFX_YUG_CAS1_medium" texturefile = "gfx/interface/technologies/yug_cas1.dds" }	
+        SpriteType = { name = "GFX_YUG_CAS2_medium" texturefile = "gfx/interface/technologies/yug_cas2.dds" }
+        SpriteType = { name = "GFX_YUG_CAS3_medium" texturefile = "gfx/interface/technologies/yug_cas3.dds" }
+	#)#	
+    #(Yugoslavian fighter#
+        SpriteType = { name = "GFX_YUG_early_fighter_medium" texturefile = "gfx/interface/technologies/yug_early_fighter.dds" }
+        SpriteType = { name = "GFX_YUG_fighter1_medium" texturefile = "gfx/interface/technologies/yug_fighter1.dds" }
+        SpriteType = { name = "GFX_YUG_fighter2_medium" texturefile = "gfx/interface/technologies/yug_fighter2.dds" }
+        SpriteType = { name = "GFX_YUG_fighter3_medium" texturefile = "gfx/interface/technologies/yug_fighter3.dds" }
+	#)#	
+    #(Yugoslavian naval bomber#
+        SpriteType = { name = "GFX_YUG_naval_bomber1_medium" texturefile = "gfx/interface/technologies/yug_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_YUG_naval_bomber2_medium" texturefile = "gfx/interface/technologies/yug_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_YUG_naval_bomber3_medium" texturefile = "gfx/interface/technologies/yug_naval_bomber3.dds" }
+	#)#	
+    #(Yugoslavian heavy fighter#		
+	    SpriteType = { name = "GFX_YUG_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/yug_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_YUG_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/yug_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_YUG_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/yug_heavy_fighter3.dds" }
+	#)#	
+	#(Yugoslavian tactical bomber#	
+	    SpriteType = { name = "GFX_YUG_early_bomber_medium" texturefile = "gfx/interface/technologies/yug_early_bomber.dds" }
+	    SpriteType = { name = "GFX_YUG_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/yug_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_YUG_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/yug_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_YUG_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/yug_tactical_bomber3.dds" }
+	#)#	
+	#(Yugoslavian strategic bomber#
+		SpriteType = { name = "GFX_YUG_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/yug_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_YUG_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/yug_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_YUG_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/yug_strategic_bomber3.dds" }
+	#)#	
+	#(Yugoslavian jet fighter#
+        SpriteType = { name = "GFX_YUG_jet_fighter1_medium" texturefile = "gfx/interface/technologies/yug_jet_fighter1.dds" }	
+        SpriteType = { name = "GFX_YUG_jet_fighter2_medium" texturefile = "gfx/interface/technologies/yug_jet_fighter2.dds" }
+	#)#	
+  #)#
+  #(Yugoslavian infantry#
+    #(Yugoslavian infantry weapon#
+        SpriteType = { name = "GFX_YUG_infantry_weapons_medium" texturefile = "gfx/interface/technologies/yug_basic_equipment.dds" }
+        SpriteType = { name = "GFX_YUG_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/yug_infantry_weapons1.dds" }
+        SpriteType = { name = "GFX_YUG_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/yug_improved_infantry_weapons.dds" }
+        SpriteType = { name = "GFX_YUG_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/yug_advanced_infantry_weapons.dds" }
+	#)#	
+    #(Yugoslavian mobile infantry vehicle#
+        SpriteType = { name = "GFX_YUG_motorised_infantry_medium" texturefile = "gfx/interface/technologies/yug_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_YUG_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/yug_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_YUG_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/yug_mechanised_infantry.dds" }
+        SpriteType = { name = "GFX_YUG_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/yug_mechanised_infantry2.dds" }
+        SpriteType = { name = "GFX_YUG_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/yug_mechanised_infantry3.dds" }
+	#)#	
+  #)#
+  #(Yugoslavian artillery#
+	#(Yugoslavian howitzer#
+        SpriteType = { name = "GFX_YUG_gw_artillery_medium" texturefile = "gfx/interface/technologies/YUG_Art_1.dds" }	
+        SpriteType = { name = "GFX_YUG_artillery1_medium" texturefile = "gfx/interface/technologies/YUG_Art_2.dds" }	
+        SpriteType = { name = "GFX_YUG_artillery4_medium" texturefile = "gfx/interface/technologies/YUG_Art_3.dds" }
+	#)#	
+  #)#
+ #)# Yugoslavia end
+ #(Czechoslovkia#
+  #(Czechislovakian aircraft#
+    #(Czechoslovakian CAS#
+        SpriteType = { name = "GFX_CZE_CAS1_medium" texturefile = "gfx/interface/technologies/cze_cas1.dds" }	
+        SpriteType = { name = "GFX_CZE_CAS2_medium" texturefile = "gfx/interface/technologies/cze_cas2.dds" }
+        SpriteType = { name = "GFX_CZE_CAS3_medium" texturefile = "gfx/interface/technologies/cze_cas3.dds" }
+	#)#	
+    #(Czechoslovakian fighter#
+        SpriteType = { name = "GFX_CZE_early_fighter_medium" texturefile = "gfx/interface/technologies/cze_early_fighter.dds" }
+        SpriteType = { name = "GFX_CZE_fighter1_medium" texturefile = "gfx/interface/technologies/cze_fighter1.dds" }
+        SpriteType = { name = "GFX_CZE_fighter2_medium" texturefile = "gfx/interface/technologies/cze_fighter2.dds" }
+        SpriteType = { name = "GFX_CZE_fighter3_medium" texturefile = "gfx/interface/technologies/cze_fighter3.dds" }
+	#)#	
+    #(Czechoslovakian naval bomber/carrier-based naval bomber#
+        SpriteType = { name = "GFX_CZE_naval_bomber1_medium" texturefile = "gfx/interface/technologies/cze_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_CZE_naval_bomber2_medium" texturefile = "gfx/interface/technologies/cze_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_CZE_naval_bomber3_medium" texturefile = "gfx/interface/technologies/cze_naval_bomber3.dds" }
+        SpriteType = { name = "GFX_CZE_cv_naval_bomber3_medium" texturefile = "gfx/interface/technologies/cze_naval_bomber3_cv.dds" }	
+	#)#	
+    #(Czechoslovakian heavy fighter#		
+	    SpriteType = { name = "GFX_CZE_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/cze_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_CZE_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/cze_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_CZE_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/cze_heavy_fighter3.dds" }
+	#)#	
+	#(Czechoslovakian tactical bomber#	
+	    SpriteType = { name = "GFX_CZE_early_bomber_medium" texturefile = "gfx/interface/technologies/cze_early_bomber.dds" }
+	    SpriteType = { name = "GFX_CZE_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/cze_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_CZE_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/cze_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_CZE_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/cze_tactical_bomber3.dds" }
+	#)#	
+	#(Czechoslovakian strategic bomber#
+		SpriteType = { name = "GFX_CZE_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/cze_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_CZE_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/cze_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_CZE_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/cze_strategic_bomber3.dds" }
+	#)#	
+	#(Czechoslovakian jet fighter#
+        SpriteType = { name = "GFX_CZE_jet_fighter1_medium" texturefile = "gfx/interface/technologies/cze_jet_fighter1.dds" }	
+        SpriteType = { name = "GFX_CZE_jet_fighter2_medium" texturefile = "gfx/interface/technologies/cze_jet_fighter2.dds" }
+	#)#	
+    #(Czechoslovakian jet tactical bomber#
+        SpriteType = { name = "GFX_CZE_jet_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/cze_jet_tactical_bomber1.dds" }
+	#)#	
+	#(Czechoslovakian transport plane#	
+	    SpriteType = { name = "GFX_CZE_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/cze_transport_plane_equipment.dds" }
+		SpriteType = { name = "GFX_CZE_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/cze_transport_plane_equipment.dds" }
+	#)#	
+    #(Czechoslovakian scout plane#
+	    SpriteType = { name = "GFX_CZE_scout_plane1_medium" texturefile = "gfx/interface/technologies/cze_scout_plane_1.dds" }
+	    SpriteType = { name = "GFX_CZE_scout_plane2_medium" texturefile = "gfx/interface/technologies/cze_scout_plane_2.dds" }
+    #)#
+  #)#
+  #(Czechislovakian infantry#
+    #(Czechoslovakian infantry weapon#
+        SpriteType = { name = "GFX_CZE_infantry_weapons_medium" texturefile = "gfx/interface/technologies/cze_basic_equipment.dds" }
+        SpriteType = { name = "GFX_CZE_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/cze_infantry_weapons1.dds" }
+        SpriteType = { name = "GFX_CZE_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/cze_improved_infantry_weapons.dds" }
+        SpriteType = { name = "GFX_CZE_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/cze_advanced_infantry_weapons.dds" }
+	#)#	
+    #(Czechoslovakian mobile infantry vehicle#
+        SpriteType = { name = "GFX_CZE_motorised_infantry_medium" texturefile = "gfx/interface/technologies/cze_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_CZE_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/cze_motorised_infantry.dds" }
+        SpriteType = { name = "GFX_CZE_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/cze_mechanised_infantry.dds" }
+        SpriteType = { name = "GFX_CZE_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/cze_mechanised_infantry2.dds" }
+        SpriteType = { name = "GFX_CZE_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/cze_mechanised_infantry3.dds" }	
+	#)#	
+	#(Czechoslovakian amphibious vehicle#		
+		SpriteType = { name = "GFX_CZE_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/cze_amphibious_mech_2.dds" }
+	#)#	
+    #(Czechoslovakian armored car#
+		SpriteType = { name = "GFX_CZE_armored_car1_medium" texturefile = "gfx/interface/technologies/cze_armored_car_equipment_1.dds" }				
+	#)#
+  #)#
+  #(Czechislovakian artillery#
+    #(Czechoslovakian howitzer#
+        SpriteType = { name = "GFX_CZE_gw_artillery_medium" texturefile = "gfx/interface/technologies/CZE_Art_1.dds" }
+        SpriteType = { name = "GFX_CZE_artillery1_medium" texturefile = "gfx/interface/technologies/CZE_Art_2.dds" }	
+        SpriteType = { name = "GFX_CZE_artillery4_medium" texturefile = "gfx/interface/technologies/CZE_Art_3.dds" }	
+	#)#	
+    #(Czechoslovakian AA#
+        SpriteType = { name = "GFX_CZE_interwar_antiair_medium" texturefile = "gfx/interface/technologies/CZE_AA_1.dds" }
+        SpriteType = { name = "GFX_CZE_antiair2_medium" texturefile = "gfx/interface/technologies/CZE_AA_2.dds" }
+	#)#	
+    #(Czechoslovakian AT#
+        SpriteType = { name = "GFX_CZE_interwar_antitank_medium" texturefile = "gfx/interface/technologies/CZE_AT_1.dds" }
+        SpriteType = { name = "GFX_CZE_antitank2_medium" texturefile = "gfx/interface/technologies/CZE_AT_2.dds" }
+	#)#	
+    #(Czechoslovakian rocket artillery#
+        SpriteType = { name = "GFX_CZE_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/CZE_motorized_rocket_unit.dds" }
+	#)#	
+  #)#
+ #)# Czechoslovkia End
+#)# Death or Dishonor End
+#(# Man the Gun Start (dlc023)
+ #(Netherlands#
+  #(Dutch tank#
+    #(Dutch great war tank#
+        SpriteType = { name = "GFX_HOL_gwtank_medium" texturefile = "gfx/interface/technologies/hol_gwtank.dds" } 
+	#)#	
+    #(Dutch light tank#
+        SpriteType = { name = "GFX_HOL_basic_light_tank_medium" texturefile = "gfx/interface/technologies/hol_basic_light_tank.dds" }
+        SpriteType = { name = "GFX_HOL_improved_light_tank_medium" texturefile = "gfx/interface/technologies/hol_imp_light_tank.dds" }
+        SpriteType = { name = "GFX_HOL_advanced_light_tank_medium" texturefile = "gfx/interface/technologies/hol_adv_light_tank.dds" }
+	#)#	
+    #(Dutch medium tank#
+        SpriteType = { name = "GFX_HOL_basic_medium_tank_medium" texturefile = "gfx/interface/technologies/hol_basic_medium_tank.dds" }
+        SpriteType = { name = "GFX_HOL_improved_medium_tank_medium" texturefile = "gfx/interface/technologies/hol_imp_medium_tank.dds" }
+        SpriteType = { name = "GFX_HOL_advanced_medium_tank_medium" texturefile = "gfx/interface/technologies/hol_adv_medium_tank.dds" }
+	#)#	
+    #(Dutch heavy tank#
+        SpriteType = { name = "GFX_HOL_basic_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_basic_heavy_tank.dds" }
+        SpriteType = { name = "GFX_HOL_improved_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_imp_heavy_tank.dds" }
+        SpriteType = { name = "GFX_HOL_advanced_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_adv_heavy_tank.dds" }
+	#)#	
+    #(Dutch main battle tank#
+        SpriteType = { name = "GFX_HOL_main_battle_tank_medium" texturefile = "gfx/interface/technologies/hol_main_battle_tank.dds" }
+	#)#	
+    #(Dutch super heavy tank#
+        SpriteType = { name = "GFX_HOL_super_heavy_tank_medium" texturefile = "gfx/interface/technologies/hol_superheavy_tank.dds" }
+	#)#	
+  #)#
+  #(Dutch infantry#
+    #(Dutch infantry weapon#
+        SpriteType = { name = "GFX_HOL_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hol_basic_equipment.dds" }
+        SpriteType = { name = "GFX_HOL_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/hol_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_HOL_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hol_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_HOL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/hol_infantry_equipment_3.dds" }
+	#)#	
+    #(Dutch mobile infantry vehicle#
+        SpriteType = { name = "GFX_HOL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/hol_motorized_equipment.dds" }
+        SpriteType = { name = "GFX_HOL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/hol_motorized_equipment.dds" }
+        SpriteType = { name = "GFX_HOL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/HOL_mechanized_equipment_1.dds" }
+        SpriteType = { name = "GFX_HOL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/HOL_mechanized_equipment_2.dds" }
+        SpriteType = { name = "GFX_HOL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/HOL_mechanized_equipment_3.dds" }
+	#)#	
+	#(Dutch amphibious vehicle#
+	    SpriteType = { name = "GFX_HOL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/hol_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_HOL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/hol_amphibious_mech_2.dds" }
+	#)#	
+  #)#
+ #)#
+ #(Mexico#
+		#test
+ #)#
+#)# Man the Gun End
+#(# la Resistance Start (dlc028)
+ #(Spain#
+  #(Spainish infantry#
+    #(Spainish infantry weapon#
+        SpriteType = { name = "GFX_SPR_infantry_weapons_medium" texturefile = "gfx/interface/technologies/spr_basic_equipment.dds" }
+        SpriteType = { name = "GFX_SPR_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/spr_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_SPR_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/spr_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_SPR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/spr_infantry_equipment_3.dds" }
+	#)#	    
+    #(Spainish armored car#
+		SpriteType = { name = "GFX_SPR_armored_car1_medium" texturefile = "gfx/interface/technologies/spr_armored_car_equipment_1.dds" }				
+	#)#
+  #)#
+ #)#
+ #(Portugal#
+  #(Portuguese infantry#
+    #(Portuguese infantry weapon#
+        SpriteType = { name = "GFX_POR_infantry_weapons_medium" texturefile = "gfx/interface/technologies/por_basic_equipment.dds" }
+        SpriteType = { name = "GFX_POR_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/por_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_POR_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/por_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_POR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/por_infantry_equipment_3.dds" }
+	#)#	    
+    #(Portuguese mobile infantry vehicle#
+        SpriteType = { name = "GFX_POR_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/por_mechanized_equipment_1.dds" }
+        SpriteType = { name = "GFX_POR_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/por_mechanized_equipment_2.dds" }
+        SpriteType = { name = "GFX_POR_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/por_mechanized_equipment_3.dds" }
+	#)#	    
+  #)#
+ #)#
+#)# la Resistance End
+#(# Battle for the Bosporus Start (dlc031)
+ #(Turkey#
+ #)#
+ #(Greece#
+ #)#
+ #(Bulgaria#
+ #)#
+#)# Battle for the Bosporus End
+#(# No Step Back Start (dlc034)
+ #(Estonia#
+ #)
+ #(Latvia#
+ #)
+ #(Lithuania#
+ #)
+#)# No Step Back End
+#(# Arms Against Tyranny Start (dlc039)
+ #(Sweden#
+  #(Swedish aircraft#
+    #(Swedish CAS/carrier-based CAS#
+        SpriteType = { name = "GFX_SWE_CAS1_medium" texturefile = "gfx/interface/technologies/SWE_CAS1.dds" }	
+        SpriteType = { name = "GFX_SWE_cv_CAS1_medium" texturefile = "gfx/interface/technologies/SWE_CAS1_cv.dds" }
+        SpriteType = { name = "GFX_SWE_CAS2_medium" texturefile = "gfx/interface/technologies/SWE_CAS2.dds" }
+        SpriteType = { name = "GFX_SWE_CAS3_medium" texturefile = "gfx/interface/technologies/SWE_CAS3.dds" }
+	#)#	
+    #(Swedish fighter#
+        SpriteType = { name = "GFX_SWE_early_fighter_medium" texturefile = "gfx/interface/technologies/SWE_early_fighter.dds" }
+        SpriteType = { name = "GFX_SWE_fighter1_medium" texturefile = "gfx/interface/technologies/SWE_fighter1.dds" }
+        SpriteType = { name = "GFX_SWE_fighter2_medium" texturefile = "gfx/interface/technologies/SWE_fighter2.dds" }
+        SpriteType = { name = "GFX_SWE_fighter3_medium" texturefile = "gfx/interface/technologies/SWE_fighter3.dds" }
+	#)#	
+    #(Swedish naval bomber#
+        SpriteType = { name = "GFX_SWE_naval_bomber1_medium" texturefile = "gfx/interface/technologies/SWE_naval_bomber1.dds" }	
+        SpriteType = { name = "GFX_SWE_naval_bomber2_medium" texturefile = "gfx/interface/technologies/SWE_naval_bomber2.dds" }
+        SpriteType = { name = "GFX_SWE_naval_bomber3_medium" texturefile = "gfx/interface/technologies/SWE_naval_bomber3.dds" }
+	#)#	
+    #(Swedish heavy fighter#		
+	    SpriteType = { name = "GFX_SWE_heavy_fighter1_medium" texturefile = "gfx/interface/technologies/SWE_heavy_fighter1.dds" }
+	    SpriteType = { name = "GFX_SWE_heavy_fighter2_medium" texturefile = "gfx/interface/technologies/SWE_heavy_fighter2.dds" }
+	    SpriteType = { name = "GFX_SWE_heavy_fighter3_medium" texturefile = "gfx/interface/technologies/SWE_heavy_fighter3.dds" }
+	#)#	
+	#(Swedish tactical bomber#	
+	    SpriteType = { name = "GFX_SWE_early_bomber_medium" texturefile = "gfx/interface/technologies/SWE_early_bomber.dds" }
+	    SpriteType = { name = "GFX_SWE_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/SWE_tactical_bomber1.dds" }
+		SpriteType = { name = "GFX_SWE_tactical_bomber2_medium" texturefile = "gfx/interface/technologies/SWE_tactical_bomber2.dds" }
+		SpriteType = { name = "GFX_SWE_tactical_bomber3_medium" texturefile = "gfx/interface/technologies/SWE_tactical_bomber3.dds" }
+	#)#	
+	#(Swedish strategic bomber#
+		SpriteType = { name = "GFX_SWE_strategic_bomber1_medium" texturefile = "gfx/interface/technologies/SWE_strategic_bomber1.dds" }
+		SpriteType = { name = "GFX_SWE_strategic_bomber2_medium" texturefile = "gfx/interface/technologies/SWE_strategic_bomber2.dds" }	
+		SpriteType = { name = "GFX_SWE_strategic_bomber3_medium" texturefile = "gfx/interface/technologies/SWE_strategic_bomber3.dds" }
+	#)#	
+	#(Swedish jet fighter#
+        SpriteType = { name = "GFX_SWE_jet_fighter1_medium" texturefile = "gfx/interface/technologies/SWE_jet_fighter1.dds" }	
+        SpriteType = { name = "GFX_SWE_jet_fighter2_medium" texturefile = "gfx/interface/technologies/SWE_jet_fighter2.dds" }
+	#)#	
+    #(Swedish jet tactical bomber#
+        SpriteType = { name = "GFX_SWE_jet_tactical_bomber1_medium" texturefile = "gfx/interface/technologies/SWE_jet_tactical_bomber1.dds" }
+	#)#	
+	#(Swedish transport plane#	
+	    SpriteType = { name = "GFX_SWE_transport_plane_equipment_medium" texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds" }
+		SpriteType = { name = "GFX_SWE_transport_plane_equipment_1_medium" texturefile = "gfx/interface/technologies/swe_transport_plane_equipment.dds" }
+	#)#	
+    #(Swedish scout plane#
+	    SpriteType = { name = "GFX_SWE_scout_plane1_medium" texturefile = "gfx/interface/technologies/swe_scout_plane_1.dds" }
+	    SpriteType = { name = "GFX_SWE_scout_plane2_medium" texturefile = "gfx/interface/technologies/swe_scout_plane_2.dds" }
+    #)#
+  #)#  
+  #(Swedish infantry#
+    #(Swedish infantry weapon#
+        SpriteType = { name = "GFX_SWE_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWE_infantry_equipment_0.dds" }
+        SpriteType = { name = "GFX_SWE_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/SWE_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWE_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWE_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_SWE_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWE_infantry_equipment_3.dds" }
+	#)#	    
+    #(Swedish mobile infantry vehicle#
+        SpriteType = { name = "GFX_SWE_motorised_infantry_medium" texturefile = "gfx/interface/technologies/SWE_motorized_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWE_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/SWE_motorized_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWE_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWE_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_2.dds" }
+        SpriteType = { name = "GFX_SWE_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/SWE_mechanized_equipment_3.dds" }
+	#)#	    
+    #(Swedish armored car#
+		SpriteType = { name = "GFX_SWE_armored_car1_medium" texturefile = "gfx/interface/technologies/swe_armored_car_equipment_1.dds" }
+	    SpriteType = { name = "GFX_SWE_armored_car2_medium" texturefile = "gfx/interface/technologies/swe_armored_car_equipment_2.dds" }	
+	    SpriteType = { name = "GFX_SWE_armored_car3_medium" texturefile = "gfx/interface/technologies/swe_armored_car_equipment_3.dds" }
+	    SpriteType = { name = "GFX_SWE_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/swe_armored_car_at_equipment.dds" }		
+	#)#
+  #)#
+ #)#
+ #(Denmark#
+ #)
+ #(Norway#
+ #)
+#)# Arms Against Tyranny End (dlc039)
+ #(Switzerland#
+  #(Swiss infantry#  		
+    #(Swiss infantry weapon#
+        SpriteType = { name = "GFX_SWI_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWI_infantry_equipment_0.dds" }
+        SpriteType = { name = "GFX_SWI_infantry_weapons1_medium" texturefile = "gfx/interface/technologies/SWI_infantry_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWI_improved_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWI_infantry_equipment_2.dds" }
+        SpriteType = { name = "GFX_SWI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/technologies/SWI_infantry_equipment_3.dds" }
+	#)#	    
+    #(Swiss mobile infantry vehicle#
+        SpriteType = { name = "GFX_SWI_motorised_infantry_medium" texturefile = "gfx/interface/technologies/SWI_motorized_equipment_1.dds" }
+        SpriteType = { name = "GFX_SWI_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/SWI_motorized_equipment_1.dds" }
+	#)#	    
+  #)#
+ #)#
+ 
+}

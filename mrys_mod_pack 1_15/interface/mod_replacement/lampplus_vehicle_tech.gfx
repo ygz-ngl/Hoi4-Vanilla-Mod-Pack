@@ -1,0 +1,1953 @@
+spriteTypes = {
+#(# Non-icon start
+		#
+#)# Non-icon end
+
+##(# XXX Content Start
+ #(# XXX Start
+  #(# Motorized start
+   #(# tech tree
+   	
+   #)#
+   #(# production line
+   	
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		   
+   #)#
+   
+   #(# production line
+		   #
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		   #
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		   
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+
+ #)# XXX End
+##)# XXX Content End
+
+##(# Generic Content Start
+ #(# Generic Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/motorized/GEN_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/motorized/GEN_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/motorized/GEN_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/motorized/GEN_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/motorized/GEN_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/mechanized/GEN_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/mechanized/GEN_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/mechanized/GEN_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/amphibious/GEN_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/amphibious/GEN_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/armoredcar/GEN_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/armoredcar/GEN_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/armoredcar/GEN_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/GEN/armoredcar/GEN_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# Generic End
+##)# Generic Content End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_GER_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/GER/motorized/GER_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_GER_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GER/motorized/GER_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_GER_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/GER/motorized/GER_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_GER_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/GER/motorized/GER_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_GER_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/GER/motorized/GER_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_GER_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GER/mechanized/GER_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_GER_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/GER/mechanized/GER_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_GER_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/GER/mechanized/GER_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_GER_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/GER/amphibious/GER_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_GER_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/GER/amphibious/GER_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_GER_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/GER/armoredcar/GER_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_GER_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/GER/armoredcar/GER_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_GER_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/GER/armoredcar/GER_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_GER_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/GER/armoredcar/GER_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# GER End
+
+ #(# SOV Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_SOV_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+      SpriteType = { name = "GFX_SOV_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SOV_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_SOV_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_SOV_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SOV_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SOV_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_SOV_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SOV_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_SOV_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SOV_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_SOV_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_SOV_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_SOV_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SOV End
+
+ #(# USA Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_USA_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_USA_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_USA_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_USA_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_USA_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_USA_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_USA_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_USA_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_USA_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_USA_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_USA_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_USA_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_USA_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_USA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# USA End
+
+ #(# ENG Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_ENG_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_ENG_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_ENG_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_ENG_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_ENG_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_ENG_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_ENG_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_ENG_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_ENG_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_ENG_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_ENG_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_ENG_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_ENG_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_ENG_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# ENG End
+
+ #(# FRA Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_FRA_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/motorized/FRA_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_FRA_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/motorized/FRA_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_FRA_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/motorized/FRA_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_FRA_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/motorized/FRA_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_FRA_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/motorized/FRA_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_FRA_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/mechanized/FRA_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_FRA_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/mechanized/FRA_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_FRA_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/mechanized/FRA_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_FRA_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/amphibious/FRA_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_FRA_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/amphibious/FRA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_FRA_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/armoredcar/FRA_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_FRA_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/armoredcar/FRA_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_FRA_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/armoredcar/FRA_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_FRA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/FRA/armoredcar/FRA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# FRA End
+
+ #(# ITA Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_ITA_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/motorized/ITA_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_ITA_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/motorized/ITA_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_ITA_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/motorized/ITA_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_ITA_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/motorized/ITA_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_ITA_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/motorized/ITA_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_ITA_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/mechanized/ITA_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_ITA_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/mechanized/ITA_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_ITA_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/mechanized/ITA_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_ITA_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/amphibious/ITA_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_ITA_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/amphibious/ITA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_ITA_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/armoredcar/ITA_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_ITA_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/armoredcar/ITA_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_ITA_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/armoredcar/ITA_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_ITA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ITA/armoredcar/ITA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# ITA End
+
+ #(# JAP Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_JAP_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_JAP_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_JAP_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_JAP_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_JAP_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_JAP_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_JAP_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_JAP_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_JAP_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/amphibious/JAP_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_JAP_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/amphibious/JAP_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_JAP_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_JAP_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_JAP_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_JAP_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# JAP End
+##)# Main Countries End
+
+##(# PCP Content Start (dlc002)
+ #(# POL Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_POL_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/POL/motorized/POL_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_POL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POL/motorized/POL_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_POL_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/POL/motorized/POL_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_POL_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/POL/motorized/POL_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_POL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/POL/motorized/POL_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_POL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POL/mechanized/POL_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_POL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/POL/mechanized/POL_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_POL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/POL/mechanized/POL_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_POL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POL/amphibious/POL_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_POL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/POL/amphibious/POL_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_POL_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/POL/armoredcar/POL_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_POL_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/POL/armoredcar/POL_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_POL_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/POL/armoredcar/POL_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_POL_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/POL/armoredcar/POL_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# POL End
+##)# PCP Content End
+
+##(# Together for Victory Start (dlc018)
+ #(# CAN Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_CAN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_CAN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_CAN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_CAN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_CAN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_CAN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CAN/mechanized/CAN_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_CAN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CAN/mechanized/CAN_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_CAN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CAN/mechanized/CAN_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_CAN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_CAN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_CAN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/CAN/armoredcar/CAN_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_CAN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/CAN/armoredcar/CAN_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_CAN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_CAN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# CAN End
+
+ #(# AST Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_AST_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_AST_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_AST_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_AST_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_AST_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_AST_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_AST_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_AST_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_AST_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_AST_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_AST_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/AST/armoredcar/AST_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_AST_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/AST/armoredcar/AST_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_AST_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_AST_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# AST End
+
+ #(# NZL Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_NZL_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_NZL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_NZL_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_NZL_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_NZL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_NZL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_NZL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_NZL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_NZL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_NZL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_NZL_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_NZL_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_NZL_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_NZL_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# NZL End
+
+ #(# SAF Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_SAF_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_SAF_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SAF_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_SAF_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_SAF_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SAF_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SAF_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_SAF_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SAF_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_SAF_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SAF_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SAF/armoredcar/SAF_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_SAF_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SAF/armoredcar/SAF_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_SAF_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SAF/armoredcar/SAF_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_SAF_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SAF End
+
+ #(# RAJ Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_RAJ_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_RAJ_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_RAJ_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_RAJ_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_RAJ_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_RAJ_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_RAJ_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_RAJ_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_RAJ_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_RAJ_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_RAJ_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_RAJ_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/RAJ/armoredcar/RAJ_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_RAJ_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_RAJ_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# RAJ End
+
+ #(# MAL Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_MAL_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_MAL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAL_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_MAL_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_MAL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/motorized/ENG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_MAL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/mechanized/ENG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_MAL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/amphibious/ENG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAL_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAL_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_MAL_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_MAL_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ENG/armoredcar/ENG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# MAL End
+##)# Together for Victory End
+
+##(# Death or Dishonor start (dlc020)
+ #(# HUN Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_HUN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/motorized/HUN_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_HUN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/motorized/HUN_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_HUN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/motorized/HUN_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_HUN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/motorized/HUN_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_HUN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/motorized/HUN_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_HUN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/mechanized/HUN_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_HUN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/mechanized/HUN_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_HUN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/mechanized/HUN_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_HUN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/amphibious/HUN_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_HUN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/amphibious/HUN_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_HUN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/armoredcar/HUN_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_HUN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/armoredcar/HUN_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_HUN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/armoredcar/HUN_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_HUN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/HUN/armoredcar/HUN_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# HUN End
+
+ #(# CZE Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_CZE_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/motorized/CZE_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_CZE_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/motorized/CZE_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_CZE_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/motorized/CZE_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_CZE_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/motorized/CZE_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_CZE_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/motorized/CZE_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CZE_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/mechanized/CZE_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_CZE_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/mechanized/CZE_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_CZE_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/mechanized/CZE_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CZE_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/amphibious/CZE_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_CZE_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/amphibious/CZE_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CZE_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/armoredcar/CZE_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_CZE_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/armoredcar/CZE_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_CZE_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/armoredcar/CZE_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_CZE_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/CZE/armoredcar/CZE_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# CZE End
+
+ #(# ROM Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_ROM_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/motorized/ROM_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_ROM_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/motorized/ROM_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_ROM_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/motorized/ROM_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_ROM_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/motorized/ROM_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_ROM_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/motorized/ROM_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_ROM_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/mechanized/ROM_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_ROM_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/mechanized/ROM_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_ROM_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/mechanized/ROM_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_ROM_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/amphibious/ROM_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_ROM_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/amphibious/ROM_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_ROM_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/armoredcar/ROM_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_ROM_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/armoredcar/ROM_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_ROM_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/armoredcar/ROM_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_ROM_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/ROM/armoredcar/ROM_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# ROM End
+
+ #(# YUG Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_YUG_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/motorized/YUG_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_YUG_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/motorized/YUG_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_YUG_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/motorized/YUG_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_YUG_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/motorized/YUG_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_YUG_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/motorized/YUG_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_YUG_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/mechanized/YUG_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_YUG_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/mechanized/YUG_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_YUG_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/mechanized/YUG_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_YUG_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/amphibious/YUG_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_YUG_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/amphibious/YUG_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_YUG_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/armoredcar/YUG_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_YUG_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/armoredcar/YUG_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_YUG_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/armoredcar/YUG_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_YUG_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/YUG/armoredcar/YUG_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# YUG End
+##)# Death or Dishonor end
+
+##(# Waking the tiger start (dlc022)
+ #(# CHI Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_CHI_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_CHI_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_CHI_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_CHI_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_CHI_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CHI_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_CHI_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_CHI_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CHI_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_CHI_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_CHI_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_CHI_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_CHI_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_CHI_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# CHI End
+
+ #(# PRC Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_PRC_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/motorized/PRC_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_PRC_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/motorized/PRC_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_PRC_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/motorized/PRC_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_PRC_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/motorized/PRC_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_PRC_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/motorized/PRC_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_PRC_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/mechanized/PRC_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_PRC_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/mechanized/PRC_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_PRC_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/mechanized/PRC_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_PRC_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/amphibious/PRC_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_PRC_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/amphibious/PRC_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_PRC_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/armoredcar/PRC_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_PRC_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/armoredcar/PRC_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_PRC_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/armoredcar/PRC_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_PRC_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/PRC/armoredcar/PRC_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# PRC End
+
+ #(# MAN Start (full copy of JAP)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_MAN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_MAN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_MAN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_MAN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/motorized/JAP_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_MAN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/mechanized/JAP_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/amphibious/JAP_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_MAN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/amphibious/JAP_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MAN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_MAN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_MAN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_MAN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/JAP/armoredcar/JAP_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# MAN End
+
+ #(# SHX Start (full copy of CHI)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_SHX_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_SHX_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_SHX_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_SHX_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_SHX_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_SHX_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_SHX_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_SHX_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_SHX_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_SHX_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_SHX_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_SHX_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_SHX_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_SHX_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SHX End
+
+ #(# XSM Start (full copy of CHI)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_XSM_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_XSM_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_XSM_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_XSM_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_XSM_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_XSM_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_XSM_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_XSM_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_XSM_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_XSM_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_XSM_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_XSM_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_XSM_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_XSM_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# XSM End
+
+ #(# YUN Start (full copy of CHI)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_YUN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_YUN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_YUN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_YUN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_YUN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_YUN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_YUN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_YUN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_YUN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_YUN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_YUN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_YUN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_YUN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_YUN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# YUN End
+
+ #(# GXC Start (full copy of CHI)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_GXC_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_GXC_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_GXC_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_GXC_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_GXC_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_GXC_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_GXC_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_GXC_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_GXC_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_GXC_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_GXC_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_GXC_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_GXC_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_GXC_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# GXC End
+
+ #(# TIB Start (full copy of CHI)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_TIB_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_TIB_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_TIB_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_TIB_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_TIB_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/motorized/CHI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_TIB_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_TIB_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_TIB_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/CHI/mechanized/CHI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_TIB_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_TIB_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_TIB_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_TIB_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_TIB_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_TIB_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# TIB End
+
+ #(# SIK Start (full copy of SOV)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_SIK_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+      SpriteType = { name = "GFX_SIK_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SIK_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_SIK_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_SIK_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SIK_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_SIK_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_SIK_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SIK_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_SIK_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_SIK_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_SIK_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_SIK_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_SIK_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SIK End
+
+ #(# MON Start (full copy of SOV)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_MON_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+      SpriteType = { name = "GFX_MON_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MON_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_MON_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_MON_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MON_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MON_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_MON_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MON_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_MON_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MON_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_MON_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_MON_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_MON_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# MON End
+
+ #(# TAN Start (full copy of SOV)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_TAN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+      SpriteType = { name = "GFX_TAN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+		SpriteType = { name = "GFX_TAN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_TAN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_0.dds" }
+		SpriteType = { name = "GFX_TAN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/motorized/SOV_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_TAN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_TAN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_TAN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/mechanized/SOV_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_TAN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_TAN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/amphibious/SOV_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_TAN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_TAN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_TAN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_TAN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SOV/armoredcar/SOV_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# TAN End
+##)# Waking the tiger end
+
+##(# MTG Man the Guns Start (dlc023)
+ #(# HOL Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_HOL_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/motorized/HOL_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_HOL_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/motorized/HOL_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_HOL_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/motorized/HOL_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_HOL_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/motorized/HOL_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_HOL_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/motorized/HOL_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_HOL_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/mechanized/HOL_mechanized_equipment_1.dds" }
+      #SpriteType = { name = "GFX_HOL_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/mechanized/HOL_mechanized_equipment_2.dds" }
+      #SpriteType = { name = "GFX_HOL_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/mechanized/HOL_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      SpriteType = { name = "GFX_HOL_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/amphibious/HOL_amphibious_mech_1.dds" }
+      SpriteType = { name = "GFX_HOL_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/amphibious/HOL_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_HOL_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/armoredcar/HOL_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_HOL_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/armoredcar/HOL_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_HOL_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/armoredcar/HOL_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_HOL_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/HOL/armoredcar/HOL_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# HOL End
+
+ #(# MEX Start (full copy of USA)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_MEX_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_MEX_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_MEX_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_MEX_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_MEX_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/motorized/USA_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MEX_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_1.dds" }
+		SpriteType = { name = "GFX_MEX_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_2.dds" }
+		SpriteType = { name = "GFX_MEX_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/mechanized/USA_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MEX_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_1.dds" }
+		SpriteType = { name = "GFX_MEX_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/amphibious/USA_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+		SpriteType = { name = "GFX_MEX_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_1.dds" }
+		SpriteType = { name = "GFX_MEX_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_2.dds" }
+		SpriteType = { name = "GFX_MEX_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_equipment_3.dds" }
+		SpriteType = { name = "GFX_MEX_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/USA/armoredcar/USA_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# MEX End
+##)# MTG Man the Guns End
+
+##(# LAR La Resistance Start (dlc028)
+ #(# POR Start
+  #(# Motorized start
+   #(# tech tree
+   	#SpriteType = { name = "GFX_POR_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_0.dds" }
+   	#SpriteType = { name = "GFX_POR_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_1.dds" }
+	   #SpriteType = { name = "GFX_POR_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	#SpriteType = { name = "GFX_POR_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_0.dds" }
+	   #SpriteType = { name = "GFX_POR_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_POR_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_POR_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_POR_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_POR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/amphibious/POR_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_POR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/amphibious/POR_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_POR_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# POR End
+
+ #(# SPR Start
+  #(# Motorized start
+   #(# tech tree
+   	#SpriteType = { name = "GFX_POR_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_0.dds" }
+   	#SpriteType = { name = "GFX_POR_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_1.dds" }
+	   #SpriteType = { name = "GFX_POR_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	#SpriteType = { name = "GFX_POR_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_0.dds" }
+	   #SpriteType = { name = "GFX_POR_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/POR/motorized/POR_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_POR_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_POR_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_POR_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/POR/mechanized/POR_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_POR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/POR/amphibious/POR_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_POR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/amphibious/POR_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_POR_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_POR_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/POR/armoredcar/POR_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SPR End
+##)# LAR La Resistance End
+
+##(# BFB Battle for the Bosporus Start (dlc031)
+ ##BUL/GRE/TUR
+ #(# TUR Start
+  #(# Motorized start
+   #(# tech tree
+   	#SpriteType = { name = "GFX_TUR_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/motorized/TUR_motorized_equipment_0.dds" }
+   	#SpriteType = { name = "GFX_TUR_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/motorized/TUR_motorized_equipment_1.dds" }
+	   #SpriteType = { name = "GFX_TUR_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/motorized/TUR_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	#SpriteType = { name = "GFX_TUR_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/motorized/TUR_motorized_equipment_0.dds" }
+	   #SpriteType = { name = "GFX_TUR_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/motorized/TUR_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_TUR_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/mechanized/TUR_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_TUR_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/mechanized/TUR_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_TUR_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/mechanized/TUR_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_TUR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/amphibious/TUR_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_TUR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/amphibious/TUR_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_TUR_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/armoredcar/TUR_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_TUR_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/armoredcar/TUR_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_TUR_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/armoredcar/TUR_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_TUR_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/TUR/armoredcar/TUR_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# TUR End
+
+##)# BFB Battle for the Bosporus End
+
+##(# BBA By Blood Alone Start (dlc036)
+ ##ETH/SWI
+ #(# SWI Start
+  #(# Motorized start
+   #(# tech tree
+   	#SpriteType = { name = "GFX_SWI_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/motorized/SWI_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_SWI_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/motorized/SWI_motorized_equipment_1.dds" }
+	   #SpriteType = { name = "GFX_SWI_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/motorized/SWI_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	#SpriteType = { name = "GFX_SWI_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/motorized/SWI_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_SWI_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/motorized/SWI_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_SWI_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/mechanized/SWI_mechanized_equipment_1.dds" }
+      #SpriteType = { name = "GFX_SWI_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/mechanized/SWI_mechanized_equipment_2.dds" }
+      #SpriteType = { name = "GFX_SWI_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/mechanized/SWI_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_SWI_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/amphibious/SWI_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_SWI_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/amphibious/SWI_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_SWI_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/armoredcar/SWI_armored_car_equipment_1.dds" }
+      #SpriteType = { name = "GFX_SWI_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/armoredcar/SWI_armored_car_equipment_2.dds" }
+      #SpriteType = { name = "GFX_SWI_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/armoredcar/SWI_armored_car_equipment_3.dds" }
+      #SpriteType = { name = "GFX_SWI_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SWI/armoredcar/SWI_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SWI End
+
+##)# BBA By Blood Alone Start End
+
+##(# Arms Against Tyranny Start (dlc039)
+ #(# SWE Start
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_SWE_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_SWE_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_SWE_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_SWE_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_SWE_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_SWE_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_SWE_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_SWE_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_SWE_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_SWE_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_SWE_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_SWE_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_SWE_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_SWE_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SWE End
+
+ #(# DEN Start (full copy of SWE)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_DEN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_DEN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_DEN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_DEN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_DEN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_DEN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_DEN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_DEN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_DEN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_DEN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_DEN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_DEN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_DEN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_DEN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# DEN End
+
+ #(# NOR Start (full copy of SWE)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_NOR_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_NOR_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_NOR_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_NOR_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_NOR_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_NOR_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_NOR_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_NOR_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_NOR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_NOR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_NOR_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_NOR_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_NOR_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_NOR_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# NOR End
+
+ #(# FIN Start (full copy of SWE)
+  #(# Motorized start
+   #(# tech tree
+   	SpriteType = { name = "GFX_FIN_tech_trucks_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+   	SpriteType = { name = "GFX_FIN_motorised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+	   SpriteType = { name = "GFX_FIN_motorized_rocket_unit_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_rocket_equipment.dds" }
+   #)#
+   #(# production line
+   	SpriteType = { name = "GFX_FIN_motorized_equipment_0_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_0.dds" }
+	   SpriteType = { name = "GFX_FIN_motorized_equipment_1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/motorized/SWE_motorized_equipment_1.dds" }
+   #)#
+  #)# Motorized end
+   
+  #(# Mechanized Start
+   #(# tech tree
+      SpriteType = { name = "GFX_FIN_mechanised_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_1.dds" }
+      SpriteType = { name = "GFX_FIN_mechanised_infantry2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_2.dds" }
+      SpriteType = { name = "GFX_FIN_mechanised_infantry3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/mechanized/SWE_mechanized_equipment_3.dds" }
+   #)#
+   #(# production line
+   	#
+   #)#
+  #)# Medium Tank End
+
+  #(# Amphibious Start
+   #(# tech tree
+      #SpriteType = { name = "GFX_FIN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_1.dds" }
+      #SpriteType = { name = "GFX_FIN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/amphibious/SWE_amphibious_mech_2.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Amphibious End
+
+  #(# Armored Car Start
+   #(# tech tree
+      SpriteType = { name = "GFX_FIN_armored_car1_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_1.dds" }
+      SpriteType = { name = "GFX_FIN_armored_car2_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_2.dds" }
+      SpriteType = { name = "GFX_FIN_armored_car3_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_equipment_3.dds" }
+      SpriteType = { name = "GFX_FIN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/technologies/vehicles/SWE/armoredcar/SWE_armored_car_at_equipment.dds" }
+   #)#
+   #(# production line
+		   #
+   #)#
+  #)# Armored Car End
+ #)# SWE End
+##)# Arms Against Tyranny End
+}

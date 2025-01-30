@@ -1,0 +1,26 @@
+# Countries without flavor in Vanilla
+
+##############
+### EUROPE ###
+##############
+
+BEL = {
+	army = {
+		male = {
+			"GFX_CPP_Portrait_Belgium_Generic_land_1"
+			"GFX_CPP_Portrait_Belgium_Generic_land_2"
+			"GFX_CPP_Portrait_Belgium_Generic_land_3"
+			"GFX_CPP_Portrait_Belgium_Generic_land_4"
+			"GFX_CPP_Portrait_Belgium_Generic_land_5"
+			"GFX_CPP_Portrait_Belgium_Generic_land_6"
+			"GFX_CPP_Portrait_Belgium_Generic_land_7"
+		}
+	}
+	navy = {
+		male = {	
+			"GFX_CPP_Portrait_Belgium_Generic_navy_1"
+			"GFX_CPP_Portrait_Belgium_Generic_navy_2"
+			"GFX_CPP_Portrait_Belgium_Generic_navy_3"
+		}
+	}
+}

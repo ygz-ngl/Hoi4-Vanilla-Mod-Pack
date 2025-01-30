@@ -1,0 +1,63 @@
+##(# Main Start
+ #(# ARG Start
+  #(# light
+   #(# halftrack
+
+   #)#
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+    animation = { # "ARG_medium_tank_nahuel_idle_animation"
+        name = "ARG_medium_tank_nahuel_idle_animation"
+        file = "ARG_medium_tank_nahuel_idle.anim"
+    }
+    animation = { # "ARG_medium_tank_nahuel_moving_animation"
+        name = "ARG_medium_tank_nahuel_moving_animation"
+        file = "ARG_medium_tank_nahuel_moving.anim"
+    }
+    animation = { # "ARG_medium_tank_nahuel_attack_animation"
+        name = "ARG_medium_tank_nahuel_attack_animation"
+        file = "ARG_medium_tank_nahuel_attack.anim"
+    }
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+    
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

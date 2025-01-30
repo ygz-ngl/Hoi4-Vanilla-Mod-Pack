@@ -1,0 +1,86 @@
+##(# Main Start
+ #(# ENG Start
+  #(# light
+   #(# halftrack
+
+   #)#
+   #(# tank
+    animation = { # "CAN_light_tank_valentine_attack_animation"
+		name = "CAN_light_tank_valentine_attack_animation"
+		file = "CAN_light_tank_valentine_attack.anim"
+	}
+	animation = { # "CAN_light_tank_valentine_idle_animation"
+		name = "CAN_light_tank_valentine_idle_animation"
+		file = "CAN_light_tank_valentine_idle.anim"
+	}
+	animation = { # "CAN_light_tank_valentine_moving_animation"
+		name = "CAN_light_tank_valentine_moving_animation"
+		file = "CAN_light_tank_valentine_moving.anim"
+	}
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+    animation = { # "CAN_medium_tank_ram_attack_animation"
+        name = "CAN_medium_tank_ram_attack_animation"
+        file = "CAN_medium_tank_ram_attack.anim"
+    }
+    animation = { # "CAN_medium_tank_ram_idle_animation"
+        name = "CAN_medium_tank_ram_idle_animation"
+        file = "CAN_medium_tank_ram_idle.anim"
+    }
+    animation = { # "CAN_medium_tank_ram_moving_animation"
+        name = "CAN_medium_tank_ram_moving_animation"
+        file = "CAN_medium_tank_ram_moving.anim"
+    }
+    animation = { # "CAN_medium_tank_grizzly_attack_animation"
+        name = "CAN_medium_tank_grizzly_attack_animation"
+        file = "CAN_medium_tank_grizzly_attack.anim"
+    }
+    animation = { # "CAN_medium_tank_grizzly_idle_animation"
+        name = "CAN_medium_tank_grizzly_idle_animation"
+        file = "CAN_medium_tank_grizzly_idle.anim"
+    }
+    animation = { # "CAN_medium_tank_grizzly_moving_animation"
+        name = "CAN_medium_tank_grizzly_moving_animation"
+        file = "CAN_medium_tank_grizzly_moving.anim"
+    }
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

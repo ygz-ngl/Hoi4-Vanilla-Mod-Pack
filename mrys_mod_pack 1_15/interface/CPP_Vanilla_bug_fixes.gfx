@@ -1,0 +1,145 @@
+spriteTypes = {
+
+### missing advisor portraits for legacy effects create_corps_commander, create_field_marshal, create_navy_leader ###
+
+	spriteType = {
+		name = "GFX_portrait_ger_von_lettow_vorbeck_small"
+		texturefile = "gfx/interface/ideas/idea_GER_von_lettow_vorbeck.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_hol_prins_bernhard_small"
+		texturefile = "gfx/interface/ideas/idea_hol_prins_bernhard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_LIT_vincas_vitkauskas_small"
+		texturefile = "gfx/interface/ideas/idea_LIT_vincas_vitkauskas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_LAT_martin_latsis_small"
+		texturefile = "gfx/interface/ideas/idea_LAT_martin_latsis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_LAT_jukums_vacietis_small"
+		texturefile = "gfx/interface/ideas/idea_LAT_jukums_vacietis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_EST_jakob_palvadre_small"
+		texturefile = "gfx/interface/ideas/idea_EST_jakob_palvadre.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_EST_august_kork_small"
+		texturefile = "gfx/interface/ideas/idea_EST_august_kork.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_sov_aleksandr_cherepanov_small"
+		texturefile = "gfx/interface/ideas/idea_SOV_aleksandr_cherepanov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_marie_pierre_koenig_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_marie_pierre_koenig.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_georges_catroux_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_georges_catroux.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_fra_emilie_muselier_small"
+		texturefile = "gfx/interface/ideas/idea_FRA_emilie_muselier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_alexander_von_falkenhausen_small"
+		texturefile = "gfx/interface/ideas/idea_chi_alexander_von_falkenhausen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Jose_Mendes_dos_Reis_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Armando_Pereira_de_Castro_Agatao_Lanca_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_romania_barbu_paraianu_small"
+		texturefile = "gfx/interface/ideas/idea_ROM_barbu_paraianu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPA_manuel_fal_conde_small"
+		texturefile = "gfx/interface/ideas/idea_SPA_manuel_fal_conde.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_buenaventura_durruti_small"
+		texturefile = "gfx/interface/ideas/idea_SPR_buenaventura_durruti.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_eduardo_medrano_rivas_small"
+		texturefile = "gfx/interface/ideas/idea_SPR_eduardo_medrano_rivas.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_lina_odena_small"
+		texturefile = "gfx/interface/ideas/idea_SPR_lina_odena.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_cipriano_mera_small"
+		texturefile = "gfx/interface/ideas/idea_SPR_cipriano_mera.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SPR_mate_zalka_small"
+		texturefile = "gfx/interface/ideas/idea_spr_mate_zalka.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Jose_Rovira_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Carmel_Rosa_Baserba_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Luis_Rastrollo_small"
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_19.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Walter_Kruger_small"
+		texturefile = "gfx/interface/ideas/gfx/interface/ideas/idea_GER_walter_kruger.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Paul_Hausser_small"
+		texturefile = "gfx/interface/ideas/idea_GER_paul_hausser.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Sepp_Dietrich_small"
+		texturefile = "gfx/interface/ideas/idea_GER_josef_dietrich.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Ferzende_Bege_Heseni_small"
+		texturefile = "gfx/interface/ideas/idea_SAU_generic_land_1.dds"
+	}
+	
+}

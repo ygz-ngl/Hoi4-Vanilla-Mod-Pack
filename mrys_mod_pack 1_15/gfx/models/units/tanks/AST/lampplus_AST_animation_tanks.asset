@@ -1,0 +1,76 @@
+##(# Main Start
+ #(# ENG Start
+  #(# light
+   #(# halftrack
+
+   #)#
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+
+    animation = { # "AST_medium_tank_sentinel_attack_animation"
+        name = "AST_medium_tank_sentinel_attack_animation"
+        file = "AST_medium_tank_sentinel_attack.anim"
+    }
+    animation = { # "AST_medium_tank_sentinel_idle_animation"
+        name = "AST_medium_tank_sentinel_idle_animation"
+        file = "AST_medium_tank_sentinel_idle.anim"
+    }
+    animation = { # "AST_medium_tank_sentinel_moving_animation"
+        name = "AST_medium_tank_sentinel_moving_animation"
+        file = "AST_medium_tank_sentinel_moving.anim"
+    }
+    animation = { # "AST_medium_tank_thunderbolt_idle_animation"
+        name = "AST_medium_tank_thunderbolt_idle_animation"
+        file = "AST_medium_tank_thunderbolt_idle.anim"
+    }
+    animation = { # "AST_medium_tank_thunderbolt_moving_animation"
+        name = "AST_medium_tank_thunderbolt_moving_animation"
+        file = "AST_medium_tank_thunderbolt_moving.anim"
+    }
+    animation = { # "AST_medium_tank_thunderbolt_attack_animation"
+        name = "AST_medium_tank_thunderbolt_attack_animation"
+        file = "AST_medium_tank_thunderbolt_attack.anim"
+    }
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

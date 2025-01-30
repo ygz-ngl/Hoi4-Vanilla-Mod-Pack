@@ -1,0 +1,496 @@
+### NOTE ###
+# Chi means "Chu-Sensha" "medium-tank" "中-戦車";
+# Ke means "Ke-Sensha" "light-tank" "輕-戦車";
+# Ho means "artillery" "砲" ;
+# SR means "Special" "特";
+# Go means "number" "号";
+# Ka means "Amphibious"
+# (i):A1; (ro):B2; (ha):C3; (ni):D4; (ho):E5; (he):F6; (to):G7;
+
+
+##(# Main Start
+ #(# JAP Start
+  #(# halftrack
+   #(# aa
+      animation = { # "JAP_halftrack_tank_aa_type98kohi_idle_animation"
+         name = "JAP_halftrack_tank_aa_type98kohi_idle_animation"
+         file = "JAP_halftrack_tank_aa_type98kohi_idle.anim"
+      }
+      animation = { # "JAP_halftrack_tank_aa_type98kohi_moving_animation"
+         name = "JAP_halftrack_tank_aa_type98kohi_moving_animation"
+         file = "JAP_halftrack_tank_aa_type98kohi_moving.anim"
+      }
+      animation = { # "JAP_halftrack_tank_aa_type98kohi_attack_animation"
+         name = "JAP_halftrack_tank_aa_type98kohi_attack_animation"
+         file = "JAP_halftrack_tank_aa_type98kohi_attack.anim"
+      }
+   #)#
+  #)#
+  #(# light
+   #(# tank
+      animation = { # "JAP_light_tank_type94teke_attack_animation"
+         name = "JAP_light_tank_type94teke_attack_animation"
+         file = "JAP_light_tank_type94teke_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type94teke_idle_animation"
+         name = "JAP_light_tank_type94teke_idle_animation"
+         file = "JAP_light_tank_type94teke_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type94teke_moving_animation"
+         name = "JAP_light_tank_type94teke_moving_animation"
+         file = "JAP_light_tank_type94teke_moving.anim"
+      }
+      animation = { # "JAP_light_tank_type97teke_attack_animation"
+         name = "JAP_light_tank_type97teke_attack_animation"
+         file = "JAP_light_tank_type97teke_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type97teke_idle_animation"
+         name = "JAP_light_tank_type97teke_idle_animation"
+         file = "JAP_light_tank_type97teke_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type97teke_moving_animation"
+         name = "JAP_light_tank_type97teke_moving_animation"
+         file = "JAP_light_tank_type97teke_moving.anim"
+      }
+      animation = { # "JAP_light_tank_type95hago_attack_animation"
+         name = "JAP_light_tank_type95hago_attack_animation"
+         file = "JAP_light_tank_type95hago_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type95hago_idle_animation"
+         name = "JAP_light_tank_type95hago_idle_animation"
+         file = "JAP_light_tank_type95hago_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type95hago_moving_animation"
+         name = "JAP_light_tank_type95hago_moving_animation"
+         file = "JAP_light_tank_type95hago_moving.anim"
+      }
+      animation = { # "JAP_light_tank_type98keni_idle_animation"
+         name = "JAP_light_tank_type98keni_idle_animation"
+         file = "JAP_light_tank_type98keni_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type98keni_moving_animation"
+         name = "JAP_light_tank_type98keni_moving_animation"
+         file = "JAP_light_tank_type98keni_moving.anim"
+      }
+      animation = { # "JAP_light_tank_type98keni_attack_animation"
+         name = "JAP_light_tank_type98keni_attack_animation"
+         file = "JAP_light_tank_type98keni_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type5keho_attack_animation"
+         name = "JAP_light_tank_type5keho_attack_animation"
+         file = "JAP_light_tank_type5keho_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type5keho_idle_animation"
+         name = "JAP_light_tank_type5keho_idle_animation"
+         file = "JAP_light_tank_type5keho_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type5keho_moving_animation"
+         name = "JAP_light_tank_type5keho_moving_animation"
+         file = "JAP_light_tank_type5keho_moving.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "JAP_light_tank_artillery_type2kuse_idle_animation"
+         name = "JAP_light_tank_artillery_type2kuse_idle_animation"
+         file = "JAP_light_tank_artillery_type2kuse_idle.anim"
+      }
+      animation = { # "JAP_light_tank_artillery_type2kuse_moving_animation"
+         name = "JAP_light_tank_artillery_type2kuse_moving_animation"
+         file = "JAP_light_tank_artillery_type2kuse_moving.anim"
+      }
+      animation = { # "JAP_light_tank_artillery_type2kuse_attack_animation"
+         name = "JAP_light_tank_artillery_type2kuse_attack_animation"
+         file = "JAP_light_tank_artillery_type2kuse_attack.anim"
+      }
+      animation = { # "JAP_light_tank_artillery_type4hato_idle_animation"
+         name = "JAP_light_tank_artillery_type4hato_idle_animation"
+         file = "JAP_light_tank_artillery_type4hato_idle.anim"
+      }
+      animation = { # "JAP_light_tank_artillery_type4hato_moving_animation"
+         name = "JAP_light_tank_artillery_type4hato_moving_animation"
+         file = "JAP_light_tank_artillery_type4hato_moving.anim"
+      }
+      animation = { # "JAP_light_tank_artillery_type4hato_attack_animation"
+         name = "JAP_light_tank_artillery_type4hato_attack_animation"
+         file = "JAP_light_tank_artillery_type4hato_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "JAP_light_tank_type92teke_attack_animation"
+         name = "JAP_light_tank_type92teke_attack_animation"
+         file = "JAP_light_tank_type92teke_attack.anim"
+      }
+      animation = { # "JAP_light_tank_type92teke_idle_animation"
+         name = "JAP_light_tank_type92teke_idle_animation"
+         file = "JAP_light_tank_type92teke_idle.anim"
+      }
+      animation = { # "JAP_light_tank_type92teke_moving_animation"
+         name = "JAP_light_tank_type92teke_moving_animation"
+         file = "JAP_light_tank_type92teke_moving.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5horu_idle_animation"
+         name = "JAP_light_tank_destroyer_type5horu_idle_animation"
+         file = "JAP_light_tank_destroyer_type5horu_idle.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5horu_moving_animation"
+         name = "JAP_light_tank_destroyer_type5horu_moving_animation"
+         file = "JAP_light_tank_destroyer_type5horu_moving.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5horu_attack_animation"
+         name = "JAP_light_tank_destroyer_type5horu_attack_animation"
+         file = "JAP_light_tank_destroyer_type5horu_attack.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5nato_idle_animation"
+         name = "JAP_light_tank_destroyer_type5nato_idle_animation"
+         file = "JAP_light_tank_destroyer_type5nato_idle.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5nato_moving_animation"
+         name = "JAP_light_tank_destroyer_type5nato_moving_animation"
+         file = "JAP_light_tank_destroyer_type5nato_moving.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5nato_attack_animation"
+         name = "JAP_light_tank_destroyer_type5nato_attack_animation"
+         file = "JAP_light_tank_destroyer_type5nato_attack.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5kato_idle_animation"
+         name = "JAP_light_tank_destroyer_type5kato_idle_animation"
+         file = "JAP_light_tank_destroyer_type5kato_idle.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5kato_moving_animation"
+         name = "JAP_light_tank_destroyer_type5kato_moving_animation"
+         file = "JAP_light_tank_destroyer_type5kato_moving.anim"
+      }
+      animation = { # "JAP_light_tank_destroyer_type5kato_attack_animation"
+         name = "JAP_light_tank_destroyer_type5kato_attack_animation"
+         file = "JAP_light_tank_destroyer_type5kato_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "JAP_light_tank_aa_type98tase_idle_animation"
+         name = "JAP_light_tank_aa_type98tase_idle_animation"
+         file = "JAP_light_tank_aa_type98tase_idle.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98tase_moving_animation"
+         name = "JAP_light_tank_aa_type98tase_moving_animation"
+         file = "JAP_light_tank_aa_type98tase_moving.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98tase_attack_animation"
+         name = "JAP_light_tank_aa_type98tase_attack_animation"
+         file = "JAP_light_tank_aa_type98tase_attack.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98hoki_idle_animation"
+         name = "JAP_light_tank_aa_type98hoki_idle_animation"
+         file = "JAP_light_tank_aa_type98hoki_idle.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98hoki_moving_animation"
+         name = "JAP_light_tank_aa_type98hoki_moving_animation"
+         file = "JAP_light_tank_aa_type98hoki_moving.anim"
+      }
+      animation = { # "JAP_light_tank_aa_type98hoki_attack_animation"
+         name = "JAP_light_tank_aa_type98hoki_attack_animation"
+         file = "JAP_light_tank_aa_type98hoki_attack.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "JAP_medium_tank_type89igo_attack_animation"
+         name = "JAP_medium_tank_type89igo_attack_animation"
+         file = "JAP_medium_tank_type89igo_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_type89igo_idle_animation"
+         name = "JAP_medium_tank_type89igo_idle_animation"
+         file = "JAP_medium_tank_type89igo_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type89igo_moving_animation"
+         name = "JAP_medium_tank_type89igo_moving_animation"
+         file = "JAP_medium_tank_type89igo_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chiha_attack_animation"
+         name = "JAP_medium_tank_type97chiha_attack_animation"
+         file = "JAP_medium_tank_type97chiha_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chiha_idle_animation"
+         name = "JAP_medium_tank_type97chiha_idle_animation"
+         file = "JAP_medium_tank_type97chiha_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chiha_moving_animation"
+         name = "JAP_medium_tank_type97chiha_moving_animation"
+         file = "JAP_medium_tank_type97chiha_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chihakai_attack_animation"
+         name = "JAP_medium_tank_type97chihakai_attack_animation"
+         file = "JAP_medium_tank_type97chihakai_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chihakai_idle_animation"
+         name = "JAP_medium_tank_type97chihakai_idle_animation"
+         file = "JAP_medium_tank_type97chihakai_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type97chihakai_moving_animation"
+         name = "JAP_medium_tank_type97chihakai_moving_animation"
+         file = "JAP_medium_tank_type97chihakai_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type1chihe_idle_animation"
+         name = "JAP_medium_tank_type1chihe_idle_animation"
+         file = "JAP_medium_tank_type1chihe_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type1chihe_moving_animation"
+         name = "JAP_medium_tank_type1chihe_moving_animation"
+         file = "JAP_medium_tank_type1chihe_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type1chihe_attack_animation"
+         name = "JAP_medium_tank_type1chihe_attack_animation"
+         file = "JAP_medium_tank_type1chihe_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_type3chinu_attack_animation"
+         name = "JAP_medium_tank_type3chinu_attack_animation"
+         file = "JAP_medium_tank_type3chinu_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_type3chinu_idle_animation"
+         name = "JAP_medium_tank_type3chinu_idle_animation"
+         file = "JAP_medium_tank_type3chinu_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type3chinu_moving_animation"
+         name = "JAP_medium_tank_type3chinu_moving_animation"
+         file = "JAP_medium_tank_type3chinu_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type5chiri_idle_animation"
+         name = "JAP_medium_tank_type5chiri_idle_animation"
+         file = "JAP_medium_tank_type5chiri_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_type5chiri_moving_animation"
+         name = "JAP_medium_tank_type5chiri_moving_animation"
+         file = "JAP_medium_tank_type5chiri_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_type5chiri_attack_animation"
+         name = "JAP_medium_tank_type5chiri_attack_animation"
+         file = "JAP_medium_tank_type5chiri_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "JAP_medium_tank_artillery_type2hoi_idle_animation"
+         name = "JAP_medium_tank_artillery_type2hoi_idle_animation"
+         file = "JAP_medium_tank_artillery_type2hoi_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type2hoi_moving_animation"
+         name = "JAP_medium_tank_artillery_type2hoi_moving_animation"
+         file = "JAP_medium_tank_artillery_type2hoi_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type2hoi_attack_animation"
+         name = "JAP_medium_tank_artillery_type2hoi_attack_animation"
+         file = "JAP_medium_tank_artillery_type2hoi_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type4horo_idle_animation"
+         name = "JAP_medium_tank_artillery_type4horo_idle_animation"
+         file = "JAP_medium_tank_artillery_type4horo_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type4horo_moving_animation"
+         name = "JAP_medium_tank_artillery_type4horo_moving_animation"
+         file = "JAP_medium_tank_artillery_type4horo_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type4horo_attack_animation"
+         name = "JAP_medium_tank_artillery_type4horo_attack_animation"
+         file = "JAP_medium_tank_artillery_type4horo_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_chiha120s_idle_animation"
+         name = "JAP_medium_tank_artillery_chiha120s_idle_animation"
+         file = "JAP_medium_tank_artillery_chiha120s_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_chiha120s_moving_animation"
+         name = "JAP_medium_tank_artillery_chiha120s_moving_animation"
+         file = "JAP_medium_tank_artillery_chiha120s_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_chiha120s_attack_animation"
+         name = "JAP_medium_tank_artillery_chiha120s_attack_animation"
+         file = "JAP_medium_tank_artillery_chiha120s_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type5hochi_idle_animation"
+         name = "JAP_medium_tank_artillery_type5hochi_idle_animation"
+         file = "JAP_medium_tank_artillery_type5hochi_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type5hochi_moving_animation"
+         name = "JAP_medium_tank_artillery_type5hochi_moving_animation"
+         file = "JAP_medium_tank_artillery_type5hochi_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_artillery_type5hochi_attack_animation"
+         name = "JAP_medium_tank_artillery_type5hochi_attack_animation"
+         file = "JAP_medium_tank_artillery_type5hochi_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "JAP_medium_tank_destroyer_type1honi1_idle_animation"
+         name = "JAP_medium_tank_destroyer_type1honi1_idle_animation"
+         file = "JAP_medium_tank_destroyer_type1honi1_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type1honi1_moving_animation"
+         name = "JAP_medium_tank_destroyer_type1honi1_moving_animation"
+         file = "JAP_medium_tank_destroyer_type1honi1_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type1honi1_attack_animation"
+         name = "JAP_medium_tank_destroyer_type1honi1_attack_animation"
+         file = "JAP_medium_tank_destroyer_type1honi1_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type3honi3_idle_animation"
+         name = "JAP_medium_tank_destroyer_type3honi3_idle_animation"
+         file = "JAP_medium_tank_destroyer_type3honi3_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type3honi3_moving_animation"
+         name = "JAP_medium_tank_destroyer_type3honi3_moving_animation"
+         file = "JAP_medium_tank_destroyer_type3honi3_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type3honi3_attack_animation"
+         name = "JAP_medium_tank_destroyer_type3honi3_attack_animation"
+         file = "JAP_medium_tank_destroyer_type3honi3_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type4chito_idle_animation"
+         name = "JAP_medium_tank_destroyer_type4chito_idle_animation"
+         file = "JAP_medium_tank_destroyer_type4chito_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type4chito_moving_animation"
+         name = "JAP_medium_tank_destroyer_type4chito_moving_animation"
+         file = "JAP_medium_tank_destroyer_type4chito_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type4chito_attack_animation"
+         name = "JAP_medium_tank_destroyer_type4chito_attack_animation"
+         file = "JAP_medium_tank_destroyer_type4chito_attack.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type5hori_idle_animation"
+         name = "JAP_medium_tank_destroyer_type5hori_idle_animation"
+         file = "JAP_medium_tank_destroyer_type5hori_idle.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type5hori_moving_animation"
+         name = "JAP_medium_tank_destroyer_type5hori_moving_animation"
+         file = "JAP_medium_tank_destroyer_type5hori_moving.anim"
+      }
+      animation = { # "JAP_medium_tank_destroyer_type5hori_attack_animation"
+         name = "JAP_medium_tank_destroyer_type5hori_attack_animation"
+         file = "JAP_medium_tank_destroyer_type5hori_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "JAP_heavy_tank_type95rogo_attack_animation"
+         name = "JAP_heavy_tank_type95rogo_attack_animation"
+         file = "JAP_heavy_tank_type95rogo_attack.anim"
+      }
+      animation = { # "JAP_heavy_tank_type95rogo_idle_animation"
+         name = "JAP_heavy_tank_type95rogo_idle_animation"
+         file = "JAP_heavy_tank_type95rogo_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_type95rogo_moving_animation"
+         name = "JAP_heavy_tank_type95rogo_moving_animation"
+         file = "JAP_heavy_tank_type95rogo_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_oni_idle_animation"
+         name = "JAP_heavy_tank_oni_idle_animation"
+         file = "JAP_heavy_tank_oni_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_oni_moving_animation"
+         name = "JAP_heavy_tank_oni_moving_animation"
+         file = "JAP_heavy_tank_oni_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_oni_attack_animation"
+         name = "JAP_heavy_tank_oni_attack_animation"
+         file = "JAP_heavy_tank_oni_attack.anim"
+      }
+      animation = { # "JAP_heavy_tank_type4jini_idle_animation"
+         name = "JAP_heavy_tank_type4jini_idle_animation"
+         file = "JAP_heavy_tank_type4jini_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_type4jini_moving_animation"
+         name = "JAP_heavy_tank_type4jini_moving_animation"
+         file = "JAP_heavy_tank_type4jini_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_type4jini_attack_animation"
+         name = "JAP_heavy_tank_type4jini_attack_animation"
+         file = "JAP_heavy_tank_type4jini_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "JAP_heavy_tank_artillery_type95jiro_idle_animation"
+         name = "JAP_heavy_tank_artillery_type95jiro_idle_animation"
+         file = "JAP_heavy_tank_artillery_type95jiro_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_artillery_type95jiro_moving_animation"
+         name = "JAP_heavy_tank_artillery_type95jiro_moving_animation"
+         file = "JAP_heavy_tank_artillery_type95jiro_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_artillery_type95jiro_attack_animation"
+         name = "JAP_heavy_tank_artillery_type95jiro_attack_animation"
+         file = "JAP_heavy_tank_artillery_type95jiro_attack.anim"
+      }
+      animation = { # "JAP_heavy_tank_destroyer_hori1_idle_animation"
+         name = "JAP_heavy_tank_destroyer_hori1_idle_animation"
+         file = "JAP_heavy_tank_destroyer_hori1_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_destroyer_hori1_moving_animation"
+         name = "JAP_heavy_tank_destroyer_hori1_moving_animation"
+         file = "JAP_heavy_tank_destroyer_hori1_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_destroyer_hori1_attack_animation"
+         name = "JAP_heavy_tank_destroyer_hori1_attack_animation"
+         file = "JAP_heavy_tank_destroyer_hori1_attack.anim"
+      }
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "JAP_heavy_tank_oi_idle_animation"
+         name = "JAP_heavy_tank_oi_idle_animation"
+         file = "JAP_heavy_tank_oi_idle.anim"
+      }
+      animation = { # "JAP_heavy_tank_oi_moving_animation"
+         name = "JAP_heavy_tank_oi_moving_animation"
+         file = "JAP_heavy_tank_oi_moving.anim"
+      }
+      animation = { # "JAP_heavy_tank_oi_attack_animation"
+         name = "JAP_heavy_tank_oi_attack_animation"
+         file = "JAP_heavy_tank_oi_attack.anim"
+      }
+      animation = { # "JAP_modern_tank_type61_idle_animation"
+         name = "JAP_modern_tank_type61_idle_animation"
+         file = "JAP_modern_tank_type61_idle.anim"
+      }
+      animation = { # "JAP_modern_tank_type61_moving_animation"
+         name = "JAP_modern_tank_type61_moving_animation"
+         file = "JAP_modern_tank_type61_moving.anim"
+      }
+      animation = { # "JAP_modern_tank_type61_attack_animation"
+         name = "JAP_modern_tank_type61_attack_animation"
+         file = "JAP_modern_tank_type61_attack.anim"
+      }
+      animation = { # "JAP_amphibious_tank_type3kachi_idle_animation"
+         name = "JAP_amphibious_tank_type3kachi_idle_animation"
+         file = "JAP_amphibious_tank_type3kachi_idle.anim"
+      }
+      animation = { # "JAP_amphibious_tank_type3kachi_moving_animation"
+         name = "JAP_amphibious_tank_type3kachi_moving_animation"
+         file = "JAP_amphibious_tank_type3kachi_moving.anim"
+      }
+      animation = { # "JAP_amphibious_tank_type3kachi_amphibious_moving_animation"
+         name = "JAP_amphibious_tank_type3kachi_amphibious_moving_animation"
+         file = "JAP_amphibious_tank_type3kachi_amphibious_moving.anim"
+      }
+      animation = { # "JAP_amphibious_tank_type3kachi_amphibious_attack_animation"
+         name = "JAP_amphibious_tank_type3kachi_amphibious_attack_animation"
+         file = "JAP_amphibious_tank_type3kachi_amphibious_attack.anim"
+      }
+      animation = { # "JAP_amphibious_tank_type3kachi_attack_animation"
+         name = "JAP_amphibious_tank_type3kachi_attack_animation"
+         file = "JAP_amphibious_tank_type3kachi_attack.anim"
+      }
+   #)#
+  #)#
+ #)# JAP End
+##)# Main End
+
+	
+
+

@@ -1,0 +1,86 @@
+##(# Main Start
+ #(# ENG Start
+  #(# light
+   #(# halftrack
+
+   #)#
+   #(# tank
+    animation = { # "NZL_light_tank_bobsemple_idle_animation"
+        name = "NZL_light_tank_bobsemple_idle_animation"
+        file = "NZL_light_tank_bobsemple_idle.anim"
+    }
+    animation = { # "NZL_light_tank_bobsemple_moving_animation"
+        name = "NZL_light_tank_bobsemple_moving_animation"
+        file = "NZL_light_tank_bobsemple_moving.anim"
+    }
+    animation = { # "NZL_light_tank_bobsemple_attack_animation"
+        name = "NZL_light_tank_bobsemple_attack_animation"
+        file = "NZL_light_tank_bobsemple_attack.anim"
+    }
+    animation = { # "NZL_light_tank_schofield_idle_animation"
+        name = "NZL_light_tank_schofield_idle_animation"
+        file = "NZL_light_tank_schofield_idle.anim"
+    }
+    animation = { # "NZL_light_tank_schofield_moving_animation"
+        name = "NZL_light_tank_schofield_moving_animation"
+        file = "NZL_light_tank_schofield_moving.anim"
+    }
+    animation = { # "NZL_light_tank_schofield_attack_animation"
+        name = "NZL_light_tank_schofield_attack_animation"
+        file = "NZL_light_tank_schofield_attack.anim"
+    }
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+    animation = { # "NZL_superheavy_tank_bigbob_idle_animation"
+        name = "NZL_superheavy_tank_bigbob_idle_animation"
+        file = "NZL_superheavy_tank_bigbob_idle.anim"
+    }
+    animation = { # "NZL_superheavy_tank_bigbob_moving_animation"
+        name = "NZL_superheavy_tank_bigbob_moving_animation"
+        file = "NZL_superheavy_tank_bigbob_moving.anim"
+    }
+    animation = { # "NZL_superheavy_tank_bigbob_attack_animation"
+        name = "NZL_superheavy_tank_bigbob_attack_animation"
+        file = "NZL_superheavy_tank_bigbob_attack.anim"
+    }
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

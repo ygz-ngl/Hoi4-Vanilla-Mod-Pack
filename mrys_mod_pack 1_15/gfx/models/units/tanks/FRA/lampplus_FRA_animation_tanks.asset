@@ -1,0 +1,432 @@
+##(# Main Start
+ #(# FRA Start
+  #(# light
+   #(# halftrack
+      animation = { # "FRA_halftrack_tank_destroyer_wt15_idle_animation"
+         name = "FRA_halftrack_tank_destroyer_wt15_idle_animation"
+         file = "FRA_halftrack_tank_destroyer_wt15_idle.anim"
+      }
+      animation = { # "FRA_halftrack_tank_destroyer_wt15_moving_animation"
+         name = "FRA_halftrack_tank_destroyer_wt15_moving_animation"
+         file = "FRA_halftrack_tank_destroyer_wt15_moving.anim"
+      }
+      animation = { # "FRA_halftrack_tank_destroyer_wt15_attack_animation"
+         name = "FRA_halftrack_tank_destroyer_wt15_attack_animation"
+         file = "FRA_halftrack_tank_destroyer_wt15_attack.anim"
+      }
+   #)#
+   #(# tank
+      animation = { # "FRA_light_tank_ft17_attack_animation"
+         name = "FRA_light_tank_ft17_attack_animation"
+         file = "FRA_light_tank_ft17_attack.anim"
+      }
+      animation = { # "FRA_light_tank_ft17_idle_animation"
+         name = "FRA_light_tank_ft17_idle_animation"
+         file = "FRA_light_tank_ft17_idle.anim"
+      }
+      animation = { # "FRA_light_tank_ft17_moving_animation"
+         name = "FRA_light_tank_ft17_moving_animation"
+         file = "FRA_light_tank_ft17_moving.anim"
+      }
+      animation = { # "FRA_light_tank_fcm36_attack_animation"
+         name = "FRA_light_tank_fcm36_attack_animation"
+         file = "FRA_light_tank_fcm36_attack.anim"
+      }
+      animation = { # "FRA_light_tank_fcm36_idle_animation"
+         name = "FRA_light_tank_fcm36_idle_animation"
+         file = "FRA_light_tank_fcm36_idle.anim"
+      }
+      animation = { # "FRA_light_tank_fcm36_moving_animation"
+         name = "FRA_light_tank_fcm36_moving_animation"
+         file = "FRA_light_tank_fcm36_moving.anim"
+      }
+      animation = { # "FRA_light_tank_h35_idle_animation"
+         name = "FRA_light_tank_h35_idle_animation"
+         file = "FRA_light_tank_h35_idle.anim"
+      }
+      animation = { # "FRA_light_tank_h35_moving_animation"
+         name = "FRA_light_tank_h35_moving_animation"
+         file = "FRA_light_tank_h35_moving.anim"
+      }
+      animation = { # "FRA_light_tank_h35_attack_animation"
+         name = "FRA_light_tank_h35_attack_animation"
+         file = "FRA_light_tank_h35_attack.anim"
+      }
+      animation = { # "FRA_light_tank_r35_idle_animation"
+         name = "FRA_light_tank_r35_idle_animation"
+         file = "FRA_light_tank_r35_idle.anim"
+      }
+      animation = { # "FRA_light_tank_r35_moving_animation"
+         name = "FRA_light_tank_r35_moving_animation"
+         file = "FRA_light_tank_r35_moving.anim"
+      }
+      animation = { # "FRA_light_tank_r35_attack_animation"
+         name = "FRA_light_tank_r35_attack_animation"
+         file = "FRA_light_tank_r35_attack.anim"
+      }
+      animation = { # "FRA_light_tank_r39_idle_animation"
+         name = "FRA_light_tank_r39_idle_animation"
+         file = "FRA_light_tank_r39_idle.anim"
+      }
+      animation = { # "FRA_light_tank_r39_moving_animation"
+         name = "FRA_light_tank_r39_moving_animation"
+         file = "FRA_light_tank_r39_moving.anim"
+      }
+      animation = { # "FRA_light_tank_r39_attack_animation"
+         name = "FRA_light_tank_r39_attack_animation"
+         file = "FRA_light_tank_r39_attack.anim"
+      }
+      animation = { # "FRA_light_tank_amc35_attack_animation"
+         name = "FRA_light_tank_amc35_attack_animation"
+         file = "FRA_light_tank_amc35_attack.anim"
+      }
+      animation = { # "FRA_light_tank_amc35_idle_animation"
+         name = "FRA_light_tank_amc35_idle_animation"
+         file = "FRA_light_tank_amc35_idle.anim"
+      }
+      animation = { # "FRA_light_tank_amc35_moving_animation"
+         name = "FRA_light_tank_amc35_moving_animation"
+         file = "FRA_light_tank_amc35_moving.anim"
+      }
+      animation = { # "FRA_light_tank_amx12_idle_animation"
+         name = "FRA_light_tank_amx12_idle_animation"
+         file = "FRA_light_tank_amx12_idle.anim"
+      }
+      animation = { # "FRA_light_tank_amx12_moving_animation"
+         name = "FRA_light_tank_amx12_moving_animation"
+         file = "FRA_light_tank_amx12_moving.anim"
+      }
+      animation = { # "FRA_light_tank_amx12_attack_animation"
+         name = "FRA_light_tank_amx12_attack_animation"
+         file = "FRA_light_tank_amx12_attack.anim"
+      }
+      animation = { # "FRA_light_tank_amx13_idle_animation"
+         name = "FRA_light_tank_amx13_idle_animation"
+         file = "FRA_light_tank_amx13_idle.anim"
+      }
+      animation = { # "FRA_light_tank_amx13_moving_animation"
+         name = "FRA_light_tank_amx13_moving_animation"
+         file = "FRA_light_tank_amx13_moving.anim"
+      }
+      animation = { # "FRA_light_tank_amx13_attack_animation"
+         name = "FRA_light_tank_amx13_attack_animation"
+         file = "FRA_light_tank_amx13_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "FRA_light_tank_artillery_ft17bs_attack_animation"
+         name = "FRA_light_tank_artillery_ft17bs_attack_animation"
+         file = "FRA_light_tank_artillery_ft17bs_attack.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_ft17bs_idle_animation"
+         name = "FRA_light_tank_artillery_ft17bs_idle_animation"
+         file = "FRA_light_tank_artillery_ft17bs_idle.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_ft17bs_moving_animation"
+         name = "FRA_light_tank_artillery_ft17bs_moving_animation"
+         file = "FRA_light_tank_artillery_ft17bs_moving.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_idle_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_idle_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_idle.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_moving_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_moving_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_moving.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_lorraine37l150_attack_animation"
+         name = "FRA_light_tank_artillery_lorraine37l150_attack_animation"
+         file = "FRA_light_tank_artillery_lorraine37l150_attack.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_mk61105_idle_animation"
+         name = "FRA_light_tank_artillery_mk61105_idle_animation"
+         file = "FRA_light_tank_artillery_mk61105_idle.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_mk61105_moving_animation"
+         name = "FRA_light_tank_artillery_mk61105_moving_animation"
+         file = "FRA_light_tank_artillery_mk61105_moving.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_mk61105_attack_animation"
+         name = "FRA_light_tank_artillery_mk61105_attack_animation"
+         file = "FRA_light_tank_artillery_mk61105_attack.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_f3155_idle_animation"
+         name = "FRA_light_tank_artillery_f3155_idle_animation"
+         file = "FRA_light_tank_artillery_f3155_idle.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_f3155_moving_animation"
+         name = "FRA_light_tank_artillery_f3155_moving_animation"
+         file = "FRA_light_tank_artillery_f3155_moving.anim"
+      }
+      animation = { # "FRA_light_tank_artillery_f3155_attack_animation"
+         name = "FRA_light_tank_artillery_f3155_attack_animation"
+         file = "FRA_light_tank_artillery_f3155_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "FRA_light_tank_destroyer_ft17ac_idle_animation"
+         name = "FRA_light_tank_destroyer_ft17ac_idle_animation"
+         file = "FRA_light_tank_destroyer_ft17ac_idle.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_ft17ac_attack_animation"
+         name = "FRA_light_tank_destroyer_ft17ac_attack_animation"
+         file = "FRA_light_tank_destroyer_ft17ac_attack.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_ft17ac_moving_animation"
+         name = "FRA_light_tank_destroyer_ft17ac_moving_animation"
+         file = "FRA_light_tank_destroyer_ft17ac_moving.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_zt3_idle_animation"
+         name = "FRA_light_tank_destroyer_zt3_idle_animation"
+         file = "FRA_light_tank_destroyer_zt3_idle.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_zt3_moving_animation"
+         name = "FRA_light_tank_destroyer_zt3_moving_animation"
+         file = "FRA_light_tank_destroyer_zt3_moving.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_zt3_attack_animation"
+         name = "FRA_light_tank_destroyer_zt3_attack_animation"
+         file = "FRA_light_tank_destroyer_zt3_attack.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_r3547_idle_animation"
+         name = "FRA_light_tank_destroyer_r3547_idle_animation"
+         file = "FRA_light_tank_destroyer_r3547_idle.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_r3547_moving_animation"
+         name = "FRA_light_tank_destroyer_r3547_moving_animation"
+         file = "FRA_light_tank_destroyer_r3547_moving.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_r3547_attack_animation"
+         name = "FRA_light_tank_destroyer_r3547_attack_animation"
+         file = "FRA_light_tank_destroyer_r3547_attack.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_ue57_idle_animation"
+         name = "FRA_light_tank_destroyer_ue57_idle_animation"
+         file = "FRA_light_tank_destroyer_ue57_idle.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_ue57_moving_animation"
+         name = "FRA_light_tank_destroyer_ue57_moving_animation"
+         file = "FRA_light_tank_destroyer_ue57_moving.anim"
+      }
+      animation = { # "FRA_light_tank_destroyer_ue57_attack_animation"
+         name = "FRA_light_tank_destroyer_ue57_attack_animation"
+         file = "FRA_light_tank_destroyer_ue57_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "FRA_light_tank_aa_ft17aa_idle_animation"
+         name = "FRA_light_tank_aa_ft17aa_idle_animation"
+         file = "FRA_light_tank_aa_ft17aa_idle.anim"
+      }
+      animation = { # "FRA_light_tank_aa_ft17aa_attack_animation"
+         name = "FRA_light_tank_aa_ft17aa_attack_animation"
+         file = "FRA_light_tank_aa_ft17aa_attack.anim"
+      }
+      animation = { # "FRA_light_tank_aa_ft17aa_moving_animation"
+         name = "FRA_light_tank_aa_ft17aa_moving_animation"
+         file = "FRA_light_tank_aa_ft17aa_moving.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "FRA_medium_tank_chard2_idle_animation"
+         name = "FRA_medium_tank_chard2_idle_animation"
+         file = "FRA_medium_tank_chard2_idle.anim"
+      }
+      animation = { # "FRA_medium_tank_chard2_moving_animation"
+         name = "FRA_medium_tank_chard2_moving_animation"
+         file = "FRA_medium_tank_chard2_moving.anim"
+      }
+      animation = { # "FRA_medium_tank_chard2_attack_animation"
+         name = "FRA_medium_tank_chard2_attack_animation"
+         file = "FRA_medium_tank_chard2_attack.anim"
+      }
+      animation = { # "FRA_medium_tank_s35_idle_animation"
+         name = "FRA_medium_tank_s35_idle_animation"
+         file = "FRA_medium_tank_s35_idle.anim"
+      }
+      animation = { # "FRA_medium_tank_s35_moving_animation"
+         name = "FRA_medium_tank_s35_moving_animation"
+         file = "FRA_medium_tank_s35_moving.anim"
+      }
+      animation = { # "FRA_medium_tank_s35_attack_animation"
+         name = "FRA_medium_tank_s35_attack_animation"
+         file = "FRA_medium_tank_s35_attack.anim"
+      }
+      animation = { # "FRA_medium_tank_sarl42_idle_animation"
+         name = "FRA_medium_tank_sarl42_idle_animation"
+         file = "FRA_medium_tank_sarl42_idle.anim"
+      }
+      animation = { # "FRA_medium_tank_sarl42_moving_animation"
+         name = "FRA_medium_tank_sarl42_moving_animation"
+         file = "FRA_medium_tank_sarl42_moving.anim"
+      }
+      animation = { # "FRA_medium_tank_sarl42_attack_animation"
+         name = "FRA_medium_tank_sarl42_attack_animation"
+         file = "FRA_medium_tank_sarl42_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "FRA_medium_tank_artillery_arlv39_idle_animation"
+         name = "FRA_medium_tank_artillery_arlv39_idle_animation"
+         file = "FRA_medium_tank_artillery_arlv39_idle.anim"
+      }
+      animation = { # "FRA_medium_tank_artillery_arlv39_moving_animation"
+         name = "FRA_medium_tank_artillery_arlv39_moving_animation"
+         file = "FRA_medium_tank_artillery_arlv39_moving.anim"
+      }
+      animation = { # "FRA_medium_tank_artillery_arlv39_attack_animation"
+         name = "FRA_medium_tank_artillery_arlv39_attack_animation"
+         file = "FRA_medium_tank_artillery_arlv39_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "FRA_medium_tank_destroyer_sau40_idle_animation"
+         name = "FRA_medium_tank_destroyer_sau40_idle_animation"
+         file = "FRA_medium_tank_destroyer_sau40_idle.anim"
+      }
+      animation = { # "FRA_medium_tank_destroyer_sau40_moving_animation"
+         name = "FRA_medium_tank_destroyer_sau40_moving_animation"
+         file = "FRA_medium_tank_destroyer_sau40_moving.anim"
+      }
+      animation = { # "FRA_medium_tank_destroyer_sau40_attack_animation"
+         name = "FRA_medium_tank_destroyer_sau40_attack_animation"
+         file = "FRA_medium_tank_destroyer_sau40_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "FRA_heavy_tank_char2c_attack_animation"
+         name = "FRA_heavy_tank_char2c_attack_animation"
+         file = "FRA_heavy_tank_char2c_attack.anim"
+      }
+      animation = { # "FRA_heavy_tank_char2c_idle_animation"
+         name = "FRA_heavy_tank_char2c_idle_animation"
+         file = "FRA_heavy_tank_char2c_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_char2c_moving_animation"
+         name = "FRA_heavy_tank_char2c_moving_animation"
+         file = "FRA_heavy_tank_char2c_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_charb1_attack_animation"
+         name = "FRA_heavy_tank_charb1_attack_animation"
+         file = "FRA_heavy_tank_charb1_attack.anim"
+      }
+      animation = { # "FRA_heavy_tank_charb1_attack2_animation"
+         name = "FRA_heavy_tank_charb1_attack2_animation"
+         file = "FRA_heavy_tank_charb1_attack2.anim"
+      }
+      animation = { # "FRA_heavy_tank_charb1_idle_animation"
+         name = "FRA_heavy_tank_charb1_idle_animation"
+         file = "FRA_heavy_tank_charb1_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_charb1_moving_animation"
+         name = "FRA_heavy_tank_charb1_moving_animation"
+         file = "FRA_heavy_tank_charb1_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_arl44_idle_animation"
+         name = "FRA_heavy_tank_arl44_idle_animation"
+         file = "FRA_heavy_tank_arl44_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_arl44_moving_animation"
+         name = "FRA_heavy_tank_arl44_moving_animation"
+         file = "FRA_heavy_tank_arl44_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_arl44_attack_animation"
+         name = "FRA_heavy_tank_arl44_attack_animation"
+         file = "FRA_heavy_tank_arl44_attack.anim"
+      }
+      animation = { # "FRA_heavy_tank_amxm4_idle_animation"
+         name = "FRA_heavy_tank_amxm4_idle_animation"
+         file = "FRA_heavy_tank_amxm4_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_amxm4_moving_animation"
+         name = "FRA_heavy_tank_amxm4_moving_animation"
+         file = "FRA_heavy_tank_amxm4_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_amxm4_attack_animation"
+         name = "FRA_heavy_tank_amxm4_attack_animation"
+         file = "FRA_heavy_tank_amxm4_attack.anim"
+      }
+      animation = { # "FRA_heavy_tank_amx50surb_idle_animation"
+         name = "FRA_heavy_tank_amx50surb_idle_animation"
+         file = "FRA_heavy_tank_amx50surb_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_amx50surb_moving_animation"
+         name = "FRA_heavy_tank_amx50surb_moving_animation"
+         file = "FRA_heavy_tank_amx50surb_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_amx50surb_attack_animation"
+         name = "FRA_heavy_tank_amx50surb_attack_animation"
+         file = "FRA_heavy_tank_amx50surb_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "FRA_heavy_tank_artillery_194mle_idle_animation"
+         name = "FRA_heavy_tank_artillery_194mle_idle_animation"
+         file = "FRA_heavy_tank_artillery_194mle_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_artillery_194mle_moving_animation"
+         name = "FRA_heavy_tank_artillery_194mle_moving_animation"
+         file = "FRA_heavy_tank_artillery_194mle_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_artillery_194mle_attack_animation"
+         name = "FRA_heavy_tank_artillery_194mle_attack_animation"
+         file = "FRA_heavy_tank_artillery_194mle_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "FRA_heavy_tank_destroyer_foch_idle_animation"
+         name = "FRA_heavy_tank_destroyer_foch_idle_animation"
+         file = "FRA_heavy_tank_destroyer_foch_idle.anim"
+      }
+      animation = { # "FRA_heavy_tank_destroyer_foch_moving_animation"
+         name = "FRA_heavy_tank_destroyer_foch_moving_animation"
+         file = "FRA_heavy_tank_destroyer_foch_moving.anim"
+      }
+      animation = { # "FRA_heavy_tank_destroyer_foch_attack_animation"
+         name = "FRA_heavy_tank_destroyer_foch_attack_animation"
+         file = "FRA_heavy_tank_destroyer_foch_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "FRA_superheavy_tank_fcmf1_idle_animation"
+         name = "FRA_superheavy_tank_fcmf1_idle_animation"
+         file = "FRA_superheavy_tank_fcmf1_idle.anim"
+      }
+      animation = { # "FRA_superheavy_tank_fcmf1_moving_animation"
+         name = "FRA_superheavy_tank_fcmf1_moving_animation"
+         file = "FRA_superheavy_tank_fcmf1_moving.anim"
+      }
+      animation = { # "FRA_superheavy_tank_fcmf1_attack_animation"
+         name = "FRA_superheavy_tank_fcmf1_attack_animation"
+         file = "FRA_superheavy_tank_fcmf1_attack.anim"
+      }
+      animation = { # "FRA_modern_tank_amx50t_idle_animation"
+         name = "FRA_modern_tank_amx50t_idle_animation"
+         file = "FRA_modern_tank_amx50t_idle.anim"
+      }
+      animation = { # "FRA_modern_tank_amx50t_moving_animation"
+         name = "FRA_modern_tank_amx50t_moving_animation"
+         file = "FRA_modern_tank_amx50t_moving.anim"
+      }
+      animation = { # "FRA_modern_tank_amx50t_attack_animation"
+         name = "FRA_modern_tank_amx50t_attack_animation"
+         file = "FRA_modern_tank_amx50t_attack.anim"
+      }
+   #)#
+  #)#
+ #)# FRA End
+##)# Main End
+
+	
+
+

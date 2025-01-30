@@ -1,0 +1,156 @@
+spriteTypes = {	
+
+### INTERWAR FIGHTER###
+### non-designer aircraft ###
+
+	SpriteType = {
+	name = "GFX_YUG_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MNT_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MAC_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BOS_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_CRO_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SER_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SLV_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+### designer aircraft ###	
+
+	SpriteType = {
+	name = "GFX_YUG_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MNT_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MAC_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BOS_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_CRO_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SER_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SLV_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_if.dds"
+	}
+
+### FIGHTER 1 ###
+### non-designer aircraft ###
+	
+	SpriteType = {
+	name = "GFX_YUG_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SER_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_CRO_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_SLV_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_BOS_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MAC_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_MNT_fighter1_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+	
+### designer aircraft ###	
+	
+	SpriteType = {
+	name = "GFX_YUG_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_CRO_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_BOS_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MNT_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SLV_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_MAC_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_SER_basic_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/YUG_f1.dds"
+	}
+
+### FIGHTER 2 ###
+### non-designer aircraft ###	
+	
+}

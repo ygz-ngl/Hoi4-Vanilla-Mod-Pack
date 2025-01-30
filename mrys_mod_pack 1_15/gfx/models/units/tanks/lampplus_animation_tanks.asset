@@ -1,0 +1,249 @@
+##(# Generic Start
+ #(# Generic Start
+
+
+	   	#ITA_mechanized_equipment_1
+		animation = { # "ITA_mechanized_equipment_1_idle_animation"
+		   name = "ITA_mechanized_equipment_1_idle_animation"
+		   file = "ITA_mechanized_equipment_1_idle.anim"
+	   	}
+	   	animation = { # "ITA_mechanized_equipment_1_moving_animation"
+		   name = "ITA_mechanized_equipment_1_moving_animation"
+		   file = "ITA_mechanized_equipment_1_moving.anim"
+		}
+		#JAP_mechanized_equipment_0
+		animation = { # "JAP_mechanized_equipment_0_idle_animation"
+			name = "JAP_mechanized_equipment_0_idle_animation"
+			file = "JAP_mechanized_equipment_0_idle.anim"
+		}
+		animation = { # "JAP_mechanized_equipment_0_moving_animation"
+			name = "JAP_mechanized_equipment_0_moving_animation"
+			file = "JAP_mechanized_equipment_0_moving.anim"
+		}
+ #)# Generic End
+ #(# XXX Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# XXX End
+##)# Generic End
+
+##(# Main Countries Start
+ #(# GER Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   	
+
+   #)#
+   #(# destroyer
+
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+
+	
+	
+
+
+
+
+
+  #)#
+  #(# heavy
+
+
+
+
+
+  #)#
+  #(# super modern amphibious
+  #)#
+ #)# GER End
+
+ #(# SOV Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# SOV End
+
+ #(# USA Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# USA End
+
+ #(# ENG Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# ENG End
+
+ #(# FRA Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# FRA End
+
+
+##)# Main Countries End

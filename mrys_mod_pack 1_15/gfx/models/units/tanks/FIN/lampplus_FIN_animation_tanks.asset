@@ -1,0 +1,56 @@
+##(# DOD Start
+ #(# CZE Start
+  #(# light
+   #(# tank
+   #)#
+   #(# artillery
+      animation = { # "FIN_light_tank_artillery_bt42_attack_animation"
+         name = "FIN_light_tank_artillery_bt42_attack_animation"
+         file = "FIN_light_tank_artillery_bt42_attack.anim"
+      }
+      animation = { # "FIN_light_tank_artillery_bt42_idle_animation"
+         name = "FIN_light_tank_artillery_bt42_idle_animation"
+         file = "FIN_light_tank_artillery_bt42_idle.anim"
+      }
+      animation = { # "FIN_light_tank_artillery_bt42_moving_animation"
+         name = "FIN_light_tank_artillery_bt42_moving_animation"
+         file = "FIN_light_tank_artillery_bt42_moving.anim"
+      }
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+   #)#
+  #)#
+ #)# CZE End
+
+##)# DOD End
+
+	
+
+

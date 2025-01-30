@@ -1,0 +1,51 @@
+# Portraits for tags ETH, SWI
+
+SpriteTypes = {
+
+	### ETH ###
+
+	spriteType = {
+		name = "GFX_portrait_ETH_seyoum_mengesha"
+		texturefile = "gfx/leaders/ETH/CPP_Portrait_Ethiopia_Seyoum_Mengesha_CirclePete.dds"			# field uniform, rather than full dress
+	}
+	spriteType = {
+		name = "GFX_portrait_ETH_seyoum_mengesha_small"
+		texturefile = "gfx/interface/ideas/ETH/CPP_idea_ETH_Seyoum_Mengesha_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ETH_fitawrari_yeebio_woldai"
+#		texturefile = "gfx/leaders/ETH/CPP_Portrait_Ethiopia_Fitawrari_Yeebio_Woldai_Mstae67.dds"
+		texturefile = "gfx/leaders/ETH/CPP_Portrait_Ethiopia_Fitawrari_Yeebio_Woldai_Mstae67_[closed_eyes].dds"
+	}
+	
+	
+	### SWI ###
+
+	spriteType = {
+		name = "GFX_portrait_SWI_ernest_beuin"
+		texturefile = "gfx/leaders/SWI/CPP_Portrait_Switzerland_Ernest_Beguin_CirclePete.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_SWI_max_leo_keller"
+#		texturefile = "gfx/leaders/SWI/CPP_Portrait_Switzerland_Max_Leo_Keller_CirclePete.dds"
+#	}
+
+	spriteType = {
+		name = "GFX_portrait_SWI_fritz_platten"
+		texturefile = "gfx/leaders/SWI/CPP_Portrait_Switzerland_Fritz_Platten_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SWI_henri_guisan"
+		texturefile = "gfx/leaders/SWI/CPP_Portrait_Switzerland_Henri_Guisan_Noremac1700.dds"
+#		texturefile = "gfx/leaders/SWI/CPP_Portrait_Switzerland_Henri_Guisan_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SWI_henri_guisan_small"
+		texturefile = "gfx/interface/ideas/SWI/CPP_idea_SWI_Henri_Guisan_Noremac1700.dds"
+#		texturefile = "gfx/interface/ideas/SWI/CPP_idea_SWI_Henri_Guisan_RoadTo56.dds"
+	}
+
+}	

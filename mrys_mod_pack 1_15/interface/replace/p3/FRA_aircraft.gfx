@@ -1,0 +1,68 @@
+spriteTypes = {	
+
+
+### non-designer aircraft ###
+
+    ### cargo ###
+
+    SpriteType = {
+    name = "GFX_FRA_transport_plane_equipment_medium"
+    texturefile = "gfx/interface/technologies/FRA_cp.dds"
+    }
+    
+	SpriteType = {
+    name = "GFX_FRA_transport_plane_equipment_1_medium"
+    texturefile = "gfx/interface/technologies/FRA_cp.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_fighter1_medium"
+	texturefile = "gfx/interface/technologies/FRA_f1.dds"
+	}	
+  
+    ### fighers ###  
+  
+    SpriteType = {
+	name = "GFX_FRA_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/FRA_if.dds"
+	}
+	
+    SpriteType = {
+	name = "GFX_FRA_cv_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/FRA_if_cv.dds"
+	}	
+	
+	
+	### CAS ###
+	
+	SpriteType = {
+	name = "GFX_FRA_CAS1_medium"
+	texturefile = "gfx/interface/technologies/FRA_cas1.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_CAS2_medium"
+	texturefile = "gfx/interface/technologies/FRA_cas2.dds"
+	}
+
+	SpriteType = {
+	name = "GFX_FRA_CAS0_medium"
+	texturefile = "gfx/interface/technologies/FRA_cas0.dds"
+	}
+		
+		
+	
+	
+### designer aircraft ###	
+
+	SpriteType = {
+	name = "GFX_FRA_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/FRA_if.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_FRA_light_plane_2_medium"
+	texturefile = "gfx/interface/technologies/FRA_if2.dds"
+	}
+	
+}

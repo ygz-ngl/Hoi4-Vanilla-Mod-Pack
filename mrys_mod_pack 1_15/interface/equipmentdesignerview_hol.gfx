@@ -1,0 +1,41 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_cruiser_coastal_defense.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_1_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_cruiser_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_2_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_cruiser_2.dds"
+   }
+   
+   spriteType = {
+      name = "GFX_SD_tv_heavy_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_battleship.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_submarine_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_submarine.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_light_1_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_destroyer_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_2_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_destroyer_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_LD_hol"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/HOL/topview_destroyer_LD.dds"
+   }
+}

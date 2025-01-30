@@ -1,0 +1,116 @@
+##(# PCP Start
+ #(# POL Start
+  #(# light
+   #(# tank
+      animation = { # "POL_light_tank_tks_attack_animation"
+         name = "POL_light_tank_tks_attack_animation"
+         file = "POL_light_tank_tks_attack.anim"
+      }
+      animation = { # "POL_light_tank_tks_idle_animation"
+         name = "POL_light_tank_tks_idle_animation"
+         file = "POL_light_tank_tks_idle.anim"
+      }
+      animation = { # "POL_light_tank_tks_moving_animation"
+         name = "POL_light_tank_tks_moving_animation"
+         file = "POL_light_tank_tks_moving.anim"
+      }
+      animation = { # "POL_light_tank_10tp_attack_animation"
+         name = "POL_light_tank_10tp_attack_animation"
+         file = "POL_light_tank_10tp_attack.anim"
+      }
+      animation = { # "POL_light_tank_10tp_idle_animation"
+         name = "POL_light_tank_10tp_idle_animation"
+         file = "POL_light_tank_10tp_idle.anim"
+      }
+      animation = { # "POL_light_tank_10tp_moving_animation"
+         name = "POL_light_tank_10tp_moving_animation"
+         file = "POL_light_tank_10tp_moving.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "POL_light_tank_artillery_tkd_attack_animation"
+         name = "POL_light_tank_artillery_tkd_attack_animation"
+         file = "POL_light_tank_artillery_tkd_attack.anim"
+      }
+      animation = { # "POL_light_tank_artillery_tkd_idle_animation"
+         name = "POL_light_tank_artillery_tkd_idle_animation"
+         file = "POL_light_tank_artillery_tkd_idle.anim"
+      }
+      animation = { # "POL_light_tank_artillery_tkd_moving_animation"
+         name = "POL_light_tank_artillery_tkd_moving_animation"
+         file = "POL_light_tank_artillery_tkd_moving.anim"
+      }
+      
+   #)#
+   #(# destroyer
+      animation = { # "POL_light_tank_destroyer_tksd_attack_animation"
+         name = "POL_light_tank_destroyer_tksd_attack_animation"
+         file = "POL_light_tank_destroyer_tksd_attack.anim"
+      }
+      animation = { # "POL_light_tank_destroyer_tksd_idle_animation"
+         name = "POL_light_tank_destroyer_tksd_idle_animation"
+         file = "POL_light_tank_destroyer_tksd_idle.anim"
+      }
+      animation = { # "POL_light_tank_destroyer_tksd_moving_animation"
+         name = "POL_light_tank_destroyer_tksd_moving_animation"
+         file = "POL_light_tank_destroyer_tksd_moving.anim"
+      }
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "POL_medium_tank_10tp_attack_animation"
+         name = "POL_medium_tank_10tp_attack_animation"
+         file = "POL_medium_tank_10tp_attack.anim"
+      }
+      animation = { # "POL_medium_tank_10tp_idle_animation"
+         name = "POL_medium_tank_10tp_idle_animation"
+         file = "POL_medium_tank_10tp_idle.anim"
+      }
+      animation = { # "POL_medium_tank_10tp_moving_animation"
+         name = "POL_medium_tank_10tp_moving_animation"
+         file = "POL_medium_tank_10tp_moving.anim"
+      }
+      animation = { # "POL_light_tank_14tp_attack_animation"
+         name = "POL_light_tank_14tp_attack_animation"
+         file = "POL_light_tank_14tp_attack.anim"
+      }
+      animation = { # "POL_light_tank_14tp_idle_animation"
+         name = "POL_light_tank_14tp_idle_animation"
+         file = "POL_light_tank_14tp_idle.anim"
+      }
+      animation = { # "POL_light_tank_14tp_moving_animation"
+         name = "POL_light_tank_14tp_moving_animation"
+         file = "POL_light_tank_14tp_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+
+   #)#
+  #)#
+ #)# POL End
+##)# PCP End

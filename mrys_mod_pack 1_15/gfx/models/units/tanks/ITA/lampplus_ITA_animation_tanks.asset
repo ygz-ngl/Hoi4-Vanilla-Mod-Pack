@@ -1,0 +1,272 @@
+##(# Main Start
+ #(# ITA Start
+  #(# light
+   #(# tank
+      animation = { # "ITA_light_tank_l3_attack_animation"
+         name = "ITA_light_tank_l3_attack_animation"
+         file = "ITA_light_tank_l3_attack.anim"
+      }
+      animation = { # "ITA_light_tank_l3_idle_animation"
+         name = "ITA_light_tank_l3_idle_animation"
+         file = "ITA_light_tank_l3_idle.anim"
+      }
+      animation = { # "ITA_light_tank_l3_moving_animation"
+         name = "ITA_light_tank_l3_moving_animation"
+         file = "ITA_light_tank_l3_moving.anim"
+      }
+      animation = { # "ITA_light_tank_l640_idle_animation"
+         name = "ITA_light_tank_l640_idle_animation"
+         file = "ITA_light_tank_l640_idle.anim"
+      }
+      animation = { # "ITA_light_tank_l640_moving_animation"
+         name = "ITA_light_tank_l640_moving_animation"
+         file = "ITA_light_tank_l640_moving.anim"
+      }
+      animation = { # "ITA_light_tank_l640_attack_animation"
+         name = "ITA_light_tank_l640_attack_animation"
+         file = "ITA_light_tank_l640_attack.anim"
+      }
+      animation = { # "ITA_light_tank_sahariano_idle_animation"
+         name = "ITA_light_tank_sahariano_idle_animation"
+         file = "ITA_light_tank_sahariano_idle.anim"
+      }
+      animation = { # "ITA_light_tank_sahariano_moving_animation"
+         name = "ITA_light_tank_sahariano_moving_animation"
+         file = "ITA_light_tank_sahariano_moving.anim"
+      }
+      animation = { # "ITA_light_tank_sahariano_attack_animation"
+         name = "ITA_light_tank_sahariano_attack_animation"
+         file = "ITA_light_tank_sahariano_attack.anim"
+      }
+   #)#
+   #(# artillery
+
+   #)#
+   #(# destroyer
+      animation = { # "ITA_light_tank_destroyer_l333_idle_animation"
+         name = "ITA_light_tank_destroyer_l333_idle_animation"
+         file = "ITA_light_tank_destroyer_l333_idle.anim"
+      }
+      animation = { # "ITA_light_tank_destroyer_l333_moving_animation"
+         name = "ITA_light_tank_destroyer_l333_moving_animation"
+         file = "ITA_light_tank_destroyer_l333_moving.anim"
+      }
+      animation = { # "ITA_light_tank_destroyer_l333_attack_animation"
+         name = "ITA_light_tank_destroyer_l333_attack_animation"
+         file = "ITA_light_tank_destroyer_l333_attack.anim"
+      }
+      animation = { # "ITA_light_tank_destroyer_semo4732_idle_animation"
+         name = "ITA_light_tank_destroyer_semo4732_idle_animation"
+         file = "ITA_light_tank_destroyer_semo4732_idle.anim"
+      }
+      animation = { # "ITA_light_tank_destroyer_semo4732_moving_animation"
+         name = "ITA_light_tank_destroyer_semo4732_moving_animation"
+         file = "ITA_light_tank_destroyer_semo4732_moving.anim"
+      }
+      animation = { # "ITA_light_tank_destroyer_semo4732_attack_animation"
+         name = "ITA_light_tank_destroyer_semo4732_attack_animation"
+         file = "ITA_light_tank_destroyer_semo4732_attack.anim"
+      }
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "ITA_medium_tank_m11_attack_animation"
+         name = "ITA_medium_tank_m11_attack_animation"
+         file = "ITA_medium_tank_m11_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_m11_idle_animation"
+         name = "ITA_medium_tank_m11_idle_animation"
+         file = "ITA_medium_tank_m11_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_m11_moving_animation"
+         name = "ITA_medium_tank_m11_moving_animation"
+         file = "ITA_medium_tank_m11_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_m13_attack_animation"
+         name = "ITA_medium_tank_m13_attack_animation"
+         file = "ITA_medium_tank_m13_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_m13_idle_animation"
+         name = "ITA_medium_tank_m13_idle_animation"
+         file = "ITA_medium_tank_m13_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_m13_moving_animation"
+         name = "ITA_medium_tank_m13_moving_animation"
+         file = "ITA_medium_tank_m13_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_m15_attack_animation"
+         name = "ITA_medium_tank_m15_attack_animation"
+         file = "ITA_medium_tank_m15_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_m15_idle_animation"
+         name = "ITA_medium_tank_m15_idle_animation"
+         file = "ITA_medium_tank_m15_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_m15_moving_animation"
+         name = "ITA_medium_tank_m15_moving_animation"
+         file = "ITA_medium_tank_m15_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_p40_attack_animation"
+         name = "ITA_medium_tank_p40_attack_animation"
+         file = "ITA_medium_tank_p40_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_p40_idle_animation"
+         name = "ITA_medium_tank_p40_idle_animation"
+         file = "ITA_medium_tank_p40_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_p40_moving_animation"
+         name = "ITA_medium_tank_p40_moving_animation"
+         file = "ITA_medium_tank_p40_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_p43_idle_animation"
+         name = "ITA_medium_tank_p43_idle_animation"
+         file = "ITA_medium_tank_p43_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_p43_moving_animation"
+         name = "ITA_medium_tank_p43_moving_animation"
+         file = "ITA_medium_tank_p43_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_p43_attack_animation"
+         name = "ITA_medium_tank_p43_attack_animation"
+         file = "ITA_medium_tank_p43_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_p44_idle_animation"
+         name = "ITA_medium_tank_p44_idle_animation"
+         file = "ITA_medium_tank_p44_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_p44_moving_animation"
+         name = "ITA_medium_tank_p44_moving_animation"
+         file = "ITA_medium_tank_p44_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_p44_attack_animation"
+         name = "ITA_medium_tank_p44_attack_animation"
+         file = "ITA_medium_tank_p44_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "ITA_medium_tank_artillery_semo7518_idle_animation"
+         name = "ITA_medium_tank_artillery_semo7518_idle_animation"
+         file = "ITA_medium_tank_artillery_semo7518_idle.anim"
+      }
+      #animation = { # "ITA_medium_tank_artillery_semo7518_moving_animation"
+      #   name = "ITA_medium_tank_artillery_semo7518_moving_animation"
+      #   file = "ITA_medium_tank_artillery_semo7518_moving.anim"
+      #}
+      #animation = { # "ITA_medium_tank_artillery_semo7518_attack_animation"
+      #   name = "ITA_medium_tank_artillery_semo7518_attack_animation"
+      #   file = "ITA_medium_tank_artillery_semo7518_attack.anim"
+      #}
+      animation = { # "ITA_medium_tank_artillery_semo14940_idle_animation"
+         name = "ITA_medium_tank_artillery_semo14940_idle_animation"
+         file = "ITA_medium_tank_artillery_semo14940_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_artillery_semo14940_moving_animation"
+         name = "ITA_medium_tank_artillery_semo14940_moving_animation"
+         file = "ITA_medium_tank_artillery_semo14940_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_artillery_semo14940_attack_animation"
+         name = "ITA_medium_tank_artillery_semo14940_attack_animation"
+         file = "ITA_medium_tank_artillery_semo14940_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "ITA_medium_tank_destroyer_semo7546_idle_animation"
+         name = "ITA_medium_tank_destroyer_semo7546_idle_animation"
+         file = "ITA_medium_tank_destroyer_semo7546_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_destroyer_semo7546_moving_animation"
+         name = "ITA_medium_tank_destroyer_semo7546_moving_animation"
+         file = "ITA_medium_tank_destroyer_semo7546_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_destroyer_semo7546_attack_animation"
+         name = "ITA_medium_tank_destroyer_semo7546_attack_animation"
+         file = "ITA_medium_tank_destroyer_semo7546_attack.anim"
+      }
+      animation = { # "ITA_medium_tank_destroyer_semo9053_idle_animation"
+         name = "ITA_medium_tank_destroyer_semo9053_idle_animation"
+         file = "ITA_medium_tank_destroyer_semo9053_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_destroyer_semo9053_moving_animation"
+         name = "ITA_medium_tank_destroyer_semo9053_moving_animation"
+         file = "ITA_medium_tank_destroyer_semo9053_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_destroyer_semo9053_attack_animation"
+         name = "ITA_medium_tank_destroyer_semo9053_attack_animation"
+         file = "ITA_medium_tank_destroyer_semo9053_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "ITA_medium_tank_aa_semo2070_idle_animation"
+         name = "ITA_medium_tank_aa_semo2070_idle_animation"
+         file = "ITA_medium_tank_aa_semo2070_idle.anim"
+      }
+      animation = { # "ITA_medium_tank_aa_semo2070_moving_animation"
+         name = "ITA_medium_tank_aa_semo2070_moving_animation"
+         file = "ITA_medium_tank_aa_semo2070_moving.anim"
+      }
+      animation = { # "ITA_medium_tank_aa_semo2070_attack_animation"
+         name = "ITA_medium_tank_aa_semo2070_attack_animation"
+         file = "ITA_medium_tank_aa_semo2070_attack.anim"
+      }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "ITA_heavy_tank_p75_attack_animation"
+         name = "ITA_heavy_tank_p75_attack_animation"
+         file = "ITA_heavy_tank_p75_attack.anim"
+      }
+      animation = { # "ITA_heavy_tank_p75_idle_animation"
+         name = "ITA_heavy_tank_p75_idle_animation"
+         file = "ITA_heavy_tank_p75_idle.anim"
+      }
+      animation = { # "ITA_heavy_tank_p75_moving_animation"
+         name = "ITA_heavy_tank_p75_moving_animation"
+         file = "ITA_heavy_tank_p75_moving.anim"
+      }
+      animation = { # "ITA_heavy_tank_p45_attack_animation"
+         name = "ITA_heavy_tank_p45_attack_animation"
+         file = "ITA_heavy_tank_p45_attack.anim"
+      }
+      animation = { # "ITA_heavy_tank_p45_idle_animation"
+         name = "ITA_heavy_tank_p45_idle_animation"
+         file = "ITA_heavy_tank_p45_idle.anim"
+      }
+      animation = { # "ITA_heavy_tank_p45_moving_animation"
+         name = "ITA_heavy_tank_p45_moving_animation"
+         file = "ITA_heavy_tank_p45_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "ITA_modern_tank_of40_attack_animation"
+         name = "ITA_modern_tank_of40_attack_animation"
+         file = "ITA_modern_tank_of40_attack.anim"
+      }
+      animation = { # "ITA_modern_tank_of40_idle_animation"
+         name = "ITA_modern_tank_of40_idle_animation"
+         file = "ITA_modern_tank_of40_idle.anim"
+      }
+      animation = { # "ITA_modern_tank_of40_moving_animation"
+         name = "ITA_modern_tank_of40_moving_animation"
+         file = "ITA_modern_tank_of40_moving.anim"
+      }
+   #)#
+  #)#
+ #)# ITA End
+##)# Main End
+
+	
+
+

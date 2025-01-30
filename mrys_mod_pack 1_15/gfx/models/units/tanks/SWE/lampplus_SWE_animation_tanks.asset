@@ -1,0 +1,327 @@
+##(# AAT Start
+ #(# SWE Start
+  #(# light
+   #(# tank
+      animation = { # "SWE_light_tank_strvm21_attack_animation"
+         name = "SWE_light_tank_strvm21_attack_animation"
+         file = "SWE_light_tank_strvm21_attack.anim"
+      }
+      animation = { # "SWE_light_tank_strvm21_idle_animation"
+         name = "SWE_light_tank_strvm21_idle_animation"
+         file = "SWE_light_tank_strvm21_idle.anim"
+      }
+      animation = { # "SWE_light_tank_strvm21_moving_animation"
+         name = "SWE_light_tank_strvm21_moving_animation"
+         file = "SWE_light_tank_strvm21_moving.anim"
+      }
+      animation = { # "SWE_light_tank_l120_attack_animation"
+         name = "SWE_light_tank_l120_attack_animation"
+         file = "SWE_light_tank_l120_attack.anim"
+      }
+      animation = { # "SWE_light_tank_l120_idle_animation"
+         name = "SWE_light_tank_l120_idle_animation"
+         file = "SWE_light_tank_l120_idle.anim"
+      }
+      animation = { # "SWE_light_tank_l120_moving_animation"
+         name = "SWE_light_tank_l120_moving_animation"
+         file = "SWE_light_tank_l120_moving.anim"
+      }
+      animation = { # "SWE_light_tank_strvm31_attack_animation"
+         name = "SWE_light_tank_strvm31_attack_animation"
+         file = "SWE_light_tank_strvm31_attack.anim"
+      }
+      animation = { # "SWE_light_tank_strvm31_idle_animation"
+         name = "SWE_light_tank_strvm31_idle_animation"
+         file = "SWE_light_tank_strvm31_idle.anim"
+      }
+      animation = { # "SWE_light_tank_strvm31_moving_animation"
+         name = "SWE_light_tank_strvm31_moving_animation"
+         file = "SWE_light_tank_strvm31_moving.anim"
+      }
+      animation = { # "SWE_light_tank_l60_attack_animation"
+         name = "SWE_light_tank_l60_attack_animation"
+         file = "SWE_light_tank_l60_attack.anim"
+      }
+      animation = { # "SWE_light_tank_l60_idle_animation"
+         name = "SWE_light_tank_l60_idle_animation"
+         file = "SWE_light_tank_l60_idle.anim"
+      }
+      animation = { # "SWE_light_tank_l60_moving_animation"
+         name = "SWE_light_tank_l60_moving_animation"
+         file = "SWE_light_tank_l60_moving.anim"
+      }
+      animation = { # "SWE_light_tank_strvm38_attack_animation"
+         name = "SWE_light_tank_strvm38_attack_animation"
+         file = "SWE_light_tank_strvm38_attack.anim"
+      }
+      animation = { # "SWE_light_tank_strvm38_idle_animation"
+         name = "SWE_light_tank_strvm38_idle_animation"
+         file = "SWE_light_tank_strvm38_idle.anim"
+      }
+      animation = { # "SWE_light_tank_strvm38_moving_animation"
+         name = "SWE_light_tank_strvm38_moving_animation"
+         file = "SWE_light_tank_strvm38_moving.anim"
+      }
+      animation = { # "SWE_light_tank_strvm40_attack_animation"
+         name = "SWE_light_tank_strvm40_attack_animation"
+         file = "SWE_light_tank_strvm40_attack.anim"
+      }
+      animation = { # "SWE_light_tank_strvm40_idle_animation"
+         name = "SWE_light_tank_strvm40_idle_animation"
+         file = "SWE_light_tank_strvm40_idle.anim"
+      }
+      animation = { # "SWE_light_tank_strvm40_moving_animation"
+         name = "SWE_light_tank_strvm40_moving_animation"
+         file = "SWE_light_tank_strvm40_moving.anim"
+      }
+      animation = { # "SWE_light_tank_strvm41_attack_animation"
+         name = "SWE_light_tank_strvm41_attack_animation"
+         file = "SWE_light_tank_strvm41_attack.anim"
+      }
+      animation = { # "SWE_light_tank_strvm41_idle_animation"
+         name = "SWE_light_tank_strvm41_idle_animation"
+         file = "SWE_light_tank_strvm41_idle.anim"
+      }
+      animation = { # "SWE_light_tank_strvm41_moving_animation"
+         name = "SWE_light_tank_strvm41_moving_animation"
+         file = "SWE_light_tank_strvm41_moving.anim"
+      }
+      animation = { # "SWE_light_tank_leo_attack_animation"
+         name = "SWE_light_tank_leo_attack_animation"
+         file = "SWE_light_tank_leo_attack.anim"
+      }
+      animation = { # "SWE_light_tank_leo_idle_animation"
+         name = "SWE_light_tank_leo_idle_animation"
+         file = "SWE_light_tank_leo_idle.anim"
+      }
+      animation = { # "SWE_light_tank_leo_moving_animation"
+         name = "SWE_light_tank_leo_moving_animation"
+         file = "SWE_light_tank_leo_moving.anim"
+      }
+      
+   #)#
+   #(# artillery
+      animation = { # "SWE_light_sp_artillery_savm43e_attack_animation"
+         name = "SWE_light_sp_artillery_savm43e_attack_animation"
+         file = "SWE_light_sp_artillery_savm43e_attack.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_savm43e_idle_animation"
+         name = "SWE_light_sp_artillery_savm43e_idle_animation"
+         file = "SWE_light_sp_artillery_savm43e_idle.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_savm43e_moving_animation"
+         name = "SWE_light_sp_artillery_savm43e_moving_animation"
+         file = "SWE_light_sp_artillery_savm43e_moving.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_savm43l_attack_animation"
+         name = "SWE_light_sp_artillery_savm43l_attack_animation"
+         file = "SWE_light_sp_artillery_savm43l_attack.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_savm43l_idle_animation"
+         name = "SWE_light_sp_artillery_savm43l_idle_animation"
+         file = "SWE_light_sp_artillery_savm43l_idle.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_savm43l_moving_animation"
+         name = "SWE_light_sp_artillery_savm43l_moving_animation"
+         file = "SWE_light_sp_artillery_savm43l_moving.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_spjfm44_attack_animation"
+         name = "SWE_light_sp_artillery_spjfm44_attack_animation"
+         file = "SWE_light_sp_artillery_spjfm44_attack.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_spjfm44_idle_animation"
+         name = "SWE_light_sp_artillery_spjfm44_idle_animation"
+         file = "SWE_light_sp_artillery_spjfm44_idle.anim"
+      }
+      animation = { # "SWE_light_sp_artillery_spjfm44_moving_animation"
+         name = "SWE_light_sp_artillery_spjfm44_moving_animation"
+         file = "SWE_light_sp_artillery_spjfm44_moving.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "SWE_light_tank_destroyer_pvkv4_attack_animation"
+         name = "SWE_light_tank_destroyer_pvkv4_attack_animation"
+         file = "SWE_light_tank_destroyer_pvkv4_attack.anim"
+      }
+      animation = { # "SWE_light_tank_destroyer_pvkv4_idle_animation"
+         name = "SWE_light_tank_destroyer_pvkv4_idle_animation"
+         file = "SWE_light_tank_destroyer_pvkv4_idle.anim"
+      }
+      animation = { # "SWE_light_tank_destroyer_pvkv4_moving_animation"
+         name = "SWE_light_tank_destroyer_pvkv4_moving_animation"
+         file = "SWE_light_tank_destroyer_pvkv4_moving.anim"
+      }
+      animation = { # "SWE_light_tank_destroyer_pvkvleo_attack_animation"
+         name = "SWE_light_tank_destroyer_pvkvleo_attack_animation"
+         file = "SWE_light_tank_destroyer_pvkvleo_attack.anim"
+      }
+      animation = { # "SWE_light_tank_destroyer_pvkvleo_idle_animation"
+         name = "SWE_light_tank_destroyer_pvkvleo_idle_animation"
+         file = "SWE_light_tank_destroyer_pvkvleo_idle.anim"
+      }
+      animation = { # "SWE_light_tank_destroyer_pvkvleo_moving_animation"
+         name = "SWE_light_tank_destroyer_pvkvleo_moving_animation"
+         file = "SWE_light_tank_destroyer_pvkvleo_moving.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "SWE_light_sp_anti_air_lvkvl62_attack_animation"
+         name = "SWE_light_sp_anti_air_lvkvl62_attack_animation"
+         file = "SWE_light_sp_anti_air_lvkvl62_attack.anim"
+      }
+      animation = { # "SWE_light_sp_anti_air_lvkvl62_idle_animation"
+         name = "SWE_light_sp_anti_air_lvkvl62_idle_animation"
+         file = "SWE_light_sp_anti_air_lvkvl62_idle.anim"
+      }
+      animation = { # "SWE_light_sp_anti_air_lvkvl62_moving_animation"
+         name = "SWE_light_sp_anti_air_lvkvl62_moving_animation"
+         file = "SWE_light_sp_anti_air_lvkvl62_moving.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "SWE_medium_tank_strvm42e_attack_animation"
+         name = "SWE_medium_tank_strvm42e_attack_animation"
+         file = "SWE_medium_tank_strvm42e_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42e_idle_animation"
+         name = "SWE_medium_tank_strvm42e_idle_animation"
+         file = "SWE_medium_tank_strvm42e_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42e_moving_animation"
+         name = "SWE_medium_tank_strvm42e_moving_animation"
+         file = "SWE_medium_tank_strvm42e_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42l_attack_animation"
+         name = "SWE_medium_tank_strvm42l_attack_animation"
+         file = "SWE_medium_tank_strvm42l_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42l_idle_animation"
+         name = "SWE_medium_tank_strvm42l_idle_animation"
+         file = "SWE_medium_tank_strvm42l_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_strvm42l_moving_animation"
+         name = "SWE_medium_tank_strvm42l_moving_animation"
+         file = "SWE_medium_tank_strvm42l_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_attack_animation"
+         name = "SWE_medium_tank_lansen_attack_animation"
+         file = "SWE_medium_tank_lansen_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_idle_animation"
+         name = "SWE_medium_tank_lansen_idle_animation"
+         file = "SWE_medium_tank_lansen_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_lansen_moving_animation"
+         name = "SWE_medium_tank_lansen_moving_animation"
+         file = "SWE_medium_tank_lansen_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_attack_animation"
+         name = "SWE_medium_tank_strv74_attack_animation"
+         file = "SWE_medium_tank_strv74_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_idle_animation"
+         name = "SWE_medium_tank_strv74_idle_animation"
+         file = "SWE_medium_tank_strv74_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_strv74_moving_animation"
+         name = "SWE_medium_tank_strv74_moving_animation"
+         file = "SWE_medium_tank_strv74_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+      animation = { # "SWE_medium_tank_destroyer_ikv72_attack_animation"
+         name = "SWE_medium_tank_destroyer_ikv72_attack_animation"
+         file = "SWE_medium_tank_destroyer_ikv72_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_ikv72_idle_animation"
+         name = "SWE_medium_tank_destroyer_ikv72_idle_animation"
+         file = "SWE_medium_tank_destroyer_ikv72_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_ikv72_moving_animation"
+         name = "SWE_medium_tank_destroyer_ikv72_moving_animation"
+         file = "SWE_medium_tank_destroyer_ikv72_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43e_attack_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43e_attack_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43e_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43e_idle_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43e_idle_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43e_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43e_moving_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43e_moving_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43e_moving.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43l_attack_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43l_attack_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43l_attack.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43l_idle_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43l_idle_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43l_idle.anim"
+      }
+      animation = { # "SWE_medium_tank_destroyer_pvkvm43l_moving_animation"
+         name = "SWE_medium_tank_destroyer_pvkvm43l_moving_animation"
+         file = "SWE_medium_tank_destroyer_pvkvm43l_moving.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "SWE_medium_sp_anti_air_lvkvfm43_attack_animation"
+         name = "SWE_medium_sp_anti_air_lvkvfm43_attack_animation"
+         file = "SWE_medium_sp_anti_air_lvkvfm43_attack.anim"
+      }
+      animation = { # "SWE_medium_sp_anti_air_lvkvfm43_idle_animation"
+         name = "SWE_medium_sp_anti_air_lvkvfm43_idle_animation"
+         file = "SWE_medium_sp_anti_air_lvkvfm43_idle.anim"
+      }
+      animation = { # "SWE_medium_sp_anti_air_lvkvfm43_moving_animation"
+         name = "SWE_medium_sp_anti_air_lvkvfm43_moving_animation"
+         file = "SWE_medium_sp_anti_air_lvkvfm43_moving.anim"
+      }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "SWE_heavy_tank_strva4c_attack_animation"
+         name = "SWE_heavy_tank_strva4c_attack_animation"
+         file = "SWE_heavy_tank_strva4c_attack.anim"
+      }
+      animation = { # "SWE_heavy_tank_strva4c_idle_animation"
+         name = "SWE_heavy_tank_strva4c_idle_animation"
+         file = "SWE_heavy_tank_strva4c_idle.anim"
+      }
+      animation = { # "SWE_heavy_tank_strva4c_moving_animation"
+         name = "SWE_heavy_tank_strva4c_moving_animation"
+         file = "SWE_heavy_tank_strva4c_moving.anim"
+      }
+   #)#
+   #(# artillery
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "SWE_modern_tank_strv81_attack_animation"
+         name = "SWE_modern_tank_strv81_attack_animation"
+         file = "SWE_modern_tank_strv81_attack.anim"
+      }
+      animation = { # "SWE_modern_tank_strv81_idle_animation"
+         name = "SWE_modern_tank_strv81_idle_animation"
+         file = "SWE_modern_tank_strv81_idle.anim"
+      }
+      animation = { # "SWE_modern_tank_strv81_moving_animation"
+         name = "SWE_modern_tank_strv81_moving_animation"
+         file = "SWE_modern_tank_strv81_moving.anim"
+      }
+   #)#
+  #)#
+ #)# SWE End
+##)# AAT End

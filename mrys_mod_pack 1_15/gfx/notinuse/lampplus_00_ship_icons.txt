@@ -1,0 +1,2949 @@
+# 1 DLC # 2 Country # 4 subcategory
+# ship_hull_cruiser is not working as expected, can't tell the diff between heavy_cruiser and light_cruiser
+# carrier starts with converted carrier, carrier_1 means carrier_2.dds
+
+##(# Generic Start
+ #(# Generic Start
+	default = {
+  #(# Generic small shiphull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_light_1_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_01_B.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_01_A.dds"
+				}
+				models = { NOR_destroyer_entity }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_light_2_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_02_B.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_02_A.dds"
+				}
+				models = { destroyer_entity }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_light_3_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_03_A.dds"
+				}
+				models = { destroyer_entity }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_light_4_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_light/destroyer_04_A.dds"
+				}
+				models = { destroyer_entity }
+			}
+		}
+  #)# Generic small shiphull end
+
+  #(# Generic heavy shiphull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_heavy_1_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battlecruiser_01.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battleship_01_A.dds"
+				}
+				models = {
+					battle_cruiser_entity
+					battleship_entity
+				}
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_heavy_2_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battlecruiser_02.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battleship_02_A.dds"
+				}
+				models = {
+					battle_cruiser_entity
+					battleship_entity
+				}
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_heavy_3_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battlecruiser_03.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battleship_03_A.dds"
+				}
+				models = {
+					battle_cruiser_entity
+					battleship_entity
+				}
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_heavy_4_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battleship_05.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/battleship_04_A.dds"
+				}
+				models = {
+					battle_cruiser_entity
+					battleship_entity
+				}
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_super_heavy_1_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/heavy_battleship_02.dds"
+					#"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_heavy/heavy_battleship_01.dds"
+				}
+				models = { super_heavy_battleship_entity }
+			}
+		}
+  #)# Generic heavy shiphull end
+
+  #(# Generic carrier shiphull start
+  		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_carrier_conversion_bb_medium }
+			}
+			pool = {
+				weight = 1
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_01_A.dds"
+				}
+				models = { carrier_0_entity }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { GFX_ship_hull_carrier_conversion_ca_medium }
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/light_carrier_01.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_conversion_ca_B.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_conversion_ca_A.dds"
+				}
+				models = { carrier_0_entity }
+			}
+		}
+		ship_hull_carrier_1 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_carrier_1_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_02_A.dds"
+				}
+				models = { carrier_entity }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_carrier_2_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_03_A.dds"
+				}
+				models = { carrier_entity }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_carrier_3_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_carrier/carrier_04_A.dds"
+				}
+				models = { carrier_entity }
+			}
+		}
+  #)# Generic carrier shiphull end
+
+  #(# Generic submarine shiphull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_submarine_1_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_01_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_submarine_2_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_02_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_submarine_3_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_03_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_submarine_4_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_05_A.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_05.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_submarine/submarine_04_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_cruiser_submarine_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_special/cruiser_submarine_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_midget_submarine_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_special/midget_submarine_A.dds"
+				}
+				models = { submarine_entity }
+			}
+		}
+  #)# Generic submarine shiphull end
+
+  #(# Generic special shiphull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_pre_dreadnought_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_special/pre_dreadnought_B.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_special/pre_dreadnought_A.dds"
+				}
+				models = { TUR_battle_cruiser_entity }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_cruiser_panzerschiff_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 2
+				icons = { GFX_ship_hull_cruiser_coastal_defense_ship_medium }
+			}
+			pool = {
+				weight = 1
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GEN/ship_hull_special/cruiser_coastal_defense_ship_A.dds"
+				}
+				models = { NOR_battleship_entity }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 1
+				icons = {
+					#
+				}
+				models = { light_cruiser_entity }
+			}
+		}
+  #)# Generic special shiphull end
+	}
+ #)# Generic end
+##)# Generic End
+
+##(# Main Countries Start
+ #(# Germany Start
+	GER = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_light/GER_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_light/GER_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_light/GER_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_light/GER_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battlecruiser_01.dds"
+				}
+				models = { GER_battleship_entity }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battlecruiser_02.dds"
+				}
+				models = { GER_battleship_entity }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battlecruiser_03.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battleship_03_A.dds"
+				}
+				models = { GER_battleship_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_battlecruiser_04.dds"
+				}
+				models = { GER_battleship_entity }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_heavy/GER_heavy_battleship_02.dds"
+				}
+				models = { super_heavy_battleship_entity }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+  		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_carrier/GER_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_carrier/GER_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_carrier/GER_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_carrier/GER_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_carrier/GER_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_submarine/GER_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_submarine/GER_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_submarine/GER_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_submarine/GER_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_submarine/GER_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_special/GER_pre_dreadnought.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/GER/ship_hull_special/GER_panzerschiff.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# Germany End
+
+ #(# Soviet Start
+	SOV = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_light/SOV_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_light/SOV_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_light/SOV_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_light/SOV_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battlecruiser_01.dds"
+				}
+				models = { SOV_battleship_entity }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battlecruiser_02.dds"
+				}
+				models = { SOV_battleship_entity }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battlecruiser_03.dds"
+				}
+				models = { SOV_battleship_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_battlecruiser_04.dds"
+				}
+				models = { SOV_battleship_entity }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_heavy/SOV_heavy_battleship_02.dds"
+				}
+				models = {  }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_carrier/SOV_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_carrier/SOV_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_carrier/SOV_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_carrier/SOV_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_carrier/SOV_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_submarine/SOV_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_submarine/SOV_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_submarine/SOV_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_submarine/SOV_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/SOV/ship_hull_special/SOV_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# Soviet End
+
+ #(# America Start
+	USA = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_light/USA_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_light/USA_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_light/USA_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_light/USA_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battlecruiser_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battlecruiser_02.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battlecruiser_03.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battleship_03_A.dds"
+				}
+				models = { battleship_entity battle_cruiser_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_battlecruiser_04.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_heavy/USA_heavy_battleship_02.dds"
+				}
+				models = { super_heavy_battleship_entity }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+  		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_carrier/USA_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_carrier/USA_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_carrier/USA_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_carrier/USA_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_carrier/USA_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_submarine/USA_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_submarine/USA_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_submarine/USA_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_submarine/USA_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/USA/ship_hull_special/USA_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# America End
+
+ #(# Britain Start
+	ENG = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_light/ENG_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_light/ENG_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_light/ENG_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_light/ENG_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battlecruiser_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battlecruiser_02.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battleship_03_A.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battlecruiser_03.dds"
+				}
+				models = { battleship_entity battle_cruiser_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_battlecruiser_04.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_heavy/ENG_heavy_battleship_02.dds"
+				}
+				models = { super_heavy_battleship_entity }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_carrier/ENG_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_carrier/ENG_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_carrier/ENG_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_carrier/ENG_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_carrier/ENG_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_submarine/ENG_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_submarine/ENG_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_submarine/ENG_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ENG/ship_hull_submarine/ENG_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# Britain End
+
+ #(# France Start
+	FRA = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_light/FRA_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_light/FRA_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_light/FRA_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_light/FRA_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battlecruiser_01.dds"
+				}
+				models = { FRA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battlecruiser_02.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battleship_02_A.dds"
+				}
+				models = { FRA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battlecruiser_03.dds"
+					
+				}
+				models = { FRA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_battlecruiser_04.dds"
+				}
+				models = { FRA_battleship_entity }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_heavy/FRA_heavy_battleship_02.dds"
+				}
+				models = {  }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_carrier/FRA_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_carrier/FRA_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_carrier/FRA_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_carrier/FRA_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_carrier/FRA_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_submarine/FRA_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_submarine/FRA_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_submarine/FRA_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_submarine/FRA_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/FRA/ship_hull_special/FRA_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# France End
+
+ #(# Italy Start
+	ITA = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_light/ITA_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_light/ITA_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_light/ITA_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_light/ITA_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battlecruiser_01.dds"
+				}
+				models = { ITA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battlecruiser_02.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battleship_02_A.dds"
+				}
+				models = { ITA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battlecruiser_03.dds"
+				}
+				models = { ITA_battleship_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_battlecruiser_04.dds"
+				}
+				models = { ITA_battleship_entity }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_heavy/ITA_heavy_battleship_02.dds"
+				}
+				models = {  }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_carrier/ITA_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_carrier/ITA_carrier_conversion_ca.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_carrier/ITA_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_carrier/ITA_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_carrier/ITA_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_submarine/ITA_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_submarine/ITA_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_submarine/ITA_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_submarine/ITA_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_submarine/ITA_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/ITA/ship_hull_special/ITA_cruiser_coastal_defense_ship.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# Italy End
+
+ #(# Japan Start
+	JAP = {
+  #(# small ship hull start
+  		ship_hull_light_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_light/JAP_destroyer_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_light/JAP_destroyer_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_light/JAP_destroyer_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_light_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_light/JAP_destroyer_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# small ship hull end
+
+  #(# heavy ship hull start
+  		ship_hull_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battlecruiser_01.dds"
+				}
+				models = { JAP_battleship_entity }
+			}
+		}
+		ship_hull_heavy_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battleship_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battlecruiser_02.dds"
+				}
+				models = { JAP_battleship_entity }
+			}
+		}
+		ship_hull_heavy_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battleship_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battlecruiser_03.dds"
+				}
+				models = { JAP_battleship_entity }
+			}
+		}
+		ship_hull_heavy_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battleship_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_battlecruiser_04.dds"
+				}
+				models = { JAP_battleship_entity }
+			}
+		}
+		ship_hull_super_heavy_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_heavy_battleship_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_heavy_battleship_02.dds"
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_heavy/JAP_heavy_battleship_01_A.dds"
+				}
+				models = {  }
+			}
+		}
+  #)# heavy ship hull end
+
+  #(# carrier ship hull start
+  		ship_hull_carrier_conversion_bb = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_01.dds"
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_conversion_ca = { 
+			pool = {
+				weight = 3
+				icons = { 
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_conversion_ca.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_conversion_ca_A.dds"
+				}
+				models = {  }
+			}
+		}
+  		ship_hull_carrier_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_carrier_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_carrier_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_carrier/JAP_carrier_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# carrier ship hull end
+
+  #(# submarine ship hull start
+  		ship_hull_submarine_1 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_submarine/JAP_submarine_01.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_submarine_2 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_submarine/JAP_submarine_02.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_3 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_submarine/JAP_submarine_03.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_submarine_4 = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_submarine/JAP_submarine_04.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_cruiser_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_submarine/JAP_cruiser_submarine.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_midget_submarine = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# submarine ship hull end
+
+  #(# special ship hull start
+  		ship_hull_pre_dreadnought = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}		
+		ship_hull_cruiser_panzerschiff = {
+			pool = {
+				weight = 3
+				icons = {
+					#
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = { heavy_cruiser_entity }
+			}
+		}
+		ship_hull_cruiser_coastal_defense_ship = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_special/JAP_cruiser_coastal_defense_ship.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+		ship_hull_torpedo_cruiser = {
+			pool = {
+				weight = 3
+				icons = {
+					"gfx/interface/equipmentdesigner/naval/desginer/JAP/ship_hull_special/JAP_torpedo_cruiser.dds"
+				}
+			}
+			pool = {
+				weight = 2
+				icons = {
+					#
+				}
+				models = {  }
+			}
+		}
+  #)# special ship hull end
+	}
+ #)# Japan End
+##)# Main Countries End

@@ -1,0 +1,27 @@
+### designer aircraft ###
+
+
+
+SOV = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			icons = {
+			GFX_SOV_early_fighter_medium
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 5
+			icons = {
+			GFX_SOV_fighter1_medium
+			}
+		}
+	}
+
+
+}
+

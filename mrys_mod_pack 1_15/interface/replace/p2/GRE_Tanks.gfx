@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_GRE_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GRE_lt36.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GRE_basic_light_td_medium"
+		texturefile = gfx/interface/technologies/GRE_lt36_td.dds
+	}
+	
+	spriteType = {
+		name = "GFX_GRE_basic_light_spaa_medium"
+		texturefile = gfx/interface/technologies/GRE_lt36_aa.dds
+	}
+
+	
+	
+	SpriteType = {
+		name = "GFX_GRE_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GRE_lt38.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_GRE_improved_light_td_medium"
+		texturefile = gfx/interface/technologies/GRE_lt38_td.dds
+	}
+
+
+}
+	
+
+	
+
+	
+
+	

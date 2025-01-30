@@ -1,0 +1,433 @@
+##(# Main Start
+ #(# ENG Start
+  #(# light
+   #(# halftrack
+    animation = { # "ENG_halftrack_tank_destroyer_decon_idle_animation"
+        name = "ENG_halftrack_tank_destroyer_decon_idle_animation"
+        file = "ENG_halftrack_tank_destroyer_decon_idle.anim"
+    }
+    animation = { # "ENG_halftrack_tank_destroyer_decon_moving_animation"
+        name = "ENG_halftrack_tank_destroyer_decon_moving_animation"
+        file = "ENG_halftrack_tank_destroyer_decon_moving.anim"
+    }
+    animation = { # "ENG_halftrack_tank_destroyer_decon_attack_animation"
+        name = "ENG_halftrack_tank_destroyer_decon_attack_animation"
+        file = "ENG_halftrack_tank_destroyer_decon_attack.anim"
+    }
+   #)#
+   #(# tank
+	animation = { # "ENG_light_tank_vickersm1934_attack_animation"
+		name = "ENG_light_tank_vickersm1934_attack_animation"
+		file = "ENG_light_tank_vickersm1934_attack.anim"
+	}
+	animation = { # "ENG_light_tank_vickersm1934_idle_animation"
+		name = "ENG_light_tank_vickersm1934_idle_animation"
+		file = "ENG_light_tank_vickersm1934_idle.anim"
+	}
+	animation = { # "ENG_light_tank_vickersm1934_moving_animation"
+		name = "ENG_light_tank_vickersm1934_moving_animation"
+		file = "ENG_light_tank_vickersm1934_moving.anim"
+	}
+    animation = { # "ENG_light_tank_lightmk2_attack_animation"
+		name = "ENG_light_tank_lightmk2_attack_animation"
+		file = "ENG_light_tank_lightmk2_attack.anim"
+	}
+	animation = { # "ENG_light_tank_lightmk2_idle_animation"
+		name = "ENG_light_tank_lightmk2_idle_animation"
+		file = "ENG_light_tank_lightmk2_idle.anim"
+	}
+	animation = { # "ENG_light_tank_lightmk2_moving_animation"
+		name = "ENG_light_tank_lightmk2_moving_animation"
+		file = "ENG_light_tank_lightmk2_moving.anim"
+	}
+    animation = { # "ENG_light_tank_vickerst15_attack_animation"
+		name = "ENG_light_tank_vickerst15_attack_animation"
+		file = "ENG_light_tank_vickerst15_attack.anim"
+	}
+	animation = { # "ENG_light_tank_vickerst15_idle_animation"
+		name = "ENG_light_tank_vickerst15_idle_animation"
+		file = "ENG_light_tank_vickerst15_idle.anim"
+	}
+	animation = { # "ENG_light_tank_vickerst15_moving_animation"
+		name = "ENG_light_tank_vickerst15_moving_animation"
+		file = "ENG_light_tank_vickerst15_moving.anim"
+	}
+    animation = { # "ENG_light_tank_vickers6t_attack_animation"
+		name = "ENG_light_tank_vickers6t_attack_animation"
+		file = "ENG_light_tank_vickers6t_attack.anim"
+	}
+	animation = { # "ENG_light_tank_vickers6t_idle_animation"
+		name = "ENG_light_tank_vickers6t_idle_animation"
+		file = "ENG_light_tank_vickers6t_idle.anim"
+	}
+	animation = { # "ENG_light_tank_vickers6t_moving_animation"
+		name = "ENG_light_tank_vickers6t_moving_animation"
+		file = "ENG_light_tank_vickers6t_moving.anim"
+	}
+    animation = { # "ENG_light_tank_vickers6t37_attack_animation"
+		name = "ENG_light_tank_vickers6t37_attack_animation"
+		file = "ENG_light_tank_vickers6t37_attack.anim"
+	}
+	animation = { # "ENG_light_tank_vickers6t37_idle_animation"
+		name = "ENG_light_tank_vickers6t37_idle_animation"
+		file = "ENG_light_tank_vickers6t37_idle.anim"
+	}
+	animation = { # "ENG_light_tank_vickers6t37_moving_animation"
+		name = "ENG_light_tank_vickers6t37_moving_animation"
+		file = "ENG_light_tank_vickers6t37_moving.anim"
+	}
+    animation = { # "ENG_light_tank_matilda1_attack_animation"
+		name = "ENG_light_tank_matilda1_attack_animation"
+		file = "ENG_light_tank_matilda1_attack.anim"
+	}
+	animation = { # "ENG_light_tank_matilda1_idle_animation"
+		name = "ENG_light_tank_matilda1_idle_animation"
+		file = "ENG_light_tank_matilda1_idle.anim"
+	}
+	animation = { # "ENG_light_tank_matilda1_moving_animation"
+		name = "ENG_light_tank_matilda1_moving_animation"
+		file = "ENG_light_tank_matilda1_moving.anim"
+	}
+    animation = { # "ENG_light_tank_cruisermk2_attack_animation"
+		name = "ENG_light_tank_cruisermk2_attack_animation"
+		file = "ENG_light_tank_cruisermk2_attack.anim"
+	}
+	animation = { # "ENG_light_tank_cruisermk2_idle_animation"
+		name = "ENG_light_tank_cruisermk2_idle_animation"
+		file = "ENG_light_tank_cruisermk2_idle.anim"
+	}
+	animation = { # "ENG_light_tank_cruisermk2_moving_animation"
+		name = "ENG_light_tank_cruisermk2_moving_animation"
+		file = "ENG_light_tank_cruisermk2_moving.anim"
+	}
+    animation = { # "ENG_light_tank_cruisermk4_attack_animation"
+		name = "ENG_light_tank_cruisermk4_attack_animation"
+		file = "ENG_light_tank_cruisermk4_attack.anim"
+	}
+	animation = { # "ENG_light_tank_cruisermk4_idle_animation"
+		name = "ENG_light_tank_cruisermk4_idle_animation"
+		file = "ENG_light_tank_cruisermk4_idle.anim"
+	}
+	animation = { # "ENG_light_tank_cruisermk4_moving_animation"
+		name = "ENG_light_tank_cruisermk4_moving_animation"
+		file = "ENG_light_tank_cruisermk4_moving.anim"
+	}
+    animation = { # "ENG_light_tank_tetrarch_attack_animation"
+		name = "ENG_light_tank_tetrarch_attack_animation"
+		file = "ENG_light_tank_tetrarch_attack.anim"
+	}
+	animation = { # "ENG_light_tank_tetrarch_idle_animation"
+		name = "ENG_light_tank_tetrarch_idle_animation"
+		file = "ENG_light_tank_tetrarch_idle.anim"
+	}
+	animation = { # "ENG_light_tank_tetrarch_moving_animation"
+		name = "ENG_light_tank_tetrarch_moving_animation"
+		file = "ENG_light_tank_tetrarch_moving.anim"
+	}
+    animation = { # "ENG_light_tank_valentine_idle_animation"
+        name = "ENG_light_tank_valentine_idle_animation"
+        file = "ENG_light_tank_valentine_idle.anim"
+    }
+    animation = { # "ENG_light_tank_valentine_moving_animation"
+        name = "ENG_light_tank_valentine_moving_animation"
+        file = "ENG_light_tank_valentine_moving.anim"
+    }
+    animation = { # "ENG_light_tank_valentine_attack_animation"
+        name = "ENG_light_tank_valentine_attack_animation"
+        file = "ENG_light_tank_valentine_attack.anim"
+    }
+   #)#
+   #(# artillery
+    animation = { # "ENG_light_tank_artillery_bishop_idle_animation"
+        name = "ENG_light_tank_artillery_bishop_idle_animation"
+        file = "ENG_light_tank_artillery_bishop_idle.anim"
+    }
+    animation = { # "ENG_light_tank_artillery_bishop_moving_animation"
+        name = "ENG_light_tank_artillery_bishop_moving_animation"
+        file = "ENG_light_tank_artillery_bishop_moving.anim"
+    }
+    animation = { # "ENG_light_tank_artillery_bishop_attack_animation"
+        name = "ENG_light_tank_artillery_bishop_attack_animation"
+        file = "ENG_light_tank_artillery_bishop_attack.anim"
+    }
+   #)#
+   #(# destroyer
+    animation = { # "ENG_light_tank_destroyer_vickerst13_idle_animation"
+        name = "ENG_light_tank_destroyer_vickerst13_idle_animation"
+        file = "ENG_light_tank_destroyer_vickerst13_idle.anim"
+    }
+    animation = { # "ENG_light_tank_destroyer_vickerst13_moving_animation"
+        name = "ENG_light_tank_destroyer_vickerst13_moving_animation"
+        file = "ENG_light_tank_destroyer_vickerst13_moving.anim"
+    }
+    animation = { # "ENG_light_tank_destroyer_vickerst13_attack_animation"
+        name = "ENG_light_tank_destroyer_vickerst13_attack_animation"
+        file = "ENG_light_tank_destroyer_vickerst13_attack.anim"
+    }
+    animation = { # "ENG_light_tank_destroyer_archer_idle_animation"
+        name = "ENG_light_tank_destroyer_archer_idle_animation"
+        file = "ENG_light_tank_destroyer_archer_idle.anim"
+    }
+    animation = { # "ENG_light_tank_destroyer_archer_moving_animation"
+        name = "ENG_light_tank_destroyer_archer_moving_animation"
+        file = "ENG_light_tank_destroyer_archer_moving.anim"
+    }
+    animation = { # "ENG_light_tank_destroyer_archer_attack_animation"
+        name = "ENG_light_tank_destroyer_archer_attack_animation"
+        file = "ENG_light_tank_destroyer_archer_attack.anim"
+    }
+   #)#
+   #(# aa
+
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+    animation = { # "ENG_medium_tank_vickersmed_attack_animation"
+        name = "ENG_medium_tank_vickersmed_attack_animation"
+        file = "ENG_medium_tank_vickersmed_attack.anim"
+    }
+    animation = { # "ENG_medium_tank_vickersmed_idle_animation"
+        name = "ENG_medium_tank_vickersmed_idle_animation"
+        file = "ENG_medium_tank_vickersmed_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_vickersmed_moving_animation"
+        name = "ENG_medium_tank_vickersmed_moving_animation"
+        file = "ENG_medium_tank_vickersmed_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_crusadermk3_attack_animation"
+        name = "ENG_medium_tank_crusadermk3_attack_animation"
+        file = "ENG_medium_tank_crusadermk3_attack.anim"
+    }
+    animation = { # "ENG_medium_tank_crusadermk3_idle_animation"
+        name = "ENG_medium_tank_crusadermk3_idle_animation"
+        file = "ENG_medium_tank_crusadermk3_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_crusadermk3_moving_animation"
+        name = "ENG_medium_tank_crusadermk3_moving_animation"
+        file = "ENG_medium_tank_crusadermk3_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_cromwell_idle_animation"
+        name = "ENG_medium_tank_cromwell_idle_animation"
+        file = "ENG_medium_tank_cromwell_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_cromwell_moving_animation"
+        name = "ENG_medium_tank_cromwell_moving_animation"
+        file = "ENG_medium_tank_cromwell_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_cromwell_attack_animation"
+        name = "ENG_medium_tank_cromwell_attack_animation"
+        file = "ENG_medium_tank_cromwell_attack.anim"
+    }
+    animation = { # "ENG_medium_tank_comet_idle_animation"
+        name = "ENG_medium_tank_comet_idle_animation"
+        file = "ENG_medium_tank_comet_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_comet_moving_animation"
+        name = "ENG_medium_tank_comet_moving_animation"
+        file = "ENG_medium_tank_comet_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_comet_attack_animation"
+        name = "ENG_medium_tank_comet_attack_animation"
+        file = "ENG_medium_tank_comet_attack.anim"
+    }
+   #)#
+   #(# artillery
+    animation = { # "ENG_medium_tank_artillery_sexton_idle_animation"
+        name = "ENG_medium_tank_artillery_sexton_idle_animation"
+        file = "ENG_medium_tank_artillery_sexton_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_artillery_sexton_moving_animation"
+        name = "ENG_medium_tank_artillery_sexton_moving_animation"
+        file = "ENG_medium_tank_artillery_sexton_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_artillery_sexton_attack_animation"
+        name = "ENG_medium_tank_artillery_sexton_attack_animation"
+        file = "ENG_medium_tank_artillery_sexton_attack.anim"
+    }
+   #)#
+   #(# destroyer
+    animation = { # "ENG_medium_tank_destroyer_charioteer_idle_animation"
+        name = "ENG_medium_tank_destroyer_charioteer_idle_animation"
+        file = "ENG_medium_tank_destroyer_charioteer_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_destroyer_charioteer_moving_animation"
+        name = "ENG_medium_tank_destroyer_charioteer_moving_animation"
+        file = "ENG_medium_tank_destroyer_charioteer_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_destroyer_charioteer_attack_animation"
+        name = "ENG_medium_tank_destroyer_charioteer_attack_animation"
+        file = "ENG_medium_tank_destroyer_charioteer_attack.anim"
+    }
+    animation = { # "ENG_medium_tank_destroyer_challenger_idle_animation"
+        name = "ENG_medium_tank_destroyer_challenger_idle_animation"
+        file = "ENG_medium_tank_destroyer_challenger_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_destroyer_challenger_moving_animation"
+        name = "ENG_medium_tank_destroyer_challenger_moving_animation"
+        file = "ENG_medium_tank_destroyer_challenger_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_destroyer_challenger_attack_animation"
+        name = "ENG_medium_tank_destroyer_challenger_attack_animation"
+        file = "ENG_medium_tank_destroyer_challenger_attack.anim"
+    }
+   #)#
+   #(# aa
+    animation = { # "ENG_medium_tank_aa_crusaderaa1_idle_animation"
+        name = "ENG_medium_tank_aa_crusaderaa1_idle_animation"
+        file = "ENG_medium_tank_aa_crusaderaa1_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_aa_crusaderaa1_moving_animation"
+        name = "ENG_medium_tank_aa_crusaderaa1_moving_animation"
+        file = "ENG_medium_tank_aa_crusaderaa1_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_aa_crusaderaa1_attack_animation"
+        name = "ENG_medium_tank_aa_crusaderaa1_attack_animation"
+        file = "ENG_medium_tank_aa_crusaderaa1_attack.anim"
+    }
+    animation = { # "ENG_medium_tank_aa_crusaderaa2_idle_animation"
+        name = "ENG_medium_tank_aa_crusaderaa2_idle_animation"
+        file = "ENG_medium_tank_aa_crusaderaa2_idle.anim"
+    }
+    animation = { # "ENG_medium_tank_aa_crusaderaa2_moving_animation"
+        name = "ENG_medium_tank_aa_crusaderaa2_moving_animation"
+        file = "ENG_medium_tank_aa_crusaderaa2_moving.anim"
+    }
+    animation = { # "ENG_medium_tank_aa_crusaderaa2_attack_animation"
+        name = "ENG_medium_tank_aa_crusaderaa2_attack_animation"
+        file = "ENG_medium_tank_aa_crusaderaa2_attack.anim"
+    }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+    animation = { # "ENG_heavy_tank_vickershvy_idle_animation"
+        name = "ENG_heavy_tank_vickershvy_idle_animation"
+        file = "ENG_heavy_tank_vickershvy_idle.anim"
+    }
+    animation = { # "ENG_heavy_tank_vickershvy_moving_animation"
+        name = "ENG_heavy_tank_vickershvy_moving_animation"
+        file = "ENG_heavy_tank_vickershvy_moving.anim"
+    }
+    animation = { # "ENG_heavy_tank_vickershvy_attack_animation"
+        name = "ENG_heavy_tank_vickershvy_attack_animation"
+        file = "ENG_heavy_tank_vickershvy_attack.anim"
+    }
+    animation = { # "ENG_heavy_tank_matilda_idle_animation"
+        name = "ENG_heavy_tank_matilda_idle_animation"
+        file = "ENG_heavy_tank_matilda_idle.anim"
+    }
+    animation = { # "ENG_heavy_tank_matilda_moving_animation"
+        name = "ENG_heavy_tank_matilda_moving_animation"
+        file = "ENG_heavy_tank_matilda_moving.anim"
+    }
+    animation = { # "ENG_heavy_tank_matilda_attack_animation"
+        name = "ENG_heavy_tank_matilda_attack_animation"
+        file = "ENG_heavy_tank_matilda_attack.anim"
+    }
+    animation = { # "ENG_heavy_tank_churchill_attack_animation"
+        name = "ENG_heavy_tank_churchill_attack_animation"
+        file = "ENG_heavy_tank_churchill_attack.anim"
+    }
+    animation = { # "ENG_heavy_tank_churchill_idle_animation"
+        name = "ENG_heavy_tank_churchill_idle_animation"
+        file = "ENG_heavy_tank_churchill_idle.anim"
+    }
+    animation = { # "ENG_heavy_tank_churchill_moving_animation"
+        name = "ENG_heavy_tank_churchill_moving_animation"
+        file = "ENG_heavy_tank_churchill_moving.anim"
+    }
+    animation = { # "ENG_heavy_tank_blackprince_idle_animation"
+        name = "ENG_heavy_tank_blackprince_idle_animation"
+        file = "ENG_heavy_tank_blackprince_idle.anim"
+    }
+    animation = { # "ENG_heavy_tank_blackprince_moving_animation"
+        name = "ENG_heavy_tank_blackprince_moving_animation"
+        file = "ENG_heavy_tank_blackprince_moving.anim"
+    }
+    animation = { # "ENG_heavy_tank_blackprince_attack_animation"
+        name = "ENG_heavy_tank_blackprince_attack_animation"
+        file = "ENG_heavy_tank_blackprince_attack.anim"
+    }
+   #)#
+   #(# artillery
+    animation = { # "ENG_heavy_tank_artillery_churchillavre_idle_animation"
+        name = "ENG_heavy_tank_artillery_churchillavre_idle_animation"
+        file = "ENG_heavy_tank_artillery_churchillavre_idle.anim"
+    }
+    animation = { # "ENG_heavy_tank_artillery_churchillavre_moving_animation"
+        name = "ENG_heavy_tank_artillery_churchillavre_moving_animation"
+        file = "ENG_heavy_tank_artillery_churchillavre_moving.anim"
+    }
+    animation = { # "ENG_heavy_tank_artillery_churchillavre_attack_animation"
+        name = "ENG_heavy_tank_artillery_churchillavre_attack_animation"
+        file = "ENG_heavy_tank_artillery_churchillavre_attack.anim"
+    }
+   #)#
+   #(# destroyer
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+	animation = { # "ENG_superheavy_tank_tortoise_idle_animation"
+		name = "ENG_superheavy_tank_tortoise_idle_animation"
+		file = "ENG_superheavy_tank_tortoise_idle.anim"
+	}
+	animation = { # "ENG_superheavy_tank_tortoise_moving_animation"
+		name = "ENG_superheavy_tank_tortoise_moving_animation"
+		file = "ENG_superheavy_tank_tortoise_moving.anim"
+	}
+	animation = { # "ENG_superheavy_tank_tortoise_attack_animation"
+		name = "ENG_superheavy_tank_tortoise_attack_animation"
+		file = "ENG_superheavy_tank_tortoise_attack.anim"
+	}
+    animation = { # "ENG_modern_tank_centurion_idle_animation"
+		name = "ENG_modern_tank_centurion_idle_animation"
+		file = "ENG_modern_tank_centurion_idle.anim"
+	}
+	animation = { # "ENG_modern_tank_centurion_moving_animation"
+		name = "ENG_modern_tank_centurion_moving_animation"
+		file = "ENG_modern_tank_centurion_moving.anim"
+	}
+	animation = { # "ENG_modern_tank_centurion_attack_animation"
+		name = "ENG_modern_tank_centurion_attack_animation"
+		file = "ENG_modern_tank_centurion_attack.anim"
+	}
+    animation = { # "ENG_amphibious_tank_cromwelldd_idle_animation"
+        name = "ENG_amphibious_tank_cromwelldd_idle_animation"
+        file = "ENG_amphibious_tank_cromwelldd_idle.anim"
+    }
+    animation = { # "ENG_amphibious_tank_cromwelldd_moving_animation"
+        name = "ENG_amphibious_tank_cromwelldd_moving_animation"
+        file = "ENG_amphibious_tank_cromwelldd_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_cromwelldd_amphibious_moving_animation"
+        name = "ENG_amphibious_tank_cromwelldd_amphibious_moving_animation"
+        file = "ENG_amphibious_tank_cromwelldd_amphibious_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_cromwelldd_attack_animation"
+        name = "ENG_amphibious_tank_cromwelldd_attack_animation"
+        file = "ENG_amphibious_tank_cromwelldd_attack.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_idle_animation"
+        name = "ENG_amphibious_tank_a4e12_idle_animation"
+        file = "ENG_amphibious_tank_a4e12_idle.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_moving_animation"
+        name = "ENG_amphibious_tank_a4e12_moving_animation"
+        file = "ENG_amphibious_tank_a4e12_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_amphibious_moving_animation"
+        name = "ENG_amphibious_tank_a4e12_amphibious_moving_animation"
+        file = "ENG_amphibious_tank_a4e12_amphibious_moving.anim"
+    }
+    animation = { # "ENG_amphibious_tank_a4e12_attack_animation"
+        name = "ENG_amphibious_tank_a4e12_attack_animation"
+        file = "ENG_amphibious_tank_a4e12_attack.anim"
+    }
+   #)#
+  #)#
+ #)# ENG End
+##)# Main End

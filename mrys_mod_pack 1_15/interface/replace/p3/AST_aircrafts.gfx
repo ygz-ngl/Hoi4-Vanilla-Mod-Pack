@@ -1,0 +1,22 @@
+spriteTypes = {	
+
+
+### non-designer aircraft ###
+
+    SpriteType = {
+	name = "GFX_AST_early_fighter_medium"
+	texturefile = "gfx/interface/technologies/OZ_if.dds"
+	}
+	
+	
+### designer aircraft ###	
+	
+	SpriteType = {
+	name = "GFX_AST_iw_small_airframe_medium"
+	texturefile = "gfx/interface/technologies/OZ_if.dds"
+	}
+	
+
+
+	
+}

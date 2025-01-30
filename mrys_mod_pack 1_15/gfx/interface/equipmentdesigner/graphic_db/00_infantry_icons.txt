@@ -1,0 +1,57 @@
+##(# Generic DLC Start
+ #(# XXX Start
+ #)# XXX End
+
+ #(# Alt Start
+ #)# Alt End
+##)# Generic DLC End
+
+##(# Main Countries Start
+ #(# GER Start
+	GER = {
+  #(# Infantry
+  		medium_tank_equipment_1 = {
+			pool = {
+				weight = 3
+				icons = {}
+				models = { 
+					armored_car_0_entity
+					GER_infantry_entity
+				}
+			}
+		}
+		medium_tank_equipment_2 = {
+			pool = {
+				weight = 3
+				icons = {}
+				models = { 
+					armored_car_0_entity
+					GER_infantry_entity
+				}
+			}
+		}
+		medium_tank_equipment_3 = {
+			pool = {
+				weight = 3
+				icons = {}
+				models = { 
+					armored_car_0_entity
+					GER_infantry_entity
+				}
+			}
+		}
+  #)#
+  #(# Vehicle
+  #)#
+  #(# Armored
+  #)#
+  #(# Cavalry
+  #)#
+  #(# Artillery
+  #)#
+	}
+ #)# GER End
+
+ #(# Alt Start
+ #)# Alt End
+##)# Main Countries End

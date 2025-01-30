@@ -1,0 +1,522 @@
+##(# Main Start
+ #(# SOV Start
+  #(# light
+   #(# tank
+      animation = { # "SOV_light_tank_t18_attack_animation"
+         name = "SOV_light_tank_t18_attack_animation"
+         file = "SOV_light_tank_t18_attack.anim"
+      }
+      animation = { # "SOV_light_tank_t18_idle_animation"
+         name = "SOV_light_tank_t18_idle_animation"
+         file = "SOV_light_tank_t18_idle.anim"
+      }
+      animation = { # "SOV_light_tank_t18_moving_animation"
+         name = "SOV_light_tank_t18_moving_animation"
+         file = "SOV_light_tank_t18_moving.anim"
+      }
+      animation = { # "SOV_light_tank_bt7_moving_animation"
+         name = "SOV_light_tank_bt7_moving_animation"
+         file = "SOV_light_tank_bt7_moving.anim"
+      }
+      animation = { # "SOV_light_tank_bt7_attack_animation"
+         name = "SOV_light_tank_bt7_attack_animation"
+         file = "SOV_light_tank_bt7_attack.anim"
+      }
+      animation = { # "SOV_light_tank_bt7_idle_animation"
+         name = "SOV_light_tank_bt7_idle_animation"
+         file = "SOV_light_tank_bt7_idle.anim"
+      }
+      animation = { # "SOV_light_tank_t60_idle_animation"
+         name = "SOV_light_tank_t60_idle_animation"
+         file = "SOV_light_tank_t60_idle.anim"
+      }
+      animation = { # "SOV_light_tank_t60_moving_animation"
+         name = "SOV_light_tank_t60_moving_animation"
+         file = "SOV_light_tank_t60_moving.anim"
+      }
+      animation = { # "SOV_light_tank_t60_attack_animation"
+         name = "SOV_light_tank_t60_attack_animation"
+         file = "SOV_light_tank_t60_attack.anim"
+      }
+      animation = { # "SOV_light_tank_t80_idle_animation"
+         name = "SOV_light_tank_t80_idle_animation"
+         file = "SOV_light_tank_t80_idle.anim"
+      }
+      animation = { # "SOV_light_tank_t80_moving_animation"
+         name = "SOV_light_tank_t80_moving_animation"
+         file = "SOV_light_tank_t80_moving.anim"
+      }
+      animation = { # "SOV_light_tank_t80_attack_animation"
+         name = "SOV_light_tank_t80_attack_animation"
+         file = "SOV_light_tank_t80_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "SOV_light_tank_artillery_su52_idle_animation"
+         name = "SOV_light_tank_artillery_su52_idle_animation"
+         file = "SOV_light_tank_artillery_su52_idle.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_su52_moving_animation"
+         name = "SOV_light_tank_artillery_su52_moving_animation"
+         file = "SOV_light_tank_artillery_su52_moving.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_su52_attack_animation"
+         name = "SOV_light_tank_artillery_su52_attack_animation"
+         file = "SOV_light_tank_artillery_su52_attack.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_bt7a_idle_animation"
+         name = "SOV_light_tank_artillery_bt7a_idle_animation"
+         file = "SOV_light_tank_artillery_bt7a_idle.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_bt7a_moving_animation"
+         name = "SOV_light_tank_artillery_bt7a_moving_animation"
+         file = "SOV_light_tank_artillery_bt7a_moving.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_bt7a_attack_animation"
+         name = "SOV_light_tank_artillery_bt7a_attack_animation"
+         file = "SOV_light_tank_artillery_bt7a_attack.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_su76_idle_animation"
+         name = "SOV_light_tank_artillery_su76_idle_animation"
+         file = "SOV_light_tank_artillery_su76_idle.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_su76_moving_animation"
+         name = "SOV_light_tank_artillery_su76_moving_animation"
+         file = "SOV_light_tank_artillery_su76_moving.anim"
+      }
+      animation = { # "SOV_light_tank_artillery_su76_attack_animation"
+         name = "SOV_light_tank_artillery_su76_attack_animation"
+         file = "SOV_light_tank_artillery_su76_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "SOV_light_tank_destroyer_at1_idle_animation"
+         name = "SOV_light_tank_destroyer_at1_idle_animation"
+         file = "SOV_light_tank_destroyer_at1_idle.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_at1_moving_animation"
+         name = "SOV_light_tank_destroyer_at1_moving_animation"
+         file = "SOV_light_tank_destroyer_at1_moving.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_at1_attack_animation"
+         name = "SOV_light_tank_destroyer_at1_attack_animation"
+         file = "SOV_light_tank_destroyer_at1_attack.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_su51_idle_animation"
+         name = "SOV_light_tank_destroyer_su51_idle_animation"
+         file = "SOV_light_tank_destroyer_su51_idle.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_su51_moving_animation"
+         name = "SOV_light_tank_destroyer_su51_moving_animation"
+         file = "SOV_light_tank_destroyer_su51_moving.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_su51_attack_animation"
+         name = "SOV_light_tank_destroyer_su51_attack_animation"
+         file = "SOV_light_tank_destroyer_su51_attack.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_zis30_idle_animation"
+         name = "SOV_light_tank_destroyer_zis30_idle_animation"
+         file = "SOV_light_tank_destroyer_zis30_idle.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_zis30_moving_animation"
+         name = "SOV_light_tank_destroyer_zis30_moving_animation"
+         file = "SOV_light_tank_destroyer_zis30_moving.anim"
+      }
+      animation = { # "SOV_light_tank_destroyer_zis30_attack_animation"
+         name = "SOV_light_tank_destroyer_zis30_attack_animation"
+         file = "SOV_light_tank_destroyer_zis30_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "SOV_light_tank_aa_zsu37_idle_animation"
+         name = "SOV_light_tank_aa_zsu37_idle_animation"
+         file = "SOV_light_tank_aa_zsu37_idle.anim"
+      }
+      animation = { # "SOV_light_tank_aa_zsu37_moving_animation"
+         name = "SOV_light_tank_aa_zsu37_moving_animation"
+         file = "SOV_light_tank_aa_zsu37_moving.anim"
+      }
+      animation = { # "SOV_light_tank_aa_zsu37_attack_animation"
+         name = "SOV_light_tank_aa_zsu37_attack_animation"
+         file = "SOV_light_tank_aa_zsu37_attack.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "SOV_medium_tank_t28_attack_animation"
+         name = "SOV_medium_tank_t28_attack_animation"
+         file = "SOV_medium_tank_t28_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_t28_idle_animation"
+         name = "SOV_medium_tank_t28_idle_animation"
+         file = "SOV_medium_tank_t28_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_t28_moving_animation"
+         name = "SOV_medium_tank_t28_moving_animation"
+         file = "SOV_medium_tank_t28_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_a32_idle_animation"
+         name = "SOV_medium_tank_a32_idle_animation"
+         file = "SOV_medium_tank_a32_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_a32_moving_animation"
+         name = "SOV_medium_tank_a32_moving_animation"
+         file = "SOV_medium_tank_a32_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_a32_attack_animation"
+         name = "SOV_medium_tank_a32_attack_animation"
+         file = "SOV_medium_tank_a32_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_t3476_moving_animation"
+         name = "SOV_medium_tank_t3476_moving_animation"
+         file = "SOV_medium_tank_t3476_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_t3476_attack_animation"
+         name = "SOV_medium_tank_t3476_attack_animation"
+         file = "SOV_medium_tank_t3476_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_t3476_idle_animation"
+         name = "SOV_medium_tank_t3476_idle_animation"
+         file = "SOV_medium_tank_t3476_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_t34_moving_animation"
+         name = "SOV_medium_tank_t34_moving_animation"
+         file = "SOV_medium_tank_t34_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_t34_attack_animation"
+         name = "SOV_medium_tank_t34_attack_animation"
+         file = "SOV_medium_tank_t34_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_t34_idle_animation"
+         name = "SOV_medium_tank_t34_idle_animation"
+         file = "SOV_medium_tank_t34_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_t44_idle_animation"
+         name = "SOV_medium_tank_t44_idle_animation"
+         file = "SOV_medium_tank_t44_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_t44_moving_animation"
+         name = "SOV_medium_tank_t44_moving_animation"
+         file = "SOV_medium_tank_t44_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_t44_attack_animation"
+         name = "SOV_medium_tank_t44_attack_animation"
+         file = "SOV_medium_tank_t44_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "SOV_medium_tank_artillery_su122_idle_animation"
+         name = "SOV_medium_tank_artillery_su122_idle_animation"
+         file = "SOV_medium_tank_artillery_su122_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_artillery_su122_moving_animation"
+         name = "SOV_medium_tank_artillery_su122_moving_animation"
+         file = "SOV_medium_tank_artillery_su122_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_artillery_su122_attack_animation"
+         name = "SOV_medium_tank_artillery_su122_attack_animation"
+         file = "SOV_medium_tank_artillery_su122_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_artillery_su122p_idle_animation"
+         name = "SOV_medium_tank_artillery_su122p_idle_animation"
+         file = "SOV_medium_tank_artillery_su122p_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_artillery_su122p_moving_animation"
+         name = "SOV_medium_tank_artillery_su122p_moving_animation"
+         file = "SOV_medium_tank_artillery_su122p_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_artillery_su122p_attack_animation"
+         name = "SOV_medium_tank_artillery_su122p_attack_animation"
+         file = "SOV_medium_tank_artillery_su122p_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "SOV_medium_tank_destroyer_su85_idle_animation"
+         name = "SOV_medium_tank_destroyer_su85_idle_animation"
+         file = "SOV_medium_tank_destroyer_su85_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_destroyer_su85_moving_animation"
+         name = "SOV_medium_tank_destroyer_su85_moving_animation"
+         file = "SOV_medium_tank_destroyer_su85_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_destroyer_su85_attack_animation"
+         name = "SOV_medium_tank_destroyer_su85_attack_animation"
+         file = "SOV_medium_tank_destroyer_su85_attack.anim"
+      }
+      animation = { # "SOV_medium_tank_destroyer_su100_idle_animation"
+         name = "SOV_medium_tank_destroyer_su100_idle_animation"
+         file = "SOV_medium_tank_destroyer_su100_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_destroyer_su100_moving_animation"
+         name = "SOV_medium_tank_destroyer_su100_moving_animation"
+         file = "SOV_medium_tank_destroyer_su100_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_destroyer_su100_attack_animation"
+         name = "SOV_medium_tank_destroyer_su100_attack_animation"
+         file = "SOV_medium_tank_destroyer_su100_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "SOV_medium_tank_aa_zsu57_idle_animation"
+         name = "SOV_medium_tank_aa_zsu57_idle_animation"
+         file = "SOV_medium_tank_aa_zsu57_idle.anim"
+      }
+      animation = { # "SOV_medium_tank_aa_zsu57_moving_animation"
+         name = "SOV_medium_tank_aa_zsu57_moving_animation"
+         file = "SOV_medium_tank_aa_zsu57_moving.anim"
+      }
+      animation = { # "SOV_medium_tank_aa_zsu57_attack_animation"
+         name = "SOV_medium_tank_aa_zsu57_attack_animation"
+         file = "SOV_medium_tank_aa_zsu57_attack.anim"
+      }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "SOV_heavy_tank_t35_idle_animation"
+         name = "SOV_heavy_tank_t35_idle_animation"
+         file = "SOV_heavy_tank_t35_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_t35_moving_animation"
+         name = "SOV_heavy_tank_t35_moving_animation"
+         file = "SOV_heavy_tank_t35_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_t35_attack_animation"
+         name = "SOV_heavy_tank_t35_attack_animation"
+         file = "SOV_heavy_tank_t35_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_kv1_attack_animation"
+         name = "SOV_heavy_tank_kv1_attack_animation"
+         file = "SOV_heavy_tank_kv1_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_kv1_idle_animation"
+         name = "SOV_heavy_tank_kv1_idle_animation"
+         file = "SOV_heavy_tank_kv1_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_kv1_moving_animation"
+         name = "SOV_heavy_tank_kv1_moving_animation"
+         file = "SOV_heavy_tank_kv1_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_is1_idle_animation"
+         name = "SOV_heavy_tank_is1_idle_animation"
+         file = "SOV_heavy_tank_is1_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_is1_moving_animation"
+         name = "SOV_heavy_tank_is1_moving_animation"
+         file = "SOV_heavy_tank_is1_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_is1_attack_animation"
+         name = "SOV_heavy_tank_is1_attack_animation"
+         file = "SOV_heavy_tank_is1_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_is2_idle_animation"
+         name = "SOV_heavy_tank_is2_idle_animation"
+         file = "SOV_heavy_tank_is2_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_is2_moving_animation"
+         name = "SOV_heavy_tank_is2_moving_animation"
+         file = "SOV_heavy_tank_is2_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_is2_attack_animation"
+         name = "SOV_heavy_tank_is2_attack_animation"
+         file = "SOV_heavy_tank_is2_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_is3_idle_animation"
+         name = "SOV_heavy_tank_is3_idle_animation"
+         file = "SOV_heavy_tank_is3_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_is3_moving_animation"
+         name = "SOV_heavy_tank_is3_moving_animation"
+         file = "SOV_heavy_tank_is3_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_is3_attack_animation"
+         name = "SOV_heavy_tank_is3_attack_animation"
+         file = "SOV_heavy_tank_is3_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_is4_idle_animation"
+         name = "SOV_heavy_tank_is4_idle_animation"
+         file = "SOV_heavy_tank_is4_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_is4_moving_animation"
+         name = "SOV_heavy_tank_is4_moving_animation"
+         file = "SOV_heavy_tank_is4_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_is4_attack_animation"
+         name = "SOV_heavy_tank_is4_attack_animation"
+         file = "SOV_heavy_tank_is4_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "SOV_heavy_tank_artillery_su8_idle_animation"
+         name = "SOV_heavy_tank_artillery_su8_idle_animation"
+         file = "SOV_heavy_tank_artillery_su8_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su8_moving_animation"
+         name = "SOV_heavy_tank_artillery_su8_moving_animation"
+         file = "SOV_heavy_tank_artillery_su8_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su8_attack_animation"
+         name = "SOV_heavy_tank_artillery_su8_attack_animation"
+         file = "SOV_heavy_tank_artillery_su8_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su14_idle_animation"
+         name = "SOV_heavy_tank_artillery_su14_idle_animation"
+         file = "SOV_heavy_tank_artillery_su14_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su14_moving_animation"
+         name = "SOV_heavy_tank_artillery_su14_moving_animation"
+         file = "SOV_heavy_tank_artillery_su14_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_su14_attack_animation"
+         name = "SOV_heavy_tank_artillery_su14_attack_animation"
+         file = "SOV_heavy_tank_artillery_su14_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_kv2_attack_animation"
+         name = "SOV_heavy_tank_artillery_kv2_attack_animation"
+         file = "SOV_heavy_tank_artillery_kv2_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_kv2_idle_animation"
+         name = "SOV_heavy_tank_artillery_kv2_idle_animation"
+         file = "SOV_heavy_tank_artillery_kv2_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_kv2_moving_animation"
+         name = "SOV_heavy_tank_artillery_kv2_moving_animation"
+         file = "SOV_heavy_tank_artillery_kv2_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_isu152_idle_animation"
+         name = "SOV_heavy_tank_artillery_isu152_idle_animation"
+         file = "SOV_heavy_tank_artillery_isu152_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_isu152_moving_animation"
+         name = "SOV_heavy_tank_artillery_isu152_moving_animation"
+         file = "SOV_heavy_tank_artillery_isu152_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_artillery_isu152_attack_animation"
+         name = "SOV_heavy_tank_artillery_isu152_attack_animation"
+         file = "SOV_heavy_tank_artillery_isu152_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "SOV_heavy_tank_destroyer_su100y_idle_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_idle_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_su100y_moving_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_moving_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_su100y_attack_animation"
+         name = "SOV_heavy_tank_destroyer_su100y_attack_animation"
+         file = "SOV_heavy_tank_destroyer_su100y_attack.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_isu122_idle_animation"
+         name = "SOV_heavy_tank_destroyer_isu122_idle_animation"
+         file = "SOV_heavy_tank_destroyer_isu122_idle.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_isu122_moving_animation"
+         name = "SOV_heavy_tank_destroyer_isu122_moving_animation"
+         file = "SOV_heavy_tank_destroyer_isu122_moving.anim"
+      }
+      animation = { # "SOV_heavy_tank_destroyer_isu122_attack_animation"
+         name = "SOV_heavy_tank_destroyer_isu122_attack_animation"
+         file = "SOV_heavy_tank_destroyer_isu122_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "SOV_superheavy_tank_is7_idle_animation"
+         name = "SOV_superheavy_tank_is7_idle_animation"
+         file = "SOV_superheavy_tank_is7_idle.anim"
+      }
+      animation = { # "SOV_superheavy_tank_is7_moving_animation"
+         name = "SOV_superheavy_tank_is7_moving_animation"
+         file = "SOV_superheavy_tank_is7_moving.anim"
+      }
+      animation = { # "SOV_superheavy_tank_is7_attack_animation"
+         name = "SOV_superheavy_tank_is7_attack_animation"
+         file = "SOV_superheavy_tank_is7_attack.anim"
+      }
+      animation = { # "SOV_superheavy_tank_kv5_idle_animation"
+         name = "SOV_superheavy_tank_kv5_idle_animation"
+         file = "SOV_superheavy_tank_kv5_idle.anim"
+      }
+      animation = { # "SOV_superheavy_tank_kv5_moving_animation"
+         name = "SOV_superheavy_tank_kv5_moving_animation"
+         file = "SOV_superheavy_tank_kv5_moving.anim"
+      }
+      animation = { # "SOV_superheavy_tank_kv5_attack_animation"
+         name = "SOV_superheavy_tank_kv5_attack_animation"
+         file = "SOV_superheavy_tank_kv5_attack.anim"
+      }
+      animation = { # "SOV_modern_tank_t54_idle_animation"
+         name = "SOV_modern_tank_t54_idle_animation"
+         file = "SOV_modern_tank_t54_idle.anim"
+      }
+      animation = { # "SOV_modern_tank_t54_moving_animation"
+         name = "SOV_modern_tank_t54_moving_animation"
+         file = "SOV_modern_tank_t54_moving.anim"
+      }
+      animation = { # "SOV_modern_tank_t54_attack_animation"
+         name = "SOV_modern_tank_t54_attack_animation"
+         file = "SOV_modern_tank_t54_attack.anim"
+      }
+      animation = { # "SOV_modern_tank_t54a_idle_animation"
+         name = "SOV_modern_tank_t54a_idle_animation"
+         file = "SOV_modern_tank_t54a_idle.anim"
+      }
+      animation = { # "SOV_modern_tank_t54a_moving_animation"
+         name = "SOV_modern_tank_t54a_moving_animation"
+         file = "SOV_modern_tank_t54a_moving.anim"
+      }
+      animation = { # "SOV_modern_tank_t54a_attack_animation"
+         name = "SOV_modern_tank_t54a_attack_animation"
+         file = "SOV_modern_tank_t54a_attack.anim"
+      }
+      animation = { # "SOV_amphibious_tank_t40_idle_animation"
+         name = "SOV_amphibious_tank_t40_idle_animation"
+         file = "SOV_amphibious_tank_t40_idle.anim"
+      }
+      animation = { # "SOV_amphibious_tank_t40_moving_animation"
+         name = "SOV_amphibious_tank_t40_moving_animation"
+         file = "SOV_amphibious_tank_t40_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_t40_amphibious_moving_animation"
+         name = "SOV_amphibious_tank_t40_amphibious_moving_animation"
+         file = "SOV_amphibious_tank_t40_amphibious_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_t40_amphibious_attack_animation"
+         name = "SOV_amphibious_tank_t40_amphibious_attack_animation"
+         file = "SOV_amphibious_tank_t40_amphibious_attack.anim"
+      }
+      animation = { # "SOV_amphibious_tank_t40_attack_animation"
+         name = "SOV_amphibious_tank_t40_attack_animation"
+         file = "SOV_amphibious_tank_t40_attack.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_idle_animation"
+         name = "SOV_amphibious_tank_pt76_idle_animation"
+         file = "SOV_amphibious_tank_pt76_idle.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_moving_animation"
+         name = "SOV_amphibious_tank_pt76_moving_animation"
+         file = "SOV_amphibious_tank_pt76_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_attack_animation"
+         name = "SOV_amphibious_tank_pt76_attack_animation"
+         file = "SOV_amphibious_tank_pt76_attack.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_amphibious_moving_animation"
+         name = "SOV_amphibious_tank_pt76_amphibious_moving_animation"
+         file = "SOV_amphibious_tank_pt76_amphibious_moving.anim"
+      }
+      animation = { # "SOV_amphibious_tank_pt76_amphibious_attack_animation"
+         name = "SOV_amphibious_tank_pt76_amphibious_attack_animation"
+         file = "SOV_amphibious_tank_pt76_amphibious_attack.anim"
+      }
+   #)#
+  #)#
+ #)# SOV End
+##)# Main End

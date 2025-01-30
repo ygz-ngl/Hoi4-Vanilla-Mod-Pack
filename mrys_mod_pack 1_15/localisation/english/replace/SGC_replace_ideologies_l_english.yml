@@ -1,0 +1,80 @@
+﻿l_english:
+ communism:0 "Socialist"
+ communism_noun:0 "Socialism"
+ communism_desc:0 "Socialist Alignment"
+
+ democratic:0 "Liberal-Democratic"
+ democratic_noun:0 "Liberal-Democracy"
+ democratic_desc:0 "Liberal-Democratic Alignment"
+
+ fascism:0 "Fascist"
+ fascism_noun:0 "Fascism"
+ fascism_desc:0 "Fascist Alignment"
+
+ neutrality:0 "Non-Aligned"
+ neutrality_noun:0 "Non-Aligned"
+ neutrality_desc:0 "Independent Alignment"
+
+ #Communism
+ marxism:0 "Classical Marxism"
+ marxism_desc:0 "§YClassical Marxism§! advocates for viewing the history through the lense of §Rclass struggle§!, believing that the many conflicts in history can be explained as a struggle between the lower and upper classes of society. As such, Marxism espouses the §Rrevolutionary transformation of society§! into one of §Rcommon ownership of the means of production§!."
+
+ leninism:0 "Leninism"
+ leninism_desc:0 "§YLeninism§! emphasizes the §Yvanguard party's leadership in establishing a §Rdictatorship of the proletariat§! through §Ydemocratic centralism§! and §Ysoviet democracy§!. Lenin advocated §Ynational self-determination§! to combat oppression and promoted socialism through §Ywar communism§! and the §YNew Economic Policy§! to stabilize and industrialize the economy. He sought to dispel §Rfalse consciousness§! like nationalism and religion, fostering §Ysocialist culture and international class solidarity§!."
+
+ stalinism:0 "Marxism–Leninism"
+ stalinism_desc:1 "§YMarxism–Leninism§!, developed by §YJoseph Stalin§!, advocates a §Rtwo-stage revolution§! to replace capitalism. A §Yvanguard party§!, using §Ydemocratic centralism§!, would seize power, establish a §Yone-party socialist state§!, and control the §Omeans of production§! to §Osuppress opposition§! and pave the way for a §Rclassless§!, §Rstateless§! communist society."
+
+ anti_revisionism:0 "Orthodox Marxism"
+ anti_revisionism_desc:0 "§YOrthodox Marxism§! stresses the primacy of material conditions in shaping society, rejecting reformism in favor of a post-capitalist socialist economy. It emphasizes class struggle, views governments as aligned with ruling-class interests, and considers Marxism a scientific, adaptable system. Ideology is seen as false consciousness, and revolution as the collective act of the majority, supported by an independent mass workers' movement, rather than through a vanguard party."
+
+ anarchist_communism:0 "Libertarian Socialism"
+ anarchist_communism_desc:0 "§YLibertarian Socialism§! is an §Ranti-authoritarian§! and §Ranti-capitalist§! political current that emphasises self-governance and workers' self-management. It is contrasted from other forms of socialism by its §Yrejection of state ownership§! and from other forms of libertarianism by its §Yrejection of private property§!. Broadly defined, it includes schools of both §Yanarchism§! and §YMarxism§!, as well as other tendencies that oppose the state and capitalism."
+
+
+ #Democratic
+ conservatism:0 "Conservatism"
+ conservatism_desc:0 "§YConservatism§! is a §Yreactionary§! ideology, the specifics of Conservative movements differ between countries, however the main principles of Conservatism usually revolve around the §3preservation of numerous institutions§! such as §3organized religion§!, the §3nation-state§!, and the §3nuclear family§!."
+
+ liberalism:0 "Liberalism"
+ liberalism_desc:0 "§YLiberalism§! suggests that the purpose of the state is not to serve as the extension of the monarch, but rather to §3protect individual freedoms and private property§!, Liberalism would challenge the old hereditary order of the world, establishing that every man has §Ynatural rights§! to §3life§!, §3liberty§!, and §3prosperity§!."
+
+ socialism:0 "Reformist Socialism"
+ socialism_desc:0 "§YDemocratic Socialism§! or §YSocial Democracy§! aims to §3abolish or mitigate§! the effects of capitalism through liberal democracy, by striving for §3equality and a socialist/welfare state by reformist means§!"
+
+ populism: "Populism"
+ populism_desc: "§YPopulists§! advocate for policies from across the spectrum that are §Ypopular with the electorate§! or are §Yperceived as at odds§! with the preferences of the §Rpolitical 'elite.'"
+
+
+ #Fascism
+ nazism:0 "National Socialism"
+ nazism_desc:0 "§YNational Socialism§! is a form of fascism that follows the same ideals of §Gracial supremacy§! and §Gmilitarism§! and mixes them heavily with those of §Raggressive expansionism§!, §Ranti-semitism§!, §8corporatism§!, §Rtotalitarianism§! and §Rcommunitarianism§! under a §Ysingle leader§! with absolute power."
+
+ gen_nazism:0 "Ultranationalism"
+ gen_nazism_desc:0 "§YUltranationalism§! is an ideology that puts the interests of the nation and its people above everything else, which is usually accompanied with aspects of §Yauthoritarianism§! and §Ymilitarism§! comparable to those of fascism."
+
+ fascism_ideology:0 "Fascism"
+ fascism_ideology_desc:0 "§YFascism§! is an §Yultranationalist§! and §Ymilitaristic§! movement that seeks to §Rreject§! §Yliberal democracy§! and §Yboth capitalism and communism§!, instead embracing §Rtotalitarianism§! and a §Rmixed economic model§! that strives towards autarchy."
+
+ falangism:0 "National Syndicalism"
+ falangism_desc:0 "§YNational Syndicalism§! is a brand of fascism that embraces aspects of §Ysyndicalist ideology§! as well as §Yintegral nationalism§!, sometimes additionally supplemented with §Yreligous doctrine§!."
+
+ rexism:0 "Fascist Corporatism"
+ rexism_desc:0 "§YFascist Corporatism§! is a staunchly §Yconservative nationalist§! movement who advocate a §Ycorporatist economic policy§!. Employing increasingly §3right-wing populist and authoritarian rhetoric§!, their ideals are shifting closer to other hardline fascist movements."
+
+
+ #Neutrality
+ despotism:0 "Despotism"
+ despotism_desc:0 "§YDespotism§! is a government in which a single person rules with §Rabsolute power§!."
+
+ oligarchism:0 "Oligarchic"
+ oligarchism_desc:0 "§YOligarchism§! is not a defined ideology, so how it is conducted varies from country to country, but it is usually characterized by a §Ygroup of influential figures leading the nation with near-dictatorial powers§!."
+
+ moderatism:1 "Moderatism"
+ moderatism_desc:1 "§YModeratism§! is a form of government that wishes to §Ymaintain the status-quo§! by any means necessary, sometimes willing to negotiate towards de-clawed demands from more politically radical groups in order to stay the national course."
+
+ centrism:1 "Centrism"
+ centrism_desc:1 "§YCentrism§! is not a defined ideology, instead proponents of centrism seek to establish a 'big tent' ruling political organization with a large coalition of members throughout the political spectrum."
+
+ anarchism:0 "Anarchism"
+ anarchism_desc:0 "§YAnarchism§! is a political philosophy and movement that is against §Rall forms of authority§! and seeks to §Yabolish the institutions that maintain unnecessary coercion and hierarchy§!, typically including the §Rstate and capitalism§!. §YAnarchism§! advocates for the §Yreplacement of the state with stateless societies and voluntary free associations§!."

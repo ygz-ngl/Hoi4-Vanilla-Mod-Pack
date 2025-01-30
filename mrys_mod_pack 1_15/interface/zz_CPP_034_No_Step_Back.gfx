@@ -1,0 +1,40 @@
+# Portraits for tags EST, LAT, LIT, POL
+
+SpriteTypes = {
+
+	### EST ###
+	
+	
+	### LAT ###
+	
+	
+	### LIT ###
+
+	spriteType = {
+		name = "GFX_portrait_LIT_Pranas_Saladzius"															# future Community Portrait Pack Expanded update
+		texturefile = "gfx/leaders/LIT/CPP_Portrait_Lithuania_Pranas_Saladzius_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LIT_Pranas_Saladzius_small"													# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/LIT/CPP_idea_LIT_Pranas_Saladzius_CirclePete.dds"
+	}
+	
+	
+	### POL ###
+
+	spriteType = {
+		name = "GFX_portrait_POL_ignacy_moscicki"
+		texturefile = "gfx/leaders/POL/CPP_Portrait_Poland_Ignacy_Moscicki_TheBolshevikJew.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_POL_vladislav_korchits"
+		texturefile = "gfx/leaders/POL/CPP_Portrait_Poland_Vladislav_Korchits_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_POL_vladislav_korchits_small"
+		texturefile = "gfx/interface/ideas/POL/CPP_idea_POL_Vladislav_Korchits_CirclePete.dds"
+	}	
+	
+
+}

@@ -1,0 +1,65 @@
+# Portraits for tags HOL, MEX
+
+SpriteTypes = {
+
+	### HOL ###
+
+
+	### MEX ###
+
+	spriteType = {
+		name = "GFX_portrait_MEX_lazaro_cardenas"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Lazaro_Cardenas_civil_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_lazaro_cardenas_military"													# future Community Portrait Pack Expanded update
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Lazaro_Cardenas_military_FoxDie24.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_lazaro_cardenas_small"
+		texturefile = "gfx/interface/ideas/MEX/CPP_idea_MEX_Lazaro_Cardenas_military_FoxDie24.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_valentin_campa"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Valentin_Campa_CirclePete.dds"
+#		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_valentin_campa_FoxDie24.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_juan_andreu"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Juan_Andreu_FoxDie24.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_heliodoro_charis"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Heliodoro_Charis_CirclePete.dds"
+#		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Heliodoro_FoxDie24.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_heliodoro_charis_small"
+		texturefile = "gfx/interface/ideas/MEX/CPP_idea_MEX_Heliodoro_Charis_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_manuel_perez_trevino"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Manuel_Perez_Trevino_CirclePete.dds"
+#		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Manuel_Perez_Trevino_FoxDie24.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_manuel_perez_trevino_small"
+		texturefile = "gfx/interface/ideas/MEX/CPP_idea_MEX_Manuel_Perez_Trevino_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MEX_pablo_gonzalez"
+		texturefile = "gfx/leaders/MEX/CPP_Portrait_Mexico_Pablo_Gonzalez_FoxDie24.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MEX_pablo_gonzalez"
+		texturefile = "gfx/interface/ideas/MEX/CPP_idea_MEX_Pablo_Gonzalez_CirclePete.dds"
+	}
+
+
+}
+

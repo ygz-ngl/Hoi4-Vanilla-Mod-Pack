@@ -1,0 +1,96 @@
+spriteTypes = {
+
+### TECHNOLOGIES ###
+
+
+	##########################
+	##########################
+    ##########################
+    #########  SWE  ##########
+    ##########################
+    ##########################
+    ##########################
+	##########################	
+
+
+	##INFANTRY##
+
+	##
+    ##########################
+	   ###     #####  #   #
+       #   #   #      ##  #
+       #    #  ###    # # # 
+       #   #   #      #  ##
+	   ###     #####  #   #
+	##########################
+
+
+	##INFANTRY##
+		SpriteType = {
+			name = "GFX_DEN_infantry_weapons_medium"
+			texturefile = "gfx/interface/technologies/DEN_infantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_DEN_advanced_infantry_weapons_medium"
+			texturefile = "gfx/interface/technologies/DEN_infantry_equipment_3.dds"
+		}
+
+	
+
+	##########################
+	    #   #  ###  #### 
+        ##  # #   # #   #
+        # # # #   # ####
+        #  ## #   # #  #
+		#   #  ###  #   #
+	##########################	
+
+		SpriteType = {
+			name = "GFX_NOR_early_fighter_medium"
+			texturefile = "gfx/interface/technologies/NOR_light_iw_fighter_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_NOR_iw_small_airframe_medium"
+			texturefile = "gfx/interface/technologies/NOR_light_iw_fighter_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_NOR_iw_small_fighter_1_medium"
+			texturefile = "gfx/interface/technologies/NOR_light_iw_fighter_1.dds"
+		}
+
+	##INFANTRY##
+		SpriteType = {
+			name = "GFX_NOR_infantry_equipment_0"
+			texturefile = "gfx/interface/technologies/NOR_infantry_equipment_0.dds"
+		}
+		SpriteType = {
+			name = "GFX_NOR_artillery_1"
+			texturefile = "gfx/interface/technologies/NOR_artillery_1.dds"
+		}
+		SpriteType = {
+			name = "GFX_NOR_anti_air_equipment"
+			texturefile = "gfx/interface/technologies/NOR_anti_air_equipment.dds"
+		}
+
+	
+		
+		
+		SpriteType = {
+			name = "GFX_NOR_railway_gun"
+			texturefile = "gfx/interface/technologies/NOR_railway_gun.dds"
+		}
+
+	##NAVY##
+		SpriteType = {
+			name = "GFX_NOR_basic_destroyer"
+			texturefile = "gfx/interface/technologies/NOR_basic_destroyer.dds"
+		}
+		SpriteType = {
+			name = "GFX_NOR_basic_battleship"
+			texturefile = "gfx/interface/technologies/NOR_basic_battleship.dds"
+		}
+
+
+
+		
+}

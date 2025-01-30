@@ -1,0 +1,104 @@
+####################################################### Argentina ###########################################################
+#INCLUDES CLONES FOR BBA AND NON-BBA ENTITYS. IN CASE WE GET CODE SUPPORT FOR SHOWING DIFFERENT 3D MODELS IN THE BBA TECH-TREE.
+
+### light -----------------------------------------------------------------------------------------------------------------
+
+
+### Medium ----------------------------------------------------------------------------------------------------------------
+
+#B-25 Mitchell (reskin of USA_medium_plane)
+
+
+### Heavy -----------------------------------------------------------------------------------------------------------------
+
+#B17 Flying fortress
+
+
+
+####################################################### Brazil ############################################################
+#INCLUDES CLONES FOR BBA AND NON-BBA ENTITYS. IN CASE WE GET CODE SUPPORT FOR SHOWING DIFFERENT 3D MODELS IN THE BBA TECH-TREE.
+
+### light -----------------------------------------------------------------------------------------------------------------
+
+#Muniz M-7
+
+
+#BBA CLONE - Muniz M-7
+
+
+#P-66 Vultee
+
+#BBA CLONE - #P-66 Vultee
+
+#Vultee V11
+
+#BBA CLONE - Vultee V11
+
+#BBA CLONE - Vultee V11 **ROOT**
+
+#VC-13 Avenger (copy from BBA, USA_light_plane_6)
+
+
+#ROOT CLONE - VC-13 Avenger
+
+
+#BBA CLONE - VC-13 Avenger
+
+#P-38 lightning (Reskin clone from DLC036)
+
+#BBA CLONE - #P-38 lightning
+
+#P-47D Thunderbolt (Reskin clone from DLC036)
+
+#BBA CLONE - P-47D Thunderbolt
+
+### Medium ----------------------------------------------------------------------------------------------------------------
+
+#Douglas B-18
+
+#BBA CLONE - Douglas B-18 **ROOT**
+
+### Heavy -----------------------------------------------------------------------------------------------------------------
+
+#B17 Flying fortress
+
+#Strat bomber CLONE - #B17 Flying fortress
+
+
+#B17 Flying Fortress (Variation 1)
+
+
+### Jet -------------------------------------------------------------------------------------------------------------------
+
+#Meteor F8
+
+#BBA CLONE - Meteor F8 **ROOT**
+
+####################################################### Chile #############################################################
+#INCLUDES CLONES FOR BBA AND NON-BBA ENTITYS. IN CASE WE GET CODE SUPPORT FOR SHOWING DIFFERENT 3D MODELS IN THE BBA TECH-TREE.
+
+### light -----------------------------------------------------------------------------------------------------------------
+#P-66 Vultee (Chile)
+
+#P-66 Vultee CLONE (CHILE)
+
+### Medium ----------------------------------------------------------------------------------------------------------------
+
+#Junkers Ju 86 (copy from DLC39, SWE_medium_plane_1)
+
+#Junkers Ju 86 (copy from DLC39, SWE_medium_plane_1)
+
+### Heavy -----------------------------------------------------------------------------------------------------------------
+
+#B17 Flying fortress
+
+### Jet -------------------------------------------------------------------------------------------------------------------
+
+#Shooting Star
+
+
+#BBA CLONE Shooting Star (CHILE)
+#entity = {
+#	clone = "CHL_jet_plane_entity"
+#	name = "CHL_modern_plane_entity"
+#}

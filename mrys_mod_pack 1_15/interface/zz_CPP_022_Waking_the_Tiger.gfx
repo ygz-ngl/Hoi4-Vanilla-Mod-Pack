@@ -1,0 +1,237 @@
+# Portraits for tags CHI, PRC, GXC, SHX, SIK, XSM, YUN, MAN
+
+SpriteTypes = {
+
+	### CHI ###
+
+	spriteType = {
+		name = "GFX_portrait_chi_du_yuming"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Du_Yuming_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_du_yuming"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Du_Yuming_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_tai_an_lan"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Tai_An_Lan_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_tai_an_lan"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Tai_An_Lan_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_sun_li_jen"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Sun_Li_Jen_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_sun_li_jen"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Sun_Li_Jen_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_hu_zongnan"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Hu_Zongnan_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_hu_zongnan"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Hu_Zongnan_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_gu_zhutong"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Gu_Zhutong_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_gu_zhutong"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Gu_Zhutong_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_wei_lihuang"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Wei_Lihuang_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_wei_lihuang"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Wei_Lihuang_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_fu_zuoyi"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Fu_Zuoyi_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_fu_zuoyi"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Fu_Zuoyi_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_chi_zhang_xueliang"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Zhang_Xueliang_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_zhang_xueliang"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_Zhang_Xueliang_uniform_fix.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CHI_he_yingqin"
+		texturefile = "gfx/interface/ideas/CHI/CPP_idea_CHI_He_Yingqin_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_zhang_guotao"
+		#texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Zhang_Guotao_CirclePete.dds"
+		#texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Zhang_Guotao_Mstae67.dds"
+		texturefile = "gfx/leaders/CHI/CPP_Portrait_China_Zhang_Guotao_Mstae67_[CirclePete].dds"
+	}
+	
+
+	### PRC ###
+
+	spriteType = {
+		name = "GFX_portrait_PRC_lin_biao"
+		texturefile = "gfx/leaders/PRC/CPP_Portrait_PRC_Lin_Biao_CirclePete.dds"
+#		texturefile = "gfx/leaders/PRC/CPP_Portrait_PRC_Lin_Biao_[from_generic_portrait].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_PRC_lin_biao_small"
+		texturefile = "gfx/interface/ideas/PRC/CPP_idea_PRC_Lin_Biao_CirclePete.dds"
+	}
+	
+
+	### GXC ###
+
+	spriteType = {
+		name = "GFX_portrait_GXC_li_zongren"														# civil (portraits-civilian-large)
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_CaptChetson.dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_MikMogus.dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_MikMogus_[reworked].dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_Portrochen.dds"
+		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_li_zongren"															# military (portraits-army-large)
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_CaptChetson.dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_MikMogus.dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_MikMogus_[reworked].dds"
+#		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_Portrochen.dds"
+		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Li_Zongren_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GXC_li_zongren_small"
+		texturefile = "gfx/interface/ideas/GXC/CPP_idea_GXC_Li_Zongren_political_[enhanced].dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_li_zongren"
+		texturefile = "gfx/interface/ideas/GXC/CPP_idea_GXC_Li_Zongren_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GXC_chen_jitang"
+		texturefile = "gfx/leaders/GXC/CPP_Portrait_Guanxi_Clique_Chen_Jitang_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_GXC_chen_jitang_small"
+		texturefile = "gfx/interface/ideas/GXC/CPP_idea_GXC_Chen_Jitang_CirclePete.dds"
+	}
+	
+
+	### SHX ###
+
+	spriteType = {
+		name = "GFX_portrait_yan_xishan"															# both civil and military (portraits-civilian/army-large)
+#		texturefile = "gfx/leaders/SHX/CPP_Portrait_Shanxi_Yan_Xishan_CptChetson.dds"
+		texturefile = "gfx/leaders/SHX/CPP_Portrait_Shanxi_Yan_Xishan_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_yan_xishan_small"
+		texturefile = "gfx/interface/ideas/SHX/CPP_idea_SHX_Yan_Xishan_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SHX_wang_jingguo"
+		texturefile = "gfx/leaders/SHX/CPP_Portrait_Shanxi_Wang_Jingguo_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_wang_jingguo_small"												# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/SHX/CPP_idea_SHX_Wang_Jingguo_CirclePete.dds"
+	}
+	
+
+	### SIK ###
+
+	spriteType = {
+		name = "GFX_portrait_SIK_sheng_shicai"														# civil (portraits-civilian-large)
+		texturefile = "gfx/leaders/SIK/CPP_Portrait_Sinkiang_Sheng_Shicai_[enhanced].dds"
+#		texturefile = "gfx/leaders/SIK/CPP_Portrait_Sinkiang_Sheng_Shicai_MikMogus.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_sheng_shicai"															# military (portraits-army-large)
+		texturefile = "gfx/leaders/SIK/CPP_Portrait_Sinkiang_Sheng_Shicai_[enhanced].dds"
+#		texturefile = "gfx/leaders/SIK/CPP_Portrait_Sinkiang_Sheng_Shicai_MikMogus.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_sheng_shicai_small"
+		texturefile = "gfx/interface/ideas/SIK/CPP_idea_SIK_Sheng_Shicai_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SIK_chiang_yufen"
+		texturefile = "gfx/leaders/SIK/CPP_Portrait_Sinkiang_Chiang_Yu_Fen_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIK_chiang_yufen_small"
+		texturefile = "gfx/interface/ideas/SIK/CPP_idea_SIK_Chiang_Yu_Fen_CirclePete.dds"
+	}
+	
+
+	### XSM ###
+	
+	spriteType = {
+		name = "GFX_portrait_xsm_ma_bufang_small"													# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/idea_XSM_ma_bufang.dds"									# Vanilla portrait
+	}	
+
+	spriteType = {
+		name = "GFX_portrait_XSM_ma_hongbin"
+		texturefile = "gfx/leaders/XSM/CPP_Portrait_Xibei_San_Ma_Ma_Hongbin_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_XSM_ma_hongbin_small"													# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/XSM/CPP_idea_XSM_Ma_Hongbin_CirclePete.dds"
+	}
+	
+
+	### YUN ###
+	
+	spriteType = {
+		name = "GFX_portrait_yun_long_yun"
+		texturefile = "gfx/leaders/YUN/CPP_Portrait_Yunnan_Long_Yun_uniform_fix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUN_long_yun_small"
+		texturefile = "gfx/interface/ideas/YUN/CPP_idea_YUN_Long_Yun_uniform_fix.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUN_lu_han"
+		texturefile = "gfx/leaders/YUN/CPP_Portrait_Yunnan_Lu_Han_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_YUN_lu_han_small"
+		texturefile = "gfx/interface/ideas/YUN/CPP_idea_YUN_Lu_Han_CirclePete.dds"
+	}
+	
+
+	### MAN ###
+
+	spriteType = {
+		name = "GFX_portrait_MAN_zhao_shangzhi"
+		texturefile = "gfx/leaders/MAN/CPP_Portrait_Mandchukuo_Zhao_Shangzhi_CirclePete.dds"
+	}
+
+}
+

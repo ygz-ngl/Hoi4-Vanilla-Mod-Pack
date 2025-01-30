@@ -1,0 +1,75 @@
+# Portraits for tags CZE, HUN, ROM, YUG
+
+SpriteTypes = {
+
+	### CZE ###
+	
+	
+	### HUN ###
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_miklos_horthy"
+		texturefile = "gfx/leaders/HUN/CPP_Portrait_Hungary_Miklos_Horthy_RoadTo56.dds"
+#		texturefile = "gfx/leaders/HUN/CPP_Portrait_Hungary_Miklos_Horthy_MikMogus.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_hungary_miklos_horthy_admiral"
+		texturefile = "gfx/leaders/HUN/CPP_Portrait_Hungary_Miklos_Horthy_navy_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HUN_miklos_horthy_admiral"
+		texturefile = "gfx/interface/ideas/HUN/CPP_idea_HUN_Miklos_Horthy_navy_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_hungary_arpad_szakasits"			# unused: GFX_portrait_HUN_arpad_szakasits_small
+		texturefile = "gfx/leaders/HUN/CPP_Portrait_Hungary_Arpad_Szakasits_RoadTo56.dds"
+	}
+	
+	
+	### ROM ###
+
+	spriteType = {
+		name = "GFX_Portrait_romania_constantin_sanatescu"
+		texturefile ="gfx/leaders/ROM/CPP_Portrait_Romania_Constantin_Sanatescu_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_constantin_sanatescu"
+		texturefile = "gfx/interface/ideas/ROM/CPP_idea_ROM_Constantin_Sanatescu_CirclePete.dds"
+	}
+	
+	
+	### YUG ###
+
+	spriteType = {
+		name = "GFX_portrait_YUG_prince_paul"
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Prince_Paul_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_milan_stojadinovic"
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Milan_Stojadinovic_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_milan_grol"
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Milan_Grol_[enhanced].dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_YUG_josip_broz_tito"
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Josip_Broz_Tito_[enhanced].dds"
+	}
+
+	spriteType = {
+		name ="GFX_portrait_yugoslavia_peter_ii_old"
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Peter_II_CirclePete.dds"
+	}
+	spriteType = {
+		name ="GFX_portrait_Peter_Karadordevic"			# Serbian character
+#		texturefile = "gfx/leaders/YUG/Portrait_Yugoslavia_Peter_II.dds"						# Vanilla portrait for Peter II of Yugoslavia
+		texturefile = "gfx/leaders/YUG/CPP_Portrait_Yugoslavia_Peter_II_CirclePete.dds"
+	}
+
+
+}

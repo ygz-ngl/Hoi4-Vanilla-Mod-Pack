@@ -1,0 +1,531 @@
+##(# Main Start
+ #(# GER Start
+  #(# light
+   #(# tank
+      animation = { # "GER_light_tank_leichttractor_idle_animation"
+         name = "GER_light_tank_leichttractor_idle_animation"
+         file = "GER_light_tank_leichttractor_idle.anim"
+      }
+      animation = { # "GER_light_tank_leichttractor_moving_animation"
+         name = "GER_light_tank_leichttractor_moving_animation"
+         file = "GER_light_tank_leichttractor_moving.anim"
+      }
+      animation = { # "GER_light_tank_leichttractor_attack_animation"
+         name = "GER_light_tank_leichttractor_attack_animation"
+         file = "GER_light_tank_leichttractor_attack.anim"
+      }
+      animation = { # "GER_light_tank_pz1_idle_animation"
+         name = "GER_light_tank_pz1_idle_animation"
+         file = "GER_light_tank_pz1_idle.anim"
+      }
+      animation = { # "GER_light_tank_pz1_moving_animation"
+         name = "GER_light_tank_pz1_moving_animation"
+         file = "GER_light_tank_pz1_moving.anim"
+      }
+      animation = { # "GER_light_tank_pz1_attack_animation"
+         name = "GER_light_tank_pz1_attack_animation"
+         file = "GER_light_tank_pz1_attack.anim"
+      }
+      animation = { # "GER_light_tank_pz2_attack_animation"
+         name = "GER_light_tank_pz2_attack_animation"
+         file = "GER_light_tank_pz2_attack.anim"
+      }
+      animation = { # "GER_light_tank_pz2_idle_animation"
+         name = "GER_light_tank_pz2_idle_animation"
+         file = "GER_light_tank_pz2_idle.anim"
+      }
+      animation = { # "GER_light_tank_pz2_moving_animation"
+         name = "GER_light_tank_pz2_moving_animation"
+         file = "GER_light_tank_pz2_moving.anim"
+      }
+      animation = { # "GER_light_tank_leopard_idle_animation"
+         name = "GER_light_tank_leopard_idle_animation"
+         file = "GER_light_tank_leopard_idle.anim"
+      }
+      animation = { # "GER_light_tank_leopard_moving_animation"
+         name = "GER_light_tank_leopard_moving_animation"
+         file = "GER_light_tank_leopard_moving.anim"
+      }
+      animation = { # "GER_light_tank_leopard_attack_animation"
+         name = "GER_light_tank_leopard_attack_animation"
+         file = "GER_light_tank_leopard_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "GER_light_tank_artillery_bison_idle_animation"
+         name = "GER_light_tank_artillery_bison_idle_animation"
+         file = "GER_light_tank_artillery_bison_idle.anim"
+      }
+      animation = { # "GER_light_tank_artillery_bison_moving_animation"
+         name = "GER_light_tank_artillery_bison_moving_animation"
+         file = "GER_light_tank_artillery_bison_moving.anim"
+      }
+      animation = { # "GER_light_tank_artillery_bison_attack_animation"
+         name = "GER_light_tank_artillery_bison_attack_animation"
+         file = "GER_light_tank_artillery_bison_attack.anim"
+      }
+      animation = { # "GER_light_tank_artillery_wespe_idle_animation"
+         name = "GER_light_tank_artillery_wespe_idle_animation"
+         file = "GER_light_tank_artillery_wespe_idle.anim"
+      }
+      animation = { # "GER_light_tank_artillery_wespe_moving_animation"
+         name = "GER_light_tank_artillery_wespe_moving_animation"
+         file = "GER_light_tank_artillery_wespe_moving.anim"
+      }
+      animation = { # "GER_light_tank_artillery_wespe_attack_animation"
+         name = "GER_light_tank_artillery_wespe_attack_animation"
+         file = "GER_light_tank_artillery_wespe_attack.anim"
+      }
+      animation = { # "GER_light_tank_artillery_grille_idle_animation"
+         name = "GER_light_tank_artillery_grille_idle_animation"
+         file = "GER_light_tank_artillery_grille_idle.anim"
+      }
+      animation = { # "GER_light_tank_artillery_grille_moving_animation"
+         name = "GER_light_tank_artillery_grille_moving_animation"
+         file = "GER_light_tank_artillery_grille_moving.anim"
+      }
+      animation = { # "GER_light_tank_artillery_grille_attack_animation"
+         name = "GER_light_tank_artillery_grille_attack_animation"
+         file = "GER_light_tank_artillery_grille_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "GER_light_tank_destroyer_marder2_idle_animation"
+         name = "GER_light_tank_destroyer_marder2_idle_animation"
+         file = "GER_light_tank_destroyer_marder2_idle.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_marder2_moving_animation"
+         name = "GER_light_tank_destroyer_marder2_moving_animation"
+         file = "GER_light_tank_destroyer_marder2_moving.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_marder2_attack_animation"
+         name = "GER_light_tank_destroyer_marder2_attack_animation"
+         file = "GER_light_tank_destroyer_marder2_attack.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_marder3_idle_animation"
+         name = "GER_light_tank_destroyer_marder3_idle_animation"
+         file = "GER_light_tank_destroyer_marder3_idle.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_marder3_moving_animation"
+         name = "GER_light_tank_destroyer_marder3_moving_animation"
+         file = "GER_light_tank_destroyer_marder3_moving.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_marder3_attack_animation"
+         name = "GER_light_tank_destroyer_marder3_attack_animation"
+         file = "GER_light_tank_destroyer_marder3_attack.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_hetzer_idle_animation"
+         name = "GER_light_tank_destroyer_hetzer_idle_animation"
+         file = "GER_light_tank_destroyer_hetzer_idle.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_hetzer_moving_animation"
+         name = "GER_light_tank_destroyer_hetzer_moving_animation"
+         file = "GER_light_tank_destroyer_hetzer_moving.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_hetzer_attack_animation"
+         name = "GER_light_tank_destroyer_hetzer_attack_animation"
+         file = "GER_light_tank_destroyer_hetzer_attack.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_e25_idle_animation"
+         name = "GER_light_tank_destroyer_e25_idle_animation"
+         file = "GER_light_tank_destroyer_e25_idle.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_e25_moving_animation"
+         name = "GER_light_tank_destroyer_e25_moving_animation"
+         file = "GER_light_tank_destroyer_e25_moving.anim"
+      }
+      animation = { # "GER_light_tank_destroyer_e25_attack_animation"
+         name = "GER_light_tank_destroyer_e25_attack_animation"
+         file = "GER_light_tank_destroyer_e25_attack.anim"
+      }
+      
+   #)#
+   #(# aa
+   	animation = { # "GER_light_tank_aa_flakpz1_idle_animation"
+         name = "GER_light_tank_aa_flakpz1_idle_animation"
+         file = "GER_light_tank_aa_flakpz1_idle.anim"
+      }
+      animation = { # "GER_light_tank_aa_flakpz1_moving_animation"
+         name = "GER_light_tank_aa_flakpz1_moving_animation"
+         file = "GER_light_tank_aa_flakpz1_moving.anim"
+      }
+      animation = { # "GER_light_tank_aa_flakpz1_attack_animation"
+         name = "GER_light_tank_aa_flakpz1_attack_animation"
+         file = "GER_light_tank_aa_flakpz1_attack.anim"
+      }
+   #)#
+  #)#
+  #(# medium
+   #(# tank
+      animation = { # "GER_medium_tank_pz3_idle_animation"
+         name = "GER_medium_tank_pz3_idle_animation"
+         file = "GER_medium_tank_pz3_idle.anim"
+      }
+      animation = { # "GER_medium_tank_pz3_moving_animation"
+         name = "GER_medium_tank_pz3_moving_animation"
+         file = "GER_medium_tank_pz3_moving.anim"
+      }
+      animation = { # "GER_medium_tank_pz3_attack_animation"
+         name = "GER_medium_tank_pz3_attack_animation"
+         file = "GER_medium_tank_pz3_attack.anim"
+      }
+      animation = { # "GER_medium_tank_pz4_attack_animation"
+         name = "GER_medium_tank_pz4_attack_animation"
+         file = "GER_medium_tank_pz4_attack.anim"
+      }
+      animation = { # "GER_medium_tank_pz4_idle_animation"
+         name = "GER_medium_tank_pz4_idle_animation"
+         file = "GER_medium_tank_pz4_idle.anim"
+      }
+      animation = { # "GER_medium_tank_pz4_moving_animation"
+         name = "GER_medium_tank_pz4_moving_animation"
+         file = "GER_medium_tank_pz4_moving.anim"
+      }
+      animation = { # "GER_medium_tank_panther_idle_animation"
+         name = "GER_medium_tank_panther_idle_animation"
+         file = "GER_medium_tank_panther_idle.anim"
+      }
+      animation = { # "GER_medium_tank_panther_moving_animation"
+         name = "GER_medium_tank_panther_moving_animation"
+         file = "GER_medium_tank_panther_moving.anim"
+      }
+      animation = { # "GER_medium_tank_panther_attack_animation"
+         name = "GER_medium_tank_panther_attack_animation"
+         file = "GER_medium_tank_panther_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "GER_medium_tank_artillery_stupa_idle_animation"
+         name = "GER_medium_tank_artillery_stupa_idle_animation"
+         file = "GER_medium_tank_artillery_stupa_idle.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_stupa_moving_animation"
+         name = "GER_medium_tank_artillery_stupa_moving_animation"
+         file = "GER_medium_tank_artillery_stupa_moving.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_stupa_attack_animation"
+         name = "GER_medium_tank_artillery_stupa_attack_animation"
+         file = "GER_medium_tank_artillery_stupa_attack.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_hummel_idle_animation"
+         name = "GER_medium_tank_artillery_hummel_idle_animation"
+         file = "GER_medium_tank_artillery_hummel_idle.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_hummel_moving_animation"
+         name = "GER_medium_tank_artillery_hummel_moving_animation"
+         file = "GER_medium_tank_artillery_hummel_moving.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_hummel_attack_animation"
+         name = "GER_medium_tank_artillery_hummel_attack_animation"
+         file = "GER_medium_tank_artillery_hummel_attack.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_gwpanther_idle_animation"
+         name = "GER_medium_tank_artillery_gwpanther_idle_animation"
+         file = "GER_medium_tank_artillery_gwpanther_idle.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_gwpanther_moving_animation"
+         name = "GER_medium_tank_artillery_gwpanther_moving_animation"
+         file = "GER_medium_tank_artillery_gwpanther_moving.anim"
+      }
+      animation = { # "GER_medium_tank_artillery_gwpanther_attack_animation"
+         name = "GER_medium_tank_artillery_gwpanther_attack_animation"
+         file = "GER_medium_tank_artillery_gwpanther_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "GER_medium_tank_destroyer_stug3_idle_animation"
+         name = "GER_medium_tank_destroyer_stug3_idle_animation"
+         file = "GER_medium_tank_destroyer_stug3_idle.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_stug3_moving_animation"
+         name = "GER_medium_tank_destroyer_stug3_moving_animation"
+         file = "GER_medium_tank_destroyer_stug3_moving.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_stug3_attack_animation"
+         name = "GER_medium_tank_destroyer_stug3_attack_animation"
+         file = "GER_medium_tank_destroyer_stug3_attack.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_stug4_idle_animation"
+         name = "GER_medium_tank_destroyer_stug4_idle_animation"
+         file = "GER_medium_tank_destroyer_stug4_idle.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_stug4_moving_animation"
+         name = "GER_medium_tank_destroyer_stug4_moving_animation"
+         file = "GER_medium_tank_destroyer_stug4_moving.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_stug4_attack_animation"
+         name = "GER_medium_tank_destroyer_stug4_attack_animation"
+         file = "GER_medium_tank_destroyer_stug4_attack.anim"
+      }
+   	animation = { # "GER_medium_tank_destroyer_jagdpanzer4_idle_animation"
+         name = "GER_medium_tank_destroyer_jagdpanzer4_idle_animation"
+         file = "GER_medium_tank_destroyer_jagdpanzer4_idle.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpanzer4_moving_animation"
+         name = "GER_medium_tank_destroyer_jagdpanzer4_moving_animation"
+         file = "GER_medium_tank_destroyer_jagdpanzer4_moving.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpanzer4_attack_animation"
+         name = "GER_medium_tank_destroyer_jagdpanzer4_attack_animation"
+         file = "GER_medium_tank_destroyer_jagdpanzer4_attack.anim"
+      }
+   	animation = { # "GER_medium_tank_destroyer_jagdpz4a_idle_animation"
+         name = "GER_medium_tank_destroyer_jagdpz4a_idle_animation"
+         file = "GER_medium_tank_destroyer_jagdpz4a_idle.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpz4a_moving_animation"
+         name = "GER_medium_tank_destroyer_jagdpz4a_moving_animation"
+         file = "GER_medium_tank_destroyer_jagdpz4a_moving.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpz4a_attack_animation"
+         name = "GER_medium_tank_destroyer_jagdpz4a_attack_animation"
+         file = "GER_medium_tank_destroyer_jagdpz4a_attack.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpanther_idle_animation"
+         name = "GER_medium_tank_destroyer_jagdpanther_idle_animation"
+         file = "GER_medium_tank_destroyer_jagdpanther_idle.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpanther_moving_animation"
+         name = "GER_medium_tank_destroyer_jagdpanther_moving_animation"
+         file = "GER_medium_tank_destroyer_jagdpanther_moving.anim"
+      }
+      animation = { # "GER_medium_tank_destroyer_jagdpanther_attack_animation"
+         name = "GER_medium_tank_destroyer_jagdpanther_attack_animation"
+         file = "GER_medium_tank_destroyer_jagdpanther_attack.anim"
+      }
+   #)#
+   #(# aa
+      animation = { # "GER_medium_tank_aa_mobelwagen_idle_animation"
+         name = "GER_medium_tank_aa_mobelwagen_idle_animation"
+         file = "GER_medium_tank_aa_mobelwagen_idle.anim"
+      }
+      animation = { # "GER_medium_tank_aa_mobelwagen_moving_animation"
+         name = "GER_medium_tank_aa_mobelwagen_moving_animation"
+         file = "GER_medium_tank_aa_mobelwagen_moving.anim"
+      }
+      animation = { # "GER_medium_tank_aa_mobelwagen_attack_animation"
+         name = "GER_medium_tank_aa_mobelwagen_attack_animation"
+         file = "GER_medium_tank_aa_mobelwagen_attack.anim"
+      }
+      animation = { # "GER_medium_tank_aa_ostwind_idle_animation"
+         name = "GER_medium_tank_aa_ostwind_idle_animation"
+         file = "GER_medium_tank_aa_ostwind_idle.anim"
+      }
+      animation = { # "GER_medium_tank_aa_ostwind_moving_animation"
+         name = "GER_medium_tank_aa_ostwind_moving_animation"
+         file = "GER_medium_tank_aa_ostwind_moving.anim"
+      }
+      animation = { # "GER_medium_tank_aa_ostwind_attack_animation"
+         name = "GER_medium_tank_aa_ostwind_attack_animation"
+         file = "GER_medium_tank_aa_ostwind_attack.anim"
+      }
+      animation = { # "GER_medium_tank_aa_wilberwind_idle_animation"
+         name = "GER_medium_tank_aa_wilberwind_idle_animation"
+         file = "GER_medium_tank_aa_wilberwind_idle.anim"
+      }
+      animation = { # "GER_medium_tank_aa_wilberwind_moving_animation"
+         name = "GER_medium_tank_aa_wilberwind_moving_animation"
+         file = "GER_medium_tank_aa_wilberwind_moving.anim"
+      }
+      animation = { # "GER_medium_tank_aa_wilberwind_attack_animation"
+         name = "GER_medium_tank_aa_wilberwind_attack_animation"
+         file = "GER_medium_tank_aa_wilberwind_attack.anim"
+      }
+      animation = { # "GER_medium_tank_aa_kugelblitz_idle_animation"
+         name = "GER_medium_tank_aa_kugelblitz_idle_animation"
+         file = "GER_medium_tank_aa_kugelblitz_idle.anim"
+      }
+      animation = { # "GER_medium_tank_aa_kugelblitz_moving_animation"
+         name = "GER_medium_tank_aa_kugelblitz_moving_animation"
+         file = "GER_medium_tank_aa_kugelblitz_moving.anim"
+      }
+      animation = { # "GER_medium_tank_aa_kugelblitz_attack_animation"
+         name = "GER_medium_tank_aa_kugelblitz_attack_animation"
+         file = "GER_medium_tank_aa_kugelblitz_attack.anim"
+      }
+   #)#
+  #)#
+  #(# heavy
+   #(# tank
+      animation = { # "GER_heavy_tank_nbfz_idle_animation"
+         name = "GER_heavy_tank_nbfz_idle_animation"
+         file = "GER_heavy_tank_nbfz_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_nbfz_moving_animation"
+         name = "GER_heavy_tank_nbfz_moving_animation"
+         file = "GER_heavy_tank_nbfz_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_nbfz_attack_animation"
+         name = "GER_heavy_tank_nbfz_attack_animation"
+         file = "GER_heavy_tank_nbfz_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_tiger_attack_animation"
+         name = "GER_heavy_tank_tiger_attack_animation"
+         file = "GER_heavy_tank_tiger_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_tiger_idle_animation"
+         name = "GER_heavy_tank_tiger_idle_animation"
+         file = "GER_heavy_tank_tiger_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_tiger_moving_animation"
+         name = "GER_heavy_tank_tiger_moving_animation"
+         file = "GER_heavy_tank_tiger_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_tigerp_idle_animation"
+         name = "GER_heavy_tank_tigerp_idle_animation"
+         file = "GER_heavy_tank_tigerp_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_tigerp_moving_animation"
+         name = "GER_heavy_tank_tigerp_moving_animation"
+         file = "GER_heavy_tank_tigerp_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_tigerp_attack_animation"
+         name = "GER_heavy_tank_tigerp_attack_animation"
+         file = "GER_heavy_tank_tigerp_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_kingtiger_idle_animation"
+         name = "GER_heavy_tank_kingtiger_idle_animation"
+         file = "GER_heavy_tank_kingtiger_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_kingtiger_moving_animation"
+         name = "GER_heavy_tank_kingtiger_moving_animation"
+         file = "GER_heavy_tank_kingtiger_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_kingtiger_attack_animation"
+         name = "GER_heavy_tank_kingtiger_attack_animation"
+         file = "GER_heavy_tank_kingtiger_attack.anim"
+      }
+   #)#
+   #(# artillery
+      animation = { # "GER_heavy_tank_artillery_sturmtiger_idle_animation"
+         name = "GER_heavy_tank_artillery_sturmtiger_idle_animation"
+         file = "GER_heavy_tank_artillery_sturmtiger_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_artillery_sturmtiger_moving_animation"
+         name = "GER_heavy_tank_artillery_sturmtiger_moving_animation"
+         file = "GER_heavy_tank_artillery_sturmtiger_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_artillery_sturmtiger_attack_animation"
+         name = "GER_heavy_tank_artillery_sturmtiger_attack_animation"
+         file = "GER_heavy_tank_artillery_sturmtiger_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_artillery_gwtiger_idle_animation"
+         name = "GER_heavy_tank_artillery_gwtiger_idle_animation"
+         file = "GER_heavy_tank_artillery_gwtiger_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_artillery_gwtiger_moving_animation"
+         name = "GER_heavy_tank_artillery_gwtiger_moving_animation"
+         file = "GER_heavy_tank_artillery_gwtiger_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_artillery_gwtiger_attack_animation"
+         name = "GER_heavy_tank_artillery_gwtiger_attack_animation"
+         file = "GER_heavy_tank_artillery_gwtiger_attack.anim"
+      }
+   #)#
+   #(# destroyer
+      animation = { # "GER_heavy_tank_destroyer_emil_idle_animation"
+         name = "GER_heavy_tank_destroyer_emil_idle_animation"
+         file = "GER_heavy_tank_destroyer_emil_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_emil_moving_animation"
+         name = "GER_heavy_tank_destroyer_emil_moving_animation"
+         file = "GER_heavy_tank_destroyer_emil_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_emil_attack_animation"
+         name = "GER_heavy_tank_destroyer_emil_attack_animation"
+         file = "GER_heavy_tank_destroyer_emil_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_elephant_idle_animation"
+         name = "GER_heavy_tank_destroyer_elephant_idle_animation"
+         file = "GER_heavy_tank_destroyer_elephant_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_elephant_moving_animation"
+         name = "GER_heavy_tank_destroyer_elephant_moving_animation"
+         file = "GER_heavy_tank_destroyer_elephant_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_elephant_attack_animation"
+         name = "GER_heavy_tank_destroyer_elephant_attack_animation"
+         file = "GER_heavy_tank_destroyer_elephant_attack.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_jagdtiger_idle_animation"
+         name = "GER_heavy_tank_destroyer_jagdtiger_idle_animation"
+         file = "GER_heavy_tank_destroyer_jagdtiger_idle.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_jagdtiger_moving_animation"
+         name = "GER_heavy_tank_destroyer_jagdtiger_moving_animation"
+         file = "GER_heavy_tank_destroyer_jagdtiger_moving.anim"
+      }
+      animation = { # "GER_heavy_tank_destroyer_jagdtiger_attack_animation"
+         name = "GER_heavy_tank_destroyer_jagdtiger_attack_animation"
+         file = "GER_heavy_tank_destroyer_jagdtiger_attack.anim"
+      }
+   #)#
+   #(# aa
+   #)#
+  #)#
+  #(# super modern amphibious
+   #(# tank
+      animation = { # "GER_modern_tank_e50_idle_animation"
+         name = "GER_modern_tank_e50_idle_animation"
+         file = "GER_modern_tank_e50_idle.anim"
+      }
+      animation = { # "GER_modern_tank_e50_moving_animation"
+         name = "GER_modern_tank_e50_moving_animation"
+         file = "GER_modern_tank_e50_moving.anim"
+      }
+      animation = { # "GER_modern_tank_e50_attack_animation"
+         name = "GER_modern_tank_e50_attack_animation"
+         file = "GER_modern_tank_e50_attack.anim"
+      }
+      animation = { # "GER_modern_tank_leo1a5_idle_animation"
+         name = "GER_modern_tank_leo1a5_idle_animation"
+         file = "GER_modern_tank_leo1a5_idle.anim"
+      }
+      animation = { # "GER_modern_tank_leo1a5_moving_animation"
+         name = "GER_modern_tank_leo1a5_moving_animation"
+         file = "GER_modern_tank_leo1a5_moving.anim"
+      }
+      animation = { # "GER_modern_tank_leo1a5_attack_animation"
+         name = "GER_modern_tank_leo1a5_attack_animation"
+         file = "GER_modern_tank_leo1a5_attack.anim"
+      }
+      animation = { # "GER_modern_tank_leo1a5_retreat_animation"
+         name = "GER_modern_tank_leo1a5_retreat_animation"
+         file = "GER_modern_tank_leo1a5_retreat.anim"
+      }
+      animation = { # "GER_superheavy_tank_maus_idle_animation"
+         name = "GER_superheavy_tank_maus_idle_animation"
+         file = "GER_superheavy_tank_maus_idle.anim"
+      }
+      animation = { # "GER_superheavy_tank_maus_moving_animation"
+         name = "GER_superheavy_tank_maus_moving_animation"
+         file = "GER_superheavy_tank_maus_moving.anim"
+      }
+      animation = { # "GER_superheavy_tank_maus_attack_animation"
+         name = "GER_superheavy_tank_maus_attack_animation"
+         file = "GER_superheavy_tank_maus_attack.anim"
+      }
+      animation = { # "GER_amphibious_tank_schwimmpz2_idle_animation"
+         name = "GER_amphibious_tank_schwimmpz2_idle_animation"
+         file = "GER_amphibious_tank_schwimmpz2_idle.anim"
+      }
+      animation = { # "GER_amphibious_tank_schwimmpz2_moving_animation"
+         name = "GER_amphibious_tank_schwimmpz2_moving_animation"
+         file = "GER_amphibious_tank_schwimmpz2_moving.anim"
+      }
+      animation = { # "GER_amphibious_tank_schwimmpz2_amphibious_moving_animation"
+         name = "GER_amphibious_tank_schwimmpz2_amphibious_moving_animation"
+         file = "GER_amphibious_tank_schwimmpz2_amphibious_moving.anim"
+      }
+      animation = { # "GER_amphibious_tank_schwimmpz2_amphibious_attack_animation"
+         name = "GER_amphibious_tank_schwimmpz2_amphibious_attack_animation"
+         file = "GER_amphibious_tank_schwimmpz2_amphibious_attack.anim"
+      }
+      animation = { # "GER_amphibious_tank_schwimmpz2_attack_animation"
+         name = "GER_amphibious_tank_schwimmpz2_attack_animation"
+         file = "GER_amphibious_tank_schwimmpz2_attack.anim"
+      }
+   #)#
+  #)#
+ #)# GER End
+##)# Main End

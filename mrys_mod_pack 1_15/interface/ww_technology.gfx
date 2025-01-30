@@ -1,0 +1,118 @@
+spriteTypes = {
+
+ #(Nazi Germany#
+ 
+	#(German landcruiser#
+        SpriteType = {
+            name = "GFX_GER_land_cruiser_armor_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/landcruiser/ger_p1000.dds"
+        }
+		
+		SpriteType = {
+            name = "GFX_GER_land_cruiser_chassis_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/landcruiser/ger_p1000.dds"
+        }
+	#)#	
+		
+	#(German support vehicle#
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_minenraumpanzer_3.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_1_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_recovery_2_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_berge_panzer4.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_crossing_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_bruckenleger_1.dds"
+        }
+		
+        SpriteType = {
+            name = "GFX_GER_armored_support_vehicle_command_medium"
+            texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_2/ger_pzbfwg4_ausf_h.dds"
+        }
+	#)#	
+
+	#(German super-heavy SPH#
+        SpriteType = {
+            name = "GFX_GER_self_propelled_super_heavy_artillery_equipment_medium"
+            texturefile = "gfx\interface\technologies\ger\tank\ger_karl.dds"
+        }
+	#)#	
+	
+    #(German howitzer#		
+		SpriteType = {
+		    name = "GFX_GER_super_heavy_artillery_equipment_medium"
+		    texturefile = "gfx/interface/technologies/ger/art/ger_210mm_mrs_18.dds"
+	    }
+	#)#	 
+
+    #(German flame tank#		
+	SpriteType = {
+		name = "GFX_GER_light_flame_tank_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/light_2/ger_flammpanzer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_medium_flame_tank_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/designer/lamp_GER/medium_1/ger_flammpanzer3.dds" 
+	}
+	#)#	
+	
+	#(German helicopter#
+		SpriteType = {
+			name = "GFX_GER_helicopter_equipment_medium"
+			texturefile = "gfx\interface\technologies\ger\aircraft/ger_fl282.dds"
+		}
+	#)#	
+	
+	#(German mothership#
+		SpriteType = {
+			name = "GFX_GER_mothership_equipment_medium"
+			texturefile = "gfx\interface\technologies\ger\aircraft/ger_ar234_w_are381.dds"
+		}
+	#)#	
+	
+	#(German intercontinental bomber#
+		SpriteType = {
+			name = "GFX_GER_strat_bomber_intercontinental_equipment_medium"
+			texturefile = "gfx\interface\technologies\ger\aircraft/ger_ho_xviii.dds"
+		}
+	#)#	
+	
+    #(German supersonic fighter#
+        SpriteType = {
+            name = "GFX_GER_small_plane_airframe_5_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_5/ger_li_p_13a.dds"
+        }
+
+        SpriteType = {
+            name = "GFX_GER_supersonic_fighter1_medium"
+            texturefile = "gfx/interface/equipmentdesigner/planes/designer/lamp_GER/small_5/ger_li_p_13a.dds"
+        }
+	#)#	
+
+#)#		
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,185 @@
+# Portraits for tags ARG, BRA, CHL, BOL, PAR, URG
+
+SpriteTypes = {
+
+	### ARG ###
+
+	spriteType = {
+		name = "GFX_portrait_Agustin_Pedro_Justo"													# no dlc instance (unused?)
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Agustin_Pedro_Justo_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ARG_augustin_pedro_justo"												# dlc instance
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Agustin_Pedro_Justo_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ARG_augustin_pedro_justo_military_small"								# dlc instance, TODO: should be added to the no dlc instance via 'Community Portrait Pack Expanded'
+		texturefile = "gfx/interface/ideas/ARG/CPP_idea_ARG_Agustin_Pedro_Justo_military_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Agustin_Pedro_Justo"														# future Community Portrait Pack Expanded update 
+		texturefile = "gfx/interface/ideas/ARG/CPP_idea_ARG_Agustin_Pedro_Justo_civil_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Fanny_Edelman"															# no dlc instance
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Fanny_Jacovkis_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Fanny_Edelman_military"												# future Community Portrait Pack Expanded update
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Fanny_Jacovkis_military_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Fanny_Edelman"																# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/portrait_ARG_fanny_edelman_02_civilian_small.dds"		# Vanilla with Trial of Allegiance
+	}
+	spriteType = {
+		name = "GFX_portrait_Fanny_Edelman_military_small"											# future Community Portrait Pack Expanded update
+		texturefile = "gfx/interface/ideas/ARG/CPP_idea_ARG_Fanny_Jacovkis_military_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Roberto_Maria_Ortiz"													# no dlc instance
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Roberto_Maria_Ortiz_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Nimo_de_Anquin"														# no dlc instance
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Nimo_de_Anquin_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Marcelo_T_de_Alvear"													# no dlc instance
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Marcelo_T_de_Alvear_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ARG_alberto_teisaire"
+		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Alberto_Teisaire_CirclePete.dds"
+#		texturefile = "gfx/leaders/ARG/CPP_Portrait_Argentina_Alberto_Teisaire_56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ARG_alberto_teisaire_small"
+		texturefile = "gfx/interface/ideas/ARG/CPP_idea_ARG_Alberto_Teisaire_CirclePete.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_ARG_basilio_pertine_small"
+		texturefile = "gfx/interface/ideas/ARG/CPP_idea_ARG_Basilio_Pertine_RoadTo56.dds"
+	}
+	
+	# TODO: large and small portraits for no dlc instances of ARG_juan_pistarini, ARG_arturo_rawson, ARG_carlos_marquez, ARG_eleazar_videla, ARG_leon_scasso via 'Community Portrait Pack Expanded'
+	#		split ARG_rodolfo_ghioldi, ARG_antonio_soto, ARG_edelmiro_julian_farrell, ARG_pedro_pablo_ramirez's portraits between military/civilian
+	
+	
+	### BRA ###
+
+#	spriteType = {
+#		name = "GFX_portrait_BRA_armando_sales"														# unused after 1.14 (-> GFX_portrait_BRA_armando_sales_oliveria)
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Armando_Sales_CirclePete.dds"
+#	}
+	spriteType = {
+		name = "GFX_portrait_BRA_armando_sales_oliveria"
+		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Armando_Sales_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BRA_armando_sales_oliveria_small"
+		texturefile = "gfx/interface/ideas/BRA/CPP_idea_BRA_Armando_Sales_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BRA_augusto_rademaker"
+		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Augusto_Rademaker_FacundoSim.dds"
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Augusto_Rademaker_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BRA_augusto_rademaker_small"
+		texturefile = "gfx/interface/ideas/BRA/CPP_idea_BRA_Augusto_Rademaker_FacundoSim.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_BRA_eurico_gaspar_dutra"												# unused after 1.14 (-> GFX_portrait_BRA_eurico_dutra)
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Eurico_Gaspar_Dutra_RoadTo56.dds"
+#	}
+
+	spriteType = {
+		name = "GFX_portrait_BRA_luis_carlos_prestes"
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Luis_Carlos_Prestes_FacundoSim.dds"
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Luis_Carlos_Prestes_RoadTo56_old.dds"
+		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Luis_Carlos_Prestes_Rangel.dds"
+	}
+
+#	spriteType = {
+#		name = "GFX_portrait_BRA_mascarenhas_de_morais"												# unused after 1.14 (-> GFX_portrait_BRA_mascarenhas_de_morais_2 with Trial of Allegiance, GFX_portrait_BRA_mascarenhas_de_morais_1 without)
+#		texturefile = "gfx/leaders/BRA/CPP_Portrait_Brazil_Mascarenhas_de_Morais_CirclePete.dds"
+#	}
+	
+	
+	### CHL ###
+
+	spriteType = {
+		name = "GFX_portrait_Jorge_Gonzalez_von_Marees"												# no dlc instance
+		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Jorge_Von_Marees_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Carlos_Contreras_Labarca"												# no dlc instance
+#		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Carlos_Contreras_Labarca_CirclePete.dds"
+		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Carlos_Contreras_Labarca_RoadTo56.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_Pedro_Aguirre_Cerda"													# no dlc instance
+		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Pedro_Cerda_CirclePete.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHL_escudero_oscar_otarola"											# dlc instance
+		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Oscar_Escudero_Otarola_CirclePete.dds"
+#		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Oscar_Escudero_Otarola_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CHL_escudero_oscar_otarola_small"
+		texturefile = "gfx/interface/ideas/CHL/CPP_idea_CHL_Oscar_Escudero_Otarola_CirclePete.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Escudero_Oscar_Otarola"												# no dlc instance
+		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Oscar_Escudero_Otarola_CirclePete.dds"
+#		texturefile = "gfx/leaders/CHL/CPP_Portrait_Chile_Oscar_Escudero_Otarola_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_Escudero_Oscar_Otarola_small"
+		texturefile = "gfx/interface/ideas/CHL/CPP_idea_CHL_Oscar_Escudero_Otarola_CirclePete.dds"
+	}
+	
+	
+	### BOL ###
+
+	spriteType = {
+		name = "GFX_portrait_Oscar_Unzaga_de_la_Vega"												# no dlc instance
+		texturefile = "gfx/leaders/BOL/CPP_Portrait_Bolivia_Oscar_Unzaga_de_la_Vega_RoadTo56.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_BOL_oscar_unzaga_de_la_vega"											# dlc instance
+		texturefile = "gfx/leaders/BOL/CPP_Portrait_Bolivia_Oscar_Unzaga_de_la_Vega_RoadTo56.dds"
+#		texturefile = "gfx/leaders/MISC/portrait_BOL_oscar_unzaga_de_la_vega.dds"					# Vanilla with Trial of Allegiance
+	}
+	
+	
+	### PAR ###
+
+	spriteType = {
+		name = "GFX_portrait_Higinio_Morinigo"														# no dlc instance
+		texturefile = "gfx/leaders/PAR/CPP_Portrait_Paraguay_Higinio_Morinigo_RoadTo56.dds"
+	}
+	
+	
+	### URG ###
+
+	spriteType = {
+		name = "GFX_portrait_Alfredo_Baldomir_Ferrari"												# no dlc instance
+		texturefile = "gfx/leaders/URG/CPP_Portrait_Uruguay_Alfredo_Baldomir_Ferrari_RoadTo56.dds"
+	}
+
+
+}

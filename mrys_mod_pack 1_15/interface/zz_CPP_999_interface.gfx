@@ -1,0 +1,22 @@
+# Interface textures
+
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_bop_FIN_kallio_good_side"
+		texturefile = "gfx/interface/bop/CPP_bop_FIN_kallio_good_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_FIN_kallio_bad_side"
+		texturefile = "gfx/interface/bop/CPP_bop_FIN_kallio_bad_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_FIN_kallio_good_improved_side"
+		texturefile = "gfx/interface/bop/CPP_bop_FIN_kallio_good_improved_side.dds"
+	}
+	spriteType = {
+		name = "GFX_bop_FIN_kallio_bad_improved_side"
+		texturefile = "gfx/interface/bop/CPP_bop_FIN_kallio_bad_improved_side.dds"
+	}
+	
+}

@@ -1,0 +1,99 @@
+spriteTypes = {
+
+###############
+### EUROPE ####
+###############
+
+	### BEL ###
+
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_1"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_2"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_3"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_4"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_5"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_6"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_6.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_7"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_land_7.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_1"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_navy_1.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_1_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_2"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_navy_2.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_2_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_3"
+		texturefile = "gfx/leaders/BEL/CPP_Portrait_Belgium_Generic_navy_3.dds"
+	}
+	spriteType = {
+		name = "GFX_CPP_Portrait_Belgium_Generic_navy_3_small"
+		texturefile = "gfx/interface/ideas/BEL/CPP_idea_BEL_generic_navy_3.dds"
+	}
+
+}

@@ -1,0 +1,98 @@
+objectTypes = {
+
+
+####################################################### Brazil ############################################################
+### light -----------------------------------------------------------------------------------------------------------------
+	#Muniz M-7
+	pdxmesh = {
+		name = "BRA_fighter_equipment_0_mesh"
+		file = "gfx/models/units/planes/BRA_fighter_equipment_0.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+		meshsettings = {
+			name = "BRA_fighter_equipment_0Shape"
+			index = 0
+			texture_diffuse = "BRA_fighter_equipment_0_diffuse.dds"
+			texture_normal = "BRA_fighter_equipment_0_normal.dds"
+			texture_specular = "BRA_fighter_equipment_0_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+
+	#P-66 Vultee
+	pdxmesh = {
+		name = "BRA_fighter_equipment_2_mesh"
+		file = "gfx/models/units/planes/ARG_fighter_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+		meshsettings = {
+			name = "ARG_fighter_equipment_2Shape"
+			index = 0
+			texture_diffuse = "BRA_fighter_equipment_2_diffuse.dds"
+			texture_normal = "BRA_fighter_equipment_2_normal.dds"
+			texture_specular = "BRA_fighter_equipment_2_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+
+	#Vultee V11
+	pdxmesh = {
+		name = "BRA_CAS_equipment_2_mesh"
+		file = "gfx/models/units/planes/BRA_CAS_equipment_2.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+		meshsettings = {
+			name = "BRA_CAS_equipment_2Shape"
+			index = 0
+			texture_diffuse = "BRA_CAS_equipment_2_diffuse.dds"
+			texture_normal = "BRA_CAS_equipment_2_normal.dds"
+			texture_specular = "BRA_CAS_equipment_2_specular.dds"
+			shader = "PdxMeshAdvanced"
+		}
+	}
+
+#VC-13 Avenger (copy from BBA, USA_light_plane_6)
+	
+
+#P-38 lightning (Reskin clone from DLC036)
+	
+
+#P-47D Thunderbolt (Reskin clone from DLC036)
+	
+
+### Medium ----------------------------------------------------------------------------------------------------------------
+	#Douglas B-18
+	
+### Heavy -----------------------------------------------------------------------------------------------------------------
+
+	#B17 Flying Fortress
+	
+
+	#B17 Flying Fortress (Variation 1)
+	
+
+### Jet -------------------------------------------------------------------------------------------------------------------
+
+#Meteor F8
+
+
+
+####################################################### Chile #############################################################
+### light -----------------------------------------------------------------------------------------------------------------
+	#P-66 Vultee (Chile)
+	
+### Medium ----------------------------------------------------------------------------------------------------------------
+
+	#Junkers Ju 86 (copy from DLC39, SWE_medium_plane_1)
+	
+
+### Heavy -----------------------------------------------------------------------------------------------------------------
+
+	#B17 Flying Fortress
+
+
+### Jet -------------------------------------------------------------------------------------------------------------------
+
+##Shooting Star (Chile)
+
+}

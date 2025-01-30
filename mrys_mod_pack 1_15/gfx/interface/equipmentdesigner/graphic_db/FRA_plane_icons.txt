@@ -1,0 +1,70 @@
+### designer aircraft ###
+
+
+
+FRA = {
+
+### small_plane ###
+
+	small_plane_airframe_0 = {
+		pool = {
+			weight = 5
+			icons = {
+                GFX_FRA_light_plane_2_medium
+		GFX_FRA_early_fighter_medium
+			}
+		}
+	}
+
+	small_plane_airframe_1 = {
+		pool = {
+			weight = 5
+			icons = {
+			GFX_FRA_fighter1_medium
+			}
+		}
+	}
+
+### cv_small_plane ###
+
+	cv_small_plane_airframe_0 = {
+		pool = {
+			weight = 5
+			icons = {
+				GFX_FRA_cv_early_fighter_medium	
+			}
+		}
+	}
+	
+### CAS ###
+
+	small_plane_cas_airframe_0 = {
+		pool = {
+			weight = 5
+			icons = {
+			GFX_FRA_CAS0_medium
+			GFX_FRA_CAS1_medium
+			}
+		}
+	}
+
+	small_plane_cas_airframe_1 = {
+		pool = {
+			weight = 5
+			icons = {
+			GFX_FRA_CAS1_medium
+			}
+		}
+	}	
+	
+	small_plane_cas_airframe_2 = {
+		pool = {
+			weight = 5
+			icons = {
+			GFX_FRA_CAS2_medium
+			}
+		}
+	}	
+
+}
+

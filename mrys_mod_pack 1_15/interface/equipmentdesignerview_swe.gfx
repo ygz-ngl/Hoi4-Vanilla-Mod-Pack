@@ -1,0 +1,37 @@
+spriteTypes = {
+
+###################################################
+# Ship hulls
+###################################################
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_coastal_defense_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_cruiser_coastal_defense.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_1_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_cruiser_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_cruiser_2_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_cruiser_2.dds"
+   }
+
+   spriteType = {
+      name = "GFX_SD_tv_light_1_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_destroyer_1.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_2_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_destroyer_2.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_3_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_destroyer_3.dds"
+   }
+   spriteType = {
+      name = "GFX_SD_tv_light_4_swe"
+      textureFile = "gfx/interface/equipmentdesigner/naval/topviews/SWE/topview_destroyer_4.dds"
+   }
+
+}
