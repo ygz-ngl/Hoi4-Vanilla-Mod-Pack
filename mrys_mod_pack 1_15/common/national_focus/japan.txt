@@ -3021,6 +3021,8 @@
 		y = 1
 		relative_position_id = JAP_prepare_for_war_with_the_soviet_union
 
+        mutually_exclusive = { focus = JAP_build_up_the_manchurian_army } # new effect
+
 		cost = 10
 
 		ai_will_do = {
@@ -3066,6 +3068,8 @@
 		x = 1
 		y = 1
 		relative_position_id = JAP_prepare_for_war_with_the_soviet_union
+
+        mutually_exclusive = { focus = JAP_join_the_london_naval_treaty } # new effect
 
 		cost = 10
 
@@ -3128,6 +3132,18 @@
 				}
 				add_autonomy_ratio = {
 					value = -0.08333
+					localization = JAP_build_up_the_manchurian_army
+				}
+			}
+				MEN = {
+				add_doctrine_cost_reduction = {
+					name = JAP_build_up_the_manchurian_army
+					cost_reduction = 0.5
+					uses = 2
+					category = land_doctrine	
+					}
+				add_autonomy_ratio = {
+					value = -0.1
 					localization = JAP_build_up_the_manchurian_army
 				}
 			}
@@ -3208,6 +3224,12 @@
 				}
 				add_autonomy_ratio = {
 					value = -0.08333
+					localization = JAP_build_up_the_manchurian_army
+				}
+			}
+			MEN = {
+				add_autonomy_ratio = {
+					value = -0.1
 					localization = JAP_build_up_the_manchurian_army
 				}
 			}
@@ -3327,8 +3349,8 @@
 	focus = {
 		id = JAP_technological_exchange
 		icon = GFX_goal_tfv_generic_tech_sharing
-		prerequisite = { focus = JAP_non_aggression_pact_with_china }
-		prerequisite = { focus = JAP_create_a_manchurian_imperial_air_force }
+		# prerequisite = { focus = JAP_non_aggression_pact_with_china } # was active
+		prerequisite = { focus = JAP_create_a_manchurian_imperial_air_force focus = JAP_non_aggression_pact_with_china } #new effect
 		x = 1
 		y = 1
 		relative_position_id = JAP_non_aggression_pact_with_china
@@ -4857,7 +4879,7 @@
 		y = 0
 		relative_position_id = JAP_the_manchurian_project 
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -4881,7 +4903,7 @@
 
 
 		completion_reward = {
-			army_experience = 30
+			army_experience = 50 # was 30
 		}
 	}
 
@@ -4932,7 +4954,7 @@
 		prerequisite = { focus = JAP_small_arms_modernization }
 		# mutually_exclusive = { focus = JAP_supremacy_of_will } # was active
 		x = 0
-		y = 1
+		y = 2 # was 1
 		relative_position_id = JAP_small_arms_modernization
 
 		cost = 10
@@ -4967,7 +4989,7 @@
 		id = JAP_modern_artillery
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus =JAP_supremacy_of_technology focus = JAP_supremacy_of_will } # new effect
-		x = 0 # was -1
+		x = 1 # was -1
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5004,7 +5026,7 @@
 		id = JAP_armored_divisions
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = JAP_supremacy_of_technology focus = JAP_supremacy_of_will } # new effect
-		x = 1 # was 0
+		x = 2 # was 0
 		y = 2
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5041,7 +5063,7 @@
 		id = JAP_bicycle_battalions
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = JAP_supremacy_of_technology focus = JAP_supremacy_of_will }
-		x = 2 # was 1
+		x = 3 # was 1
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5112,7 +5134,7 @@
 		prerequisite = { focus = JAP_army_expansion }
 		# mutually_exclusive = { focus = JAP_supremacy_of_technology } # was active
 		x = 0
-		y = 1
+		y = 2 # was 1
 		relative_position_id = JAP_army_expansion
 
 		cost = 10
@@ -5326,6 +5348,14 @@
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			mio:JAP_mitsubishi_organization = { # new effect
+				# add_mio_funds = 1500
+				add_mio_size = 2
+			}
+			# mio:JAP_aichi_organization = { # new effect
+			#	# add_mio_funds = 1500
+			#	add_mio_size = 2
+			# }
 			custom_effect_tooltip = JAP_the_zero_tt
 			hidden_effect = { 
 				if = {
@@ -5403,7 +5433,7 @@
 		y = 3
 		relative_position_id = JAP_fighter_modernization
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -5469,7 +5499,7 @@
 		id = JAP_jet_prototypes
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = { focus = JAP_unified_fighter_development focus = JAP_strategic_bomber_effort }
-		x = 0
+		x = 1 # was 0
 		y = 4
 		relative_position_id = JAP_fighter_modernization
 
@@ -5506,6 +5536,67 @@
 				category = jet_technology
 			}
 
+		}
+	}
+
+	focus = { # new focus
+		id = JAP_Nuclear_Focus
+		
+		available = { 
+
+		}
+		
+		prerequisite = { focus = JAP_strategic_bomber_effort }
+		prerequisite = { focus = JAP_supremacy_of_technology }
+		icon = GFX_focus_wonderweapons
+		x = -6
+		y = 0
+		relative_position_id = JAP_jet_prototypes
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = {FOCUS_FILTER_RESEARCH}	
+		completion_reward = {
+
+			custom_effect_tooltip = JAP_Nuclear_Focus_tt
+			hidden_effect = {
+				IF = {
+					limit = { 
+						531 = {
+							is_fully_controlled_by = ROOT
+							air_facility < 1
+							land_facility < 1
+							naval_facility < 1
+							nuclear_facility < 1
+						}
+					}
+
+					531 = {
+						add_building_construction = {
+							type = nuclear_facility
+							level = 1
+							instant_build = yes
+							province = 11960 # Kyoto
+						}
+					}
+				}
+			}
+			
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.75
+			}
+
+			add_tech_bonus = {
+				name = JAP_Nuclear_Focus_tech_bonus_name
+				bonus = 2.0
+				uses = 1
+				category = nuclear
+			}
+			add_to_tech_sharing_group = JAP_ultimate_deterrence
 		}
 	}
 
@@ -5546,7 +5637,7 @@
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3 # was 2
 					instant_build = yes
 				}
 			}
@@ -5556,7 +5647,7 @@
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3 # was 2
 					instant_build = yes
 				}
 			}
@@ -5594,10 +5685,10 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3 # was 2
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3 # was 2
 					instant_build = yes
 				}
 				set_state_flag = JAP_new_naval_estimates_DY1
@@ -5619,10 +5710,10 @@
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3 # was 2
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3 # was 2
 					instant_build = yes
 				}
 				set_state_flag = JAP_new_naval_estimates_DY2
@@ -5665,8 +5756,8 @@
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = JAP_carrier_warfare_experiments
-				cost_reduction = 0.25
-				uses = 2
+				cost_reduction = 0.5 # was 0.25
+				uses = 4 # was 2
 				category = cat_base_strike
 			}
 		}
@@ -5892,13 +5983,13 @@
 				value = 0.5
 			}
 
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}	
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = JAP_kure_naval_arsenal_organization
-			}
+			# IF = { # was active
+			#	limit = {
+			#		has_dlc = "Arms Against Tyranny"
+			#	}	
+			#	custom_effect_tooltip = available_mio_tt
+			#	show_mio_tooltip = JAP_kure_naval_arsenal_organization
+			# }
 
 			if = {
 				limit = {
@@ -5980,7 +6071,7 @@
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -6018,7 +6109,7 @@
 		y = 1
 		relative_position_id = JAP_cruiser_modernization
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 4
@@ -6054,7 +6145,7 @@
 		y = 1
 		relative_position_id = JAP_long_lance_torpedoes
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 2
