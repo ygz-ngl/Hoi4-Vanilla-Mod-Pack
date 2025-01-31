@@ -142,7 +142,7 @@
 			prerequisite = { focus = FRA_devalue_the_franc }
 			mutually_exclusive = { }
 			relative_position_id = FRA_devalue_the_franc
-			cost = 10
+			cost = 5 # was 10
 	
 			ai_will_do = {
 				factor = 1
@@ -180,7 +180,7 @@
 		}
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5 # was 10
 		ai_will_do = {
 			factor = 1
 		}		
@@ -362,7 +362,7 @@
 		}
 		x = 2
 		y = 1
-		cost = 10
+		cost = 5 # was 10
 		ai_will_do = {
 			factor = 0.2
 		}
@@ -439,7 +439,7 @@
 		prerequisite = { focus = FRA_devalue_the_franc }
 		mutually_exclusive = { }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -480,7 +480,7 @@
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -543,7 +543,7 @@
 		prerequisite = { focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -597,7 +597,7 @@
 		prerequisite = {focus = FRA_invest_in_the_colonies }
 		mutually_exclusive = { }
 		relative_position_id = FRA_invest_in_the_colonies
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -1035,10 +1035,10 @@
 	focus = {
 		id = FRA_division_cuirassee
 		icon = GFX_focus_generic_army_tanks2
-		x = 0
+		x = 1 # was 0
 		y = 1
 		
-		prerequisite = { focus = FRA_heavy_armor_focus }
+		prerequisite = { focus = FRA_heavy_armor_focus focus = FRA_extend_the_maginot_line} # new effect
 		mutually_exclusive = { }
 		relative_position_id = FRA_heavy_armor_focus
 		cost = 10
@@ -4358,9 +4358,10 @@
 		id = FRA_arms_purchases_in_the_us
 		icon = GFX_goal_generic_build_tank
 		x = 0
-		y = 1
+		y = 2 # was 1
 		prerequisite = {
-			focus = FRA_go_with_britain
+			focus = FRA_strengthen_government_support
+            focus = FRA_france_leads
 		}
 		relative_position_id = FRA_go_with_britain
 		cost = 10
@@ -8719,7 +8720,7 @@
 		id = FRA_the_old_school
 		icon = GFX_focus_generic_navy_battleship2
 	 	prerequisite = { focus = FRA_naval_rearmament }
-	 	mutually_exclusive = { focus = FRA_the_young_school }
+	 	# mutually_exclusive = { focus = FRA_the_young_school } # was active
 		x = 0
 		y = 1
 		relative_position_id = FRA_naval_rearmament
@@ -8747,7 +8748,7 @@
 	focus = {
 		id = FRA_capital_ship_focus
 		icon = GFX_goal_generic_navy_battleship
-	 	mutually_exclusive = { focus = FRA_carrier_focus }
+	 	# mutually_exclusive = { focus = FRA_carrier_focus } # was active
 	 	prerequisite = { focus = FRA_the_old_school }
 		x = -1
 		y = 1
@@ -8770,7 +8771,7 @@
 	focus = {
 		id = FRA_carrier_focus
 		icon = GFX_goal_generic_navy_carrier
-	 	mutually_exclusive = { focus = FRA_capital_ship_focus }
+	 	# mutually_exclusive = { focus = FRA_capital_ship_focus } # was active
 	 	prerequisite = { focus = FRA_the_old_school }
 		x = 1
 		y = 1
@@ -8935,7 +8936,7 @@
 		id = FRA_the_young_school
 		icon = GFX_goal_generic_navy_cruiser
 	 	prerequisite = { focus = FRA_naval_rearmament }
-	 	mutually_exclusive = { focus = FRA_the_old_school }
+	 	# mutually_exclusive = { focus = FRA_the_old_school } # was active
 		x = 4
 		y = 1
 		relative_position_id = FRA_naval_rearmament
@@ -9131,7 +9132,7 @@
 	focus = {
 		id = FRA_fighter_focus
 		icon = GFX_goal_generic_air_fighter
-		mutually_exclusive = { focus = FRA_bomber_focus }
+		# mutually_exclusive = { focus = FRA_bomber_focus } # was active
 	 	prerequisite = { focus = FRA_air_focus }
 		x = -1
 		y = 1
@@ -9174,7 +9175,7 @@
 	focus = {
 		id = FRA_bomber_focus
 		icon = GFX_goal_generic_air_bomber
-		mutually_exclusive = { focus = FRA_fighter_focus }
+		# mutually_exclusive = { focus = FRA_fighter_focus } # was active
 	 	prerequisite = { focus = FRA_air_focus }
 		x = 1
 		y = 1

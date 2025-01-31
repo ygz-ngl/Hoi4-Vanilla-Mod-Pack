@@ -22,10 +22,12 @@ focus_tree = {
 	focus = {
 		id = crypto_bomb_focus
 		available = {
-				has_war_with = GER
-				POL = {
-					NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
-				}
+			    always = yes # new effect
+
+				# has_war_with = GER
+				# POL = {
+				#	NOT = { is_in_faction_with = GER } #We assume POL will help vs Germany unless they are allied to them
+				# }
 			}
 		
 		bypass = {
@@ -1839,7 +1841,7 @@ focus_tree = {
 	focus = {
 		id = uk_carrier_focus
 		prerequisite = { focus = uk_waves_focus }
-		mutually_exclusive = { focus = uk_battleship_focus }
+		# mutually_exclusive = { focus = uk_battleship_focus } # was active
 		icon = GFX_goal_generic_navy_carrier
 		x = -1
 		y = 1
@@ -1865,7 +1867,7 @@ focus_tree = {
 	focus = {
 		id = uk_battleship_focus
 		prerequisite = { focus = uk_waves_focus }
-		mutually_exclusive = { focus = uk_carrier_focus }
+		# mutually_exclusive = { focus = uk_carrier_focus } # was active
 		icon = GFX_goal_generic_navy_battleship
 		x = 1
 		y = 1
@@ -2267,7 +2269,7 @@ focus_tree = {
 	focus = {
 		id = uk_rock_focus 
 		prerequisite = { focus = uk_mediterranean_focus }
-		mutually_exclusive = { focus = uk_spain_focus }
+		# mutually_exclusive = { focus = uk_spain_focus } # was active
 		available = {
 			118 = { is_owned_and_controlled_by = ENG }
 		} 
@@ -2275,7 +2277,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = uk_mediterranean_focus
-		cost = 10
+		cost = 5 # was 10
 		completion_reward = {
 			118 = {
 				IF = {
@@ -2357,7 +2359,7 @@ focus_tree = {
 
 		prerequisite = { focus = uk_mediterranean_focus }
 
-		mutually_exclusive = { focus = uk_rock_focus }
+		# mutually_exclusive = { focus = uk_rock_focus } # was active
 
 		available = {
 			any_other_country = {
@@ -6275,7 +6277,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 
@@ -6486,7 +6488,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 
@@ -6646,7 +6648,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = uk_australia_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 
@@ -6806,7 +6808,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 
@@ -6965,7 +6967,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		relative_position_id = uk_commonwealth_focus
-		cost = 10
+		cost = 5 # was 10
 
 		available_if_capitulated = yes
 

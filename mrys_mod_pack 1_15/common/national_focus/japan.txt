@@ -2955,7 +2955,7 @@
 			add_doctrine_cost_reduction = {
 				name = JAP_prepare_for_war_with_the_soviet_union
 				cost_reduction = 0.5
-				uses = 1
+				uses = 2 # was 1
 				category = land_doctrine	
 			}
 			every_owned_state = {
@@ -4469,7 +4469,7 @@
 			}
 		}
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -4516,7 +4516,7 @@
 		y = 1
 		relative_position_id = JAP_the_manchurian_project
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 2
@@ -4618,7 +4618,7 @@
 		y = 1
 		relative_position_id = JAP_the_manchurian_project
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -4679,7 +4679,7 @@
 		y = 1
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 2
@@ -4721,7 +4721,7 @@
 		y = 1
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 2
@@ -4764,7 +4764,7 @@
 		y = 2
 		relative_position_id = JAP_expand_manchurian_railways
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -4803,7 +4803,7 @@
 		y = 1
 		relative_position_id = JAP_the_manchurian_project 
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -4893,7 +4893,7 @@
 		y = 1
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 2
@@ -4919,8 +4919,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_small_arms_modernization
-				bonus = 1.0
-				uses = 1
+				bonus = 2.0 # was 1.0
+				uses = 2 # was 1
 				category = infantry_weapons	
 			}
 		}
@@ -4930,7 +4930,7 @@
 		id = JAP_supremacy_of_technology
 		icon = GFX_goal_generic_production
 		prerequisite = { focus = JAP_small_arms_modernization }
-		mutually_exclusive = { focus = JAP_supremacy_of_will }
+		# mutually_exclusive = { focus = JAP_supremacy_of_will } # was active
 		x = 0
 		y = 1
 		relative_position_id = JAP_small_arms_modernization
@@ -4966,8 +4966,8 @@
 	focus = {
 		id = JAP_modern_artillery
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus =JAP_supremacy_of_technology  }
-		x = -1
+		prerequisite = { focus =JAP_supremacy_of_technology focus = JAP_supremacy_of_will } # new effect
+		x = 0 # was -1
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5003,8 +5003,8 @@
 	focus = {
 		id = JAP_armored_divisions
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = JAP_supremacy_of_technology }
-		x = 0
+		prerequisite = { focus = JAP_supremacy_of_technology focus = JAP_supremacy_of_will } # new effect
+		x = 1 # was 0
 		y = 2
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5041,7 +5041,7 @@
 		id = JAP_bicycle_battalions
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = JAP_supremacy_of_technology focus = JAP_supremacy_of_will }
-		x = 1
+		x = 2 # was 1
 		y = 1
 		relative_position_id = JAP_supremacy_of_technology
 
@@ -5077,7 +5077,7 @@
 		y = 1
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -5110,7 +5110,7 @@
 		id = JAP_supremacy_of_will
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = JAP_army_expansion }
-		mutually_exclusive = { focus = JAP_supremacy_of_technology }
+		# mutually_exclusive = { focus = JAP_supremacy_of_technology } # was active
 		x = 0
 		y = 1
 		relative_position_id = JAP_army_expansion
@@ -5364,7 +5364,7 @@
 		y = 2
 		relative_position_id = JAP_fighter_modernization
 
-		cost = 10
+		cost = 5 # was 10
 
 		ai_will_do = {
 			factor = 1
@@ -5425,8 +5425,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_strategic_bomber_effort
-				bonus = 1.0
-				uses = 2
+				bonus = 3.0 # was 1.0
+				uses = 3 # 2
 				category = cat_strategic_bomber	
 			}
 		}
@@ -5634,7 +5634,7 @@
 		id = JAP_carrier_warfare_experiments
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_supremacy_of_the_battlefleet }
+		# mutually_exclusive = { focus = JAP_supremacy_of_the_battlefleet } # was active
 		x = -1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
@@ -5795,7 +5795,7 @@
 			add_tech_bonus = {
 				name = JAP_modern_escorts
 				bonus = 1.0
-				uses = 1
+				uses = 2 # was 1
 				category = dd_tech	
 			}
 		}
@@ -5805,7 +5805,7 @@
 		id = JAP_supremacy_of_the_battlefleet
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_carrier_warfare_experiments }
+		# mutually_exclusive = { focus = JAP_carrier_warfare_experiments } # was active
 		x = 1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates

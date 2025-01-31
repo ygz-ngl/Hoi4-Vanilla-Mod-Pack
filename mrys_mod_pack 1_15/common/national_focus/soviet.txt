@@ -2272,7 +2272,7 @@ focus_tree = {
 		relative_position_id = SOV_expand_the_aircraft_industry
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_intensify_pilot_training_program }
+		# mutually_exclusive = { focus = SOV_intensify_pilot_training_program } # was active
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -2471,7 +2471,7 @@ focus_tree = {
 		relative_position_id = SOV_foster_flying_clubs
 		cost = 10
 
-		mutually_exclusive = { focus = SOV_increase_aircraft_production }
+		# mutually_exclusive = { focus = SOV_increase_aircraft_production } # was active
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -4909,7 +4909,8 @@ focus_tree = {
 	focus = {
 		id = SOV_leningrad_polytechnical_institute
 		icon = GFX_SOV_leningrad_polytechnical_institute_ccp_2d_sov_compatibility
-		prerequisite = { focus = SOV_the_means_to_wage_war }
+		# prerequisite = { focus = SOV_the_means_to_wage_war } # was active
+		prerequisite = { focus = SOV_pc_of_mechanical_engineering } # new effect
 		prerequisite = { focus = SOV_military_engineering_university }
 		x = 2
 		y = 2
@@ -5302,9 +5303,9 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_military_engineering_university
-		cost = 10
+		cost = 5 # was 10
 
-		mutually_exclusive = { focus = SOV_improve_the_stalin_line }
+		# mutually_exclusive = { focus = SOV_improve_the_stalin_line } # was active
 
 		available = {
 			OR = {
@@ -5543,9 +5544,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_engineering_university
-		cost = 10
+		cost = 5 # was 10
 
-		mutually_exclusive = { focus = SOV_the_molotov_line }
+		# mutually_exclusive = { focus = SOV_the_molotov_line } # was active
 
 		available = {
 			OR = {
