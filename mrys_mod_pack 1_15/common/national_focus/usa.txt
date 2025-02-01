@@ -4922,7 +4922,7 @@ focus_tree = {
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 3
-		prerequisite = { focus = USA_reinforce_monroe_doctrine }
+		prerequisite = { focus = USA_reinforce_monroe_doctrine focus = USA_war_plan_red } # new effect
 		relative_position_id = USA_intervention_in_the_americas
 		cost = 10
 
@@ -5058,8 +5058,8 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_gold
 		icon = GFX_focus_attack_france
-		x = -2
-		y = 2
+		x = 0 # was -2
+		y = 2 # was 2
 		prerequisite = { focus = USA_intervention_in_europe }
 		relative_position_id = USA_intervention_in_europe
 		cost = 5 # was 10
@@ -5093,8 +5093,8 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_silver
 		icon = GFX_focus_attack_italy
-		x = -1
-		y = 1
+		x = 2 # new offsets
+		y = 2 # new offsets
 		prerequisite = { focus = USA_intervention_in_europe }
 		mutually_exclusive = { }
 		relative_position_id = USA_intervention_in_europe
@@ -5136,8 +5136,8 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 
-		x = 0
-		y = 2
+		x = 3 # was 2
+		y = 1
 		relative_position_id = USA_intervention_in_europe
 		cost = 5 # was 10
 		#ai_will_do = {
@@ -5159,7 +5159,7 @@ focus_tree = {
 	focus = {
 		id = USA_destroyers_for_bases
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = USA_war_plan_black }
+		prerequisite = { focus = USA_war_plan_black focus = USA_war_plan_silver }
 		available = {
 			country_exists = GER
 			is_subject = no
@@ -5186,7 +5186,7 @@ focus_tree = {
 		}
 
 		x = 0
-		y = 1
+		y = 2 # was 2
 		relative_position_id = USA_war_plan_black
 		cost = 10
 		#ai_will_do = {
@@ -5218,7 +5218,7 @@ focus_tree = {
 		available = {
 			
 		}
-		x = 2
+		x = 4 # was 2
 		y = 2
 		relative_position_id = USA_intervention_in_europe
 		cost = 5 # was 10
@@ -5245,10 +5245,10 @@ focus_tree = {
 		id = USA_anti_bolshevist_aid
 		dynamic = yes
 		icon = GFX_goal_generic_war_with_comintern
-		x = 2
-		y = 3
+		x = 0 # new offsets
+		y = 2 # new offsets
 		prerequisite = { focus = USA_war_plan_white }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_white # changed effect
 		cost = 10
 
 		ai_will_do = {
@@ -5278,7 +5278,7 @@ focus_tree = {
 		available = {
 			
 		}
-		x = 4
+		x = -2
 		y = 2
 		relative_position_id = USA_intervention_in_europe
 		cost = 5 # was 10
@@ -5298,10 +5298,10 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_ruby
 		icon = GFX_focus_attack_india
-		x = 4
-		y = 3
+		x = 0 # new offsets
+		y = 2 # new offsets
 		prerequisite = { focus = USA_war_plan_red }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_red # changed effect
 		cost = 5 # was 10
 
 		ai_will_do = {
@@ -5327,10 +5327,10 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_scarlet_garnet
 		icon = GFX_focus_attack_australia
-		x = 6
-		y = 3
+		x = 2 # new offsets
+		y = 1 # new offsets
 		prerequisite = { focus = USA_war_plan_red }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_red # changed effect
 		cost = 5 # was 10
 
 		ai_will_do = {
@@ -5828,7 +5828,7 @@ focus_tree = {
 	focus = {
 		id = USA_tank_experiments
 		icon = GFX_goal_generic_army_tanks
-		x = 2
+		x = 3 # was 2
 		y = 2
 		prerequisite = { focus = USA_support_rock_island }
 		relative_position_id = USA_selective_training_act
