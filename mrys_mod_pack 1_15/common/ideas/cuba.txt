@@ -1,0 +1,101 @@
+ideas = {
+
+	country = { # NATIONAL SPIRITS #
+		
+		CUB_National_Modernization = {
+
+			allowed = {
+				always = no
+				tag = CUB
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			# research_bonus = {
+			#	armor = 0.25
+			# }
+
+			removal_cost = -1
+			
+			picture = generic_industrial_concern_1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+				global_building_slots_factor = 0.5
+			}
+		}
+
+		CUB_Pan_American_Solidarity = {
+
+			allowed = {
+				always = no
+				tag = CUB
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_pp_unity_bonus
+
+			rule = {
+				can_create_factions = yes
+				# can_join_factions = yes # redundant
+				can_send_volunteers = yes
+			}
+			
+			modifier = {
+				faction_trade_opinion_factor = 0.25
+				join_faction_tension = -0.5
+				guarantee_tension = -0.25
+			}
+		}
+
+		CUB_Expeditionary_Forces = {
+
+			allowed = {
+				always = no
+				tag = CUB
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			picture = generic_volunteer_expedition_bonus
+			
+			modifier = {
+				send_volunteer_factor = 0.25
+				send_volunteers_tension = -0.75
+				send_volunteer_divisions_required = -0.75
+			}
+		}
+
+		CUB_Post_War_Ambitions = {
+
+			allowed = {
+				always = no
+				tag = CUB
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_disjointed_gov
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.5
+				opinion_gain_monthly_factor = 0.25
+			}
+		}
+
+	}
+
+}
